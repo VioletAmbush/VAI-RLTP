@@ -1,0 +1,9 @@
+{
+    "enabled": true,
+    "traderAcr": "f",
+
+    "disableSell": true,
+    "clearAssort": true,
+    "disableInsurance": true,
+    "lockFromStart": true
+}

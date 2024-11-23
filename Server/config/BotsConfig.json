@@ -1,0 +1,66 @@
+{
+    "enabled": true,
+
+    "bots": {
+        "assault": {
+            "lootMultipliers": [
+                {
+                    "templateId": "5449016a4bdc2d6f028b456f",
+                    "multiplier": 0.02
+                },
+                {
+                    "templateId": "5783c43d2459774bbe137486",
+                    "multiplier": 0.01
+                },
+                {
+                    "templateId": "60b0f6c058e0b0481a09ad11",
+                    "multiplier": 0.005
+                },
+                {
+                    "templateId": "62a09d3bcf4a99369e262447",
+                    "multiplier": 0.001
+                }
+            ]
+        }, 
+        "pmcusec": {
+            "lootMultipliers": [
+                {
+                    "templateId": "5449016a4bdc2d6f028b456f",
+                    "multiplier": 0.1
+                },
+                {
+                    "templateId": "5783c43d2459774bbe137486",
+                    "multiplier": 0.02
+                },
+                {
+                    "templateId": "60b0f6c058e0b0481a09ad11",
+                    "multiplier": 0.01
+                },
+                {
+                    "templateId": "62a09d3bcf4a99369e262447",
+                    "multiplier": 0.002
+                }
+            ]
+        }, 
+        "pmcbear": {
+            "lootMultipliers": [
+                {
+                    "templateId": "5449016a4bdc2d6f028b456f",
+                    "multiplier": 0.1
+                },
+                {
+                    "templateId": "5783c43d2459774bbe137486",
+                    "multiplier": 0.02
+                },
+                {
+                    "templateId": "60b0f6c058e0b0481a09ad11",
+                    "multiplier": 0.01
+                },
+                {
+                    "templateId": "62a09d3bcf4a99369e262447",
+                    "multiplier": 0.002
+                }
+            ]
+        }
+    }
+}

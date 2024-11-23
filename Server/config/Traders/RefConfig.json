@@ -1,0 +1,368 @@
+{
+    "enabled": true,
+    "traderAcr": "re",
+
+    "disableSell": true,
+    "clearAssort": true,
+    "disableInsurance": true,
+    "lockFromStart": true,
+    
+    "categorizedItems": {
+        "Pistols": [
+            {
+                "presetId": "PM_Adv",
+                "price": [
+                    {
+                        "templateId": "5d235b4d86f7742e017bc88a",
+                        "count": 6
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1
+            },
+            {
+                "presetId": "TT_Adv",
+                "price": [
+                    {
+                        "templateId": "5d235b4d86f7742e017bc88a",
+                        "count": 6
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1
+            },
+            
+            {
+                "presetId": "G17_Adv",
+                "price": [
+                    {
+                        "templateId": "5d235b4d86f7742e017bc88a",
+                        "count": 8
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1
+            },
+            {
+                "presetId": "M1911_Adv",
+                "price": [
+                    {
+                        "templateId": "5d235b4d86f7742e017bc88a",
+                        "count": 8
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1
+            },
+
+            {
+                "presetId": "USP_Adv",
+                "price": [
+                    {
+                        "templateId": "5d235b4d86f7742e017bc88a",
+                        "count": 10
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1
+            },
+
+            {
+                "presetId": "G18C_Adv",
+                "price": [
+                    {
+                        "templateId": "5d235b4d86f7742e017bc88a",
+                        "count": 12
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1
+            }
+        ],
+        "SMGs": [
+            {
+                "presetId": "Kedr_Adv",
+                "price": [
+                    {
+                        "templateId": "5d235b4d86f7742e017bc88a",
+                        "count": 6
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1
+            },
+            {
+                "presetId": "STM9_Adv",
+                "price": [
+                    {
+                        "templateId": "5d235b4d86f7742e017bc88a",
+                        "count": 6
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1
+            },
+
+            {
+                "presetId": "PP19_Adv",
+                "price": [
+                    {
+                        "templateId": "5d235b4d86f7742e017bc88a",
+                        "count": 8
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1
+            },
+            {
+                "presetId": "MP5_Adv",
+                "price": [
+                    {
+                        "templateId": "5d235b4d86f7742e017bc88a",
+                        "count": 8
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1
+            },
+
+            {
+                "presetId": "MP7_Adv",
+                "price": [
+                    {
+                        "templateId": "5d235b4d86f7742e017bc88a",
+                        "count": 10
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1
+            },
+
+            {
+                "presetId": "SR2M_Adv",
+                "price": [
+                    {
+                        "templateId": "5d235b4d86f7742e017bc88a",
+                        "count": 12
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1
+            }
+        ],
+        "Shotguns": [
+            {
+                "presetId": "M870_Adv",
+                "price": [
+                    {
+                        "templateId": "5d235b4d86f7742e017bc88a",
+                        "count": 8
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1
+            },
+            {
+                "presetId": "590A1_Adv",
+                "price": [
+                    {
+                        "templateId": "5d235b4d86f7742e017bc88a",
+                        "count": 8
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1
+            },
+
+            {
+                "presetId": "BenelliM3_Sup",
+                "price": [
+                    {
+                        "templateId": "5d235b4d86f7742e017bc88a",
+                        "count": 10
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1
+            }
+        ],
+        "DMRs": [
+            {
+                "presetId": "SKS_Adv_Sniper",
+                "price": [
+                    {
+                        "templateId": "5d235b4d86f7742e017bc88a",
+                        "count": 8
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1
+            },
+            {
+                "presetId": "ADAR_Adv",
+                "price": [
+                    {
+                        "templateId": "5d235b4d86f7742e017bc88a",
+                        "count": 8
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1
+            },
+
+            {
+                "presetId": "VPO136_Adv",
+                "price": [
+                    {
+                        "templateId": "5d235b4d86f7742e017bc88a",
+                        "count": 10
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1
+            },
+            {
+                "presetId": "TX15_Adv",
+                "price": [
+                    {
+                        "templateId": "5d235b4d86f7742e017bc88a",
+                        "count": 10
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1
+            },
+
+            {
+                "presetId": "M1A_Adv",
+                "price": [
+                    {
+                        "templateId": "5d235b4d86f7742e017bc88a",
+                        "count": 12
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1
+            },
+
+            {
+                "presetId": "G28_Adv",
+                "price": [
+                    {
+                        "templateId": "5d235b4d86f7742e017bc88a",
+                        "count": 15
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1
+            }
+        ],
+        "Assaults": [
+            {
+                "presetId": "G36_Adv",
+                "price": [
+                    {
+                        "templateId": "5d235b4d86f7742e017bc88a",
+                        "count": 8
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1
+            },
+            {
+                "presetId": "AKSU_Adv",
+                "price": [
+                    {
+                        "templateId": "5d235b4d86f7742e017bc88a",
+                        "count": 8
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1
+            },
+
+            {
+                "presetId": "AK74_Adv",
+                "price": [
+                    {
+                        "templateId": "5d235b4d86f7742e017bc88a",
+                        "count": 10
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1
+            },
+            {
+                "presetId": "SCARL_Adv",
+                "price": [
+                    {
+                        "templateId": "5d235b4d86f7742e017bc88a",
+                        "count": 10
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1
+            },
+
+            {
+                "presetId": "ASVAL_Adv",
+                "price": [
+                    {
+                        "templateId": "5d235b4d86f7742e017bc88a",
+                        "count": 12
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1
+            },
+            {
+                "presetId": "SCARH_Adv",
+                "price": [
+                    {
+                        "templateId": "5d235b4d86f7742e017bc88a",
+                        "count": 12
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1
+            }
+        ],
+        "Snipers": [
+            {
+                "presetId": "VPO215_Adv",
+                "price": [
+                    {
+                        "templateId": "5d235b4d86f7742e017bc88a",
+                        "count": 6
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1
+            },
+
+            {
+                "presetId": "SV98_Adv",
+                "price": [
+                    {
+                        "templateId": "5d235b4d86f7742e017bc88a",
+                        "count": 8
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1
+            },
+
+            {
+                "presetId": "T5000_Adv",
+                "price": [
+                    {
+                        "templateId": "5d235b4d86f7742e017bc88a",
+                        "count": 10
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1
+            }
+        ]
+    }
+}

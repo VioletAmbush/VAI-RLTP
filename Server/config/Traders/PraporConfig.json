@@ -1,0 +1,4092 @@
+{
+    "enabled": true,
+    "traderAcr": "p",
+
+    "disableSell": true,
+    "clearAssort": true,
+    "disableInsurance": false,
+    "lockFromStart": false,
+
+    "moneyPriceMultiplier": 1,
+
+    "categorizedItems": {
+        "Other": [
+            {
+                "name": "MS2000 Marker",
+                "itemTemplateId": "5991b51486f77447b112d44f",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 16000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 20
+            },
+            
+            {
+                "name": "GP-25 Kostyor",
+                "itemTemplateId": "62e7e7bbe6da9612f743f1e0",
+                "price": [
+                    {
+                        "templateId": "56742c324bdc2d150f8b456d",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 2,
+                "questId": "5c0d190cd09282029f5390d8"
+            }
+        ],
+        
+        "SecuredContainers": [
+            {
+                "name": "Alpha",
+                "itemTemplateId": "544a11ac4bdc2d470e8b456a",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 200000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "5936da9e86f7742d65037edf"
+            },
+            {
+                "name": "Beta",
+                "itemTemplateId": "5857a8b324597729ab0a0e7d",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 550000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "5ede567cfa6dc072ce15d6e3"
+            },
+            {
+                "name": "Epsilon",
+                "itemTemplateId": "59db794186f77448bc595262",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 1200000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "59c50c8886f7745fed3193bf"
+            },
+            {
+                "name": "Gamma",
+                "itemTemplateId": "5857a8bc2459772bad15db29",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 4000000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "5c12452c86f7744b83469073"
+            },
+            {
+                "name": "Kappa",
+                "itemTemplateId": "5c093ca986f7740a1867ab12",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 9000000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "60e71b62a0beca400d69efc4"
+            }
+        ],
+
+        "Basic Pistols": [
+
+            {
+                "presetId": "PL15_Basic",
+                "price": [
+                    {
+                        "templateId": "5734795124597738002c6176",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "57347c1124597737fb1379e3",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 5,
+                "questId": "5979f8bb86f7743ec214c7a6"
+            },
+
+            {
+                "presetId": "APS_Basic",
+                "price": [
+                    {
+                        "templateId": "5734795124597738002c6176",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "57347c1124597737fb1379e3",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af29386f7746d4159f077",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 5,
+                "questId": "5967725e86f774601a446662"
+            },
+
+            {
+                "presetId": "SR1MP_Basic",
+                "price": [
+                    {
+                        "templateId": "5734795124597738002c6176",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "57347c1124597737fb1379e3",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af29386f7746d4159f077",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "62a09cb7a04c0c5c6e0a84f8",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 5,
+                "questId": "5eda19f0edce541157209cee"
+            }
+        ],
+        "Basic SMGs": [
+            {
+                "presetId": "Saiga9_Basic",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 5
+            },
+            {
+                "presetId": "Kedr_Basic",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 5,
+                "questId": "657315df034d76585f032e01"
+            },
+
+            {
+                "presetId": "PP19_Basic",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "59e36c6f86f774176c10a2a7",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 5,
+                "questId": "59c124d686f774189b3c843f"
+            },
+
+            {
+                "presetId": "SR2M_Basic",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "59e36c6f86f774176c10a2a7",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d0375ff86f774186372f685",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5bd073a586f7747e6f135799",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 5,
+                "questId": "639135b04ed9512be67647d7"
+            }
+        ],
+        "Basic Shotguns": [
+            {
+                "presetId": "Saiga12_Basic",
+                "price": [
+                    {
+                        "templateId": "5d1b392c86f77425243e98fe",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "590a3cd386f77436f20848cb",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "590a3d9c86f774385926e510",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 5,
+                "questId": "63a5cf262964a7488f5243ce"
+            }
+        ],
+        "Basic DMRs": [
+            {
+                "presetId": "SVDS_Basic",
+                "price": [
+                    {
+                        "templateId": "573474f924597738002c6174",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5734758f24597738025ee253",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5c1267ee86f77416ec610f72",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 5,
+                "questId": "639136d68ba6894d155e77cf"
+            }
+        ],
+        "Basic Assaults": [
+            {
+                "presetId": "AKSU_Basic",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 5,
+                "questId": "5967530a86f77462ba22226b"
+            },
+            {
+                "presetId": "VSK94_Basic",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 5,
+                "questId": "5ede55112c95834b583f052a"
+            },
+            {
+                "presetId": "RPK16_Basic",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 5,
+                "questId": "5c0bd94186f7747a727f09b2"
+            },
+
+            {
+                "presetId": "AK74_Basic",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 5,
+                "questId": "59675d6c86f7740a842fc482"
+            },
+            {
+                "presetId": "AK101_Basic",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 5,
+                "questId": "59c512ad86f7741f0d09de9b"
+            },
+            {
+                "presetId": "AK103_Basic",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 5,
+                "questId": "6391359b9444fb141f4e6ee6"
+            },
+            {
+                "presetId": "AK105_Basic",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 5,
+                "questId": "59675ea386f77414b32bded2"
+            },
+            {
+                "presetId": "AKM_Basic",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 5,
+                "questId": "59c50a9e86f7745fef66f4ff"
+            },
+            {
+                "presetId": "RPD_Basic",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 5,
+                "questId": "64f5deac39e45b527a7c4232"
+            },
+
+
+            {
+                "presetId": "AK12_Basic",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 5,
+                "questId": "6574e0dedc0d635f633a5805"
+            },
+            {
+                "presetId": "ASVAL_Basic",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 5,
+                "questId": "6179ac7511973d018217d0b9"
+            },
+            {
+                "presetId": "ASH12_Basic",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 5,
+                "questId": "59ca264786f77445a80ed044"
+            },
+            {
+                "presetId": "PKP_Basic",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 5,
+                "questId": "59ca2eb686f77445a80ed049"
+            }
+        ],
+        "Basic Snipers": [
+            {
+                "presetId": "SV98_Basic",
+                "price": [
+                    {
+                        "templateId": "573475fb24597737fb1379e1",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "573476d324597737da2adc13",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 5,
+                "questId": "59674cd986f7744ab26e32f2"
+            }
+        ],
+
+        "Std Pistols": [
+            {
+                "presetId": "PM_Std",
+                "price": [
+                    {
+                        "templateId": "5734795124597738002c6176",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 5
+            },
+            {
+                "presetId": "PB_Std",
+                "price": [
+                    {
+                        "templateId": "5734795124597738002c6176",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 3,
+                "questId": "5936d90786f7742b1420ba5b"
+            },
+
+            {
+                "presetId": "MP443_Std",
+                "price": [
+                    {
+                        "templateId": "5734795124597738002c6176",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "57347c1124597737fb1379e3",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 3,
+                "questId": "59674eb386f774539f14813a"
+            },
+
+            {
+                "presetId": "APS_Std",
+                "price": [
+                    {
+                        "templateId": "5734795124597738002c6176",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "57347c1124597737fb1379e3",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af29386f7746d4159f077",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 3,
+                "questId": "77f654c3c0eb5b90cd2523e3"
+            },
+
+            {
+                "presetId": "SR1MP_Std",
+                "price": [
+                    {
+                        "templateId": "5734795124597738002c6176",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "57347c1124597737fb1379e3",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af29386f7746d4159f077",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "62a09cb7a04c0c5c6e0a84f8",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 3,
+                "questId": "608d3360c82f366ec780ebce"
+            }
+        ],
+        "Std SMGs": [
+            {
+                "presetId": "Saiga9_Std",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 3,
+                "questId": "910f80973703a94325e8c3b1"
+            },
+            {
+                "presetId": "Kedr_Std",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 3,
+                "questId": "dfdf5d41f22463ec76670f1c"
+            },
+
+            {
+                "presetId": "PP19_Std",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "59e36c6f86f774176c10a2a7",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 3,
+                "questId": "c2783cddebc45e581e01a153"
+            },
+
+            {
+                "presetId": "SR2M_Std",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "59e36c6f86f774176c10a2a7",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d0375ff86f774186372f685",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5bd073a586f7747e6f135799",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 3,
+                "questId": "1a33e1bb59268ec2efd998d2"
+            }
+        ],
+        "Std Shotguns": [
+            {
+                "presetId": "Saiga12_Std",
+                "price": [
+                    {
+                        "templateId": "5d1b392c86f77425243e98fe",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "590a3cd386f77436f20848cb",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "590a3d9c86f774385926e510",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 3,
+                "questId": "9c0c4b1c57dc8fede3caba7f"
+            }
+        ],
+        "Std DMRs": [
+            {
+                "presetId": "SVT_Std",
+                "price": [
+                    {
+                        "templateId": "573474f924597738002c6174",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 3,
+                "questId": "5fd9fad9c1ce6b1a3b486d00"
+            },
+
+            {
+                "presetId": "SVDS_Std",
+                "price": [
+                    {
+                        "templateId": "573474f924597738002c6174",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5734758f24597738025ee253",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5c1267ee86f77416ec610f72",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 3,
+                "questId": "c6130f1be079975cba3897b5"
+            }
+        ],
+        "Std Assaults": [
+            {
+                "presetId": "AKSU_Std",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 3,
+                "questId": "265bcc293d4ed840a1a2ac56"
+            },
+            {
+                "presetId": "VSK94_Std",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 3,
+                "questId": "265bcc293d4ed840a1a2ac56"
+            },
+            {
+                "presetId": "RPK16_Std",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 3,
+                "questId": "faf0d444cb22b172d9ec2311"
+            },
+
+            {
+                "presetId": "AK74_Std",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 3,
+                "questId": "64afce4a518ad093941ce359"
+            },
+            {
+                "presetId": "RPD_Std",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 3,
+                "questId": "af32134e6e1ecbd5f10e0e61"
+            },
+            {
+                "presetId": "AK105_Std",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 3,
+                "questId": "42b253942c69e88c7b109f1b"
+            },
+            {
+                "presetId": "AK103_Std",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 3,
+                "questId": "3bb7ad183673f2a8a15db7f4"
+            },
+            {
+                "presetId": "AKM_Std",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 3,
+                "questId": "3bb7ad183673f2a8a15db7f4"
+            },
+            {
+                "presetId": "AK101_Std",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 3,
+                "questId": "42b253942c69e88c7b109f1b"
+            },
+
+            {
+                "presetId": "AK12_Std",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 3,
+                "questId": "472e29b986d430c8fd1fcac8"
+            },
+            {
+                "presetId": "ASVAL_Std",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 3,
+                "questId": "472e29b986d430c8fd1fcac8"
+            },
+            {
+                "presetId": "ASH12_Std",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 3,
+                "questId": "472e29b986d430c8fd1fcac8"
+            },
+            {
+                "presetId": "PKP_Std",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 3,
+                "questId": "8544a59c09e321f1e931748a"
+            }
+        ],
+        "Std Snipers": [
+            {
+                "presetId": "SV98_Std",
+                "price": [
+                    {
+                        "templateId": "573475fb24597737fb1379e1",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "573476d324597737da2adc13",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 3,
+                "questId": "3b777fb8c73d57ca5b9fe3b3"
+            }
+        ],
+
+        "Adv Pistols": [
+            {
+                "presetId": "PM_Adv",
+                "price": [
+                    {
+                        "templateId": "5734795124597738002c6176",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 2,
+                "questId": "cb63b505611c1a5f66233997"
+            },
+
+            {
+                "presetId": "PL15_Adv",
+                "price": [
+                    {
+                        "templateId": "5734795124597738002c6176",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "57347c1124597737fb1379e3",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 2,
+                "questId": "17d6db9157877f43646619ef"
+            },
+
+            {
+                "presetId": "APS_Adv",
+                "price": [
+                    {
+                        "templateId": "5734795124597738002c6176",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "57347c1124597737fb1379e3",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af29386f7746d4159f077",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 2,
+                "questId": "549a8a9518ebf2e890787eeb"
+            },
+
+            {
+                "presetId": "SR1MP_Adv",
+                "price": [
+                    {
+                        "templateId": "5734795124597738002c6176",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "57347c1124597737fb1379e3",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af29386f7746d4159f077",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "62a09cb7a04c0c5c6e0a84f8",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 2,
+                "questId": "c4cd0bcf77aaac8f199f3d74"
+            }
+            
+        ],
+        "Adv SMGs": [
+            {
+                "presetId": "Saiga9_Adv",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 2,
+                "questId": "290b55f293de03b3bd7b07eb"
+            },
+            {
+                "presetId": "Kedr_Adv",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 2,
+                "questId": "405d59b8cd561be616f376a0"
+            },
+
+            {
+                "presetId": "PP19_Adv",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "59e36c6f86f774176c10a2a7",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 2,
+                "questId": "d7771b1dcdefedd0932b9a66"
+            },
+
+            {
+                "presetId": "SR2M_Adv",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "59e36c6f86f774176c10a2a7",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d0375ff86f774186372f685",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5bd073a586f7747e6f135799",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 2,
+                "questId": "f667758114f19603950a259d"
+            }
+        ],
+        "Adv Shotguns": [
+            {
+                "presetId": "Saiga12_Adv",
+                "price": [
+                    {
+                        "templateId": "5d1b392c86f77425243e98fe",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "590a3cd386f77436f20848cb",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "590a3d9c86f774385926e510",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 2,
+                "questId": "ed729cabb1db182bdf275cf8"
+            }
+        ],
+        "Adv DMRs": [
+            {
+                "presetId": "SVT_Adv",
+                "price": [
+                    {
+                        "templateId": "573474f924597738002c6174",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 2,
+                "questId": "48b1c9f1efde3c8f9d456b14"
+            },
+
+            {
+                "presetId": "SVDS_Adv",
+                "price": [
+                    {
+                        "templateId": "573474f924597738002c6174",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5734758f24597738025ee253",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5c1267ee86f77416ec610f72",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 2,
+                "questId": "ce9e60d8014e28051b29ada9"
+            }
+        ],
+        "Adv Assaults": [
+            {
+                "presetId": "AKSU_Adv",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 2,
+                "questId": "7798d8a88360c308e725c58b"
+            },
+            {
+                "presetId": "VSK94_Adv",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 2,
+                "questId": "90a37121745c133b77c8e41d"
+            },
+            {
+                "presetId": "RPK16_Adv",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 2,
+                "questId": "62465e9b26a642c14a7a94dd"
+            },
+
+            {
+                "presetId": "AK74_Adv",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 2,
+                "questId": "3b961b383d29abafa205d7b4"
+            },
+            {
+                "presetId": "RPD_Adv",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 2,
+                "questId": "56a228f8eb1c69a5cab8b51b"
+            },
+            {
+                "presetId": "AK105_Adv",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 2,
+                "questId": "bc3755f9cf131f304d9b502c"
+            },
+            {
+                "presetId": "AK103_Adv",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 2,
+                "questId": "317e16640ea9bd843de70f63"
+            },
+            {
+                "presetId": "AKM_Adv",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 2,
+                "questId": "582e6fbf5572beca0cb6f93b"
+            },
+            {
+                "presetId": "AK101_Adv",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 2,
+                "questId": "47d75bdb14390925352f321d"
+            },
+
+            {
+                "presetId": "AK12_Adv",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 2,
+                "questId": "87e05325917d4eab894bdee4"
+            },
+            {
+                "presetId": "ASVAL_Adv",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 2,
+                "questId": "6246f7a26da0a8325023b620"
+            },
+            {
+                "presetId": "ASH12_Adv",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 2,
+                "questId": "57da2b99e2c3ef85002389b6"
+            },
+            {
+                "presetId": "PKP_Adv",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 2,
+                "questId": "1f5197038031e19944e7e0cf"
+            }
+        ],
+        "Adv Snipers": [
+            {
+                "presetId": "SV98_Adv",
+                "price": [
+                    {
+                        "templateId": "573475fb24597737fb1379e1",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "573476d324597737da2adc13",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 2,
+                "questId": "c70987c5f63260abd6ae05ca"
+            }
+        ],
+
+        "Sup Pistols": [
+            {
+                "presetId": "PM_Sup",
+                "price": [
+                    {
+                        "templateId": "5734795124597738002c6176",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "22732caac9ccdf741123d95c"
+            },
+
+            {
+                "presetId": "SR1MP_Sup",
+                "price": [
+                    {
+                        "templateId": "5734795124597738002c6176",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "57347c1124597737fb1379e3",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af29386f7746d4159f077",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "62a09cb7a04c0c5c6e0a84f8",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "e7885fe6ff503cd37a4d3255"
+            }
+        ],
+        "Sup SMGs": [
+            {
+                "presetId": "Saiga9_Sup",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 4
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "4e2e65626d464c9c83918bc2"
+            },
+            {
+                "presetId": "Kedr_Sup",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 4
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "1f834fc2f62e5d224092f6f0"
+            },
+
+            {
+                "presetId": "PP19_Sup",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "59e36c6f86f774176c10a2a7",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "ab4ce026bfbaa96c0f61e830"
+            },
+
+            {
+                "presetId": "SR2M_Sup",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "59e36c6f86f774176c10a2a7",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d0375ff86f774186372f685",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5bd073a586f7747e6f135799",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "98802629ef765589b33a32bc"
+            }
+        ],
+        "Sup Shotguns": [
+            {
+                "presetId": "Saiga12_Sup",
+                "price": [
+                    {
+                        "templateId": "5d1b392c86f77425243e98fe",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "590a3cd386f77436f20848cb",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "590a3d9c86f774385926e510",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "46b53fb2dbfc16be65668c27"
+            }
+        ],
+        "Sup DMRs": [
+            {
+                "presetId": "SVDS_Sup",
+                "price": [
+                    {
+                        "templateId": "573474f924597738002c6174",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5734758f24597738025ee253",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5c1267ee86f77416ec610f72",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "79f79eedca66aa571dc1768d"
+            }
+        ],
+        "Sup Assaults": [
+            {
+                "presetId": "AKSU_Sup",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "0e3d969128c471fc7a0a716b"
+            },
+            {
+                "presetId": "VSK94_Sup",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "3133f6d554a0eba5f8512e80"
+            },
+            {
+                "presetId": "RPK16_Sup",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "7838bbf13644a54bf4fee2f3"
+            },
+
+            {
+                "presetId": "AK74_Sup",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "1245ee6f033f3cefe8d5043d"
+            },
+            {
+                "presetId": "RPD_Sup",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "c62c5f72e718ace69c7a29f5"
+            },
+            {
+                "presetId": "AK105_Sup",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "dc589a9a40376867a83975db"
+            },
+            {
+                "presetId": "AK103_Sup",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "6d969b194cee48248a3a39b3"
+            },
+            {
+                "presetId": "AKM_Sup",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "82785a4f27e0154fb49df891"
+            },
+            {
+                "presetId": "AK101_Sup",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "699ac5ac2aee306a93358e9e"
+            },
+
+            {
+                "presetId": "AK12_Sup",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "ca62c33f7533889c424b388a"
+            },
+            {
+                "presetId": "ASVAL_Sup",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "a29bac9655b988157b381f6f"
+            },
+            {
+                "presetId": "ASH12_Sup",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "4da51a6cdb4c8e7a16a37ba4"
+            },
+            {
+                "presetId": "PKP_Sup",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "9daa18d484209170d609e999"
+            }
+        ],
+        "Sup Snipers": [
+            {
+                "presetId": "SV98_Sup",
+                "price": [
+                    {
+                        "templateId": "573475fb24597737fb1379e1",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "573476d324597737da2adc13",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "671250f4731ed0b063653c68"
+            }
+        ],
+
+        "Master Pistols": [
+            {
+                "presetId": "PM_Master",
+                "price": [
+                    {
+                        "templateId": "5734795124597738002c6176",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "62a09cb7a04c0c5c6e0a84f8",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "b478557ec253fb2f10ea4d50"
+            },
+            {
+                "presetId": "PB_Master",
+                "price": [
+                    {
+                        "templateId": "5734795124597738002c6176",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "62a09cb7a04c0c5c6e0a84f8",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "999701a71dcb0fb4123ffb44"
+            },
+
+            {
+                "presetId": "MP443_Master",
+                "price": [
+                    {
+                        "templateId": "5734795124597738002c6176",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "57347c1124597737fb1379e3",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "62a09cb7a04c0c5c6e0a84f8",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "3e968bb9cf1f86a080e64749"
+            },
+            {
+                "presetId": "PL15_Master",
+                "price": [
+                    {
+                        "templateId": "5734795124597738002c6176",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "57347c1124597737fb1379e3",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "62a09cb7a04c0c5c6e0a84f8",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "1f0a1b65e0c962a3f410079e"
+            },
+
+            {
+                "presetId": "APS_Master",
+                "price": [
+                    {
+                        "templateId": "5734795124597738002c6176",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "57347c1124597737fb1379e3",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af29386f7746d4159f077",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "62a09cb7a04c0c5c6e0a84f8",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "b819e729e574f7a50743e188"
+            },
+
+            {
+                "presetId": "SR1MP_Master",
+                "price": [
+                    {
+                        "templateId": "5734795124597738002c6176",
+                        "count": 4
+                    },
+                    {
+                        "templateId": "57347c1124597737fb1379e3",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af29386f7746d4159f077",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "62a09cb7a04c0c5c6e0a84f8",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "b5402918d92969f6ceb7b394"
+            }
+        ],
+        "Master SMGs": [
+            {
+                "presetId": "Saiga9_Master",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 4
+                    },
+                    {
+                        "templateId": "5bd073a586f7747e6f135799",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "30b31764b77b47e334db6b48"
+            },
+            {
+                "presetId": "Kedr_Master",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 4
+                    },
+                    {
+                        "templateId": "5bd073a586f7747e6f135799",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "3c76e1090d094d6183de8c7b"
+            },
+
+            {
+                "presetId": "PP19_Master",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "59e36c6f86f774176c10a2a7",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5bd073a586f7747e6f135799",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "0bcd62959550e200cf8ddd1a"
+            },
+
+            {
+                "presetId": "SR2M_Master",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 4
+                    },
+                    {
+                        "templateId": "59e36c6f86f774176c10a2a7",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d0375ff86f774186372f685",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5bd073a586f7747e6f135799",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5e41f19f4ec20e8538a3710c"
+            }
+        ],
+        "Master Shotguns": [
+            {
+                "presetId": "Saiga12_Master",
+                "price": [
+                    {
+                        "templateId": "5d1b392c86f77425243e98fe",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "590a3cd386f77436f20848cb",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "590a3d9c86f774385926e510",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "62a09cfe4f842e1bd12da3e4",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5e5ff62042b24af1e676f8e2"
+            }
+        ],
+        "Master DMRs": [
+            {
+                "presetId": "SVT_Master",
+                "price": [
+                    {
+                        "templateId": "573474f924597738002c6174",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5bc9bdb8d4351e003562b8a1",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "4a3af78ba2c81c18486f97b8"
+            },
+
+            {
+                "presetId": "SVDS_Master",
+                "price": [
+                    {
+                        "templateId": "573474f924597738002c6174",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5734758f24597738025ee253",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5c1267ee86f77416ec610f72",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5bc9bdb8d4351e003562b8a1",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "3460b7fefcb9b0b7ff473164"
+            }
+        ],
+        "Master Assaults": [
+            {
+                "presetId": "AKSU_Master",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "be10aa7556d5d275ce36dede"
+            },
+            {
+                "presetId": "VSK94_Master",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "6f26e3f327d56ce331c4f767"
+            },
+            {
+                "presetId": "RPK16_Master",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "1df3d2d64eb4d5b103f4ba3a"
+            },
+
+            {
+                "presetId": "AK74_Master",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "756a295915e16c4c52384d46"
+            },
+            {
+                "presetId": "RPD_Master",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "f66c9ed670b82596d8cee928"
+            },
+            {
+                "presetId": "AK105_Master",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "f06481a50b0661634eea5a38"
+            },
+            {
+                "presetId": "AK103_Master",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "3914177061d2dbb5691596e5"
+            },
+            {
+                "presetId": "AKM_Master",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "6d24b81b72a4428348310dea"
+            },
+            {
+                "presetId": "AK101_Master",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "7cf432fc35a1005f783dede6"
+            },
+
+            {
+                "presetId": "AK12_Master",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 4
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "02008523ced07a76d95c886a"
+            },
+            {
+                "presetId": "ASVAL_Master",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 4
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "c3a5110cf9b87c46ee789f21"
+            },
+            {
+                "presetId": "ASH12_Master",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 4
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "909ebb4cc46cff73d835ad49"
+            },
+            {
+                "presetId": "PKP_Master",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 4
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "2bee6cac598aeb9792b3d479"
+            }
+        ],
+        "Master Snipers": [
+            {
+                "presetId": "SV98_Master",
+                "price": [
+                    {
+                        "templateId": "573475fb24597737fb1379e1",
+                        "count": 4
+                    },
+                    {
+                        "templateId": "573476d324597737da2adc13",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "573476f124597737e04bf328",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "e5898060b5e482a64b7c87b1"
+            }
+        ],
+
+        "Contractor": [
+            {
+                "presetId": "AKSU Contractor",
+                "price": [
+                    {
+                        "templateId": "59f32c3b86f77472a31742f0",
+                        "count": 4
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "657315e1dccd301f1301416a"
+            },
+            {
+                "presetId": "MP133 Contractor",
+                "price": [
+                    {
+                        "templateId": "59f32c3b86f77472a31742f0",
+                        "count": 4
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "657315e1dccd301f1301416a"
+            },
+
+            {
+                "presetId": "AK74 Contractor",
+                "price": [
+                    {
+                        "templateId": "59f32c3b86f77472a31742f0",
+                        "count": 6
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "5979f8bb86f7743ec214c7a6"
+            },
+            {
+                "presetId": "RPK16 Contractor",
+                "price": [
+                    {
+                        "templateId": "59f32c3b86f77472a31742f0",
+                        "count": 8
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "5979f8bb86f7743ec214c7a6"
+            },
+
+            {
+                "presetId": "ASH12 Contractor",
+                "price": [
+                    {
+                        "templateId": "59f32c3b86f77472a31742f0",
+                        "count": 10
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "60896bca6ee58f38c417d4f2"
+            }
+        ],
+
+        "Mags": [
+            {
+                "name": "PM 9x18PM 8-round magazine",
+                "itemTemplateId": "5448c12b4bdc2d02308b456f",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10
+            },
+            {
+                "name": "Saiga-9 9x19 10-round magazine",
+                "itemTemplateId": "5998529a86f774647f44f421",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10
+            },
+            {
+                "name": "MP-443 \"Grach\" 9x19 18-round magazine",
+                "itemTemplateId": "576a5ed62459771e9c2096cb",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "59674eb386f774539f14813a"
+            },
+            {
+                "name": "PL-15 9x19 16-round magazine",
+                "itemTemplateId": "602286df23506e50807090c6",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "5979f8bb86f7743ec214c7a6"
+            },
+            {
+                "name": "APS 9x18PM 20-round magazine",
+                "itemTemplateId": "5a17fb03fcdbcbcae668728f",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "5967725e86f774601a446662"
+            },
+            {
+                "name": "SR-1MP 9x21 18-round magazine",
+                "itemTemplateId": "59f99a7d86f7745b134aa97b",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 10,
+                "questId": "5eda19f0edce541157209cee"
+            },
+            {
+                "name": "PP-91 \"Kedr\" 9x18PM 20-round magazine",
+                "itemTemplateId": "57d14e1724597714010c3f4b",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "657315df034d76585f032e01"
+            },
+            {
+                "name": "SR-2M 9x21 20-round magazine",
+                "itemTemplateId": "633a98eab8b0506e48497c1a",
+                "price": [
+                    {
+                        "templateId": "619cbf476b8a1b37a54eebf8",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 10,
+                "questId": "639135b04ed9512be67647d7"
+            },
+            {
+                "name": "AK-74 \"Saiga 545\" 5.45x39 10-round magazine",
+                "itemTemplateId": "55d4837c4bdc2d1d4e8b456c",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "5967530a86f77462ba22226b"
+            },
+            {
+                "name": "SVT-40 7.62x54R 10-round magazine",
+                "itemTemplateId": "6422e1ea3c0f06190302161a",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "5fd9fad9c1ce6b1a3b486d00"
+            },
+            {
+                "name": "SV-98 7.62x54R 10-round magazine",
+                "itemTemplateId": "559ba5b34bdc2d1f1a8b4582",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "59674cd986f7744ab26e32f2"
+            },
+            {
+                "name": "9A-91 20-rnd mag",
+                "itemTemplateId": "6450ec2e7da7133e5a09ca96",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "5ede55112c95834b583f052a"
+            },
+            {
+                "name": "RPD Buben",
+                "itemTemplateId": "6513f0a194c72326990a3868",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "64f5deac39e45b527a7c4232"
+            },
+            {
+                "name": "SVDS 10-rnd mag",
+                "itemTemplateId": "5c471c442e221602b542a6f8",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "639136d68ba6894d155e77cf"
+            },
+            {
+                "name": "Saiga12 5 rnd",
+                "itemTemplateId": "57616a9e2459773c7a400234",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "63a5cf262964a7488f5243ce"
+            },
+            {
+                "name": "AK101 30-rnd mag",
+                "itemTemplateId": "5ac66c5d5acfc4001718d314",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "59c512ad86f7741f0d09de9b"
+            },
+            {
+                "name": "ASVAL 10-rnd mag",
+                "itemTemplateId": "57838f0b2459774a256959b2",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 10,
+                "questId": "6179ac7511973d018217d0b9"
+            },
+            {
+                "name": "ASH12 10-rnd mag",
+                "itemTemplateId": "5caf1041ae92157c28402e3f",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 10,
+                "questId": "59ca264786f77445a80ed044"
+            },
+            {
+                "name": "PKP 100-rnd box",
+                "itemTemplateId": "646372518610c40fc20204e8",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 10,
+                "questId": "59ca2eb686f77445a80ed049"
+            },
+
+            {
+                "name": "Saiga-9 20-round magazine",
+                "itemTemplateId": "5c0673fb0db8340023300271",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "5dea31760e5c629f303f3505"
+            },
+            {
+                "name": "Kedr 30-rnd",
+                "itemTemplateId": "57d1519e24597714373db79d",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "75578a3cf3528e79af104a5a"
+            },
+            {
+                "name": "SVT 15-rnd",
+                "itemTemplateId": "641074a07fd350b98c0b3f96",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "bbccefccd5df2c8325d56662"
+            },
+            {
+                "name": "Saiga 9 30-rnd Y",
+                "itemTemplateId": "5c0672ed0db834001b7353f3",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "672ad887b2941c4924f6194a"
+            },
+            {
+                "name": "Saiga 9 30-rnd",
+                "itemTemplateId": "599860ac86f77436b225ed1a",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "672ad887b2941c4924f6194a"
+            },
+
+            {
+                "name": "5.45x39 20-rnd",
+                "itemTemplateId": "64b9e265c94d0d15c5027e35",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "3b01eed6cc9d5cf0b6d3d760"
+            },
+            {
+                "name": "7.62x39 10-rnd small",
+                "itemTemplateId": "59e5d83b86f7745aed03d262",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "96cd580526ec771e179c5d53"
+            },
+            {
+                "name": "7.62x39 10-rnd",
+                "itemTemplateId": "5b1fd4e35acfc40018633c39",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "96cd580526ec771e179c5d53"
+            },
+            {
+                "name": "PM 84-rnd",
+                "itemTemplateId": "55d485be4bdc2d962f8b456f",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "619cbf476b8a1b37a54eebf8",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "57cb67850771166d097c338b"
+            },
+            {
+                "name": "5.45x39 30-rnd",
+                "itemTemplateId": "564ca99c4bdc2d16268b4589",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "a5f8e1ba2760c34e78c107dc"
+            },
+            {
+                "name": "5.45x39 30-rnd",
+                "itemTemplateId": "55d480c04bdc2d1d4e8b456a",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "a5f8e1ba2760c34e78c107dc"
+            },
+            {
+                "name": "5.45x39 30-rnd",
+                "itemTemplateId": "5cbdaf89ae9215000e5b9c94",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "a5f8e1ba2760c34e78c107dc"
+            },
+            {
+                "name": "7.62x39 20-rnd",
+                "itemTemplateId": "64b9cf0ac12b9c38db26923a",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "1eac194b0de56b2877942f73"
+            },
+            {
+                "name": "5.45x39 45-rnd",
+                "itemTemplateId": "55d481904bdc2d8c2f8b456a",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 4
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "9585dccd476eb63b38cfccde"
+            },
+            {
+                "name": "5.45x39 45-rnd",
+                "itemTemplateId": "564ca9df4bdc2d35148b4569",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 4
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "9585dccd476eb63b38cfccde"
+            },
+            {
+                "name": "5.45x39 30-rnd but better",
+                "itemTemplateId": "5bed61680db834001d2c45ab",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 4
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "c835d503631e3ecf3cb09261"
+            },
+            {
+                "name": "5.45x39 30-rnd but better",
+                "itemTemplateId": "5aaa4194e5b5b055d06310a5",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 4
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "c835d503631e3ecf3cb09261"
+            },
+            {
+                "name": "7.62x39 30-rnd",
+                "itemTemplateId": "5aaa4194e5b5b055d06310a5",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "31df9cdd420648591ed5c9e7"
+            },
+            {
+                "name": "7.62x39 30-rnd",
+                "itemTemplateId": "5a01c29586f77474660c694c",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "31df9cdd420648591ed5c9e7"
+            },
+            {
+                "name": "7.62x39 30-rnd",
+                "itemTemplateId": "5ac66bea5acfc43b321d4aec",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "31df9cdd420648591ed5c9e7"
+            },
+            {
+                "name": "5.45x39 95-rnd",
+                "itemTemplateId": "5bed625c0db834001c062946",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "619cbf476b8a1b37a54eebf8",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "28283db0435dbdf80c68ba44"
+            },
+
+            {
+                "name": "5.45x39 30-rnd but more better",
+                "itemTemplateId": "649ec30cb013f04a700e60fb",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "ed4a5f6ea5b7b7468f22eb38"
+            },
+            {
+                "name": "Saiga 12 10-rnd",
+                "itemTemplateId": "5a966f51a2750c00156aacf6",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "8ecbc2f80cf7b60ec73981bb"
+            },
+            {
+                "name": "7.62x39 30-rnd but better",
+                "itemTemplateId": "59fafc5086f7740dbe19f6c3",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "e41497c5c9d2de0ef89c6a24"
+            },
+            {
+                "name": "7.62x39 30-rnd but better",
+                "itemTemplateId": "59fafc9386f774067d462453",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "e41497c5c9d2de0ef89c6a24"
+            },
+            {
+                "name": "7.62x39 30-rnd but better",
+                "itemTemplateId": "5a0060fc86f7745793204432",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "e41497c5c9d2de0ef89c6a24"
+            },
+            {
+                "name": "7.62x39 30-rnd but better",
+                "itemTemplateId": "59d6272486f77466146386ff",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "e41497c5c9d2de0ef89c6a24"
+            },
+            {
+                "name": "7.62x39 30-rnd but better",
+                "itemTemplateId": "5e21a3c67e40bd02257a008a",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "e41497c5c9d2de0ef89c6a24"
+            },
+            {
+                "name": "7.62x39 30-rnd but better",
+                "itemTemplateId": "6272874a6c47bd74f92e2087",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "e41497c5c9d2de0ef89c6a24"
+            },
+            {
+                "name": "5.45x39 60-rnd",
+                "itemTemplateId": "55d482194bdc2d1d4e8b456b",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "619cbf476b8a1b37a54eebf8",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "a7ad70b66d08b8cca9567d3e"
+            },
+            {
+                "name": "SVDS 20-rnd",
+                "itemTemplateId": "5c88f24b2e22160bc12c69a6",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "7e5465f95ef36752606fda0f"
+            },
+            {
+                "name": "Saiga-12 20-rnd",
+                "itemTemplateId": "5cf8f3b0d7f00c00217872ef",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "619cbf476b8a1b37a54eebf8",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "3b9b92967d5921619dff6c1d"
+            },
+            {
+                "name": "7.62x39 40-rnd",
+                "itemTemplateId": "5b1fb3e15acfc4001637f068",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 4
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "bb60f8ffa1f90c989e2dd42c"
+            },
+            {
+                "name": "7.62x39 40-rnd",
+                "itemTemplateId": "59e5f5a486f7746c530b3ce2",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 4
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "bb60f8ffa1f90c989e2dd42c"
+            },
+            {
+                "name": "7.62x39 75-rnd",
+                "itemTemplateId": "5cbdc23eae9215001136a407",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "619cbf476b8a1b37a54eebf8",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "b4aa60fced35dcadf273a0fe"
+            },
+
+            {
+                "name": "SR2M 30-rnd",
+                "itemTemplateId": "62e153bcdb1a5c41971c1b5b",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 10,
+                "questId": "ce41aa2a8ff35c827d5bcfd5"
+            },
+            {
+                "name": "7.62x39 73-rnd",
+                "itemTemplateId": "5c6175362e221600133e3b94",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "619cbf476b8a1b37a54eebf8",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 10,
+                "questId": "7314c1d33949640728b19849"
+            },
+            {
+                "name": "7.62x39 50-rnd",
+                "itemTemplateId": "5cfe8010d7ad1a59283b14c6",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "619cbf476b8a1b37a54eebf8",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 10,
+                "questId": "7314c1d33949640728b19849"
+            },
+            {
+                "name": "AS VAL 20-rnd",
+                "itemTemplateId": "57838f9f2459774a150289a0",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 10,
+                "questId": "bab57d85fb02dc596b4338fe"
+            },
+            {
+                "name": "ASh-12 20-rnd",
+                "itemTemplateId": "5caf1109ae9215753c44119f",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 10,
+                "questId": "3aed45be7f0bcdd6eecef56d"
+            },
+            {
+                "name": "AS VAL 30-rnd",
+                "itemTemplateId": "5a9e81fba2750c00164f6b11",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 10,
+                "questId": "2a4a95070293e9ecee645ecc"
+            }
+        ],
+
+        "9x18": [
+            {
+                "name": "9x18mm PM P gzh",
+                "itemTemplateId": "573719762459775a626ccbc1",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 43
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000
+            },
+
+            {
+                "name": "9x18mm PM PstM",
+                "itemTemplateId": "57371aab2459775a77142f22",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 62
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000,
+                "questId": "8e72446902220fffea710051"
+            },
+            {
+                "name": "9x18mm PM SP8",
+                "itemTemplateId": "5737218f245977612125ba51",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 47
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000,
+                "questId": "8e72446902220fffea710051"
+            },
+
+            {
+                "name": "9x18mm PM SP7",
+                "itemTemplateId": "57372140245977611f70ee91",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 62
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000,
+                "questId": "2880ff3e542ff1418f851d9d"
+            },
+            {
+                "name": "9x18mm PM PBM",
+                "itemTemplateId": "573719df2459775a626ccbc2",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 60
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000,
+                "questId": "2880ff3e542ff1418f851d9d"
+            }
+        ],
+        "9x19": [
+            {
+                "name": "9x19mm PSO gzh",
+                "itemTemplateId": "58864a4f2459770fcc257101",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 52
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000
+            },
+            {
+                "name": "9x19mm PST gzh",
+                "itemTemplateId": "56d59d3ad2720bdb418b4577",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 60
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000,
+                "questId": "5a7f06347363fb055eb0965c"
+            },
+
+            {
+                "name": "9x19mm PBP",
+                "itemTemplateId": "5efb0da7a29a85116f6ea05f",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 69
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10000,
+                "questId": "578e6f4ce6f94f6da4cea209"
+            }
+        ],
+        "9x21": [
+            {
+                "name": "9x21mm PS gzh",
+                "itemTemplateId": "5a269f97c4a282000b151807",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 61
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000,
+                "questId": "5eda19f0edce541157209cee"
+            },
+
+            {
+                "name": "9x21mm P",
+                "itemTemplateId": "5a26abfac4a28232980eabff",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 62
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000,
+                "questId": "d2b2f56c82a5b60920178527"
+            },
+            {
+                "name": "9x21mm 7U4",
+                "itemTemplateId": "6576f93989f0062e741ba952",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 55
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000,
+                "questId": "d2b2f56c82a5b60920178527"
+            },
+
+            {
+                "name": "9x21mm PE",
+                "itemTemplateId": "5a26ac06c4a282000c5a90a8",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 69
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000,
+                "questId": "41c75c1ce335d4a8963b25a2"
+            },
+            {
+                "name": "9x21mm 7N42",
+                "itemTemplateId": "6576f4708ca9c4381d16cd9d",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 64
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000,
+                "questId": "41c75c1ce335d4a8963b25a2"
+            }
+        ],
+        "5.45x39": [
+            {
+                "name": "5.45x39mm FMJ",
+                "itemTemplateId": "56dff0bed2720bb0668b4567",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 84
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000
+            },
+
+            {
+                "name": "5.45x39mm PP",
+                "itemTemplateId": "56dff2ced2720bb4668b4567",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 87
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000,
+                "questId": "6c86fdc95943e077879013fc"
+            },
+            {
+                "name": "5.45x39mm SP",
+                "itemTemplateId": "56dff421d2720b5f5a8b4567",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 85
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000,
+                "questId": "6c86fdc95943e077879013fc"
+            },
+
+            {
+                "name": "5.45x39mm BS",
+                "itemTemplateId": "56dff026d2720bb8668b4567",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 91
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000,
+                "questId": "e42dc3756273a576bde14626"
+            },
+            {
+                "name": "5.45x39mm HP",
+                "itemTemplateId": "56dff216d2720bbd668b4568",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 87
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000,
+                "questId": "e42dc3756273a576bde14626"
+            }
+        ],
+        "7.62x39": [
+            {
+                "name": "7.62x39mm FMJ",
+                "itemTemplateId": "64b7af5a8532cf95ee0a0dbd",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 84
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000
+            },
+
+            {
+                "name": "7.62x39mm PS",
+                "itemTemplateId": "5656d7c34bdc2d9d198b4587",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 83
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000,
+                "questId": "9fe3471df64c0bc50192a263"
+            },
+            {
+                "name": "7.62x39mm SP",
+                "itemTemplateId": "64b7af734b75259c590fa895",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 83
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000,
+                "questId": "9fe3471df64c0bc50192a263"
+            },
+
+            {
+                "name": "7.62x39mm BP",
+                "itemTemplateId": "59e0d99486f7744a32234762",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 89
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000,
+                "questId": "cdacda6564a5b9c306d093b4"
+            },
+            {
+                "name": "7.62x39mm HP",
+                "itemTemplateId": "59e4d3d286f774176a36250a",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 85
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000,
+                "questId": "cdacda6564a5b9c306d093b4"
+            }
+        ],
+        "9x39": [
+            {
+                "name": "9x39mm SPP",
+                "itemTemplateId": "5c0d668f86f7747ccb7f13b2",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 67
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000,
+                "questId": "5ede55112c95834b583f052a"
+            },
+
+            {
+                "name": "9x39mm SP-6",
+                "itemTemplateId": "57a0e5022459774d1673f889",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 70
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000,
+                "questId": "6f21604b37d1312aa5d30294"
+            },
+            {
+                "name": "9x39mm SP-5",
+                "itemTemplateId": "57a0dfb82459774d3078b56c",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 64
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000,
+                "questId": "6f21604b37d1312aa5d30294"
+            },
+
+            {
+                "name": "9x39mm BP",
+                "itemTemplateId": "5c0d688c86f77413ae3407b2",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 71
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000,
+                "questId": "084259409da9f6befca3440f"
+            },
+            {
+                "name": "9x39mm FMJ",
+                "itemTemplateId": "6576f96220d53a5b8f3e395e",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 63
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000,
+                "questId": "084259409da9f6befca3440f"
+            }
+        ],
+        "12.7x55": [
+            {
+                "name": "12.7x55mm PS12",
+                "itemTemplateId": "5cadf6ddae9215051e1c23b2",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 86
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1000,
+                "questId": "5caf1041ae92157c28402e3f"
+            },
+            
+            {
+                "name": "12.7x55mm PS12B",
+                "itemTemplateId": "5cadf6eeae921500134b2799",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 89
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000,
+                "questId": "d8f768c939c5b14d7fc9ffd3"
+            },
+
+            {
+                "name": "12.7x55mm PS12A",
+                "itemTemplateId": "5cadf6e5ae921500113bb973",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 102
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000,
+                "questId": "d8f768c939c5b14d7fc9ffd3"
+            }
+        ],
+        
+        "Grenades": [
+            {
+                "name": "Zarya",
+                "itemTemplateId": "5a0c27731526d80618476ac4",
+                "price": [
+                    {
+                        "templateId": "56742c284bdc2d98058b456d",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 50
+            },
+            {
+                "name": "M67",
+                "itemTemplateId": "58d3db5386f77426186285a0",
+                "price": [
+                    {
+                        "templateId": "56742c284bdc2d98058b456d",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 50
+            },
+            {
+                "name": "RDG-2B",
+                "itemTemplateId": "5a2a57cfc4a2826c6e06d44a",
+                "price": [
+                    {
+                        "templateId": "56742c284bdc2d98058b456d",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 50
+            },
+            
+            {
+                "name": "RGD-5",
+                "itemTemplateId": "5448be9a4bdc2dfd2f8b456a",
+                "price": [
+                    {
+                        "templateId": "56742c284bdc2d98058b456d",
+                        "amount": 1
+                    },
+                    {
+                        "templateId": "56742c2e4bdc2d95058b456d",
+                        "amount": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 30,
+                "questId": "5936da9e86f7742d65037edf"
+            },
+            {
+                "name": "F-1",
+                "itemTemplateId": "5710c24ad2720bc3458b45a3",
+                "price": [
+                    {
+                        "templateId": "56742c284bdc2d98058b456d",
+                        "amount": 1
+                    },
+                    {
+                        "templateId": "56742c2e4bdc2d95058b456d",
+                        "amount": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 30,
+                "questId": "5936da9e86f7742d65037edf"
+            },
+            {
+                "name": "M18 smoke",
+                "itemTemplateId": "617aa4dd8166f034d57de9c5",
+                "price": [
+                    {
+                        "templateId": "56742c2e4bdc2d95058b456d",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 30,
+                "questId": "5936da9e86f7742d65037edf"
+            },
+            {
+                "name": "Model 7290 Flash Bang",
+                "itemTemplateId": "619256e5f8af2c1a4e1f5d92",
+                "price": [
+                    {
+                        "templateId": "56742c284bdc2d98058b456d",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 30,
+                "questId": "5936da9e86f7742d65037edf"
+            },
+
+            {
+                "name": "VOG-17 Khattabka",
+                "itemTemplateId": "5e32f56fcb6d5863cc5e5ee4",
+                "price": [
+                    {
+                        "templateId": "56742c284bdc2d98058b456d",
+                        "amount": 2
+                    },
+                    {
+                        "templateId": "56742c2e4bdc2d95058b456d",
+                        "amount": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 15,
+                "questId": "5d4bec3486f7743cac246665"
+            },
+            {
+                "name": "VOG-25 Khattabka",
+                "itemTemplateId": "5e340dcdcb6d5863cc5e5efb",
+                "price": [
+                    {
+                        "templateId": "56742c284bdc2d98058b456d",
+                        "amount": 2
+                    },
+                    {
+                        "templateId": "56742c2e4bdc2d95058b456d",
+                        "amount": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 15,
+                "questId": "5d4bec3486f7743cac246665"
+            },
+
+            {
+                "name": "RGO",
+                "itemTemplateId": "618a431df1eb8e24b8741deb",
+                "price": [
+                    {
+                        "templateId": "5e2af37686f774755a234b65",
+                        "amount": 1
+                    },
+                    {
+                        "templateId": "56742c2e4bdc2d95058b456d",
+                        "amount": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 5,
+                "questId": "60896b7bfa70fc097863b8f5"
+            },
+            {
+                "name": "RGN",
+                "itemTemplateId": "617fd91e5539a84ec44ce155",
+                "price": [
+                    {
+                        "templateId": "5e2af37686f774755a234b65",
+                        "amount": 1
+                    },
+                    {
+                        "templateId": "56742c2e4bdc2d95058b456d",
+                        "amount": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 5,
+                "questId": "60896b7bfa70fc097863b8f5"
+            },
+            
+            {
+                "name": "40mm VOG-25",
+                "itemTemplateId": "5656eb674bdc2d35148b457c",
+                "price": [
+                    {
+                        "templateId": "56742c2e4bdc2d95058b456d",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 5,
+                "questId": "5c0d190cd09282029f5390d8"
+            }
+        ]
+    }
+}

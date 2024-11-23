@@ -1,0 +1,4027 @@
+{
+    "enabled": true,
+    "traderAcr": "r",
+
+    "disableSell": true,
+    "clearAssort": true,
+    "disableInsurance": true,
+    "lockFromStart": false,
+
+    "moneyPriceMultiplier": 1,
+
+    "categorizedItems": {
+        "NVGs": [
+            {
+                "presetId": "PVS14 NVG",
+                "price": [
+                    {
+                        "templateId": "590a3efd86f77437d351a25b",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 5
+            },
+            {
+                "presetId": "N15 NVG",
+                "price": [
+                    {
+                        "templateId": "590a3efd86f77437d351a25b",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 5
+            },
+            {
+                "presetId": "PNV10T NVG",
+                "price": [
+                    {
+                        "templateId": "590a3efd86f77437d351a25b",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 3
+            },
+            {
+                "presetId": "GPNVG18 NVG",
+                "price": [
+                    {
+                        "templateId": "590a3efd86f77437d351a25b",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 2
+            },
+            {
+                "presetId": "T7 NVG",
+                "price": [
+                    {
+                        "templateId": "590a3efd86f77437d351a25b",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "65734c186dc1e402c80dc19e"
+            }
+        ],
+        "Headphones": [
+            {
+                "name": "GSSh-01",
+                "itemTemplateId": "5b432b965acfc47a8774094e",
+                "price": [
+                    {
+                        "templateId": "5672cb724bdc2dc2088b456b",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10
+            },
+            {
+                "name": "MSA Sordin Supreme PRO-X/L",
+                "itemTemplateId": "5aa2ba71e5b5b000137b758f",
+                "price": [
+                    {
+                        "templateId": "5672cb724bdc2dc2088b456b",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10
+            },
+            {
+                "name": "OPSMEN Earmor M32",
+                "itemTemplateId": "6033fa48ffd42c541047f728",
+                "price": [
+                    {
+                        "templateId": "5672cb724bdc2dc2088b456b",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10
+            },
+            {
+                "name": "Ops-Core FAST RAC",
+                "itemTemplateId": "5a16b9fffcdbcb0176308b34",
+                "price": [
+                    {
+                        "templateId": "5672cb724bdc2dc2088b456b",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10
+            },
+            {
+                "name": "Peltor ComTac 2",
+                "itemTemplateId": "5645bcc04bdc2d363b8b4572",
+                "price": [
+                    {
+                        "templateId": "5672cb724bdc2dc2088b456b",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10
+            },
+            {
+                "name": "Peltor Tactical Sport headset",
+                "itemTemplateId": "5c165d832e2216398b5a7e36",
+                "price": [
+                    {
+                        "templateId": "5672cb724bdc2dc2088b456b",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10
+            },
+            {
+                "name": "Walker's Razor Digital",
+                "itemTemplateId": "5e4d34ca86f774264f758330",
+                "price": [
+                    {
+                        "templateId": "5672cb724bdc2dc2088b456b",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10
+            },
+            {
+                "name": "Walker's XCEL 500BT",
+                "itemTemplateId": "5f60cd6cf2bcbb675b00dac6",
+                "price": [
+                    {
+                        "templateId": "5672cb724bdc2dc2088b456b",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10
+            },
+            {
+                "name": "Peltor ComTac 4",
+                "itemTemplateId": "628e4e576d783146b124c64d",
+                "price": [
+                    {
+                        "templateId": "5672cb724bdc2dc2088b456b",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 5,
+                "questId": "608974af4b05530f55550c21"
+            }
+        ],
+        "Backpacks": [
+            {
+                "name": "Tactical sling bag",
+                "itemTemplateId": "5ab8f04f86f774585f4237d8",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10
+            },
+
+            {
+                "name": "VKBO army bag",
+                "itemTemplateId": "5ab8ee7786f7742d8f33f0b9",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 5,
+                "questId": "5ae448a386f7744d3730fff0"
+            },
+            {
+                "name": "Transformer Bag",
+                "itemTemplateId": "56e33680d2720be2748b4576",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 5,
+                "questId": "5ae448a386f7744d3730fff0"
+            },
+
+            {
+                "name": "Duffle",
+                "itemTemplateId": "56e33634d2720bd8058b456b",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 3,
+                "questId": "5ae4493486f7744efa289417"
+            },
+            {
+                "name": "LK 3F",
+                "itemTemplateId": "5f5e45cc5021ce62144be7aa",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 3,
+                "questId": "5ae4493486f7744efa289417"
+            },
+            {
+                "name": "MBSS",
+                "itemTemplateId": "544a5cde4bdc2d39388b456b",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 3,
+                "questId": "5ae4493486f7744efa289417"
+            },
+
+            {
+                "name": "Berkut",
+                "itemTemplateId": "5ca20d5986f774331e7c9602",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "5ae4493d86f7744b8e15aa8f"
+            },
+            {
+                "name": "Day Pack",
+                "itemTemplateId": "5e9dcf5986f7746c417435b3",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "5ae4493d86f7744b8e15aa8f"
+            },
+            {
+                "name": "ScavBP",
+                "itemTemplateId": "56e335e4d2720b6c058b456d",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "5ae4493d86f7744b8e15aa8f"
+            },
+            {
+                "name": "Pillbox",
+                "itemTemplateId": "60a2828e8689911a226117f9",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "5ae4493d86f7744b8e15aa8f"
+            },
+
+            {
+                "name": "Takedown (Black)",
+                "itemTemplateId": "6034d103ca006d2dca39b3f0",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "608974af4b05530f55550c21"
+            },
+            {
+                "name": "Takedown (Tan)",
+                "itemTemplateId": "6038d614d10cbf667352dd44",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "608974af4b05530f55550c21"
+            },
+
+            {
+                "name": "Drawbridge",
+                "itemTemplateId": "60a272cc93ef783291411d8e",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5b478b1886f7744d1b23c57d"
+            },
+            {
+                "name": "3-Day pack",
+                "itemTemplateId": "618cfae774bb2d036a049e7c",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5b478b1886f7744d1b23c57d"
+            },
+            {
+                "name": "T20",
+                "itemTemplateId": "618bb76513f5097c8d5aa2d5",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5b478b1886f7744d1b23c57d"
+            },
+            {
+                "name": "T20 Multicam",
+                "itemTemplateId": "619cf0335771dd3c390269ae",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5b478b1886f7744d1b23c57d"
+            },
+            {
+                "name": "Dragon egg",
+                "itemTemplateId": "656f198fb27298d6fd005466",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5b478b1886f7744d1b23c57d"
+            },
+            {
+                "name": "Tehinkom",
+                "itemTemplateId": "656ddcf0f02d7bcea90bf395",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5b478b1886f7744d1b23c57d"
+            },
+
+            {
+                "name": "Beta 2",
+                "itemTemplateId": "5b44c6ae86f7742d1627baea",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5ae4498786f7744bde357695"
+            },
+            {
+                "name": "Tri-Zip",
+                "itemTemplateId": "545cdae64bdc2d39198b4568",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5ae4498786f7744bde357695"
+            },
+            {
+                "name": "F5 Switchblade",
+                "itemTemplateId": "5f5e467b0bc58666c37e7821",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5ae4498786f7744bde357695"
+            },
+            {
+                "name": "T30",
+                "itemTemplateId": "628e1ffc83ec92260c0f437f",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5ae4498786f7744bde357695"
+            },
+            {
+                "name": "T30 Multicam",
+                "itemTemplateId": "62a1b7fbc30cfa1d366af586",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5ae4498786f7744bde357695"
+            },
+            {
+                "name": "Mechanism",
+                "itemTemplateId": "5d5d940f86f7742797262046",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 3,
+                "questId": "5ae4498786f7744bde357695"
+            },
+            {
+                "name": "SFMP",
+                "itemTemplateId": "5e4abc6786f77406812bd572",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5ae4498786f7744bde357695"
+            },
+
+            {
+                "name": "Paratus",
+                "itemTemplateId": "5c0e805e86f774683f3dd637",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5ae449d986f774453a54a7e1"
+            },
+            {
+                "name": "G2 Gunslinger II",
+                "itemTemplateId": "6034d2d697633951dc245ea6",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5ae449d986f774453a54a7e1"
+            },
+            {
+                "name": "Piligrim",
+                "itemTemplateId": "59e763f286f7742ee57895da",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5ae449d986f774453a54a7e1"
+            },
+            {
+                "name": "Attack 2",
+                "itemTemplateId": "5ab8ebf186f7742d8b372e80",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5ae449d986f774453a54a7e1"
+            },
+            {
+                "name": "Trooper 35",
+                "itemTemplateId": "639346cc1c8f182ad90c8972",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5ae449d986f774453a54a7e1"
+            },
+            
+            {
+                "name": "F4 Terminator",
+                "itemTemplateId": "5f5e46b96bdad616ad46d613",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "60e71dc0a94be721b065bbfc"
+            },
+            {
+                "name": "Blackjack 50",
+                "itemTemplateId": "5c0e774286f77468413cc5b2",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "60e71dc0a94be721b065bbfc"
+            },
+            {
+                "name": "6Sh118",
+                "itemTemplateId": "5df8a4d786f77412672a1e3b",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "60e71dc0a94be721b065bbfc"
+            }
+        ],
+        "Body Armors": [
+            {
+                "presetId": "Module3M",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 3
+            },
+            {
+                "presetId": "PACA",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 3
+            },
+            {
+                "presetId": "6B2",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 3
+            },
+
+            {
+                "presetId": "KiraKulonDFL",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 2,
+                "questId": "5ae448bf86f7744d733e55ee"
+            },
+            {
+                "presetId": "KiraKulonB",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 2,
+                "questId": "5ae448bf86f7744d733e55ee"
+            },
+            {
+                "presetId": "UntarA",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 2,
+                "questId": "5ae448bf86f7744d733e55ee"
+            },
+            
+            {
+                "presetId": "Press",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "5ae4490786f7744ca822adcc"
+            },
+            {
+                "presetId": "Interceptor",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "5ae4490786f7744ca822adcc"
+            },
+            {
+                "presetId": "ThorCRV",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "5ae4490786f7744ca822adcc"
+            },
+            {
+                "presetId": "USECTrooper",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "5ae4490786f7744ca822adcc"
+            },
+
+            {
+                "presetId": "KirasaN",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "5ae4495086f77443c122bc40"
+            },
+            {
+                "presetId": "6B231",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "5ae4495086f77443c122bc40"
+            },
+            {
+                "presetId": "6B232",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "5ae4495086f77443c122bc40"
+            },
+
+            {
+                "presetId": "HexaTac",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5b478d0f86f7744d190d91b5"
+            },
+            
+            {
+                "presetId": "6B13DFL",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5ae4495c86f7744e87761355"
+            },
+            {
+                "presetId": "6B13FL",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5ae4495c86f7744e87761355"
+            },
+            
+            {
+                "presetId": "GzhelK",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5ae449a586f7744bde357696"
+            },
+            {
+                "presetId": "Defender2",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5ae449a586f7744bde357696"
+            },
+            {
+                "presetId": "RedutM",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5ae449a586f7744bde357696"
+            },
+            {
+                "presetId": "RedutT5",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5ae449a586f7744bde357696"
+            },
+            {
+                "presetId": "Gen4HMK",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5ae449a586f7744bde357696"
+            },
+            {
+                "presetId": "Gen4Assault",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5ae449a586f7744bde357696"
+            },
+            {
+                "presetId": "Gen4Full",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5ae449a586f7744bde357696"
+            },
+            {
+                "presetId": "KorundVM",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5ae449a586f7744bde357696"
+            },
+            {
+                "presetId": "Hexgrid",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5ae449a586f7744bde357696"
+            },
+            {
+                "presetId": "SlickB",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5ae449a586f7744bde357696"
+            },
+            {
+                "presetId": "SlickOD",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5ae449a586f7744bde357696"
+            },
+            {
+                "presetId": "SlickCT",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5ae449a586f7744bde357696"
+            },
+
+            {
+                "presetId": "6B43",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "60e71dc67fcf9c556f325056"
+            },
+            {
+                "presetId": "ThorIC",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "60e71dc67fcf9c556f325056"
+            }
+        ],
+        "Armored Rigs": [
+            {
+                "presetId": "TV115",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 4
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "5ae4495086f77443c122bc40"
+            },
+            {
+                "presetId": "MBSS",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 4
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "5ae4495086f77443c122bc40"
+            },
+            {
+                "presetId": "6B516",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "5ae4495086f77443c122bc40"
+            },
+            {
+                "presetId": "6B515",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "5ae4495086f77443c122bc40"
+            },
+
+            {
+                "presetId": "TacTec",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5b478d0f86f7744d190d91b5"
+            },
+
+            {
+                "presetId": "Banshee",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5ae4495c86f7744e87761355"
+            },
+            {
+                "presetId": "MMAC",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5ae4495c86f7744e87761355"
+            },
+            {
+                "presetId": "6B3TM",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5ae4495c86f7744e87761355"
+            },
+
+            {
+                "presetId": "ANAM1",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5c10f94386f774227172c572"
+            },
+            {
+                "presetId": "ANAM2",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5c10f94386f774227172c572"
+            },
+            {
+                "presetId": "RBAVAF",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5c10f94386f774227172c572"
+            },
+            {
+                "presetId": "AVS",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 4
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5c10f94386f774227172c572"
+            },
+            {
+                "presetId": "TV110",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 4
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5c10f94386f774227172c572"
+            },
+            {
+                "presetId": "A18",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 4
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 4
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5c10f94386f774227172c572"
+            },
+            {
+                "presetId": "CQCA",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 4
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 4
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5c10f94386f774227172c572"
+            },
+                    
+            {
+                "presetId": "CPCMOD1",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 5
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 4
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5ae449a586f7744bde357696"
+            },     
+            {
+                "presetId": "CQCP",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 5
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 4
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5ae449a586f7744bde357696"
+            },   
+              
+            {
+                "presetId": "TTSK",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 4
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5ae4499a86f77449783815db"
+            },  
+            {
+                "presetId": "Bagariy",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 5
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 4
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5ae4499a86f77449783815db"
+            }
+        ],
+        "Tactical Rigs": [
+            {
+                "name": "Scav vest",
+                "itemTemplateId": "5fd4c5477a8d854fa0105061",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 3
+            },
+            {
+                "name": "Sec vest",
+                "itemTemplateId": "572b7adb24597762ae139821",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 3
+            },
+            {
+                "name": "Zulu neylon",
+                "itemTemplateId": "64be7095047e826eae02b0c1",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 3
+            },
+
+            {
+                "name": "Bank robber",
+                "itemTemplateId": "5e4abc1f86f774069619fbaa",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 2,
+                "questId": "5ae448e586f7744dcf0c2a67"
+            },
+            {
+                "name": "IDEA Rig",
+                "itemTemplateId": "5fd4c4fa16cac650092f6771",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 2,
+                "questId": "5ae448e586f7744dcf0c2a67"
+            },
+            {
+                "name": "Micro rig",
+                "itemTemplateId": "5d5d8ca986f7742798716522",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 2,
+                "questId": "5ae448e586f7744dcf0c2a67"
+            },
+
+            {
+                "name": "CSA",
+                "itemTemplateId": "6034d0230ca681766b6a0fb5",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 2,
+                "questId": "608974d01a66564e74191fc0"
+            },
+            {
+                "name": "TV-106 + TV-109",
+                "itemTemplateId": "59e7643b86f7742cbf2c109a",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "608974d01a66564e74191fc0"
+            },
+            {
+                "name": "Khamelion",
+                "itemTemplateId": "63611865ba5b90db0c0399d1",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "608974d01a66564e74191fc0"
+            },
+            {
+                "name": "6sh112 S-S",
+                "itemTemplateId": "5929a2a086f7744f4b234d43",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "608974d01a66564e74191fc0"
+            },
+            {
+                "name": "Tarzan",
+                "itemTemplateId": "5e4abfed86f77406a2713cf7",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "608974d01a66564e74191fc0"
+            },
+
+            {
+                "name": "Triton",
+                "itemTemplateId": "5ca20abf86f77418567a43f2",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5b47876e86f7744d1c353205"
+            },
+            {
+                "name": "Commando (Black)",
+                "itemTemplateId": "5c0e9f2c86f77432297fe0a3",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5b47876e86f7744d1c353205"
+            },
+            {
+                "name": "Commando (Desert Tan)",
+                "itemTemplateId": "5b44c8ea86f7742d1627baf1",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5b47876e86f7744d1c353205"
+            },
+            {
+                "name": "BSS-MK1",
+                "itemTemplateId": "5fd4c60f875c30179f5d04c2",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5b47876e86f7744d1c353205"
+            },
+            {
+                "name": "D3CRX",
+                "itemTemplateId": "5d5d85c586f774279a21cbdb",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5b47876e86f7744d1c353205"
+            },
+            {
+                "name": "Thunderbolt",
+                "itemTemplateId": "5f5f41f56760b4138443b352",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5b47876e86f7744d1c353205"
+            },
+            {
+                "name": "Umka",
+                "itemTemplateId": "6034cf5fffd42c541047f72e",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5b47876e86f7744d1c353205"
+            },
+
+            {
+                "name": "LBCR",
+                "itemTemplateId": "5e9db13186f7742f845ee9d3",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 2,
+                "questId": "5ae4497b86f7744cf402ed00"
+            },
+            {
+                "name": "CR MK2 (A)",
+                "itemTemplateId": "60a621c49c197e4e8c4455e6",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5ae4497b86f7744cf402ed00"
+            },
+            {
+                "name": "CR MK2 (R)",
+                "itemTemplateId": "60a6220e953894617404b00a",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5ae4497b86f7744cf402ed00"
+            },
+            {
+                "name": "Alpha",
+                "itemTemplateId": "592c2d1a86f7746dbe2af32a",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5ae4497b86f7744cf402ed00"
+            },
+            {
+                "name": "Zhuk (Black)",
+                "itemTemplateId": "603648ff5a45383c122086ac",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5ae4497b86f7744cf402ed00"
+            },
+            {
+                "name": "Zhuk (SURPAT)",
+                "itemTemplateId": "6040dd4ddcf9592f401632d2",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5ae4497b86f7744cf402ed00"
+            },
+            {
+                "name": "BlackRock",
+                "itemTemplateId": "5648a69d4bdc2ded0b8b457b",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5ae4497b86f7744cf402ed00"
+            },
+            {
+                "name": "MK3 TV-104",
+                "itemTemplateId": "5ab8dab586f77441cd04f2a2",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5ae4497b86f7744cf402ed00"
+            },
+            
+            {
+                "name": "MPPV",
+                "itemTemplateId": "5df8a42886f77412640e2e75",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5ae4499a86f77449783815db"
+            },
+            {
+                "name": "Belt combo",
+                "itemTemplateId": "5c0e6a1586f77404597b4965",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5ae4499a86f77449783815db"
+            }
+        ],
+        "Helmets": [
+            {
+                "presetId": "TankCrew",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 5
+            },
+            {
+                "presetId": "TacKek",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 5
+            },
+
+            {
+                "presetId": "Firefighter",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 2,
+                "questId": "638fcd23dc65553116701d33"
+            },
+            {
+                "presetId": "Kolpak",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 2,
+                "questId": "638fcd23dc65553116701d33"
+            },
+            {
+                "presetId": "Djeta",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 2,
+                "questId": "638fcd23dc65553116701d33"
+            },
+
+            {
+                "presetId": "SSH68",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 2,
+                "questId": "5ae448f286f77448d73c0131"
+            },
+            {
+                "presetId": "LShZ",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 2,
+                "questId": "5ae448f286f77448d73c0131"
+            },
+            {
+                "presetId": "NeosteelHC",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 2,
+                "questId": "5ae448f286f77448d73c0131"
+            },
+            {
+                "presetId": "HJELM",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 2,
+                "questId": "5ae448f286f77448d73c0131"
+            },
+
+            {
+                "presetId": "UntarH",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5ae449b386f77446d8741719"
+            },
+            {
+                "presetId": "RatnikOD",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5ae449b386f77446d8741719"
+            },
+            {
+                "presetId": "RatnikDFL",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5ae449b386f77446d8741719"
+            },
+            {
+                "presetId": "Tor2",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5ae449b386f77446d8741719"
+            },
+
+            {
+                "presetId": "KiverM",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5ae449c386f7744bde357697"
+            },
+            {
+                "presetId": "SferaS",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5ae449c386f7744bde357697"
+            },
+
+            {
+                "presetId": "ACHHCB",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5ae4496986f774459e77beb6"
+            },
+            {
+                "presetId": "ACHHCOD",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5ae4496986f774459e77beb6"
+            },
+            {
+                "presetId": "TC2001",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5ae4496986f774459e77beb6"
+            },
+            {
+                "presetId": "TC2002",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5ae4496986f774459e77beb6"
+            },
+            {
+                "presetId": "TC800",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5ae4496986f774459e77beb6"
+            },
+            {
+                "presetId": "Ronin",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5ae4496986f774459e77beb6"
+            },
+            {
+                "presetId": "ZSh12MOD",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5ae4496986f774459e77beb6"
+            },
+            {
+                "presetId": "ZSh12MB",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5ae4496986f774459e77beb6"
+            },
+
+            {
+                "presetId": "ULACHB",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5b47891f86f7744d1b23c571"
+            },
+            {
+                "presetId": "ULACHDT",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5b47891f86f7744d1b23c571"
+            },
+            {
+                "presetId": "LShz2DTM",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5b47891f86f7744d1b23c571"
+            },
+            {
+                "presetId": "Caiman",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5b47891f86f7744d1b23c571"
+            },
+            {
+                "presetId": "FastMTB",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5b47891f86f7744d1b23c571"
+            },
+            {
+                "presetId": "FastMTUT",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5b47891f86f7744d1b23c571"
+            },
+
+            {
+                "presetId": "Altyn",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5c1141f386f77430ff393792"
+            },
+            {
+                "presetId": "RysT",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5c1141f386f77430ff393792"
+            },
+            {
+                "presetId": "Vulkan5",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5c1141f386f77430ff393792"
+            },
+            {
+                "presetId": "AirframeT",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5c1141f386f77430ff393792"
+            },
+            {
+                "presetId": "ExfilB",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5c1141f386f77430ff393792"
+            },
+            {
+                "presetId": "Bastion",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5c1141f386f77430ff393792"
+            }
+        ],
+        "Facecovers": [
+            {
+                "presetId": "Shattered",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 2,
+                "questId": "638fcd23dc65553116701d33"
+            },
+            {
+                "presetId": "DeathShadow",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 2,
+                "questId": "6613f3007f6666d56807c929"
+            },
+            {
+                "presetId": "CQCM",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "6613f307fca4f2f386029409"
+            }
+        ],
+        "Glasses": [
+            {
+                "name": "TGlasses",
+                "itemTemplateId": "557ff21e4bdc2d89578b4586",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 3
+            },
+            {
+                "name": "AFGlass",
+                "itemTemplateId": "59e770b986f7742cbd762754",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 3
+            },
+            {
+                "name": "6B34AFGlass",
+                "itemTemplateId": "5b432be65acfc433000ed01f",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 3
+            },
+
+            {
+                "name": "Dundukk",
+                "itemTemplateId": "5aa2b986e5b5b00014028f4c",
+                "price": [
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "65802b627b44fa5e14638899"
+            },
+            {
+                "name": "M Frame",
+                "itemTemplateId": "5c1a1cc52e221602b3136e3d",
+                "price": [
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "65802b627b44fa5e14638899"
+            },
+            {
+                "name": "Proximity",
+                "itemTemplateId": "5c0d32fcd174af02a1659c75",
+                "price": [
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "65802b627b44fa5e14638899"
+            },
+            {
+                "name": "Gascan",
+                "itemTemplateId": "5d6d2e22a4b9361bd5780d05",
+                "price": [
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "65802b627b44fa5e14638899"
+            },
+            {
+                "name": "RGlasses",
+                "itemTemplateId": "5aa2b923e5b5b000137b7589",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "65802b627b44fa5e14638899"
+            },
+
+            {
+                "name": "Aviator",
+                "itemTemplateId": "5d6d2ef3a4b93618084f58bd",
+                "price": [
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "639135bbc115f907b14700a6"
+            },
+            {
+                "name": "RayBench",
+                "itemTemplateId": "5aa2b9aee5b5b00015693121",
+                "price": [
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "639135bbc115f907b14700a6"
+            },
+            {
+                "name": "Crossbow",
+                "itemTemplateId": "5d5fca1ea4b93635fd598c07",
+                "price": [
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "639135bbc115f907b14700a6"
+            },
+
+            {
+                "name": "Gaswelder",
+                "itemTemplateId": "61c18d83b00456371a66814b",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 2,
+                "questId": "5c112d7e86f7740d6f647486"
+            },
+            
+            {
+                "name": "Condor",
+                "itemTemplateId": "603409c80ca681766b6a0fb2",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 2,
+                "questId": "639135a7e705511c8a4a1b78"
+            },
+            {
+                "name": "Batwolf",
+                "itemTemplateId": "62a61c988ec41a51b34758d5",
+                "price": [
+                    {
+                        "templateId": "5e2af47786f7746d404f3aaa",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 2,
+                "questId": "639135a7e705511c8a4a1b78"
+            }
+        ],
+        "HelmetParts": [
+            {
+                "name": "Kolpak FS",
+                "itemTemplateId": "5ac4c50d5acfc40019262e87",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 200
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "e12a38d68bfb3ef6d5354450"
+            },
+            {
+                "name": "Tak-kek HT",
+                "itemTemplateId": "5ea058e01dbce517f324b3e2",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 200
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "2aa18b3d22ce7a8245bff2c9"
+            },
+            {
+                "name": "Class 2 fast mt FS",
+                "itemTemplateId": "5a16b672fcdbcb001912fa83",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 200
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "9f86d9dc80672cf98b1cb17a"
+            },
+            {
+                "name": "Neosteel mandible",
+                "itemTemplateId": "6570a88c8f221f3b210353b7",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 300
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "bef47c2848e104dabd63bbc5"
+            },
+            {
+                "name": "Tor 2 FS",
+                "itemTemplateId": "65719f9ef392ad76c50a2ec8",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 300
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "fb75100b32513bb8b3aee5c7"
+            },
+            {
+                "name": "Kiver FS",
+                "itemTemplateId": "5b46238386f7741a693bcf9c",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 300
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "bafe6f3882a62da1059d5e97"
+            },
+            {
+                "name": "ZSh-1-2M FS",
+                "itemTemplateId": "5aa7e3abe5b5b000171d064d",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 300
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "6fb1d62b5ed82648a837e866"
+            },
+            {
+                "name": "Fast MT multihit FS",
+                "itemTemplateId": "5a16b7e1fcdbcb00165aa6c9",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 300
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "54a626cbadf39f402aa3096e"
+            },
+            {
+                "name": "BNTI-LZSH FS",
+                "itemTemplateId": "5d6d3829a4b9361bc8618943",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 400
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "cdcabe93a1ea3b81d6f4f044"
+            },
+            {
+                "name": "Caiman glasses",
+                "itemTemplateId": "5f60bf4558eff926626a60f2",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 200
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "9c458391e57e46562a994036"
+            },
+            {
+                "name": "Altyn FS",
+                "itemTemplateId": "5aa7e373e5b5b000137b76f0",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 500
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "1edc23a503379820cd018062"
+            },
+            {
+                "name": "Rys-T FS",
+                "itemTemplateId": "5f60c85b58eff926626a60f7",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 500
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "1edc23a503379820cd018062"
+            },
+            {
+                "name": "Vulkan 5 FS",
+                "itemTemplateId": "5ca2113f86f7740b2547e1d2",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 400
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "1edc23a503379820cd018062"
+            }
+        ],
+        "ArmorParts": [
+            {
+                "name": "6B12 3",
+                "itemTemplateId": "654a4dea7c17dec2f50cc86a",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 300
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "e21000deda0557d05691b500"
+            },
+            {
+                "name": "AR500 3",
+                "itemTemplateId": "656f9d5900d62bcd2e02407c",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 300
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "e21000deda0557d05691b500"
+            },
+            {
+                "name": "PRTCTR 3",
+                "itemTemplateId": "656fac30c6baea13cd07e10c",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 300
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "e21000deda0557d05691b500"
+            },
+            {
+                "name": "Zhuk-3 plate 3",
+                "itemTemplateId": "656f57dc27aed95beb08f628",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 300
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "e21000deda0557d05691b500"
+            },
+            
+            {
+                "name": "6B13 back 4",
+                "itemTemplateId": "",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 400
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "bb9d6331c07727f93dd2dd17"
+            },
+            {
+                "name": "6B23-2 back 4",
+                "itemTemplateId": "",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 400
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "bb9d6331c07727f93dd2dd17"
+            },
+            {
+                "name": "6B33 4",
+                "itemTemplateId": "",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 400
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "bb9d6331c07727f93dd2dd17"
+            },
+            {
+                "name": "GA Steel 4",
+                "itemTemplateId": "",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 400
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "bb9d6331c07727f93dd2dd17"
+            },
+            {
+                "name": "KA Titan 4",
+                "itemTemplateId": "",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 400
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "bb9d6331c07727f93dd2dd17"
+            },
+            {
+                "name": "Monoclete III 4",
+                "itemTemplateId": "",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 400
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "bb9d6331c07727f93dd2dd17"
+            },
+            {
+                "name": "New sphere tech 4",
+                "itemTemplateId": "",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 400
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "bb9d6331c07727f93dd2dd17"
+            },
+            {
+                "name": "SPRTN Elaphros 4",
+                "itemTemplateId": "",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 400
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "bb9d6331c07727f93dd2dd17"
+            },
+            {
+                "name": "SPRTN Omega 4",
+                "itemTemplateId": "",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 400
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "bb9d6331c07727f93dd2dd17"
+            },
+
+            {
+                "name": "Cult Locust 5",
+                "itemTemplateId": "656fa8d700d62bcd2e024084",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 500
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "2b37187b6fe41199c5c28faa"
+            },
+            {
+                "name": "GAC 3s15m 5",
+                "itemTemplateId": "656fae5f7c2d57afe200c0d7",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 500
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "2b37187b6fe41199c5c28faa"
+            },
+            {
+                "name": "Granit 4 5",
+                "itemTemplateId": "656f611f94b480b8a500c0db",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 500
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "2b37187b6fe41199c5c28faa"
+            },
+            {
+                "name": "Granit 4 back 5",
+                "itemTemplateId": "656efaf54772930db4031ff5",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 500
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "2b37187b6fe41199c5c28faa"
+            },
+            {
+                "name": "Granit br4 5",
+                "itemTemplateId": "65573fa5655447403702a816",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 500
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "2b37187b6fe41199c5c28faa"
+            },
+            {
+                "name": "Korund vm back 5",
+                "itemTemplateId": "657b2797c3dbcb01d60c35ea",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 500
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "2b37187b6fe41199c5c28faa"
+            },
+            {
+                "name": "Korund vm front 5",
+                "itemTemplateId": "656f664200d62bcd2e024077",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 500
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "2b37187b6fe41199c5c28faa"
+            },
+            {
+                "name": "SAPI III 5",
+                "itemTemplateId": "655746010177119f4a097ff7",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 500
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "2b37187b6fe41199c5c28faa"
+            },
+            {
+                "name": "Tallcom Guardian 5",
+                "itemTemplateId": "656fa53d94b480b8a500c0e4",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 500
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "2b37187b6fe41199c5c28faa"
+            },
+            
+            {
+                "name": "Korund VM side 5",
+                "itemTemplateId": "654a4f8bc721968a4404ef18",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 300
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "bcaf926cf633842d38793b8d"
+            },
+            {
+                "name": "SSAPI III side 5",
+                "itemTemplateId": "6557458f83942d705f0c4962",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 300
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "bcaf926cf633842d38793b8d"
+            },
+
+            {
+                "name": "Cult termite 6",
+                "itemTemplateId": "656fa99800d62bcd2e024088",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 600
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 10,
+                "questId": "e9be1fadc6622d3599bb76c4"
+            },
+            {
+                "name": "ESAPI IV 6",
+                "itemTemplateId": "64afdcb83efdfea28601d041",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 600
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 10,
+                "questId": "e9be1fadc6622d3599bb76c4"
+            },
+            {
+                "name": "GAC 4sss2 6",
+                "itemTemplateId": "656faf0ca0dce000a2020f77",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 600
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 10,
+                "questId": "e9be1fadc6622d3599bb76c4"
+            },
+            {
+                "name": "Granit 4RS 6",
+                "itemTemplateId": "656f63c027aed95beb08f62c",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 600
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 10,
+                "questId": "e9be1fadc6622d3599bb76c4"
+            },
+            {
+                "name": "Granit 4RS back 6",
+                "itemTemplateId": "654a4a964b446df1ad03f192",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 600
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 10,
+                "questId": "e9be1fadc6622d3599bb76c4"
+            },
+            {
+                "name": "Granit BR5 6",
+                "itemTemplateId": "64afc71497cf3a403c01ff38",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 600
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 10,
+                "questId": "e9be1fadc6622d3599bb76c4"
+            },
+            {
+                "name": "Kiteco IV 6",
+                "itemTemplateId": "656fafe3498d1b7e3e071da4",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 600
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 10,
+                "questId": "e9be1fadc6622d3599bb76c4"
+            },
+            {
+                "name": "KA Steel 6",
+                "itemTemplateId": "656fa76500d62bcd2e024080",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 600
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 10,
+                "questId": "e9be1fadc6622d3599bb76c4"
+            },
+            {
+                "name": "Korund VMK back 6",
+                "itemTemplateId": "657b28d25f444d6dff0c6c77",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 600
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 10,
+                "questId": "e9be1fadc6622d3599bb76c4"
+            },
+            {
+                "name": "Korund VMK 6",
+                "itemTemplateId": "656f66b5c6baea13cd07e108",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 600
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 10,
+                "questId": "e9be1fadc6622d3599bb76c4"
+            },
+            {
+                "name": "NESCO 4400 6",
+                "itemTemplateId": "656fa61e94b480b8a500c0e8",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 600
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 10,
+                "questId": "e9be1fadc6622d3599bb76c4"
+            },
+
+            {
+                "name": "ESBI side 6",
+                "itemTemplateId": "64afdb577bb3bfe8fe03fd1d",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 400
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 10,
+                "questId": "fa20e6c9d68d2e35b8f279a7"
+            },
+            {
+                "name": "Granit side 6",
+                "itemTemplateId": "64afd81707e2cf40e903a316",
+                "price": [
+                    {
+                        "templateId": "5696686a4bdc2da3298b456a",
+                        "count": 400
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 10,
+                "questId": "fa20e6c9d68d2e35b8f279a7"
+            }
+        ]
+    }
+}

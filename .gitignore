@@ -1,0 +1,14 @@
+﻿Server/node_modules
+*.zip
+.properties
+Server/debug.json
+Client/lib
+Release
+Server/types
+Server/.eslintignore
+Server/.eslintrc.json
+Server/package-lock.json
+Ideas.txt
+build all release.bat
+build-deploy all debug.bat
+deploy all debug.bat

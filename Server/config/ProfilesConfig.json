@@ -1,0 +1,1589 @@
+{
+    "enabled": true,
+
+    "profiles": {
+        "VAI Rogue-lite: Beninger": {
+            "copySource": "Standard",
+            
+            "description": "Gu gu ga ga diaper baby",
+            "actualDescription": "Starts with a good amount of money, docs case, pistol case, weapon and armor repair kits. \nWorkbench, generator, lavatory, rest space, med/food stations and heating lvl 1. \nSome skills.",
+            
+            "tradersStanding": 0,
+            "jaegerUnlocked": false,
+
+            "areas": {
+                "2": {
+                    "startingLevel": 1
+                },
+                "4": {
+                    "startingLevel": 1
+                },
+                "5": {
+                    "startingLevel": 1
+                },
+                "7": {
+                    "startingLevel": 1
+                },
+                "8": {
+                    "startingLevel": 1
+                },
+                "9": {
+                    "startingLevel": 1
+                },
+                "10": {
+                    "startingLevel": 1
+                }
+            },
+
+            "items": [
+                {
+                    "templateId": "590c60fc86f77412b13fddcf"
+                },
+                {
+                    "templateId": "5449016a4bdc2d6f028b456f",
+                    "count": 20000
+                },
+                {
+                    "templateId": "569668774bdc2da2298b4568",
+                    "count": 200
+                },
+                {
+                    "templateId": "5696686a4bdc2da3298b456a",
+                    "count": 200
+                },
+                {
+                    "templateId": "5734795124597738002c6176",
+                    "count": 3
+                },
+                {
+                    "templateId": "5e2af47786f7746d404f3aaa",
+                    "count": 3
+                },
+                {
+                    "templateId": "5672cb724bdc2dc2088b456b",
+                    "count": 1
+                },
+                {
+                    "templateId": "567143bf4bdc2d1a0f8b4567",
+                    "count": 1
+                },
+                {
+                    "templateId": "5910968f86f77425cf569c32"
+                },
+                {
+                    "templateId": "591094e086f7747caa7bb2ef"
+                }
+            ],
+
+            "skills": {
+                "Endurance": {
+                    "startingLevel": 3000
+                },
+                "Strength": {
+                    "startingLevel": 1000
+                },
+                "StressResistance": {
+                    "startingLevel": 3000
+                },
+                "Metabolism": {
+                    "startingLevel": 2000
+                },
+                "Perception": {
+                    "startingLevel": 2000
+                },
+                "RecoilControl": {
+                    "startingLevel": 1000
+                },
+                "AimDrills": {
+                    "startingLevel": 2000
+                },
+                "Search": {
+                    "startingLevel": 1000
+                }
+            }
+        },
+        "VAI Rogue-lite: Assault": {
+            "copySource": "Standard",
+
+            "description": "Ass ault",
+            "actualDescription": "Starts with some money, magazine case and an armor repair kit. \nWorkbench, lavatory, rest space and heating lvl 1. \nMax armor skills, high assault rifles skill.",
+            
+            "tradersStanding": 0,
+            "jaegerUnlocked": false,
+
+            "areas": {
+                "2": {
+                    "startingLevel": 1
+                },
+                "5": {
+                    "startingLevel": 1
+                },
+                "9": {
+                    "startingLevel": 1
+                },
+                "10": {
+                    "startingLevel": 1
+                }
+            },
+
+            "items": [
+                {
+                    "templateId": "5449016a4bdc2d6f028b456f",
+                    "count": 10000
+                },
+                {
+                    "templateId": "5734795124597738002c6176",
+                    "count": 3
+                },
+                {
+                    "templateId": "5e2af47786f7746d404f3aaa",
+                    "count": 3
+                },
+                {
+                    "templateId": "5672cb724bdc2dc2088b456b",
+                    "count": 1
+                },
+                {
+                    "templateId": "5c127c4486f7745625356c13"
+                }
+            ],
+
+            "skills": {
+                "Strength": {
+                    "startingLevel": 2000
+                },
+                "Vitality": {
+                    "startingLevel": 1000
+                },
+                "Health": {
+                    "startingLevel": 1000
+                },
+                "StressResistance": {
+                    "startingLevel": 1000
+                },
+                "TroubleShooting": {
+                    "startingLevel": 2000
+                },
+                "LightVests": {
+                    "startingLevel": 5100
+                },
+                "HeavyVests": {
+                    "startingLevel": 5100
+                },
+                "Pistol": {
+                    "startingLevel": 1000
+                },
+                "SMG": {
+                    "startingLevel": 2000
+                },
+                "Assault": {
+                    "startingLevel": 4000
+                },
+                "LMG": {
+                    "startingLevel": 4000
+                },
+                "AttachedLauncher": {
+                    "startingLevel": 1000
+                }
+            }
+        },
+        "VAI Rogue-lite: Medic": {
+            "copySource": "Standard",
+
+            "description": "AAAAAAAAAAAAAAAAAAAAAAAAAAAHHHH I neeeeeeeeeeeeeeeeed a medicbag",
+            "actualDescription": "Starts with some money and a medicine case. \nGenerator, rest space, med station and lavatory lvl 1. \nMax surgery skill, high shotgun and health skills.",
+            
+            "tradersStanding": 0,
+            "jaegerUnlocked": false,
+
+            "areas": {
+                "2": {
+                    "startingLevel": 1
+                },
+                "4": {
+                    "startingLevel": 1
+                },
+                "7": {
+                    "startingLevel": 1
+                },
+                "9": {
+                    "startingLevel": 1
+                }
+            },
+
+            "items": [
+                {
+                    "templateId": "5449016a4bdc2d6f028b456f",
+                    "count": 10000
+                },
+                {
+                    "templateId": "5734795124597738002c6176",
+                    "count": 3
+                },
+                {
+                    "templateId": "5e2af47786f7746d404f3aaa",
+                    "count": 3
+                },
+                {
+                    "templateId": "5672cb724bdc2dc2088b456b",
+                    "count": 1
+                },
+                {
+                    "templateId": "5aafbcd986f7745e590fff23"
+                }
+            ],
+
+            "skills": {
+                "Endurance": {
+                    "startingLevel": 2000
+                },
+                "Strength": {
+                    "startingLevel": 1000
+                },
+                "Vitality": {
+                    "startingLevel": 2000
+                },
+                "Health": {
+                    "startingLevel": 3000
+                },
+                "StressResistance": {
+                    "startingLevel": 1000
+                },
+                "Metabolism": {
+                    "startingLevel": 1000
+                },
+                "Immunity": {
+                    "startingLevel": 2000
+                },
+                "Pistol": {
+                    "startingLevel": 2000
+                },
+                "Shotgun": {
+                    "startingLevel": 4000
+                },
+                "Surgery": {
+                    "startingLevel": 5100
+                }
+            }
+        },
+        "VAI Rogue-lite: Gun Nut": {
+            "copySource": "Standard",
+
+            "description": "Nutty",
+            "actualDescription": "Starts with some money, weapon repair kit and a weapon case. \nGenerator, workbench and heating lvl 1. \nMax troubleshooting and weapon treatment skills.",
+            
+            "tradersStanding": 0,
+            "jaegerUnlocked": false,
+
+            "areas": {
+                "4": {
+                    "startingLevel": 1
+                },
+                "5": {
+                    "startingLevel": 1
+                },
+                "9": {
+                    "startingLevel": 1
+                },
+                "10": {
+                    "startingLevel": 1
+                }
+            },
+
+            "items": [
+                {
+                    "templateId": "5449016a4bdc2d6f028b456f",
+                    "count": 10000
+                },
+                {
+                    "templateId": "569668774bdc2da2298b4568",
+                    "count": 500
+                },
+                {
+                    "templateId": "5734795124597738002c6176",
+                    "count": 3
+                },
+                {
+                    "templateId": "5e2af47786f7746d404f3aaa",
+                    "count": 3
+                },
+                {
+                    "templateId": "5672cb724bdc2dc2088b456b",
+                    "count": 1
+                },
+                {
+                    "templateId": "5910968f86f77425cf569c32"
+                },
+                {
+                    "templateId": "59fb023c86f7746d0d4b423c"
+                }
+            ],
+
+            "skills": {
+                "Intellect": {
+                    "startingLevel": 2000
+                },
+                "Memory": {
+                    "startingLevel": 1000
+                },
+                "Pistol": {
+                    "startingLevel": 1000
+                },
+                "Revolver": {
+                    "startingLevel": 1000
+                },
+                "SMG": {
+                    "startingLevel": 1000
+                },
+                "Assault": {
+                    "startingLevel": 1000
+                },
+                "Shotgun": {
+                    "startingLevel": 1000
+                },
+                "Sniper": {
+                    "startingLevel": 1000
+                },
+                "LMG": {
+                    "startingLevel": 1000
+                },
+                "HMG": {
+                    "startingLevel": 1000
+                },
+                "Launcher": {
+                    "startingLevel": 1000
+                },
+                "AttachedLauncher": {
+                    "startingLevel": 1000
+                },
+                "DMR": {
+                    "startingLevel": 1000
+                },
+                "RecoilControl": {
+                    "startingLevel": 2000
+                },
+                "AimDrills": {
+                    "startingLevel": 1000
+                },
+                "TroubleShooting": {
+                    "startingLevel": 5100
+                },
+                "MagDrills": {
+                    "startingLevel": 3000
+                },
+                "WeaponTreatment": {
+                    "startingLevel": 5100
+                }
+            }
+        },
+        "VAI Rogue-lite: Charismatic": {
+            "copySource": "Standard",
+
+            "description": "Prapor's favorite PMC",
+            "actualDescription": "Starts with high traders standing and some money. \nGenerator lvl 1. \nMax charisma skill, high hideout management and perception skills.",
+            
+            "tradersStanding": 1,
+            "jaegerUnlocked": false,
+
+            "areas": {
+                "4": {
+                    "startingLevel": 1
+                }
+            },
+
+            "items": [
+                {
+                    "templateId": "5449016a4bdc2d6f028b456f",
+                    "count": 10000
+                },
+                {
+                    "templateId": "5734795124597738002c6176",
+                    "count": 3
+                }
+            ],
+
+            "skills": {
+                "Perception": {
+                    "startingLevel": 3000
+                },
+                "Intellect": {
+                    "startingLevel": 2000
+                },
+                "Attention": {
+                    "startingLevel": 2000
+                },
+                "Charisma": {
+                    "startingLevel": 5100
+                },
+                "HideoutManagement": {
+                    "startingLevel": 3000
+                }
+            }
+        },
+        "VAI Rogue-lite: Contractor": {
+            "copySource": "Standard",
+
+            "description": "KillKillKillKillKillKillKillKillKillKillKillKillKillKillKillKillKillKillKillKillKillKillKillKill",
+            "actualDescription": "Starts with dogtag case and some money. \nLavatory, rest space and generator lvl 1. \nSkills average all around.",
+            
+            "tradersStanding": 0,
+            "jaegerUnlocked": false,
+
+            "areas": {
+                "2": {
+                    "startingLevel": 1
+                },
+                "4": {
+                    "startingLevel": 1
+                },
+                "9": {
+                    "startingLevel": 1
+                }
+            },
+
+            "items": [
+                {
+                    "templateId": "5449016a4bdc2d6f028b456f",
+                    "count": 10000
+                },
+                {
+                    "templateId": "569668774bdc2da2298b4568",
+                    "count": 200
+                },
+                {
+                    "templateId": "5c093e3486f77430cb02e593"
+                },
+                {
+                    "templateId": "5734795124597738002c6176",
+                    "count": 3
+                },
+                {
+                    "templateId": "5e2af47786f7746d404f3aaa",
+                    "count": 3
+                },
+                {
+                    "templateId": "5672cb724bdc2dc2088b456b",
+                    "count": 1
+                }
+            ],
+
+            "skills": {
+                "Endurance": {
+                    "startingLevel": 2000
+                },
+                "Strength": {
+                    "startingLevel": 2000
+                },
+                "Vitality": {
+                    "startingLevel": 1000
+                },
+                "Health": {
+                    "startingLevel": 1000
+                },
+                "StressResistance": {
+                    "startingLevel": 2000
+                },
+                "Perception": {
+                    "startingLevel": 1000
+                },
+                "Intellect": {
+                    "startingLevel": 2000
+                },
+                "Attention": {
+                    "startingLevel": 1000
+                },
+                "Pistol": {
+                    "startingLevel": 1000
+                },
+                "Revolver": {
+                    "startingLevel": 1000
+                },
+                "SMG": {
+                    "startingLevel": 1000
+                },
+                "Assault": {
+                    "startingLevel": 1000
+                },
+                "Shotgun": {
+                    "startingLevel": 1000
+                },
+                "Sniper": {
+                    "startingLevel": 1000
+                },
+                "LMG": {
+                    "startingLevel": 1000
+                },
+                "HMG": {
+                    "startingLevel": 1000
+                },
+                "Launcher": {
+                    "startingLevel": 1000
+                },
+                "AttachedLauncher": {
+                    "startingLevel": 1000
+                },
+                "Throwing": {
+                    "startingLevel": 1000
+                },
+                "Melee": {
+                    "startingLevel": 1000
+                },
+                "DMR": {
+                    "startingLevel": 1000
+                },
+                "RecoilControl": {
+                    "startingLevel": 3000
+                },
+                "AimDrills": {
+                    "startingLevel": 3000
+                },
+                "TroubleShooting": {
+                    "startingLevel": 1000
+                },
+                "CovertMovement": {
+                    "startingLevel": 2000
+                },
+                "MagDrills": {
+                    "startingLevel": 3000
+                },
+                "WeaponTreatment": {
+                    "startingLevel": 1000
+                }
+            }
+        },
+        "VAI Rogue-lite: Gamma Gamer": {
+            "copySource": "Standard",
+
+            "description": "So thicc",
+            "actualDescription": "Starts with gamma container and some money. \nLavatory, rest space and generator lvl 1.",
+            
+            "tradersStanding": 0,
+            "jaegerUnlocked": false,
+
+            "areas": {
+                "2": {
+                    "startingLevel": 1
+                },
+                "4": {
+                    "startingLevel": 1
+                },
+                "9": {
+                    "startingLevel": 1
+                }
+            },
+
+            "items": [
+                {
+                    "templateId": "5449016a4bdc2d6f028b456f",
+                    "count": 20000
+                },
+                {
+                    "templateId": "5857a8bc2459772bad15db29"
+                },
+                {
+                    "templateId": "5734795124597738002c6176",
+                    "count": 3
+                },
+                {
+                    "templateId": "5e2af47786f7746d404f3aaa",
+                    "count": 3
+                },
+                {
+                    "templateId": "5672cb724bdc2dc2088b456b",
+                    "count": 1
+                }
+            ],
+
+            "skills": {
+                "Endurance": {
+                    "startingLevel": 1000
+                },
+                "Strength": {
+                    "startingLevel": 1000
+                },
+                "Perception": {
+                    "startingLevel": 1000
+                },
+                "Attention": {
+                    "startingLevel": 1000
+                },
+                "Search": {
+                    "startingLevel": 1000
+                }
+            }
+        },
+        "VAI Rogue-lite: Jagermeister": {
+            "copySource": "Standard",
+            
+            "description": "Kill scav with a headshot on streets from 300 meters with all your limbs destroyed, tremor, pain, under obdolbos 2 effect and with 13 or less seconds left until raid end",
+            "actualDescription": "Starts with jaeger unlocked, small amount of money and 2 bottles of whiskey. \nFood station, water collector, lavatory and generator lvl 1. \nMax metabolism and immunity skills, high stress resistance skill.",
+
+            "tradersStanding": 0,
+            "jaegerUnlocked": true,
+
+            "completedQuests": [
+                "5d2495a886f77425cd51e403"
+            ],
+
+            "areas": {
+                "2": {
+                    "startingLevel": 1
+                },
+                "4": {
+                    "startingLevel": 1
+                },
+                "6": {
+                    "startingLevel": 1
+                },
+                "8": {
+                    "startingLevel": 1
+                }
+            },
+
+            "items": [
+                {
+                    "templateId": "5449016a4bdc2d6f028b456f",
+                    "count": 5000
+                },
+                {
+                    "templateId": "5734795124597738002c6176",
+                    "count": 3
+                },
+                {
+                    "templateId": "5e2af47786f7746d404f3aaa",
+                    "count": 3
+                },
+                {
+                    "templateId": "5d403f9186f7743cac3f229b",
+                    "count": 2
+                }
+            ],
+
+            "skills": {
+                "StressResistance": {
+                    "startingLevel": 4000
+                },
+                "Metabolism": {
+                    "startingLevel": 5100
+                },
+                "Immunity": {
+                    "startingLevel": 5100
+                },
+                "Charisma": {
+                    "startingLevel": 1000
+                }
+            }
+        },
+        "VAI Rogue-lite: Rat": {
+            "copySource": "Standard",
+            
+            "description": "Garbage collector",
+            "actualDescription": "Starts with junkbox and some money. \nLavatory lvl 1. \nMax search skills.",
+
+            "tradersStanding": 0,
+            "jaegerUnlocked": false,
+
+            "areas": {
+                "2": {
+                    "startingLevel": 1
+                }
+            },
+
+            "items": [
+                {
+                    "templateId": "5b7c710788a4506dec015957"
+                },
+                {
+                    "templateId": "5449016a4bdc2d6f028b456f",
+                    "count": 10000
+                },
+                {
+                    "templateId": "5e2af47786f7746d404f3aaa",
+                    "count": 3
+                },
+                {
+                    "templateId": "5672cb724bdc2dc2088b456b",
+                    "count": 1
+                }
+            ],
+
+            "skills": {
+                "Strength": {
+                    "startingLevel": 2000
+                },
+                "Attention": {
+                    "startingLevel": 5100
+                },
+                "Search": {
+                    "startingLevel": 5100
+                },
+                "Crafting": {
+                    "startingLevel": 2000
+                },
+                "HideoutManagement": {
+                    "startingLevel": 2000
+                }
+            }
+        },
+        "VAI Rogue-lite: Grenadier": {
+            "copySource": "Standard",
+
+            "description": "Boom, babey!",
+            "actualDescription": "Starts with grenade case and some money. \nLavatory, rest space and shooting range lvl 1. \nMax throwing skill, high strength skill.",
+            
+            "tradersStanding": 0,
+            "jaegerUnlocked": false,
+
+            "areas": {
+                "2": {
+                    "startingLevel": 1
+                },
+                "9": {
+                    "startingLevel": 1
+                },
+                "12": {
+                    "startingLevel": 1
+                }
+            },
+
+            "items": [
+                {
+                    "templateId": "5449016a4bdc2d6f028b456f",
+                    "count": 10000
+                },
+                {
+                    "templateId": "5e2af55f86f7746d4159f07c"
+                },
+                {
+                    "templateId": "5e2af47786f7746d404f3aaa",
+                    "count": 3
+                },
+                {
+                    "templateId": "5672cb724bdc2dc2088b456b",
+                    "count": 1
+                },
+                {
+                    "templateId": "56742c284bdc2d98058b456d",
+                    "count": 6
+                }
+            ],
+
+            "skills": {
+                "Endurance": {
+                    "startingLevel": 1000
+                },
+                "Strength": {
+                    "startingLevel": 3000
+                },
+                "Throwing": {
+                    "startingLevel": 5100
+                },
+                "Melee": {
+                    "startingLevel": 2000
+                }
+            }
+        },
+        "VAI Rogue-lite: Hatchling": {
+            "copySource": "Standard",
+
+            "description": "Tagilla wannabe",
+            "actualDescription": "Starts with Taiga. \nLavatory and rest space lvl 1. \nMax melee skill, high strength skill.",
+            
+            "tradersStanding": 0,
+            "jaegerUnlocked": false,
+
+            "areas": {
+                "2": {
+                    "startingLevel": 1
+                },
+                "9": {
+                    "startingLevel": 1
+                }
+            },
+
+            "items": [
+                {
+                    "templateId": "601948682627df266209af05"
+                },
+                {
+                    "templateId": "5e2af47786f7746d404f3aaa",
+                    "count": 3
+                }
+            ],
+
+            "skills": {
+                "Endurance": {
+                    "startingLevel": 1000
+                },
+                "Strength": {
+                    "startingLevel": 3000
+                },
+                "Vitality": {
+                    "startingLevel": 1000
+                },
+                "Health": {
+                    "startingLevel": 3000
+                },
+                "StressResistance": {
+                    "startingLevel": 2000
+                },
+                "Melee": {
+                    "startingLevel": 5100
+                }
+            }
+        },
+        "VAI Rogue-lite: Lab Goblin": {
+            "copySource": "Standard",
+
+            "description": "Average PVP enjoyer",
+            "actualDescription": "Starts with some skills. \nLavatory, Rest space and Workbench lvl 1. \nReceives 1 lab access card after death.",
+            
+            "tradersStanding": 0,
+            "jaegerUnlocked": false,
+
+            "areas": {
+                "2": {
+                    "startingLevel": 1
+                },
+                "9": {
+                    "startingLevel": 1
+                },
+                "10": {
+                    "startingLevel": 1
+                }
+            },
+
+            "items": [
+                {
+                    "templateId": "5c94bbff86f7747ee735c08f",
+                    "count": 1
+                }
+            ],
+            
+            "deathItems": [
+                {
+                    "templateId": "5c94bbff86f7747ee735c08f",
+                    "count": 1
+                }
+            ],
+
+            "skills": {
+                "Endurance": {
+                    "startingLevel": 1000
+                },
+                "Strength": {
+                    "startingLevel": 1000
+                },
+                "Vitality": {
+                    "startingLevel": 1000
+                },
+                "Health": {
+                    "startingLevel": 1000
+                },
+                "StressResistance": {
+                    "startingLevel": 2000
+                },
+                "Perception": {
+                    "startingLevel": 1000
+                },
+                "Assault": {
+                    "startingLevel": 1000
+                }
+            }
+        },
+        "VAI Rogue-lite: Kommersant": {
+            "copySource": "Standard",
+
+            "description": "Expert Estates",
+            "actualDescription": "Starts with a good amount of money, money case. \nSecurity, rest space, lavatory and generator lvl 1. \nReceives some money on extraction.",
+            
+            "tradersStanding": 0,
+            "jaegerUnlocked": false,
+
+            "areas": {
+                "1": {
+                    "startingLevel": 1
+                },
+                "2": {
+                    "startingLevel": 1
+                },
+                "4": {
+                    "startingLevel": 1
+                },
+                "9": {
+                    "startingLevel": 1
+                }
+            },
+
+            "items": [
+                {
+                    "templateId": "60b0f6c058e0b0481a09ad11"
+                },
+                {
+                    "templateId": "5449016a4bdc2d6f028b456f",
+                    "count": 40000
+                },
+                {
+                    "templateId": "569668774bdc2da2298b4568",
+                    "count": 200
+                },
+                {
+                    "templateId": "5696686a4bdc2da3298b456a",
+                    "count": 200
+                },
+                {
+                    "templateId": "5734795124597738002c6176",
+                    "count": 3
+                },
+                {
+                    "templateId": "5e2af47786f7746d404f3aaa",
+                    "count": 3
+                },
+                {
+                    "templateId": "5672cb724bdc2dc2088b456b",
+                    "count": 1
+                },
+                {
+                    "templateId": "59fb016586f7746d0d4b423a",
+                    "count": 1
+                }
+            ],
+
+            "surviveItems": [
+                {
+                    "templateId": "5449016a4bdc2d6f028b456f",
+                    "count": 4000
+                }
+            ],
+
+            "deathItems": [
+                {
+                    "templateId": "5449016a4bdc2d6f028b456f",
+                    "count": 1000
+                }
+            ],
+
+            "skills": {
+                "Crafting": {
+                    "startingLevel": 2000
+                },
+                "HideoutManagement": {
+                    "startingLevel": 2000
+                }
+            }
+        },
+        "VAI Rogue-lite: Zero to Hero": {
+            "copySource": "Standard",
+
+            "description": "Tedium express",
+            "actualDescription": "Starts with alpha container and a butter knife.",
+            
+            "tradersStanding": 0,
+            "jaegerUnlocked": false,
+
+            "areas": {},
+
+            "items": [],
+
+            "skills": {
+                "Endurance": {
+                    "startingLevel": 0
+                },
+                "Strength": {
+                    "startingLevel": 0
+                },
+                "Vitality": {
+                    "startingLevel": 0
+                },
+                "Health": {
+                    "startingLevel": 0
+                },
+                "StressResistance": {
+                    "startingLevel": 0
+                },
+                "Metabolism": {
+                    "startingLevel": 0
+                },
+                "Immunity": {
+                    "startingLevel": 0
+                },
+                "Perception": {
+                    "startingLevel": 0
+                },
+                "Intellect": {
+                    "startingLevel": 0
+                },
+                "Attention": {
+                    "startingLevel": 0
+                },
+                "Charisma": {
+                    "startingLevel": 0
+                },
+                "Memory": {
+                    "startingLevel": 0
+                },
+                "Pistol": {
+                    "startingLevel": 0
+                },
+                "Revolver": {
+                    "startingLevel": 0
+                },
+                "SMG": {
+                    "startingLevel": 0
+                },
+                "Assault": {
+                    "startingLevel": 0
+                },
+                "Shotgun": {
+                    "startingLevel": 0
+                },
+                "Sniper": {
+                    "startingLevel": 0
+                },
+                "LMG": {
+                    "startingLevel": 0
+                },
+                "HMG": {
+                    "startingLevel": 0
+                },
+                "Launcher": {
+                    "startingLevel": 0
+                },
+                "AttachedLauncher": {
+                    "startingLevel": 0
+                },
+                "Throwing": {
+                    "startingLevel": 0
+                },
+                "Melee": {
+                    "startingLevel": 0
+                },
+                "DMR": {
+                    "startingLevel": 0
+                },
+                "RecoilControl": {
+                    "startingLevel": 0
+                },
+                "AimDrills": {
+                    "startingLevel": 0
+                },
+                "TroubleShooting": {
+                    "startingLevel": 0
+                },
+                "Surgery": {
+                    "startingLevel": 0
+                },
+                "CovertMovement": {
+                    "startingLevel": 0
+                },
+                "Search": {
+                    "startingLevel": 0
+                },
+                "MagDrills": {
+                    "startingLevel": 0
+                },
+                "LightVests": {
+                    "startingLevel": 0
+                },
+                "HeavyVests": {
+                    "startingLevel": 0
+                },
+                "WeaponTreatment": {
+                    "startingLevel": 0
+                },
+                "Crafting": {
+                    "startingLevel": 0
+                },
+                "HideoutManagement": {
+                    "startingLevel": 0
+                }
+            }
+        },
+        "VAI Rogue-lite: True Zero to Hero": {
+            "copySource": "Standard",
+
+            "description": "Tedium central",
+            "actualDescription": "Starts with nothing.",
+            
+            "tradersStanding": 0,
+            "jaegerUnlocked": false,
+
+            "clearAllItems": true,
+
+            "areas": {},
+
+            "items": [],
+
+            "skills": {
+                "Endurance": {
+                    "startingLevel": 0
+                },
+                "Strength": {
+                    "startingLevel": 0
+                },
+                "Vitality": {
+                    "startingLevel": 0
+                },
+                "Health": {
+                    "startingLevel": 0
+                },
+                "StressResistance": {
+                    "startingLevel": 0
+                },
+                "Metabolism": {
+                    "startingLevel": 0
+                },
+                "Immunity": {
+                    "startingLevel": 0
+                },
+                "Perception": {
+                    "startingLevel": 0
+                },
+                "Intellect": {
+                    "startingLevel": 0
+                },
+                "Attention": {
+                    "startingLevel": 0
+                },
+                "Charisma": {
+                    "startingLevel": 0
+                },
+                "Memory": {
+                    "startingLevel": 0
+                },
+                "Pistol": {
+                    "startingLevel": 0
+                },
+                "Revolver": {
+                    "startingLevel": 0
+                },
+                "SMG": {
+                    "startingLevel": 0
+                },
+                "Assault": {
+                    "startingLevel": 0
+                },
+                "Shotgun": {
+                    "startingLevel": 0
+                },
+                "Sniper": {
+                    "startingLevel": 0
+                },
+                "LMG": {
+                    "startingLevel": 0
+                },
+                "HMG": {
+                    "startingLevel": 0
+                },
+                "Launcher": {
+                    "startingLevel": 0
+                },
+                "AttachedLauncher": {
+                    "startingLevel": 0
+                },
+                "Throwing": {
+                    "startingLevel": 0
+                },
+                "Melee": {
+                    "startingLevel": 0
+                },
+                "DMR": {
+                    "startingLevel": 0
+                },
+                "RecoilControl": {
+                    "startingLevel": 0
+                },
+                "AimDrills": {
+                    "startingLevel": 0
+                },
+                "TroubleShooting": {
+                    "startingLevel": 0
+                },
+                "Surgery": {
+                    "startingLevel": 0
+                },
+                "CovertMovement": {
+                    "startingLevel": 0
+                },
+                "Search": {
+                    "startingLevel": 0
+                },
+                "MagDrills": {
+                    "startingLevel": 0
+                },
+                "LightVests": {
+                    "startingLevel": 0
+                },
+                "HeavyVests": {
+                    "startingLevel": 0
+                },
+                "WeaponTreatment": {
+                    "startingLevel": 0
+                },
+                "Crafting": {
+                    "startingLevel": 0
+                },
+                "HideoutManagement": {
+                    "startingLevel": 0
+                }
+            }
+        },
+        "VAI Rogue-lite: Gungame": {
+            "copySource": "Standard",
+
+            "description": "Reverse gungame achsjdhfbghatually",
+            "actualDescription": "Starts with alpha and a butter knife. \nReceives a random weapon after death.",
+            
+            "tradersStanding": 0,
+            "jaegerUnlocked": false,
+
+            "clearAllItems": false,
+
+            "gungame": {
+                "enabled": true,
+
+                "presetCategories": [
+                    "__all__weapon__"
+                ],
+
+                "includePresets": [],
+                "excludePresets": []
+            },
+
+            "areas": {},
+
+            "items": [],
+
+            "skills": {}
+        },
+        "VAI Rogue-lite: Custom": {
+            "copySource": "Standard",
+
+            "description": "Go nuts!",
+            "actualDescription": "Custom built profile, go to <modfolder>/config/ProfilesConfig.json to edit. Restart server and create a new account in launcher after editing.",
+            
+            "tradersStanding": 0.0,
+            "jaegerUnlocked": false,
+
+            "clearAllItemsDescription": "Remove secured container and knife (And other unwipable items) before adding items from \"items\" array below",
+            "clearAllItems": false,
+
+            "completedQuestsDescription1": "Put quest ids that should be completed when profile is created (Requires client restart after selecting face/voice)",
+            "completedQuestsDescription2": "__all__ for all quests",
+            "completedQuests": [
+                "__all__"
+            ],
+
+            "areas": {
+                "0": {
+                    "desc": "Vents",
+                    "startingLevel": 0
+                },
+                "1": {
+                    "desc": "Security",
+                    "startingLevel": 0
+                },
+                "2": {
+                    "desc": "Lavatory",
+                    "startingLevel": 0
+                },
+                "3": {
+                    "desc": "Stash",
+                    "startingLevel": 1
+                },
+                "4": {
+                    "desc": "Generator",
+                    "startingLevel": 0
+                },
+                "5": {
+                    "desc": "Heating",
+                    "startingLevel": 0
+                },
+                "6": {
+                    "desc": "Water collector",
+                    "startingLevel": 0
+                },
+                "7": {
+                    "desc": "Med station",
+                    "startingLevel": 0
+                },
+                "8": {
+                    "desc": "Food station",
+                    "startingLevel": 0
+                },
+                "9": {
+                    "desc": "Rest space",
+                    "startingLevel": 0
+                },
+                "10": {
+                    "desc": "Workbench",
+                    "startingLevel": 0
+                },
+                "11": {
+                    "desc": "Intel center",
+                    "startingLevel": 0
+                },
+                "12": {
+                    "desc": "Shooting range",
+                    "startingLevel": 0
+                },
+                "13": {
+                    "desc": "Library",
+                    "startingLevel": 0
+                },
+                "14": {
+                    "desc": "Scav case",
+                    "startingLevel": 0
+                },
+                "15": {
+                    "desc": "Illumination",
+                    "startingLevel": 0
+                },
+                "17": {
+                    "desc": "Air filtering",
+                    "startingLevel": 0
+                },
+                "18": {
+                    "desc": "Solar power",
+                    "startingLevel": 0
+                },
+                "19": {
+                    "desc": "Booze gen",
+                    "startingLevel": 0
+                },
+                "20": {
+                    "desc": "Bitcoin",
+                    "startingLevel": 0
+                },
+                "21": {
+                    "desc": "Christmas tree",
+                    "startingLevel": 0
+                },
+                "22": {
+                    "desc": "Emergency wall",
+                    "startingLevel": 0
+                },
+                "23": {
+                    "desc": "Gym",
+                    "startingLevel": 0
+                }
+            },
+
+            "gungame": {
+                "enabled": false,
+
+                "gungamePresetsDescription1": "Preset categories to select a preset from",
+                "gungamePresetsDescription2": "__all__ for all",
+                "gungamePresetsDescription3": "__all__weapon__ for all weapons",
+                "gungamePresetsDescription4": "__all__armor__ for all armors",
+                "gungamePresetsDescription5": "__all__equipment__ for all attachments/equipment",
+                "gungamePresetsDescription6": "Or any number of categories from PresetsConfig",
+                "presetCategories": [
+                    "__all__weapon__"
+                ],
+
+                "includePresetsDescription": "Which presets to include into selection",
+                "includePresets": [],
+
+                "excludePresetsDescription": "Which presets to exclude from selection",
+                "excludePresets": []
+            },
+
+            "itemsDescription": "These items will be added to stash when profile is created",
+            "items": [
+                {
+                    "presetId": "TT_Std"
+                },
+                {
+                    "templateId": "5449016a4bdc2d6f028b456f",
+                    "count": 1
+                }
+            ],
+
+            "surviveItemsDescription": "These items will be added to stash each time player survives",
+            "surviveItems": [
+                {
+                    "presetId": "TT_Std"
+                },
+                {
+                    "templateId": "5449016a4bdc2d6f028b456f",
+                    "count": 1
+                }
+            ],
+
+            "deathItemsDescription": "These items will be added to stash each time player dies",
+            "deathItems": [
+                {
+                    "presetId": "TT_Std"
+                },
+                {
+                    "templateId": "5449016a4bdc2d6f028b456f",
+                    "count": 1
+                }
+            ],
+
+            "skillsDescription": "Elite level is 5100",
+            "skills": {
+                "Endurance": {
+                    "startingLevel": 0
+                },
+                "Strength": {
+                    "startingLevel": 0
+                },
+                "Vitality": {
+                    "startingLevel": 0
+                },
+                "Health": {
+                    "startingLevel": 0
+                },
+                "StressResistance": {
+                    "startingLevel": 0
+                },
+                "Metabolism": {
+                    "startingLevel": 0
+                },
+                "Immunity": {
+                    "startingLevel": 0
+                },
+                "Perception": {
+                    "startingLevel": 0
+                },
+                "Intellect": {
+                    "startingLevel": 0
+                },
+                "Attention": {
+                    "startingLevel": 0
+                },
+                "Charisma": {
+                    "startingLevel": 0
+                },
+                "Memory": {
+                    "startingLevel": 0
+                },
+                "Pistol": {
+                    "startingLevel": 0
+                },
+                "Revolver": {
+                    "startingLevel": 0
+                },
+                "SMG": {
+                    "startingLevel": 0
+                },
+                "Assault": {
+                    "startingLevel": 0
+                },
+                "Shotgun": {
+                    "startingLevel": 0
+                },
+                "Sniper": {
+                    "startingLevel": 0
+                },
+                "LMG": {
+                    "startingLevel": 0
+                },
+                "HMG": {
+                    "startingLevel": 0
+                },
+                "Launcher": {
+                    "startingLevel": 0
+                },
+                "AttachedLauncher": {
+                    "startingLevel": 0
+                },
+                "Throwing": {
+                    "startingLevel": 0
+                },
+                "Melee": {
+                    "startingLevel": 0
+                },
+                "DMR": {
+                    "startingLevel": 0
+                },
+                "RecoilControl": {
+                    "startingLevel": 0
+                },
+                "AimDrills": {
+                    "startingLevel": 0
+                },
+                "TroubleShooting": {
+                    "startingLevel": 0
+                },
+                "Surgery": {
+                    "startingLevel": 0
+                },
+                "CovertMovement": {
+                    "startingLevel": 0
+                },
+                "Search": {
+                    "startingLevel": 0
+                },
+                "MagDrills": {
+                    "startingLevel": 0
+                },
+                "LightVests": {
+                    "startingLevel": 0
+                },
+                "HeavyVests": {
+                    "startingLevel": 0
+                },
+                "WeaponTreatment": {
+                    "startingLevel": 0
+                },
+                "Crafting": {
+                    "startingLevel": 0
+                },
+                "HideoutManagement": {
+                    "startingLevel": 0
+                },
+
+
+
+                "FieldMedicine": {
+                    "startingLevel": 0
+                },
+                "Sniping": {
+                    "startingLevel": 0
+                },
+                "ProneMovement": {
+                    "startingLevel": 0
+                },
+                "FirstAid": {
+                    "startingLevel": 0
+                },
+                "WeaponModding": {
+                    "startingLevel": 0
+                },
+                "AdvancedModding": {
+                    "startingLevel": 0
+                },
+                "NightOps": {
+                    "startingLevel": 0
+                },
+                "SilentOps": {
+                    "startingLevel": 0
+                },
+                "Lockpicking": {
+                    "startingLevel": 0
+                },
+                "Freetrading": {
+                    "startingLevel": 0
+                },
+                "Auctions": {
+                    "startingLevel": 0
+                },
+                "Cleanoperations": {
+                    "startingLevel": 0
+                },
+                "Barter": {
+                    "startingLevel": 0
+                },
+                "Shadowconnections": {
+                    "startingLevel": 0
+                },
+                "Taskperformance": {
+                    "startingLevel": 0
+                }
+            }
+        }
+    }
+}

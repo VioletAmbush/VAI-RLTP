@@ -1,0 +1,13 @@
+{
+    "enabled": true,
+
+    "removeStatusEffectRemovePrices": false,
+    "removePostRaidHeal": true,
+
+    "removeTraderMoneyRequirements": true,
+    
+    "delayScavRun": true,
+
+    "disableFlea": true,
+    "disableFleaBlacklist": false
+}

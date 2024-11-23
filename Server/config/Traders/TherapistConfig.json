@@ -1,0 +1,3195 @@
+{
+    "enabled": true,
+    "traderAcr": "t",
+
+    "disableSell": true,
+    "clearAssort": true,
+    "disableInsurance": false,
+    "lockFromStart": false,
+
+    "moneyPriceMultiplier": 1,
+    
+    "categorizedItems": {
+        "Healing": [
+            {
+                "name": "AI-2",
+                "itemTemplateId": "5755356824597772cb798962",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 2200
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 20
+            },
+            {
+                "name": "Car med kit",
+                "itemTemplateId": "590c661e86f7741e566b646a",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 3000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "657315ddab5a49b71f098853"
+            },
+
+            {
+                "name": "IFAK",
+                "itemTemplateId": "590c678286f77426c9660122",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 4800
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "5969f90786f77420d2328015"
+            },
+            {
+                "name": "Salewa",
+                "itemTemplateId": "544fb45d4bdc2dee738b4568",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 5000
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "5969f9e986f7741dde183a50"
+            },
+
+            {
+                "name": "AFAK",
+                "itemTemplateId": "60098ad7c2240c0fe85c570a",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 8000
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "63ab180c87413d64ae0ac20a"
+            },
+            {
+                "name": "Grizzly",
+                "itemTemplateId": "590c657e86f77412b013051d",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 10000
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "6179ad56c760af5ad2053587"
+            }
+        ],
+        "Healing-1": [
+            {
+                "name": "AI-2",
+                "itemTemplateId": "5755356824597772cb798962",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 1600
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 5,
+                "questId": "7abcd0b96e471d97ba2d35f7"
+            },
+            {
+                "name": "Car med kit",
+                "itemTemplateId": "590c661e86f7741e566b646a",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 2200
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 3,
+                "questId": "34c2b062fed4b488d55d7963"
+            },
+
+            {
+                "name": "IFAK",
+                "itemTemplateId": "590c678286f77426c9660122",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 4000
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 3,
+                "questId": "e4955f36dadcac5b5180fb36"
+            },
+            {
+                "name": "Salewa",
+                "itemTemplateId": "544fb45d4bdc2dee738b4568",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 4200
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 3,
+                "questId": "7284ca25b86a3020eb9e337e"
+            },
+
+            {
+                "name": "AFAK",
+                "itemTemplateId": "60098ad7c2240c0fe85c570a",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 6500
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 3,
+                "questId": "f17a6093603ac392499886f8"
+            },
+            {
+                "name": "Grizzly",
+                "itemTemplateId": "590c657e86f77412b013051d",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 8000
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 3,
+                "questId": "b991aacfb8177c14ce4da1cf"
+            }
+        ],
+        "Healing-2": [
+            {
+                "name": "AI-2",
+                "itemTemplateId": "5755356824597772cb798962",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 1200
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 2,
+                "questId": "88eb68c5d20f777779389dd5"
+            },
+            {
+                "name": "Car med kit",
+                "itemTemplateId": "590c661e86f7741e566b646a",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 1800
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "7b62f4c8b3672431a7f02fea"
+            },
+
+            {
+                "name": "Salewa",
+                "itemTemplateId": "544fb45d4bdc2dee738b4568",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 3300
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "99bc54c456e0aff57eebd292"
+            },
+
+            {
+                "name": "AFAK",
+                "itemTemplateId": "60098ad7c2240c0fe85c570a",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 5200
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "f74a61f9024294eeee34ae84"
+            }
+        ],
+        "HealingBarters": [
+            {
+                "name": "AI-2",
+                "itemTemplateId": "5755356824597772cb798962",
+                "price": [
+                    {
+                        "templateId": "57347b8b24597737dd42e192",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 20
+            },
+            {
+                "name": "Car med kit",
+                "itemTemplateId": "590c661e86f7741e566b646a",
+                "price": [
+                    {
+                        "templateId": "57347b8b24597737dd42e192",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "657315ddab5a49b71f098853"
+            },
+
+            {
+                "name": "IFAK",
+                "itemTemplateId": "590c678286f77426c9660122",
+                "price": [
+                    {
+                        "templateId": "57347b8b24597737dd42e192",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af2bc86f7746d3f3c33fc",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "5969f90786f77420d2328015"
+            },
+            {
+                "name": "Salewa",
+                "itemTemplateId": "544fb45d4bdc2dee738b4568",
+                "price": [
+                    {
+                        "templateId": "57347b8b24597737dd42e192",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af2bc86f7746d3f3c33fc",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "5969f9e986f7741dde183a50"
+            },
+
+            {
+                "name": "AFAK",
+                "itemTemplateId": "60098ad7c2240c0fe85c570a",
+                "price": [
+                    {
+                        "templateId": "57347b8b24597737dd42e192",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "63ab180c87413d64ae0ac20a"
+            },
+            {
+                "name": "Grizzly",
+                "itemTemplateId": "590c657e86f77412b013051d",
+                "price": [
+                    {
+                        "templateId": "5e2af2bc86f7746d3f3c33fc",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "6179ad56c760af5ad2053587"
+            }
+        ],
+        "EffectRemovers": [
+            {
+                "name": "Esmarch",
+                "itemTemplateId": "5e831507ea0a7c419c2f9bd9",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 500
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 20
+            },
+            {
+                "name": "Aseptic bandage",
+                "itemTemplateId": "544fb25a4bdc2dfb738b4567",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 200
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 20
+            },
+            {
+                "name": "Immobilizing splint",
+                "itemTemplateId": "544fb3364bdc2d34748b456a",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 500
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 20
+            },
+            {
+                "name": "Analgin",
+                "itemTemplateId": "544fb37f4bdc2dee738b4567",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 200
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 20
+            },
+
+            {
+                "name": "CAT",
+                "itemTemplateId": "60098af40accd37ef2175f27",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 600
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 20,
+                "questId": "5969f90786f77420d2328015"
+            },
+            {
+                "name": "Army bandage",
+                "itemTemplateId": "5751a25924597722c463c472",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 500
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 20,
+                "questId": "5967733e86f774602332fc84"
+            },
+            {
+                "name": "CMS",
+                "itemTemplateId": "5d02778e86f774203e7dedbe",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 5000
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "596a1e6c86f7741ddc2d3206"
+            },
+            {
+                "name": "Vaseline",
+                "itemTemplateId": "5755383e24597772cb798966",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 1000
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "60896e28e4a85c72ef3fa301"
+            },
+
+            {
+                "name": "CALOK-B",
+                "itemTemplateId": "5e8488fa988a8701445df1e4",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 2000
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "596a0e1686f7741ddf17dbee"
+            },
+            {
+                "name": "Alu splint",
+                "itemTemplateId": "5af0454c86f7746bf20992e8",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 3000
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "5a68663e86f774501078f78a"
+            },
+            {
+                "name": "Surv12",
+                "itemTemplateId": "5d02797c86f774203f38e30a",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 20000
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "5a68665c86f774255929b4c7"
+            },
+            {
+                "name": "GoldenStar",
+                "itemTemplateId": "5751a89d24597722aa0e8db0",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 4000
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "5edaba7c0c502106f869bc02"
+            }
+        ],
+        "EffectRemovers-1": [
+            {
+                "name": "Esmarch",
+                "itemTemplateId": "5e831507ea0a7c419c2f9bd9",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 340
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "1d76b6729064cc5b56a538d5"
+            },
+            {
+                "name": "Aseptic bandage",
+                "itemTemplateId": "544fb25a4bdc2dfb738b4567",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 120
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "1d76b6729064cc5b56a538d5"
+            },
+            {
+                "name": "Immobilizing splint",
+                "itemTemplateId": "544fb3364bdc2d34748b456a",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 400
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "1d76b6729064cc5b56a538d5"
+            },
+            {
+                "name": "Analgin",
+                "itemTemplateId": "544fb37f4bdc2dee738b4567",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 100
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "1d76b6729064cc5b56a538d5"
+            },
+
+            {
+                "name": "CAT",
+                "itemTemplateId": "60098af40accd37ef2175f27",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 400
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "3f8b6a1cafa7622e56676862"
+            },
+            {
+                "name": "Army bandage",
+                "itemTemplateId": "5751a25924597722c463c472",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 300
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "3f8b6a1cafa7622e56676862"
+            },
+            {
+                "name": "CMS",
+                "itemTemplateId": "5d02778e86f774203e7dedbe",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 4200
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 5,
+                "questId": "074fe9fdec81af3df6f23fa2"
+            },
+
+            {
+                "name": "CALOK-B",
+                "itemTemplateId": "5e8488fa988a8701445df1e4",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 1500
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 5,
+                "questId": "217c183deeb16ab7f212af3c"
+            },
+            {
+                "name": "Alu splint",
+                "itemTemplateId": "5af0454c86f7746bf20992e8",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 2200
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 5,
+                "questId": "190859116ae18f48dca161a7"
+            },
+            {
+                "name": "Surv12",
+                "itemTemplateId": "5d02797c86f774203f38e30a",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 16000
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 3,
+                "questId": "24dcdc819f5be7adef84a465"
+            }
+        ],
+        "EffectRemovers-2": [
+            {
+                "name": "CALOK-B",
+                "itemTemplateId": "5e8488fa988a8701445df1e4",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 1100
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 5,
+                "questId": "5d0310ed9a0a651ef4fb62f6"
+            },
+            {
+                "name": "Surv12",
+                "itemTemplateId": "5d02797c86f774203f38e30a",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 13000
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 3,
+                "questId": "8a3351cb9b938395934dda75"
+            }
+        ],
+        "EffectRemoverBarters": [
+            {
+                "name": "Esmarch",
+                "itemTemplateId": "5e831507ea0a7c419c2f9bd9",
+                "price": [
+                    {
+                        "templateId": "5672cb124bdc2d1a0f8b4568",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 20
+            },
+            {
+                "name": "Aseptic bandage",
+                "itemTemplateId": "544fb25a4bdc2dfb738b4567",
+                "price": [
+                    {
+                        "templateId": "5672cb124bdc2d1a0f8b4568",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 20
+            },
+            {
+                "name": "Immobilizing splint",
+                "itemTemplateId": "544fb3364bdc2d34748b456a",
+                "price": [
+                    {
+                        "templateId": "5672cb124bdc2d1a0f8b4568",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 20
+            },
+            {
+                "name": "Analgin",
+                "itemTemplateId": "544fb37f4bdc2dee738b4567",
+                "price": [
+                    {
+                        "templateId": "5672cb124bdc2d1a0f8b4568",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 20
+            },
+
+            {
+                "name": "CAT",
+                "itemTemplateId": "60098af40accd37ef2175f27",
+                "price": [
+                    {
+                        "templateId": "5672cb124bdc2d1a0f8b4568",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 20,
+                "questId": "5969f90786f77420d2328015"
+            },
+            {
+                "name": "Army bandage",
+                "itemTemplateId": "5751a25924597722c463c472",
+                "price": [
+                    {
+                        "templateId": "5672cb124bdc2d1a0f8b4568",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 20,
+                "questId": "5967733e86f774602332fc84"
+            },
+            {
+                "name": "CMS",
+                "itemTemplateId": "5d02778e86f774203e7dedbe",
+                "price": [
+                    {
+                        "templateId": "5672cb124bdc2d1a0f8b4568",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5672cb304bdc2dc2088b456a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "596a1e6c86f7741ddc2d3206"
+            },
+            {
+                "name": "Vaseline",
+                "itemTemplateId": "5755383e24597772cb798966",
+                "price": [
+                    {
+                        "templateId": "5672cb124bdc2d1a0f8b4568",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5672cb304bdc2dc2088b456a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "60896e28e4a85c72ef3fa301"
+            },
+
+            {
+                "name": "CALOK-B",
+                "itemTemplateId": "5e8488fa988a8701445df1e4",
+                "price": [
+                    {
+                        "templateId": "5672cb124bdc2d1a0f8b4568",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5672cb304bdc2dc2088b456a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "596a0e1686f7741ddf17dbee"
+            },
+            {
+                "name": "Alu splint",
+                "itemTemplateId": "5af0454c86f7746bf20992e8",
+                "price": [
+                    {
+                        "templateId": "5672cb124bdc2d1a0f8b4568",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5672cb304bdc2dc2088b456a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "5a68663e86f774501078f78a"
+            },
+            {
+                "name": "Surv12",
+                "itemTemplateId": "5d02797c86f774203f38e30a",
+                "price": [
+                    {
+                        "templateId": "5672cb124bdc2d1a0f8b4568",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5672cb304bdc2dc2088b456a",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "5a68665c86f774255929b4c7"
+            },
+            {
+                "name": "GoldenStar",
+                "itemTemplateId": "5751a89d24597722aa0e8db0",
+                "price": [
+                    {
+                        "templateId": "5672cb124bdc2d1a0f8b4568",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5672cb304bdc2dc2088b456a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "5edaba7c0c502106f869bc02"
+            }
+        ],
+        "InjectorBarters": [
+            {
+                "name": "Morphine",
+                "itemTemplateId": "544fb3f34bdc2d03748b456a",
+                "price": [
+                    {
+                        "templateId": "59e361e886f774176c10a2a5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 5,
+                "questId": "5968eb3186f7741dde183a4d"
+            },
+            {
+                "name": "Adrenaline",
+                "itemTemplateId": "5c10c8fd86f7743d7d706df3",
+                "price": [
+                    {
+                        "templateId": "59e361e886f774176c10a2a5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 5,
+                "questId": "5968eb3186f7741dde183a4d"
+            },
+            {
+                "name": "SJ1",
+                "itemTemplateId": "5c0e531286f7747fa54205c2",
+                "price": [
+                    {
+                        "templateId": "59e361e886f774176c10a2a5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 5,
+                "questId": "5968eb3186f7741dde183a4d"
+            },
+            {
+                "name": "L1",
+                "itemTemplateId": "5ed515e03a40a50460332579",
+                "price": [
+                    {
+                        "templateId": "59e361e886f774176c10a2a5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 5,
+                "questId": "5968eb3186f7741dde183a4d"
+            },
+
+            {
+                "name": "3-(b-TG)",
+                "itemTemplateId": "5ed515c8d380ab312177c0fa",
+                "price": [
+                    {
+                        "templateId": "59e3606886f77417674759a5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 3,
+                "questId": "5969f90786f77420d2328015"
+            },
+            {
+                "name": "AHF1-M",
+                "itemTemplateId": "5ed515f6915ec335206e4152",
+                "price": [
+                    {
+                        "templateId": "59e3606886f77417674759a5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 3,
+                "questId": "5969f90786f77420d2328015"
+            },
+            {
+                "name": "Perfotoran",
+                "itemTemplateId": "637b6251104668754b72f8f9",
+                "price": [
+                    {
+                        "templateId": "59e3606886f77417674759a5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 3,
+                "questId": "5969f90786f77420d2328015"
+            },
+            {
+                "name": "2A2",
+                "itemTemplateId": "66507eabf5ddb0818b085b68",
+                "price": [
+                    {
+                        "templateId": "59e3606886f77417674759a5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 3,
+                "questId": "5969f90786f77420d2328015"
+            },
+            {
+                "name": "Propital",
+                "itemTemplateId": "5c0e530286f7747fa1419862",
+                "price": [
+                    {
+                        "templateId": "59e3606886f77417674759a5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 3,
+                "questId": "5969f90786f77420d2328015"
+            },
+            {
+                "name": "Zagustin",
+                "itemTemplateId": "5c0e533786f7747fa23f4d47",
+                "price": [
+                    {
+                        "templateId": "59e3606886f77417674759a5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 3,
+                "questId": "5969f90786f77420d2328015"
+            },
+
+            {
+                "name": "SJ6",
+                "itemTemplateId": "5c0e531d86f7747fa23f4d42",
+                "price": [
+                    {
+                        "templateId": "62a0a043cf4a99369e2624a5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 2,
+                "questId": "5edab736cc183c769d778bc2"
+            },
+            {
+                "name": "Trimadol",
+                "itemTemplateId": "637b620db7afa97bfc3d7009",
+                "price": [
+                    {
+                        "templateId": "62a0a043cf4a99369e2624a5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 2,
+                "questId": "5edab736cc183c769d778bc2"
+            },
+            {
+                "name": "M.U.L.E.",
+                "itemTemplateId": "5ed51652f6c34d2cc26336a1",
+                "price": [
+                    {
+                        "templateId": "62a0a043cf4a99369e2624a5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 2,
+                "questId": "5edab736cc183c769d778bc2"
+            },
+            {
+                "name": "Meldonin",
+                "itemTemplateId": "5ed5160a87bb8443d10680b5",
+                "price": [
+                    {
+                        "templateId": "62a0a043cf4a99369e2624a5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 2,
+                "questId": "5edab736cc183c769d778bc2"
+            },
+            {
+                "name": "PNB",
+                "itemTemplateId": "637b6179104668754b72f8f5",
+                "price": [
+                    {
+                        "templateId": "62a0a043cf4a99369e2624a5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 2,
+                "questId": "5edab736cc183c769d778bc2"
+            },
+            {
+                "name": "SJ12",
+                "itemTemplateId": "637b612fb7afa97bfc3d7005",
+                "price": [
+                    {
+                        "templateId": "62a0a043cf4a99369e2624a5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 2,
+                "questId": "5edab736cc183c769d778bc2"
+            },
+
+            {
+                "name": "SJ9",
+                "itemTemplateId": "5fca13ca637ee0341a484f46",
+                "price": [
+                    {
+                        "templateId": "62a0a043cf4a99369e2624a5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5edac34d0bb72a50635c2bfa"
+            },
+            {
+                "name": "eTG-c",
+                "itemTemplateId": "5c0e534186f7747fa1419867",
+                "price": [
+                    {
+                        "templateId": "62a0a043cf4a99369e2624a5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5edac34d0bb72a50635c2bfa"
+            },
+            {
+                "name": "P22",
+                "itemTemplateId": "5ed515ece452db0eb56fc028",
+                "price": [
+                    {
+                        "templateId": "62a0a043cf4a99369e2624a5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5edac34d0bb72a50635c2bfa"
+            },
+            {
+                "name": "xTG-12",
+                "itemTemplateId": "5fca138c2a7b221b2852a5c6",
+                "price": [
+                    {
+                        "templateId": "62a0a043cf4a99369e2624a5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5edac34d0bb72a50635c2bfa"
+            }
+        ],
+        "Food": [
+            {
+                "name": "Crackers",
+                "itemTemplateId": "5448ff904bdc2d6f028b456e",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 750
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 8
+            },
+
+            {
+                "name": "Rye croutons",
+                "itemTemplateId": "57347d3d245977448f7b7f61",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 750
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 8,
+                "questId": "657315ddab5a49b71f098853"
+            },
+            {
+                "name": "Herring",
+                "itemTemplateId": "57347d9c245977448b40fa85",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 2000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 5,
+                "questId": "657315ddab5a49b71f098853"
+            },
+
+            {
+                "name": "Peas",
+                "itemTemplateId": "57347d692459774491567cf1",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 4500
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 3,
+                "questId": "59689ee586f7740d1570bbd5"
+            },
+        
+            {
+                "name": "Tushonka Large",
+                "itemTemplateId": "57347da92459774491567cf5",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 3500
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 4,
+                "questId": "596a204686f774576d4c95de"
+            },
+
+            {
+                "name": "Iskra",
+                "itemTemplateId": "590c5d4b86f774784e1b9c45",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 5500
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 2,
+                "questId": "5a68661a86f774500f48afb0"
+            },
+
+            {
+                "name": "Tarker",
+                "itemTemplateId": "65815f0e647e3d7246384e14",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 4000
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 2,
+                "questId": "6179ad56c760af5ad2053587"
+            },
+
+            {
+                "name": "Sprats",
+                "itemTemplateId": "5bc9c29cd4351e003562b8a3",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 4750
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 2,
+                "questId": "64f3176921045e77405d63b5"
+            },
+            {
+                "name": "Sugar",
+                "itemTemplateId": "59e3577886f774176a362503",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 5000
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 2,
+                "questId": "64f3176921045e77405d63b5"
+            },
+
+            {
+                "name": "MRE",
+                "itemTemplateId": "590c5f0d86f77413997acfab",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 8500
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 2,
+                "questId": "596760e186f7741e11214d58"
+            }
+        ],
+        "Drink": [
+            {
+                "name": "Green tea",
+                "itemTemplateId": "575062b524597720a31c09a1",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 750
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10
+            },
+
+            {
+                "name": "Pineapple juice",
+                "itemTemplateId": "544fb62a4bdc2dfb738b4568",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 2300
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 6,
+                "questId": "657315ddab5a49b71f098853"
+            },
+
+            {
+                "name": "Tarcola",
+                "itemTemplateId": "57514643245977207f2c2d09",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 1250
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "59689ee586f7740d1570bbd5"
+            },
+
+            {
+                "name": "Water 0.6",
+                "itemTemplateId": "5448fee04bdc2dbc018b4567",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 3000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 5,
+                "questId": "596a204686f774576d4c95de"
+            },
+            {
+                "name": "Pevko",
+                "itemTemplateId": "62a09f32621468534a797acb",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 4000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10,
+                "questId": "596a204686f774576d4c95de"
+            },
+
+            {
+                "name": "Vodka",
+                "itemTemplateId": "5d40407c86f774318526545a",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 7000
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 4,
+                "questId": "596a0e1686f7741ddf17dbee"
+            },
+
+            {
+                "name": "Apple juice",
+                "itemTemplateId": "57513f07245977207e26a311",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 1750
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 5,
+                "questId": "5a68661a86f774500f48afb0"
+            },
+            {
+                "name": "Grand juice",
+                "itemTemplateId": "57513f9324597720a7128161",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 2100
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 5,
+                "questId": "5a68661a86f774500f48afb0"
+            },
+
+            {
+                "name": "Kvass",
+                "itemTemplateId": "5e8f3423fd7471236e6e3b64",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 4750
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 4,
+                "questId": "639135d89444fb141f4e6eea"
+            },
+
+            {
+                "name": "VITA juice",
+                "itemTemplateId": "57513fcc24597720a31c09a6",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 2200
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 6,
+                "questId": "6179ad56c760af5ad2053587"
+            },
+
+            {
+                "name": "Jack daniels",
+                "itemTemplateId": "5d403f9186f7743cac3f229b",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 10000
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 2,
+                "questId": "63ab180c87413d64ae0ac20a"
+            },
+
+            {
+                "name": "Max energy",
+                "itemTemplateId": "5751435d24597720a27126d1",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 2200
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "5edab736cc183c769d778bc2"
+            },
+
+            {
+                "name": "Aquamari",
+                "itemTemplateId": "5c0fa877d174af02a012e1cf",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 7000
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 4,
+                "questId": "64f3176921045e77405d63b5"
+            },
+
+            {
+                "name": "Hotrod",
+                "itemTemplateId": "5751496424597720a27126da",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 2000
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 4,
+                "questId": "596760e186f7741e11214d58"
+            },
+
+            {
+                "name": "Moonshine",
+                "itemTemplateId": "5d1b376e86f774252519444e",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 16000
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 2,
+                "questId": "5c0be5fc86f774467a116593"
+            },
+
+            {
+                "name": "Ratcola",
+                "itemTemplateId": "60b0f93284c20f0feb453da7",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 3500
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 4,
+                "questId": "5c0d1c4cd0928202a02a6f5c"
+            }
+        ],
+
+        "Items": [
+            {
+                "name": "Lab access card for roubles",
+                "itemTemplateId": "5c94bbff86f7747ee735c08f",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 200000
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 2
+            },
+            {
+                "name": "Blue tape for roubles",
+                "itemTemplateId": "5734795124597738002c6176",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 5000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 50
+            },
+            {
+                "name": "Duct tape for roubles",
+                "itemTemplateId": "57347c1124597737fb1379e3",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 15000
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 50
+            },
+            {
+                "name": "KEK tape for roubles",
+                "itemTemplateId": "5e2af29386f7746d4159f077",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 45000
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 50
+            }
+        ],
+        "Items-1": [
+            {
+                "name": "Blue tape for roubles",
+                "itemTemplateId": "5734795124597738002c6176",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 4000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 50,
+                "questId": "1e5180e06c2a2e78cb2e65e7"
+            },
+            {
+                "name": "Duct tape for roubles",
+                "itemTemplateId": "57347c1124597737fb1379e3",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 12000
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 50,
+                "questId": "53d9b2a9d613ebcd3ac5e6cc"
+            },
+            {
+                "name": "KEK tape for roubles",
+                "itemTemplateId": "5e2af29386f7746d4159f077",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 36000
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 50,
+                "questId": "f3ca7f352b874432677e5a4c"
+            }
+        ],
+        "Items-2": [
+            {
+                "name": "Blue tape for roubles",
+                "itemTemplateId": "5734795124597738002c6176",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 3000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 50,
+                "questId": "940ba2d8f7b0a458488dd487"
+            },
+            {
+                "name": "Duct tape for roubles",
+                "itemTemplateId": "57347c1124597737fb1379e3",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 9000
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 50,
+                "questId": "af44f052c38128508e0496b0"
+            }
+        ],
+
+        "ItemBartersLvl1": [
+            {
+                "name": "1x Kite => Wire",
+                "itemTemplateId": "5c06779c86f77426e00dd782",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 50
+            },
+            {
+                "name": "1x Chainlet => Light bulb",
+                "itemTemplateId": "5d1b392c86f77425243e98fe",
+                "price": [
+                    {
+                        "templateId": "573474f924597738002c6174",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 50
+            },
+            {
+                "name": "1x Apollo => Light bulb",
+                "itemTemplateId": "5d1b392c86f77425243e98fe",
+                "price": [
+                    {
+                        "templateId": "573475fb24597737fb1379e1",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 50
+            },
+            {
+                "name": "1x Apollo => Wire",
+                "itemTemplateId": "5c06779c86f77426e00dd782",
+                "price": [
+                    {
+                        "templateId": "573475fb24597737fb1379e1",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 50
+            },
+            {
+                "name": "1x Wire => Blue tape",
+                "itemTemplateId": "5734795124597738002c6176",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 50
+            },
+            {
+                "name": "1x Light bulb => Blue tape",
+                "itemTemplateId": "5734795124597738002c6176",
+                "price": [
+                    {
+                        "templateId": "5d1b392c86f77425243e98fe",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 50
+            },
+
+            {
+                "name": "2x Blue tape => Wire",
+                "itemTemplateId": "5c06779c86f77426e00dd782",
+                "price": [
+                    {
+                        "templateId": "5734795124597738002c6176",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 50
+            },
+            {
+                "name": "2x Blue tape => Light bulb",
+                "itemTemplateId": "5d1b392c86f77425243e98fe",
+                "price": [
+                    {
+                        "templateId": "5734795124597738002c6176",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 50
+            },
+            {
+                "name": "2x Wire => Kite",
+                "itemTemplateId": "590c5a7286f7747884343aea",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 50
+            },
+            {
+                "name": "2x Wire => Fleece",
+                "itemTemplateId": "5e2af47786f7746d404f3aaa",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 50
+            },
+            {
+                "name": "2x Light bulb => Chainlet",
+                "itemTemplateId": "573474f924597738002c6174",
+                "price": [
+                    {
+                        "templateId": "5d1b392c86f77425243e98fe",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 50
+            },
+            {
+                "name": "2x Light bulb => Apollo",
+                "itemTemplateId": "573475fb24597737fb1379e1",
+                "price": [
+                    {
+                        "templateId": "5d1b392c86f77425243e98fe",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 50
+            },
+            
+            {
+                "name": "1x Blue tape => Corrugated hose",
+                "itemTemplateId": "59e35cbb86f7741778269d83",
+                "price": [
+                    {
+                        "templateId": "5734795124597738002c6176",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 50
+            },
+            {
+                "name": "1x Mil corrugated hose => Corrugated hose",
+                "itemTemplateId": "59e35cbb86f7741778269d83",
+                "price": [
+                    {
+                        "templateId": "619cbf476b8a1b37a54eebf8",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 50
+            },
+            {
+                "name": "4x Corrugated hose => Mil corrugated hose",
+                "itemTemplateId": "619cbf476b8a1b37a54eebf8",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 4
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 50
+            }
+        ],
+        "ItemBartersLvl2": [
+            {
+                "name": "1x Eagle => Power cord",
+                "itemTemplateId": "59e36c6f86f774176c10a2a7",
+                "price": [
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 50
+            },
+            {
+                "name": "1x Gold chain => ES Lamp",
+                "itemTemplateId": "590a3cd386f77436f20848cb",
+                "price": [
+                    {
+                        "templateId": "5734758f24597738025ee253",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 50
+            },
+            {
+                "name": "1x Malboro => ES Lamp",
+                "itemTemplateId": "590a3cd386f77436f20848cb",
+                "price": [
+                    {
+                        "templateId": "573476d324597737da2adc13",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 50
+            },
+            {
+                "name": "1x Malboro => Power cord",
+                "itemTemplateId": "59e36c6f86f774176c10a2a7",
+                "price": [
+                    {
+                        "templateId": "573476d324597737da2adc13",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 50
+            },
+            {
+                "name": "1x Power cord => Duct tape",
+                "itemTemplateId": "57347c1124597737fb1379e3",
+                "price": [
+                    {
+                        "templateId": "59e36c6f86f774176c10a2a7",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 50
+            },
+            {
+                "name": "1x ES Lamp => Duct tape",
+                "itemTemplateId": "57347c1124597737fb1379e3",
+                "price": [
+                    {
+                        "templateId": "590a3cd386f77436f20848cb",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 50
+            },
+
+            {
+                "name": "2x Duct tape => Power cord",
+                "itemTemplateId": "59e36c6f86f774176c10a2a7",
+                "price": [
+                    {
+                        "templateId": "57347c1124597737fb1379e3",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 50
+            },
+            {
+                "name": "2x Duct tape => ES Lamp",
+                "itemTemplateId": "590a3cd386f77436f20848cb",
+                "price": [
+                    {
+                        "templateId": "57347c1124597737fb1379e3",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 50
+            },
+            {
+                "name": "2x Power cord => Eagle",
+                "itemTemplateId": "5d6fc78386f77449d825f9dc",
+                "price": [
+                    {
+                        "templateId": "59e36c6f86f774176c10a2a7",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 50
+            },
+            {
+                "name": "2x Power cord => Cordura",
+                "itemTemplateId": "5e2af41e86f774755a234b67",
+                "price": [
+                    {
+                        "templateId": "59e36c6f86f774176c10a2a7",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 50
+            },
+            {
+                "name": "2x ES Lamp => Gold chain",
+                "itemTemplateId": "5734758f24597738025ee253",
+                "price": [
+                    {
+                        "templateId": "590a3cd386f77436f20848cb",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 50
+            },
+            {
+                "name": "2x ES Lamp => Malboro",
+                "itemTemplateId": "573476d324597737da2adc13",
+                "price": [
+                    {
+                        "templateId": "590a3cd386f77436f20848cb",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 50
+            },
+
+            {
+                "name": "1x Duct tape => Blue tape",
+                "itemTemplateId": "5734795124597738002c6176",
+                "price": [
+                    {
+                        "templateId": "57347c1124597737fb1379e3",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 50
+            },
+            {
+                "name": "3x Blue tape => Duct tape",
+                "itemTemplateId": "57347c1124597737fb1379e3",
+                "price": [
+                    {
+                        "templateId": "5734795124597738002c6176",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 50
+            },
+            {
+                "name": "1x Gold chain => Chainlet",
+                "itemTemplateId": "573474f924597738002c6174",
+                "price": [
+                    {
+                        "templateId": "5734758f24597738025ee253",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 50
+            },
+            {
+                "name": "1x Malboro => Apollo",
+                "itemTemplateId": "573475fb24597737fb1379e1",
+                "price": [
+                    {
+                        "templateId": "573476d324597737da2adc13",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 50
+            },
+            {
+                "name": "1x Eagle => Kite",
+                "itemTemplateId": "590c5a7286f7747884343aea",
+                "price": [
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 50
+            },
+            {
+                "name": "1x ES Lamp => Bulb",
+                "itemTemplateId": "5d1b392c86f77425243e98fe",
+                "price": [
+                    {
+                        "templateId": "590a3cd386f77436f20848cb",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 50
+            },
+            {
+                "name": "1x Power cord => Wire",
+                "itemTemplateId": "5c06779c86f77426e00dd782",
+                "price": [
+                    {
+                        "templateId": "59e36c6f86f774176c10a2a7",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 50
+            },
+            {
+                "name": "1x Cordura => Fleece",
+                "itemTemplateId": "5e2af47786f7746d404f3aaa",
+                "price": [
+                    {
+                        "templateId": "5e2af41e86f774755a234b67",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 50
+            }
+        ],
+        "ItemBartersLvl3": [
+            {
+                "name": "1x Hawk => Mil cable",
+                "itemTemplateId": "5d0375ff86f774186372f685",
+                "price": [
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 50
+            },
+            {
+                "name": "1x Prokill => UV Lamp",
+                "itemTemplateId": "590a3d9c86f774385926e510",
+                "price": [
+                    {
+                        "templateId": "5c1267ee86f77416ec610f72",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 50
+            },
+            {
+                "name": "1x Strike => UV Lamp",
+                "itemTemplateId": "590a3d9c86f774385926e510",
+                "price": [
+                    {
+                        "templateId": "5734770f24597738025ee254",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 50
+            },
+            {
+                "name": "1x Strike => Mil cable",
+                "itemTemplateId": "5d0375ff86f774186372f685",
+                "price": [
+                    {
+                        "templateId": "5734770f24597738025ee254",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 50
+            },
+            {
+                "name": "1x Mil cable => KEK",
+                "itemTemplateId": "5e2af29386f7746d4159f077",
+                "price": [
+                    {
+                        "templateId": "5d0375ff86f774186372f685",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 50
+            },
+            {
+                "name": "1x UV Lamp => KEK",
+                "itemTemplateId": "5e2af29386f7746d4159f077",
+                "price": [
+                    {
+                        "templateId": "590a3d9c86f774385926e510",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 50
+            },
+
+            {
+                "name": "2x KEK => Mil cable",
+                "itemTemplateId": "5d0375ff86f774186372f685",
+                "price": [
+                    {
+                        "templateId": "5e2af29386f7746d4159f077",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 50
+            },
+            {
+                "name": "2x KEK => UV Lamp",
+                "itemTemplateId": "590a3d9c86f774385926e510",
+                "price": [
+                    {
+                        "templateId": "5e2af29386f7746d4159f077",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 50
+            },
+            {
+                "name": "2x Mil cable => Hawk",
+                "itemTemplateId": "5d6fc87386f77449db3db94e",
+                "price": [
+                    {
+                        "templateId": "5d0375ff86f774186372f685",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 50
+            },
+            {
+                "name": "2x Mil cable => Aramid",
+                "itemTemplateId": "5e2af4d286f7746d4159f07a",
+                "price": [
+                    {
+                        "templateId": "5d0375ff86f774186372f685",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 50
+            },
+            {
+                "name": "2x UV Lamp => Prokill",
+                "itemTemplateId": "5c1267ee86f77416ec610f72",
+                "price": [
+                    {
+                        "templateId": "590a3d9c86f774385926e510",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 50
+            },
+            {
+                "name": "2x UV Lamp => Strike",
+                "itemTemplateId": "5734770f24597738025ee254",
+                "price": [
+                    {
+                        "templateId": "590a3d9c86f774385926e510",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 50
+            },
+            
+            {
+                "name": "1x KEK => Duct tape",
+                "itemTemplateId": "57347c1124597737fb1379e3",
+                "price": [
+                    {
+                        "templateId": "5e2af29386f7746d4159f077",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 50
+            },
+            {
+                "name": "3x Duct tape => KEK tape",
+                "itemTemplateId": "5e2af29386f7746d4159f077",
+                "price": [
+                    {
+                        "templateId": "57347c1124597737fb1379e3",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 50
+            },
+            {
+                "name": "1x Prokill => Gold chain",
+                "itemTemplateId": "5734758f24597738025ee253",
+                "price": [
+                    {
+                        "templateId": "5c1267ee86f77416ec610f72",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 50
+            },
+            {
+                "name": "1x Strike => Malboro",
+                "itemTemplateId": "573476d324597737da2adc13",
+                "price": [
+                    {
+                        "templateId": "5734770f24597738025ee254",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 50
+            },
+            {
+                "name": "1x Hawk => Eagle",
+                "itemTemplateId": "5d6fc78386f77449d825f9dc",
+                "price": [
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 50
+            },
+            {
+                "name": "1x Ultrviolet => ES Lamp",
+                "itemTemplateId": "590a3cd386f77436f20848cb",
+                "price": [
+                    {
+                        "templateId": "590a3d9c86f774385926e510",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 50
+            },
+            {
+                "name": "1x Mil cable => Power cord",
+                "itemTemplateId": "59e36c6f86f774176c10a2a7",
+                "price": [
+                    {
+                        "templateId": "5d0375ff86f774186372f685",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 50
+            },
+            {
+                "name": "1x Aramid => Cordura",
+                "itemTemplateId": "5e2af41e86f774755a234b67",
+                "price": [
+                    {
+                        "templateId": "5e2af4d286f7746d4159f07a",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 50
+            }
+        ],
+        "ItemBartersLvl4": [
+            {
+                "name": "1x Thermite => Fake mustashe",
+                "itemTemplateId": "5bd073a586f7747e6f135799",
+                "price": [
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 50
+            },
+            {
+                "name": "1x Silver badge => Gold egg",
+                "itemTemplateId": "62a09cfe4f842e1bd12da3e4",
+                "price": [
+                    {
+                        "templateId": "5bc9bdb8d4351e003562b8a1",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 50
+            },
+            {
+                "name": "1x Wilston => Gold egg",
+                "itemTemplateId": "62a09cfe4f842e1bd12da3e4",
+                "price": [
+                    {
+                        "templateId": "573476f124597737e04bf328",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 50
+            },
+            {
+                "name": "1x Wilston => Fake mustashe",
+                "itemTemplateId": "5bd073a586f7747e6f135799",
+                "price": [
+                    {
+                        "templateId": "573476f124597737e04bf328",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 50
+            },
+            {
+                "name": "1x Fake mustashe => Press pass",
+                "itemTemplateId": "62a09cb7a04c0c5c6e0a84f8",
+                "price": [
+                    {
+                        "templateId": "5bd073a586f7747e6f135799",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 50
+            },
+            {
+                "name": "1x Gold egg => Press pass",
+                "itemTemplateId": "62a09cb7a04c0c5c6e0a84f8",
+                "price": [
+                    {
+                        "templateId": "62a09cfe4f842e1bd12da3e4",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 50
+            },
+
+            {
+                "name": "2x Press pass => Fake mustashe",
+                "itemTemplateId": "5bd073a586f7747e6f135799",
+                "price": [
+                    {
+                        "templateId": "62a09cb7a04c0c5c6e0a84f8",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 50
+            },
+            {
+                "name": "2x Press pass => Gold egg",
+                "itemTemplateId": "62a09cfe4f842e1bd12da3e4",
+                "price": [
+                    {
+                        "templateId": "62a09cb7a04c0c5c6e0a84f8",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 50
+            },
+            {
+                "name": "2x Fake mustashe => Thermite",
+                "itemTemplateId": "60391a8b3364dc22b04d0ce5",
+                "price": [
+                    {
+                        "templateId": "5bd073a586f7747e6f135799",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 50
+            },
+            {
+                "name": "2x Fake mustashe => Pestily",
+                "itemTemplateId": "5e54f79686f7744022011103",
+                "price": [
+                    {
+                        "templateId": "5bd073a586f7747e6f135799",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 50
+            },
+            {
+                "name": "2x Gold egg => Silver badge",
+                "itemTemplateId": "5bc9bdb8d4351e003562b8a1",
+                "price": [
+                    {
+                        "templateId": "62a09cfe4f842e1bd12da3e4",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 50
+            },
+            {
+                "name": "2x Gold egg => Wilston",
+                "itemTemplateId": "573476f124597737e04bf328",
+                "price": [
+                    {
+                        "templateId": "62a09cfe4f842e1bd12da3e4",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 50
+            },
+
+            {
+                "name": "1x Press pass => KEK",
+                "itemTemplateId": "5e2af29386f7746d4159f077",
+                "price": [
+                    {
+                        "templateId": "62a09cb7a04c0c5c6e0a84f8",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 50
+            },
+            {
+                "name": "3x KEK tape => Press pass",
+                "itemTemplateId": "62a09cb7a04c0c5c6e0a84f8",
+                "price": [
+                    {
+                        "templateId": "5e2af29386f7746d4159f077",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 50
+            },
+            {
+                "name": "1x Silver badge => Prokill",
+                "itemTemplateId": "5c1267ee86f77416ec610f72",
+                "price": [
+                    {
+                        "templateId": "5bc9bdb8d4351e003562b8a1",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 50
+            },
+            {
+                "name": "1x Wilston => Strike",
+                "itemTemplateId": "5734770f24597738025ee254",
+                "price": [
+                    {
+                        "templateId": "573476f124597737e04bf328",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 50
+            },
+            {
+                "name": "1x Thermite => Hawk",
+                "itemTemplateId": "5d6fc87386f77449db3db94e",
+                "price": [
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 50
+            },
+            {
+                "name": "1x Gold egg => Ultrviolet",
+                "itemTemplateId": "590a3d9c86f774385926e510",
+                "price": [
+                    {
+                        "templateId": "62a09cfe4f842e1bd12da3e4",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 50
+            },
+            {
+                "name": "1x Fake mustache => Mil cable",
+                "itemTemplateId": "5d0375ff86f774186372f685",
+                "price": [
+                    {
+                        "templateId": "5bd073a586f7747e6f135799",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 50
+            },
+            {
+                "name": "1x Pestily => Aramid",
+                "itemTemplateId": "5e2af4d286f7746d4159f07a",
+                "price": [
+                    {
+                        "templateId": "5e54f79686f7744022011103",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 50
+            }
+        ],
+
+        "MoneyBarters": [
+            {
+                "name": "150x RUB => 1x USD",
+                "itemTemplateId": "5696686a4bdc2da3298b456a",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 150
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 100000
+            },
+            {
+                "name": "200x RUB => 1x EUR",
+                "itemTemplateId": "569668774bdc2da2298b4568",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 200
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 100000
+            },
+
+            {
+                "name": "135x RUB => 1x USD",
+                "itemTemplateId": "5696686a4bdc2da3298b456a",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 135
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 20000
+            },
+            {
+                "name": "170x RUB => 1x EUR",
+                "itemTemplateId": "569668774bdc2da2298b4568",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 170
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 20000
+            },
+
+            {
+                "name": "120x RUB => 1x USD",
+                "itemTemplateId": "5696686a4bdc2da3298b456a",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 120
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 5000
+            },
+            {
+                "name": "140x RUB => 1x EUR",
+                "itemTemplateId": "569668774bdc2da2298b4568",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 140
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 5000
+            },
+
+            {
+                "name": "90x RUB => 1x USD",
+                "itemTemplateId": "5696686a4bdc2da3298b456a",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 90
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 2000
+            },
+            {
+                "name": "100x RUB => 1x EUR",
+                "itemTemplateId": "569668774bdc2da2298b4568",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 100
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 2000
+            }
+        ],
+
+        "Containers": [
+            {
+                "name": "Wallet",
+                "itemTemplateId": "5783c43d2459774bbe137486",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 20000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "59689ee586f7740d1570bbd5"
+            },
+            {
+                "name": "Keycard holder",
+                "itemTemplateId": "619cbf9e0a7c3a1a2731940a",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 50000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "59689fbd86f7740d137ebfc4"
+            },
+
+            {
+                "name": "Injector case",
+                "itemTemplateId": "619cbf7d23893217ec30b689",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 120000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "5968eb3186f7741dde183a4d"
+            },
+            {
+                "name": "Dogtag case",
+                "itemTemplateId": "5c093e3486f77430cb02e593",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 200000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "5969f9e986f7741dde183a50"
+            },
+            {
+                "name": "Ammo case",
+                "itemTemplateId": "5aafbde786f774389d0cbc0f",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 400000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "596a204686f774576d4c95de"
+            },
+            {
+                "name": "Holodilnik",
+                "itemTemplateId": "5c093db286f7740a1b2617e3",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 275000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "596a1e6c86f7741ddc2d3206"
+            },
+            {
+                "name": "Pistol case",
+                "itemTemplateId": "567143bf4bdc2d1a0f8b4567",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 500000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "596a218586f77420d232807c"
+            },
+            {
+                "name": "Gingy keychain",
+                "itemTemplateId": "62a09d3bcf4a99369e262447",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 110000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "596a218586f77420d232807c"
+            },
+            {
+                "name": "Scav junkbox",
+                "itemTemplateId": "5b7c710788a4506dec015957",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 700000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "60896e28e4a85c72ef3fa301"
+            },
+            {
+                "name": "Grenade case",
+                "itemTemplateId": "5e2af55f86f7746d4159f07c",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 150000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "639135d89444fb141f4e6eea"
+            },
+            {
+                "name": "Keytool",
+                "itemTemplateId": "59fafd4b86f7745ca07e1232",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 420000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "5a68663e86f774501078f78a"
+            },
+            {
+                "name": "Weapons case",
+                "itemTemplateId": "59fb023c86f7746d0d4b423c",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 700000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "639135e0fa894f0a866afde6"
+            },
+            {
+                "name": "Mags case",
+                "itemTemplateId": "5c127c4486f7745625356c13",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 180000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "64f731ab83cfca080a361e42"
+            },
+            {
+                "name": "Docs case",
+                "itemTemplateId": "590c60fc86f77412b13fddcf",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 450000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "5edaba7c0c502106f869bc02"
+            },
+            {
+                "name": "Med case",
+                "itemTemplateId": "5aafbcd986f7745e590fff23",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 300000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "6179afd0bca27a099552e040"
+            },
+            {
+                "name": "Items case",
+                "itemTemplateId": "59fb042886f7746c5005a7b2",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 800000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "6573387d0b26ed4fde798de3"
+            },
+            {
+                "name": "Money case",
+                "itemTemplateId": "59fb016586f7746d0d4b423a",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 225000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "6573387d0b26ed4fde798de3"
+            },
+            {
+                "name": "SICC case",
+                "itemTemplateId": "5d235bb686f77443f4331278",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 800000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "5a68669a86f774255929b4d4"
+            },
+            {
+                "name": "THICC items",
+                "itemTemplateId": "5c0a840b86f7742ffa4f2482",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 3300000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "60e71c48c1bfa3050473b8e5"
+            },
+            {
+                "name": "THICC weapons",
+                "itemTemplateId": "5b6d9ce188a4501afc1b2b25",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 2500000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "60e71c48c1bfa3050473b8e5"
+            }
+        ],
+
+        "QuestKeysLvl1": [
+            {
+                "name": "Dorm 206",
+                "itemTemplateId": "5938603e86f77435642354f4",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 6000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "5967733e86f774602332fc84"
+            },
+            {
+                "name": "Tarcone directors",
+                "itemTemplateId": "5780d0532459777a5108b9a2",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 20000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "5967733e86f774602332fc84"
+            }
+        ],
+        "QuestKeysLvl2": [
+            {
+                "name": "Dorm 114",
+                "itemTemplateId": "59387a4986f77401cc236e62",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 35000
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "5a68661a86f774500f48afb0"
+            },
+            {
+                "name": "West 306",
+                "itemTemplateId": "5a13f46386f7741dd7384b04",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 15000
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "5a68661a86f774500f48afb0"
+            },
+            {
+                "name": "Dorm 303",
+                "itemTemplateId": "593aa4be86f77457f56379f8",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 10000
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "5a68661a86f774500f48afb0"
+            },
+            {
+                "name": "Dorm 220",
+                "itemTemplateId": "5780cfa52459777dfb276eb1",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 15000
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "5a68661a86f774500f48afb0"
+            },
+            {
+                "name": "Operating room key",
+                "itemTemplateId": "62987da96188c076bc0d8c51",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 20000
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "5a68661a86f774500f48afb0"
+            },
+            {
+                "name": "OLI Logistics",
+                "itemTemplateId": "5ad5cfbd86f7742c825d6104",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 50000
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "5a68661a86f774500f48afb0"
+            },
+            {
+                "name": "Portable bunkhouse key",
+                "itemTemplateId": "5938144586f77473c2087145",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 8000
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "5a68661a86f774500f48afb0"
+            }
+        ],
+        "QuestKeysLvl3": [
+            {
+                "name": "RB-KSM",
+                "itemTemplateId": "5d947d4e86f774447b415895",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 50000
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5a68665c86f774255929b4c7"
+            },
+            {
+                "name": "RB-SMP",
+                "itemTemplateId": "5d947d3886f774447b415893",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 40000
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5a68665c86f774255929b4c7"
+            },
+            {
+                "name": "Cottage back door",
+                "itemTemplateId": "5a0eb6ac86f7743124037a28",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 35000
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5a68665c86f774255929b4c7"
+            },
+            {
+                "name": "X-ray",
+                "itemTemplateId": "64ccc246ff54fb38131acf29",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 25000
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5a68665c86f774255929b4c7"
+            },
+            {
+                "name": "Dorm 203",
+                "itemTemplateId": "5938504186f7740991483f30",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 15000
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5a68665c86f774255929b4c7"
+            },
+            {
+                "name": "West 220",
+                "itemTemplateId": "5a0ee34586f774023b6ee092",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 30000
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5a68665c86f774255929b4c7"
+            },
+            {
+                "name": "East 308",
+                "itemTemplateId": "5a145d7b86f7744cbb6f4a13",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 45000
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5a68665c86f774255929b4c7"
+            },
+            {
+                "name": "RB-ST",
+                "itemTemplateId": "5d9f1fa686f774726974a992",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 70000
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5a68665c86f774255929b4c7"
+            },
+            {
+                "name": "Concordia sec",
+                "itemTemplateId": "63a39c7964283b5e9c56b280",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 30000
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5a68665c86f774255929b4c7"
+            },
+            {
+                "name": "Pinewood 215",
+                "itemTemplateId": "63a39f08cd6db0635c197600",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 80000
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5a68665c86f774255929b4c7"
+            }
+        ],
+        "QuestKeysLvl4": [
+            {
+                "name": "Factory key",
+                "itemTemplateId": "5448ba0b4bdc2d02308b456c",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 100000
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5a68667486f7742607157d28"
+            },
+            {
+                "name": "West 112",
+                "itemTemplateId": "5a0dc95c86f77452440fc675",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 40000
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5a68667486f7742607157d28"
+            },
+            {
+                "name": "Emercom",
+                "itemTemplateId": "5ad5db3786f7743568421cce",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 60000
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5a68667486f7742607157d28"
+            },
+            {
+                "name": "Iron gate",
+                "itemTemplateId": "63a39f6e64283b5e9c56b289",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 20000
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5a68667486f7742607157d28"
+            },
+            {
+                "name": "Check 15",
+                "itemTemplateId": "63a39fc0af870e651d58e6ae",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 40000
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5a68667486f7742607157d28"
+            },
+            {
+                "name": "East 328",
+                "itemTemplateId": "5a0eee1486f77402aa773226",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 35000
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5a68667486f7742607157d28"
+            },
+            {
+                "name": "Negotiation room",
+                "itemTemplateId": "6582dbe43a2e5248357dbe9a",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 70000
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5a68667486f7742607157d28"
+            }
+        ]
+    }
+}
