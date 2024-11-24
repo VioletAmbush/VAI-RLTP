@@ -51,7 +51,14 @@ Most gear have to be bartered. The premise is simple:
 And so on.
 
 
-5. Profiles
+5. Quests
+
+There are over 500 new quests in total.
+All new quests are optional and are not required for main questline.
+New quests provide money and gear/weapon unlocks.
+
+
+6. Profiles
 
 There are 15 new profile presets (plus gungame, plus custom) to choose from.
 You must create new profile with one of the new presets for this mod to work properly.
