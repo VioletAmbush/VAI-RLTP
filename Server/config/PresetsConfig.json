@@ -56957,6 +56957,534 @@
                     }
                 }
             ]
+        },
+
+        "Ammoboxes": {
+            "9x18 RG028 16 rnd box": [
+                {
+                    "_id": "6fd0257593f2393e1255f4d5",
+                    "_tpl": "5737287724597765e1625ae2",
+                    "parentId": "664113fa049fd2369707c4eb",
+                    "slotId": "main",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                },
+                {
+                    "_id": "44d942fdd7531da404b96411",
+                    "_tpl": "573720e02459776143012541",
+                    "parentId": "6fd0257593f2393e1255f4d5",
+                    "slotId": "cartridges",
+                    "location": 0,
+                    "upd": {
+                        "StackObjectsCount": 16
+                    }
+                }
+            ],
+            "9x18 RG028 50 rnd box": [
+                {
+                    "_id": "fdd765a0357e2929219fb30e",
+                    "_tpl": "65702630cfc010a0f5006a4a",
+                    "parentId": "664113fa049fd2369707c4eb",
+                    "slotId": "main",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                },
+                {
+                    "_id": "48ec355329065fe2b415c0ec",
+                    "_tpl": "573720e02459776143012541",
+                    "parentId": "fdd765a0357e2929219fb30e",
+                    "slotId": "cartridges",
+                    "location": 0,
+                    "upd": {
+                        "StackObjectsCount": 50
+                    }
+                }
+            ],
+            "7.62x25 AKBS 25 rnd box": [
+                {
+                    "_id": "e6f1a93c242525f310e2251f",
+                    "_tpl": "6570253ec5d7d4cb4d078573",
+                    "parentId": "664113fa049fd2369707c4eb",
+                    "slotId": "main",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                },
+                {
+                    "_id": "f6c729932ccd1e767805efd0",
+                    "_tpl": "5735fdcd2459776445391d61",
+                    "parentId": "e6f1a93c242525f310e2251f",
+                    "slotId": "cartridges",
+                    "location": 0,
+                    "upd": {
+                        "StackObjectsCount": 25
+                    }
+                }
+            ],
+            "9x19 Quakemaker 50 rnd box": [
+                {
+                    "_id": "70e9ba45fc061f987746aab3",
+                    "_tpl": "6570259fcfc010a0f5006a32",
+                    "parentId": "664113fa049fd2369707c4eb",
+                    "slotId": "main",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                },
+                {
+                    "_id": "c26c0f22364ff2aabc95119b",
+                    "_tpl": "5efb0e16aeb21837e749c7ff",
+                    "parentId": "70e9ba45fc061f987746aab3",
+                    "slotId": "cartridges",
+                    "location": 0,
+                    "upd": {
+                        "StackObjectsCount": 50
+                    }
+                }
+            ],
+            ".45 Hydrashok 50 rnd box": [
+                {
+                    "_id": "2e8691ab7b74ebd92dba61b0",
+                    "_tpl": "65702406bfc87b3a34093216",
+                    "parentId": "664113fa049fd2369707c4eb",
+                    "slotId": "main",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                },
+                {
+                    "_id": "1143fc93d01d7990b82ef67c",
+                    "_tpl": "5efb0fc6aeb21837e749c801",
+                    "parentId": "2e8691ab7b74ebd92dba61b0",
+                    "slotId": "cartridges",
+                    "location": 0,
+                    "upd": {
+                        "StackObjectsCount": 50
+                    }
+                }
+            ],
+            "9x21 BT 30 rnd box": [
+                {
+                    "_id": "6050bc5aabeb961e9eccc7ec",
+                    "_tpl": "6489875745f9ca4ba51c4808",
+                    "parentId": "664113fa049fd2369707c4eb",
+                    "slotId": "main",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                },
+                {
+                    "_id": "ae4130814ccc5ce0ed4aa651",
+                    "_tpl": "5a26ac0ec4a28200741e1e18",
+                    "parentId": "6050bc5aabeb961e9eccc7ec",
+                    "slotId": "cartridges",
+                    "location": 0,
+                    "upd": {
+                        "StackObjectsCount": 30
+                    }
+                }
+            ],
+            ".357 SP 25 rnd box": [
+                {
+                    "_id": "a083573a90b110ad917867ef",
+                    "_tpl": "657023eccfc010a0f50069ef",
+                    "parentId": "664113fa049fd2369707c4eb",
+                    "slotId": "main",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                },
+                {
+                    "_id": "8215a5d42b92c88a520641b3",
+                    "_tpl": "62330c40bdd19b369e1e53d1",
+                    "parentId": "a083573a90b110ad917867ef",
+                    "slotId": "cartridges",
+                    "location": 0,
+                    "upd": {
+                        "StackObjectsCount": 25
+                    }
+                }
+            ],
+            "5.7x28 SB193 50 rnd box": [
+                {
+                    "_id": "a81adf28a3c04259725fa6e6",
+                    "_tpl": "65702524cfc010a0f5006a16",
+                    "parentId": "664113fa049fd2369707c4eb",
+                    "slotId": "main",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                },
+                {
+                    "_id": "a2d73cd7688ed67d492a091c",
+                    "_tpl": "5cc80f67e4a949035e43bbba",
+                    "parentId": "a81adf28a3c04259725fa6e6",
+                    "slotId": "cartridges",
+                    "location": 0,
+                    "upd": {
+                        "StackObjectsCount": 50
+                    }
+                }
+            ],
+            "4.6x30 FMJ 40 rnd box": [
+                {
+                    "_id": "1d07a241ed991e7e571634c7",
+                    "_tpl": "657024cecfc010a0f5006a0a",
+                    "parentId": "664113fa049fd2369707c4eb",
+                    "slotId": "main",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                },
+                {
+                    "_id": "ac64284c5c82ac3b0fc0d63d",
+                    "_tpl": "5ba2678ad4351e44f824b344",
+                    "parentId": "1d07a241ed991e7e571634c7",
+                    "slotId": "cartridges",
+                    "location": 0,
+                    "upd": {
+                        "StackObjectsCount": 40
+                    }
+                }
+            ],
+            "9x39 PAB-9 20 rnd box": [
+                {
+                    "_id": "08b053e2b94093f8aedd6e0f",
+                    "_tpl": "657025cfbfc87b3a34093253",
+                    "parentId": "664113fa049fd2369707c4eb",
+                    "slotId": "main",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                },
+                {
+                    "_id": "b2d5575f153a74e3c98fc373",
+                    "_tpl": "61962d879bb3d20b0946d385",
+                    "parentId": "08b053e2b94093f8aedd6e0f",
+                    "slotId": "cartridges",
+                    "location": 0,
+                    "upd": {
+                        "StackObjectsCount": 20
+                    }
+                }
+            ],
+            ".366 AP-M 20 rnd box": [
+                {
+                    "_id": "313e4bb856bda995c0237e59",
+                    "_tpl": "657023f81419851aef03e6f1",
+                    "parentId": "664113fa049fd2369707c4eb",
+                    "slotId": "main",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                },
+                {
+                    "_id": "031e0b91af4db8580e9e86ab",
+                    "_tpl": "5f0596629e22f464da6bbdd9",
+                    "parentId": "313e4bb856bda995c0237e59",
+                    "slotId": "cartridges",
+                    "location": 0,
+                    "upd": {
+                        "StackObjectsCount": 20
+                    }
+                }
+            ],
+            "5.45x39 7N40 30 rnd box": [
+                {
+                    "_id": "f9612d1d50a26bcbf69622a6",
+                    "_tpl": "64898602f09d032aa9399d56",
+                    "parentId": "664113fa049fd2369707c4eb",
+                    "slotId": "main",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                },
+                {
+                    "_id": "dc3bca9030062e8c5b23b487",
+                    "_tpl": "61962b617c6c7b169525f168",
+                    "parentId": "f9612d1d50a26bcbf69622a6",
+                    "slotId": "cartridges",
+                    "location": 0,
+                    "upd": {
+                        "StackObjectsCount": 30
+                    }
+                }
+            ],
+            "5.45x39 7N40 120 rnd box": [
+                {
+                    "_id": "2c4631d4b99d0ced3fd7181b",
+                    "_tpl": "6570900858b315e8b70a8a98",
+                    "parentId": "664113fa049fd2369707c4eb",
+                    "slotId": "main",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                },
+                {
+                    "_id": "d51d0074b40452cb37b9f675",
+                    "_tpl": "61962b617c6c7b169525f168",
+                    "parentId": "2c4631d4b99d0ced3fd7181b",
+                    "slotId": "cartridges",
+                    "location": 0,
+                    "upd": {
+                        "StackObjectsCount": 120
+                    }
+                }
+            ],
+            "5.56x45 HP 50 rnd box": [
+                {
+                    "_id": "c7d9f8652e63aa19e6f8989e",
+                    "_tpl": "657024debfc87b3a34093238",
+                    "parentId": "664113fa049fd2369707c4eb",
+                    "slotId": "main",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                },
+                {
+                    "_id": "fdcf6d0ff859a07063fe6d27",
+                    "_tpl": "59e6927d86f77411da468256",
+                    "parentId": "c7d9f8652e63aa19e6f8989e",
+                    "slotId": "cartridges",
+                    "location": 0,
+                    "upd": {
+                        "StackObjectsCount": 50
+                    }
+                }
+            ],
+            "5.56x45 HP 100 rnd box": [
+                {
+                    "_id": "b2f1c50917ba03061fbced70",
+                    "_tpl": "6570264acfc010a0f5006a50",
+                    "parentId": "664113fa049fd2369707c4eb",
+                    "slotId": "main",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                },
+                {
+                    "_id": "66248c6f5628afd3107eec82",
+                    "_tpl": "59e6927d86f77411da468256",
+                    "parentId": "b2f1c50917ba03061fbced70",
+                    "slotId": "cartridges",
+                    "location": 0,
+                    "upd": {
+                        "StackObjectsCount": 100
+                    }
+                }
+            ],
+            "7.62x39 US 20 rnd box": [
+                {
+                    "_id": "dd67c34779aadfab6ed8ec99",
+                    "_tpl": "64acea0d03378853630da53b",
+                    "parentId": "664113fa049fd2369707c4eb",
+                    "slotId": "main",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                },
+                {
+                    "_id": "6daf3fef276e6b60220013fa",
+                    "_tpl": "59e4d24686f7741776641ac7",
+                    "parentId": "dd67c34779aadfab6ed8ec99",
+                    "slotId": "cartridges",
+                    "location": 0,
+                    "upd": {
+                        "StackObjectsCount": 20
+                    }
+                }
+            ],
+            ".300 M62 50 rnd box": [
+                {
+                    "_id": "c2d30a2b4b408fe0ebd277b1",
+                    "_tpl": "657023b1cfc010a0f50069e5",
+                    "parentId": "664113fa049fd2369707c4eb",
+                    "slotId": "main",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                },
+                {
+                    "_id": "fa579e1ccb621294c0b40a9b",
+                    "_tpl": "619636be6db0f2477964e710",
+                    "parentId": "c2d30a2b4b408fe0ebd277b1",
+                    "slotId": "cartridges",
+                    "location": 0,
+                    "upd": {
+                        "StackObjectsCount": 50
+                    }
+                }
+            ],
+            "7.62x51 M61 20 rnd box": [
+                {
+                    "_id": "e2a8c1e5d34e88376f2fd0e0",
+                    "_tpl": "6570254fcfc010a0f5006a22",
+                    "parentId": "664113fa049fd2369707c4eb",
+                    "slotId": "main",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                },
+                {
+                    "_id": "39ede6e428605167c98e341a",
+                    "_tpl": "5a6086ea4f39f99cd479502f",
+                    "parentId": "e2a8c1e5d34e88376f2fd0e0",
+                    "slotId": "cartridges",
+                    "location": 0,
+                    "upd": {
+                        "StackObjectsCount": 20
+                    }
+                }
+            ],
+            "7.62x54 BT 20 rnd box": [
+                {
+                    "_id": "2f1be14d84a6df51507db96c",
+                    "_tpl": "65702572c5d7d4cb4d078576",
+                    "parentId": "664113fa049fd2369707c4eb",
+                    "slotId": "main",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                },
+                {
+                    "_id": "52553c8c046f8c5990d43de9",
+                    "_tpl": "5e023d34e8a400319a28ed44",
+                    "parentId": "2f1be14d84a6df51507db96c",
+                    "slotId": "cartridges",
+                    "location": 0,
+                    "upd": {
+                        "StackObjectsCount": 20
+                    }
+                }
+            ],
+            "12.7x55 PS12 10 rnd box": [
+                {
+                    "_id": "e7d27c0a82242e2c13b324d5",
+                    "_tpl": "6570241bcfc010a0f50069f5",
+                    "parentId": "664113fa049fd2369707c4eb",
+                    "slotId": "main",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                },
+                {
+                    "_id": "eaef9084bc4dafec3fbcc53e",
+                    "_tpl": "5cadf6ddae9215051e1c23b2",
+                    "parentId": "e7d27c0a82242e2c13b324d5",
+                    "slotId": "cartridges",
+                    "location": 0,
+                    "upd": {
+                        "StackObjectsCount": 10
+                    }
+                }
+            ],
+            ".338 TAC-X 20 rnd box": [
+                {
+                    "_id": "a0c3852a9d668ef674809213",
+                    "_tpl": "657023d6cfc010a0f50069e9",
+                    "parentId": "664113fa049fd2369707c4eb",
+                    "slotId": "main",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                },
+                {
+                    "_id": "eed0d96f56e2a4cc9d1ca163",
+                    "_tpl": "5fc382b6d6fa9c00c571bbc3",
+                    "parentId": "a0c3852a9d668ef674809213",
+                    "slotId": "cartridges",
+                    "location": 0,
+                    "upd": {
+                        "StackObjectsCount": 20
+                    }
+                }
+            ],
+            "12ga Flechette 25 rnd box": [
+                {
+                    "_id": "3937e95a3ad6e860cbd9108e",
+                    "_tpl": "65702474bfc87b3a34093226",
+                    "parentId": "664113fa049fd2369707c4eb",
+                    "slotId": "main",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                },
+                {
+                    "_id": "8b255dee3e8c0071691f2550",
+                    "_tpl": "5d6e6911a4b9361bd5780d52",
+                    "parentId": "3937e95a3ad6e860cbd9108e",
+                    "slotId": "cartridges",
+                    "location": 0,
+                    "upd": {
+                        "StackObjectsCount": 25
+                    }
+                }
+            ],
+            "12ga Sformance HP Slug 25 rnd box": [
+                {
+                    "_id": "581a3e569e233c7e8359f59f",
+                    "_tpl": "6570247ebfc87b3a34093229",
+                    "parentId": "664113fa049fd2369707c4eb",
+                    "slotId": "main",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                },
+                {
+                    "_id": "24e156d8dbdd4fe1c16ff0b3",
+                    "_tpl": "5d6e68d1a4b93622fe60e845",
+                    "parentId": "581a3e569e233c7e8359f59f",
+                    "slotId": "cartridges",
+                    "location": 0,
+                    "upd": {
+                        "StackObjectsCount": 25
+                    }
+                }
+            ],
+            "20ga Devastator Slug 25 rnd box": [
+                {
+                    "_id": "eb7838d427995bc697860817",
+                    "_tpl": "6570249bcfc010a0f5006a07",
+                    "parentId": "664113fa049fd2369707c4eb",
+                    "slotId": "main",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                },
+                {
+                    "_id": "99a0939c433645889c4dcdd2",
+                    "_tpl": "5d6e6a5fa4b93614ec501745",
+                    "parentId": "eb7838d427995bc697860817",
+                    "slotId": "cartridges",
+                    "location": 0,
+                    "upd": {
+                        "StackObjectsCount": 25
+                    }
+                }
+            ],
+            "6.2ga Zvezda 5 rnd box": [
+                {
+                    "_id": "1540e39efafd3ad70af448c3",
+                    "_tpl": "657024bdc5d7d4cb4d078564",
+                    "parentId": "664113fa049fd2369707c4eb",
+                    "slotId": "main",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                },
+                {
+                    "_id": "f07281439aedb5022fccbab5",
+                    "_tpl": "5e85a9f4add9fe03027d9bf1",
+                    "parentId": "1540e39efafd3ad70af448c3",
+                    "slotId": "cartridges",
+                    "location": 0,
+                    "upd": {
+                        "StackObjectsCount": 5
+                    }
+                }
+            ]
         }
     },
 

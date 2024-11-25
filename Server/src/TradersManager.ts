@@ -181,6 +181,7 @@ export class TradersManager extends AbstractModManager
 
         trader.assort.loyal_level_items[presetData.rootId] = item.loyaltyLevel
 
+        this.setTraderItemCount(item, trader, traderConfig, presetData.rootId)
         this.setTraderItemPrice(item, trader, traderConfig, presetData.rootId)
         this.setTraderItemQuest(item, trader, presetData.rootId)
     }
@@ -206,6 +207,19 @@ export class TradersManager extends AbstractModManager
 
         this.setTraderItemPrice(item, trader, traderConfig, rootId)
         this.setTraderItemQuest(item, trader, rootId)
+    }
+
+    private setTraderItemCount(itemConfig: any, trader: ITrader, traderConfig: any, rootId: string)
+    {
+        const rootItem = trader.assort.items.find(i => i._id == rootId)
+
+        if (!rootItem.upd)
+            rootItem.upd = {}
+
+        rootItem.upd.StackObjectsCount = itemConfig.count
+        rootItem.upd.UnlimitedCount = true
+        rootItem.upd.BuyRestrictionMax = itemConfig.count
+        rootItem.upd.BuyRestrictionCurrent = 0
     }
 
     private setTraderItemPrice(item: any, trader: ITrader, traderConfig: any, rootId: string)

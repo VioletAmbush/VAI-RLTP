@@ -177,6 +177,8 @@ export class PresetsManager extends AbstractModManager
 
         let preset = this.resolvePresetImpl(presetConfig, parentId)
 
+        preset = this.regeneratePresetIds(preset, presetId)
+
         this.setPresetDurability(presetId, preset.items.find(i => i._id == preset.rootId))
 
         return preset
@@ -342,5 +344,17 @@ export class PresetsManager extends AbstractModManager
 
             return
         }
+    }
+
+    private regeneratePresetIds(preset: { rootId: string, items: Item[] }, presetId: string) : { rootId: string, items: Item[] }
+    {
+        let presetJson = this.jsonUtil.serialize(preset)
+
+        preset.items.forEach(i => 
+        {
+            presetJson = presetJson.replaceAll(i._id, this.hashUtil.generate())
+        })
+
+        return this.jsonUtil.deserialize<{ rootId: string, items: Item[] }>(presetJson)
     }
 }

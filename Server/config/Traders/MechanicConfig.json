@@ -1988,8 +1988,7 @@
 
         "Ammoboxes": [
             {
-                "name": "9x18 RG028 16 rnd box",
-                "itemTemplateId": "5737287724597765e1625ae2",
+                "presetId": "9x18 RG028 16 rnd box",
                 "price": [
                     {
                         "templateId": "569668774bdc2da2298b4568",
@@ -2001,8 +2000,7 @@
                 "questId": "d831da11763438e60e73c43a"
             },
             {
-                "name": "9x18 RG028 50 rnd box",
-                "itemTemplateId": "65702630cfc010a0f5006a4a",
+                "presetId": "9x18 RG028 50 rnd box",
                 "price": [
                     {
                         "templateId": "569668774bdc2da2298b4568",
@@ -2014,8 +2012,7 @@
                 "questId": "d831da11763438e60e73c43a"
             },
             {
-                "name": "7.62x25 AKBS 25 rnd box",
-                "itemTemplateId": "6570253ec5d7d4cb4d078573",
+                "presetId": "7.62x25 AKBS 25 rnd box",
                 "price": [
                     {
                         "templateId": "569668774bdc2da2298b4568",
@@ -2027,8 +2024,7 @@
                 "questId": "7c41d8e6037e1190ff9741d4"
             },
             {
-                "name": "9x19 Quakemaker 50 rnd box",
-                "itemTemplateId": "6570259fcfc010a0f5006a32",
+                "presetId": "9x19 Quakemaker 50 rnd box",
                 "price": [
                     {
                         "templateId": "569668774bdc2da2298b4568",
@@ -2040,8 +2036,7 @@
                 "questId": "f3cb1998c52ab5f90382c968"
             },
             {
-                "name": ".45 Hydrashok 50 rnd box",
-                "itemTemplateId": "65702406bfc87b3a34093216",
+                "presetId": ".45 Hydrashok 50 rnd box",
                 "price": [
                     {
                         "templateId": "569668774bdc2da2298b4568",
@@ -2053,8 +2048,7 @@
                 "questId": "341550121f5b2ea06d1ec9a3"
             },
             {
-                "name": "9x21 BT 30 rnd box",
-                "itemTemplateId": "6489875745f9ca4ba51c4808",
+                "presetId": "9x21 BT 30 rnd box",
                 "price": [
                     {
                         "templateId": "569668774bdc2da2298b4568",
@@ -2066,8 +2060,7 @@
                 "questId": "66fe03898f3a0e00023c9749"
             },
             {
-                "name": ".357 SP 25 rnd box",
-                "itemTemplateId": "657023eccfc010a0f50069ef",
+                "presetId": ".357 SP 25 rnd box",
                 "price": [
                     {
                         "templateId": "569668774bdc2da2298b4568",
@@ -2079,8 +2072,7 @@
                 "questId": "5607b873f8431ba41ffecf8d"
             },
             {
-                "name": "5.7x28 SB193 50 rnd box",
-                "itemTemplateId": "65702524cfc010a0f5006a16",
+                "presetId": "5.7x28 SB193 50 rnd box",
                 "price": [
                     {
                         "templateId": "569668774bdc2da2298b4568",
@@ -2092,8 +2084,7 @@
                 "questId": "37dacf6ab637b5f22bc08183"
             },
             {
-                "name": "4.6x30 FMJ 40 rnd box",
-                "itemTemplateId": "657024cecfc010a0f5006a0a",
+                "presetId": "4.6x30 FMJ 40 rnd box",
                 "price": [
                     {
                         "templateId": "569668774bdc2da2298b4568",
@@ -2105,8 +2096,7 @@
                 "questId": "30aefc842865ceeae09147fc"
             },
             {
-                "name": "9x39 PAB-9 20 rnd box",
-                "itemTemplateId": "657025cfbfc87b3a34093253",
+                "presetId": "9x39 PAB-9 20 rnd box",
                 "price": [
                     {
                         "templateId": "569668774bdc2da2298b4568",
@@ -2118,8 +2108,7 @@
                 "questId": "b5fe660315848e35c0396c3f"
             },
             {
-                "name": ".366 AP-M 20 rnd box",
-                "itemTemplateId": "657023f81419851aef03e6f1",
+                "presetId": ".366 AP-M 20 rnd box",
                 "price": [
                     {
                         "templateId": "569668774bdc2da2298b4568",
@@ -2131,8 +2120,7 @@
                 "questId": "0f36acde3c116fe8474987ea"
             },
             {
-                "name": "5.45x39 7N40 30 rnd box",
-                "itemTemplateId": "64898602f09d032aa9399d56",
+                "presetId": "5.45x39 7N40 30 rnd box",
                 "price": [
                     {
                         "templateId": "569668774bdc2da2298b4568",
@@ -2144,8 +2132,7 @@
                 "questId": "9f4790009649895e2ac17d88"
             },
             {
-                "name": "5.45x39 7N40 120 rnd box",
-                "itemTemplateId": "6570900858b315e8b70a8a98",
+                "presetId": "5.45x39 7N40 120 rnd box",
                 "price": [
                     {
                         "templateId": "569668774bdc2da2298b4568",
@@ -2157,8 +2144,7 @@
                 "questId": "9f4790009649895e2ac17d88"
             },
             {
-                "name": "5.56x45 HP 50 rnd box",
-                "itemTemplateId": "657024debfc87b3a34093238",
+                "presetId": "5.56x45 HP 50 rnd box",
                 "price": [
                     {
                         "templateId": "569668774bdc2da2298b4568",
@@ -2170,8 +2156,7 @@
                 "questId": "a317bdd95730bdc35a81e1e9"
             },
             {
-                "name": "5.56x45 HP 100 rnd box",
-                "itemTemplateId": "6570264acfc010a0f5006a50",
+                "presetId": "5.56x45 HP 100 rnd box",
                 "price": [
                     {
                         "templateId": "569668774bdc2da2298b4568",
@@ -2183,8 +2168,7 @@
                 "questId": "a317bdd95730bdc35a81e1e9"
             },
             {
-                "name": "7.62x39 US 20 rnd box",
-                "itemTemplateId": "64acea0d03378853630da53b",
+                "presetId": "7.62x39 US 20 rnd box",
                 "price": [
                     {
                         "templateId": "569668774bdc2da2298b4568",
@@ -2196,8 +2180,7 @@
                 "questId": "f509e9a730feda82c085cce9"
             },
             {
-                "name": ".300 M62 50 rnd box",
-                "itemTemplateId": "657023b1cfc010a0f50069e5",
+                "presetId": ".300 M62 50 rnd box",
                 "price": [
                     {
                         "templateId": "569668774bdc2da2298b4568",
@@ -2209,8 +2192,7 @@
                 "questId": "c1e69136ceec06bf5006534d"
             },
             {
-                "name": "7.62x51 M61 20 rnd box",
-                "itemTemplateId": "6570254fcfc010a0f5006a22",
+                "presetId": "7.62x51 M61 20 rnd box",
                 "price": [
                     {
                         "templateId": "569668774bdc2da2298b4568",
@@ -2222,8 +2204,7 @@
                 "questId": "6d5e5552179ea60856ded41f"
             },
             {
-                "name": "7.62x54 BT 20 rnd box",
-                "itemTemplateId": "65702572c5d7d4cb4d078576",
+                "presetId": "7.62x54 BT 20 rnd box",
                 "price": [
                     {
                         "templateId": "569668774bdc2da2298b4568",
@@ -2235,8 +2216,7 @@
                 "questId": "4e96f6207151443760e75d2e"
             },
             {
-                "name": "12.7x55 PS12 10 rnd box",
-                "itemTemplateId": "6570241bcfc010a0f50069f5",
+                "presetId": "12.7x55 PS12 10 rnd box",
                 "price": [
                     {
                         "templateId": "569668774bdc2da2298b4568",
@@ -2248,8 +2228,7 @@
                 "questId": "49712fc82b25b3c2aaf9716c"
             },
             {
-                "name": ".338 TAC-X 20 rnd box",
-                "itemTemplateId": "657023d6cfc010a0f50069e9",
+                "presetId": ".338 TAC-X 20 rnd box",
                 "price": [
                     {
                         "templateId": "569668774bdc2da2298b4568",
@@ -2261,8 +2240,7 @@
                 "questId": "a5c79045f4b51a3782b3b399"
             },
             {
-                "name": "12ga Flechette 25 rnd box",
-                "itemTemplateId": "65702474bfc87b3a34093226",
+                "presetId": "12ga Flechette 25 rnd box",
                 "price": [
                     {
                         "templateId": "569668774bdc2da2298b4568",
@@ -2274,8 +2252,7 @@
                 "questId": "f6af166793278bc1f4576a50"
             },
             {
-                "name": "12ga Sformance HP Slug 25 rnd box",
-                "itemTemplateId": "6570247ebfc87b3a34093229",
+                "presetId": "12ga Sformance HP Slug 25 rnd box",
                 "price": [
                     {
                         "templateId": "569668774bdc2da2298b4568",
@@ -2287,8 +2264,7 @@
                 "questId": "662c3ffc7162c3f6e7ca4163"
             },
             {
-                "name": "20ga Devastator Slug 25 rnd box",
-                "itemTemplateId": "6570249bcfc010a0f5006a07",
+                "presetId": "20ga Devastator Slug 25 rnd box",
                 "price": [
                     {
                         "templateId": "569668774bdc2da2298b4568",
@@ -2300,8 +2276,7 @@
                 "questId": "ddb1c205a5fcb16548a0e619"
             },
             {
-                "name": "6.2ga Zvezda 5 rnd box",
-                "itemTemplateId": "657024bdc5d7d4cb4d078564",
+                "presetId": "6.2ga Zvezda 5 rnd box",
                 "price": [
                     {
                         "templateId": "569668774bdc2da2298b4568",
@@ -2315,8 +2290,7 @@
         ],
         "AmmoboxBarters": [
             {
-                "name": "9x18 RG028 16 rnd box",
-                "itemTemplateId": "5737287724597765e1625ae2",
+                "presetId": "9x18 RG028 16 rnd box",
                 "price": [
                     {
                         "templateId": "5672cb124bdc2d1a0f8b4568",
@@ -2328,8 +2302,7 @@
                 "questId": "d831da11763438e60e73c43a"
             },
             {
-                "name": "9x18 RG028 50 rnd box",
-                "itemTemplateId": "65702630cfc010a0f5006a4a",
+                "presetId": "9x18 RG028 50 rnd box",
                 "price": [
                     {
                         "templateId": "5672cb124bdc2d1a0f8b4568",
@@ -2341,8 +2314,7 @@
                 "questId": "d831da11763438e60e73c43a"
             },
             {
-                "name": "7.62x25 AKBS 25 rnd box",
-                "itemTemplateId": "6570253ec5d7d4cb4d078573",
+                "presetId": "7.62x25 AKBS 25 rnd box",
                 "price": [
                     {
                         "templateId": "5672cb124bdc2d1a0f8b4568",
@@ -2354,8 +2326,7 @@
                 "questId": "7c41d8e6037e1190ff9741d4"
             },
             {
-                "name": "9x19 Quakemaker 50 rnd box",
-                "itemTemplateId": "6570259fcfc010a0f5006a32",
+                "presetId": "9x19 Quakemaker 50 rnd box",
                 "price": [
                     {
                         "templateId": "5672cb124bdc2d1a0f8b4568",
@@ -2367,8 +2338,7 @@
                 "questId": "f3cb1998c52ab5f90382c968"
             },
             {
-                "name": ".45 Hydrashok 50 rnd box",
-                "itemTemplateId": "65702406bfc87b3a34093216",
+                "presetId": ".45 Hydrashok 50 rnd box",
                 "price": [
                     {
                         "templateId": "5672cb304bdc2dc2088b456a",
@@ -2380,8 +2350,7 @@
                 "questId": "341550121f5b2ea06d1ec9a3"
             },
             {
-                "name": "9x21 BT 30 rnd box",
-                "itemTemplateId": "6489875745f9ca4ba51c4808",
+                "presetId": "9x21 BT 30 rnd box",
                 "price": [
                     {
                         "templateId": "5672cb304bdc2dc2088b456a",
@@ -2393,8 +2362,7 @@
                 "questId": "66fe03898f3a0e00023c9749"
             },
             {
-                "name": ".357 SP 25 rnd box",
-                "itemTemplateId": "657023eccfc010a0f50069ef",
+                "presetId": ".357 SP 25 rnd box",
                 "price": [
                     {
                         "templateId": "5672cb304bdc2dc2088b456a",
@@ -2406,8 +2374,7 @@
                 "questId": "5607b873f8431ba41ffecf8d"
             },
             {
-                "name": "5.7x28 SB193 50 rnd box",
-                "itemTemplateId": "65702524cfc010a0f5006a16",
+                "presetId": "5.7x28 SB193 50 rnd box",
                 "price": [
                     {
                         "templateId": "5672cb304bdc2dc2088b456a",
@@ -2419,8 +2386,7 @@
                 "questId": "37dacf6ab637b5f22bc08183"
             },
             {
-                "name": "4.6x30 FMJ 40 rnd box",
-                "itemTemplateId": "657024cecfc010a0f5006a0a",
+                "presetId": "4.6x30 FMJ 40 rnd box",
                 "price": [
                     {
                         "templateId": "5672cb304bdc2dc2088b456a",
@@ -2432,8 +2398,7 @@
                 "questId": "30aefc842865ceeae09147fc"
             },
             {
-                "name": "9x39 PAB-9 20 rnd box",
-                "itemTemplateId": "657025cfbfc87b3a34093253",
+                "presetId": "9x39 PAB-9 20 rnd box",
                 "price": [
                     {
                         "templateId": "5672cb304bdc2dc2088b456a",
@@ -2445,8 +2410,7 @@
                 "questId": "b5fe660315848e35c0396c3f"
             },
             {
-                "name": ".366 AP-M 20 rnd box",
-                "itemTemplateId": "657023f81419851aef03e6f1",
+                "presetId": ".366 AP-M 20 rnd box",
                 "price": [
                     {
                         "templateId": "5672cb304bdc2dc2088b456a",
@@ -2458,8 +2422,7 @@
                 "questId": "0f36acde3c116fe8474987ea"
             },
             {
-                "name": "5.45x39 7N40 30 rnd box",
-                "itemTemplateId": "64898602f09d032aa9399d56",
+                "presetId": "5.45x39 7N40 30 rnd box",
                 "price": [
                     {
                         "templateId": "5672cb124bdc2d1a0f8b4568",
@@ -2471,8 +2434,7 @@
                 "questId": "9f4790009649895e2ac17d88"
             },
             {
-                "name": "5.45x39 7N40 120 rnd box",
-                "itemTemplateId": "6570900858b315e8b70a8a98",
+                "presetId": "5.45x39 7N40 120 rnd box",
                 "price": [
                     {
                         "templateId": "5672cb304bdc2dc2088b456a",
@@ -2484,8 +2446,7 @@
                 "questId": "9f4790009649895e2ac17d88"
             },
             {
-                "name": "5.56x45 HP 50 rnd box",
-                "itemTemplateId": "657024debfc87b3a34093238",
+                "presetId": "5.56x45 HP 50 rnd box",
                 "price": [
                     {
                         "templateId": "5672cb124bdc2d1a0f8b4568",
@@ -2497,8 +2458,7 @@
                 "questId": "a317bdd95730bdc35a81e1e9"
             },
             {
-                "name": "5.56x45 HP 100 rnd box",
-                "itemTemplateId": "6570264acfc010a0f5006a50",
+                "presetId": "5.56x45 HP 100 rnd box",
                 "price": [
                     {
                         "templateId": "5672cb304bdc2dc2088b456a",
@@ -2510,8 +2470,7 @@
                 "questId": "a317bdd95730bdc35a81e1e9"
             },
             {
-                "name": "7.62x39 US 20 rnd box",
-                "itemTemplateId": "64acea0d03378853630da53b",
+                "presetId": "7.62x39 US 20 rnd box",
                 "price": [
                     {
                         "templateId": "5672cb124bdc2d1a0f8b4568",
@@ -2523,8 +2482,7 @@
                 "questId": "f509e9a730feda82c085cce9"
             },
             {
-                "name": ".300 M62 50 rnd box",
-                "itemTemplateId": "657023b1cfc010a0f50069e5",
+                "presetId": ".300 M62 50 rnd box",
                 "price": [
                     {
                         "templateId": "5672cb304bdc2dc2088b456a",
@@ -2536,8 +2494,7 @@
                 "questId": "c1e69136ceec06bf5006534d"
             },
             {
-                "name": "7.62x51 M61 20 rnd box",
-                "itemTemplateId": "6570254fcfc010a0f5006a22",
+                "presetId": "7.62x51 M61 20 rnd box",
                 "price": [
                     {
                         "templateId": "5672cb304bdc2dc2088b456a",
@@ -2549,8 +2506,7 @@
                 "questId": "6d5e5552179ea60856ded41f"
             },
             {
-                "name": "7.62x54 BT 20 rnd box",
-                "itemTemplateId": "65702572c5d7d4cb4d078576",
+                "presetId": "7.62x54 BT 20 rnd box",
                 "price": [
                     {
                         "templateId": "5672cb304bdc2dc2088b456a",
@@ -2562,8 +2518,7 @@
                 "questId": "4e96f6207151443760e75d2e"
             },
             {
-                "name": "12.7x55 PS12 10 rnd box",
-                "itemTemplateId": "6570241bcfc010a0f50069f5",
+                "presetId": "12.7x55 PS12 10 rnd box",
                 "price": [
                     {
                         "templateId": "5e2aedd986f7746d404f3aa4",
@@ -2575,8 +2530,7 @@
                 "questId": "49712fc82b25b3c2aaf9716c"
             },
             {
-                "name": ".338 TAC-X 20 rnd box",
-                "itemTemplateId": "657023d6cfc010a0f50069e9",
+                "presetId": ".338 TAC-X 20 rnd box",
                 "price": [
                     {
                         "templateId": "5e2aedd986f7746d404f3aa4",
@@ -2588,8 +2542,7 @@
                 "questId": "a5c79045f4b51a3782b3b399"
             },
             {
-                "name": "12ga Flechette 25 rnd box",
-                "itemTemplateId": "65702474bfc87b3a34093226",
+                "presetId": "12ga Flechette 25 rnd box",
                 "price": [
                     {
                         "templateId": "5672cb304bdc2dc2088b456a",
@@ -2601,8 +2554,7 @@
                 "questId": "f6af166793278bc1f4576a50"
             },
             {
-                "name": "12ga Sformance HP Slug 25 rnd box",
-                "itemTemplateId": "6570247ebfc87b3a34093229",
+                "presetId": "12ga Sformance HP Slug 25 rnd box",
                 "price": [
                     {
                         "templateId": "5672cb304bdc2dc2088b456a",
@@ -2614,8 +2566,7 @@
                 "questId": "662c3ffc7162c3f6e7ca4163"
             },
             {
-                "name": "20ga Devastator Slug 25 rnd box",
-                "itemTemplateId": "6570249bcfc010a0f5006a07",
+                "presetId": "20ga Devastator Slug 25 rnd box",
                 "price": [
                     {
                         "templateId": "5672cb124bdc2d1a0f8b4568",
@@ -2627,8 +2578,7 @@
                 "questId": "ddb1c205a5fcb16548a0e619"
             },
             {
-                "name": "6.2ga Zvezda 5 rnd box",
-                "itemTemplateId": "657024bdc5d7d4cb4d078564",
+                "presetId": "6.2ga Zvezda 5 rnd box",
                 "price": [
                     {
                         "templateId": "5e2aedd986f7746d404f3aa4",
