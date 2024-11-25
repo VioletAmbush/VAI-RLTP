@@ -26,7 +26,8 @@
             "59f98b4986f7746f546d2cef" : "SR-1MP",
             "571a12c42459771f627b58a0" : "TT",
             "5b3b713c5acfc4330140bd8d" : "TT Gold",
-            "576a581d2459771e7b1bc4f1" : "MP-443 (Grach)"
+            "576a581d2459771e7b1bc4f1" : "MP-443 (Grach)",
+            "66015072e9f84d5680039678" : "Blicky"
         },
         "MachinePistols": {
             "5abccb7dd8ce87001773e277" : "APB",
@@ -98,7 +99,9 @@
             "5fc22d7c187fea44d52eda44" : "Mk-18 Mjölnir",
             "5aafa857e5b5b00018480968" : "M1A",
             "5d43021ca4b9362eab4b5e25" : "TX-15 DML",
-            "59e6687d86f77411d949b251" : "VPO-209"
+            "59e6687d86f77411d949b251" : "VPO-209",
+            "643ea5b23db6f9f57107d9fd" : "SVT-40",
+            "6410733d5dd49d77bd07847e" : "AVT-40"
         },
         "SniperRifles": {
             "61f7c9e189e6fb1a5e3ea78d" : "MP-18",
@@ -146,12 +149,17 @@
             "62e7c4fba689e8c9c50dfc38" : "AUG A1",
             "63171672192e68c5460cebc5" : "AUG A3",
             "57838ad32459774a17445cd2" : "VSS (Vintorez)",
-            "57c44b372459772d2b39b8ce" : "AS VAL"
+            "57c44b372459772d2b39b8ce" : "AS VAL",
+            "644674a13d52156624001fbc" : "KBP 9A-91",
+            "645e0c6b3b381ede770e1cc9" : "KBP VSK-94",
+            "65290f395ae2ae97b80fdf2d" : "SPEAR"
         },
         "MachineGuns": {
             "5beed0f50db834001c062b12" : "RPK-16",
             "64ca3d3954fc657e230529cc" : "PKP",
             "64637076203536ad5600c990" : "PKM",
+            "6513ef33e06849f06c0957ca" : "RPD",
+            "65268d8ecb944ff1e90ea385" : "RPDN",
             "5cdeb229d7f00c000e7ce174" : "NSV (Utyos)"
         },
         "Grenades": {

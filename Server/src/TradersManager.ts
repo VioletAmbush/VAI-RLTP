@@ -165,7 +165,6 @@ export class TradersManager extends AbstractModManager
                 })
             }
         }
-        
     }
 
     private setTraderPreset(trader: ITrader, traderConfig: any, item: any): void
