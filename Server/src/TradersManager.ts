@@ -177,13 +177,12 @@ export class TradersManager extends AbstractModManager
             return;
         }
 
-        presetData.items.forEach(item => trader.assort.items.push(item))
-
+        trader.assort.items.push(...presetData.items)
         trader.assort.loyal_level_items[presetData.rootId] = item.loyaltyLevel
 
         this.setTraderItemCount(item, trader, traderConfig, presetData.rootId)
         this.setTraderItemPrice(item, trader, traderConfig, presetData.rootId)
-        this.setTraderItemQuest(item, trader, presetData.rootId)
+        this.setTraderItemQuest(item, trader, presetData.rootId, presetData)
     }
 
     private setTraderItem(trader: ITrader, traderConfig: any, item: any): void
@@ -267,7 +266,7 @@ export class TradersManager extends AbstractModManager
         trader.assort.barter_scheme[rootId] = [ priceArray ]
     }
 
-    private setTraderItemQuest(item: any, trader: ITrader, rootId: string)
+    private setTraderItemQuest(item: any, trader: ITrader, rootId: string, presetData: { rootId: string, items: Item[] } = null)
     {
         if (Constants.NoQuestlockedItems)
         {
@@ -291,13 +290,13 @@ export class TradersManager extends AbstractModManager
 
             trader.questassort[questState][rootId] = item.questId
 
-            if (item.presetId && item.presetId !== "")
+            if (presetData)
             {
                 this.questsManager.setQuestUnlockReward({
                     itemId: rootId,
                     traderId: trader.base._id,
                     loyaltyLevel: item.loyaltyLevel,
-                    presetId: item.presetId,
+                    presetData: presetData,
                     questId: item.questId,
                     questState: questState
                 })

@@ -13,6 +13,7 @@ import { LocaleManager } from "./LocaleManager"
 import { ConfigServer } from "@spt/servers/ConfigServer"
 import { ConfigTypes } from "@spt/models/enums/ConfigTypes"
 import { IQuestConfig } from "@spt/models/spt/config/IQuestConfig"
+import { Item } from "@spt/models/eft/common/tables/IItem"
  
 export class QuestRewardRequest 
 {
@@ -21,7 +22,7 @@ export class QuestRewardRequest
     traderId: string
     itemId: string
     templateId?: string
-    presetId?: string
+    presetData?: { rootId: string, items: Item[] }
     questState: "success" | "started" | "fail"
 }
 
@@ -635,8 +636,8 @@ export class QuestsManager extends AbstractModManager
         let index =  rewards.length == 0 ? 0 : 
             Math.max(...rewards.map(r => r.index)) + 1
 
-        let items = request.presetId ? 
-            this.presetsManager.resolvePreset(request.presetId, "hideout").items :
+        let items = request.presetData ? 
+            request.presetData.items :
             [{
                 _id: request.itemId,
                 _tpl: request.templateId
