@@ -1,4 +1,4 @@
-import { Item } from "@spt/models/eft/common/tables/IItem"
+import { IItem } from "@spt/models/eft/common/tables/IItem"
 import { RandomUtil } from "@spt/utils/RandomUtil"
 import { AbstractModManager } from "./AbstractModManager"
 import { Constants } from "./Constants"
@@ -61,7 +61,7 @@ export class PresetsManager extends AbstractModManager
         }
     }
 
-    public resolveRandomPreset(categories: any[], excludedPresets: string[], includedPresets: string[], parentId: string): { rootId: string, items: Item[] } | null
+    public resolveRandomPreset(categories: any[], excludedPresets: string[], includedPresets: string[], parentId: string): { rootId: string, items: IItem[] } | null
     {
         const randomUtil: RandomUtil = Constants.getRandomUtil()
 
@@ -149,7 +149,7 @@ export class PresetsManager extends AbstractModManager
         return result
     }
 
-    public resolvePreset(presetId: string, parentId: string = null): { rootId: string, items: Item[] } | null
+    public resolvePreset(presetId: string, parentId: string = null): { rootId: string, items: IItem[] } | null
     {
         let presetConfig = this.config.items[presetId]
 
@@ -184,7 +184,7 @@ export class PresetsManager extends AbstractModManager
         return preset
     }
 
-    private resolvePresetImpl(config: any, parentId: string = null): { rootId: string, items: Item[] } | null
+    private resolvePresetImpl(config: any, parentId: string = null): { rootId: string, items: IItem[] } | null
     {
         let presetRoot = config.find(p => !p.parentId || !config.find(item => item._id === p.parentId))
 
@@ -195,9 +195,9 @@ export class PresetsManager extends AbstractModManager
             return null
         }
 
-        const result: Item[] = []
+        const result: IItem[] = []
 
-        const rootItem: Item = {
+        const rootItem: IItem = {
             _id: presetRoot._id,
             _tpl: presetRoot._tpl,
             slotId: "hideout",
@@ -230,7 +230,7 @@ export class PresetsManager extends AbstractModManager
         return { rootId: rootItem._id, items: result }
     }
 
-    private setPresetDurability(presetId: string, presetRoot: Item)
+    private setPresetDurability(presetId: string, presetRoot: IItem)
     {
         if (this.config.alwaysFullDurability == true)
         {
@@ -346,7 +346,7 @@ export class PresetsManager extends AbstractModManager
         }
     }
 
-    private regeneratePresetIds(preset: { rootId: string, items: Item[] }, presetId: string) : { rootId: string, items: Item[] }
+    private regeneratePresetIds(preset: { rootId: string, items: IItem[] }, presetId: string) : { rootId: string, items: IItem[] }
     {
         let presetJson = this.jsonUtil.serialize(preset)
 
@@ -355,6 +355,6 @@ export class PresetsManager extends AbstractModManager
             presetJson = presetJson.replaceAll(i._id, this.hashUtil.generate())
         })
 
-        return this.jsonUtil.deserialize<{ rootId: string, items: Item[] }>(presetJson)
+        return this.jsonUtil.deserialize<{ rootId: string, items: IItem[] }>(presetJson)
     }
 }

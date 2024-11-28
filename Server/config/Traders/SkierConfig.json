@@ -221,6 +221,27 @@
             },
 
             {
+                "presetId": "Deagle_Basic",
+                "price": [
+                    {
+                        "templateId": "5734795124597738002c6176",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "57347c1124597737fb1379e3",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af29386f7746d4159f077",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 5,
+                "questId": "5edabd13218d181e29451442"
+            },
+
+            {
                 "presetId": "FN57_Basic",
                 "price": [
                     {
@@ -325,6 +346,22 @@
                 "count": 5,
                 "questId": "5a27d2af86f7744e1115b323"
             },
+            {
+                "presetId": "UZI_Basic",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "59e36c6f86f774176c10a2a7",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 5,
+                "questId": "5979ed3886f77431307dc512"
+            },
 
             {
                 "presetId": "MP7_Basic",
@@ -365,6 +402,26 @@
                 "loyaltyLevel": 3,
                 "count": 5,
                 "questId": "5b4795fb86f7745876267770"
+            },
+            {
+                "presetId": "UZIPRO_Basic",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "59e36c6f86f774176c10a2a7",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d0375ff86f774186372f685",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 5,
+                "questId": "5c0bdb5286f774166e38eed4"
             }
         ],
         "Basic DMRs": [
@@ -620,6 +677,27 @@
             },
 
             {
+                "presetId": "Deagle_Std",
+                "price": [
+                    {
+                        "templateId": "5734795124597738002c6176",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "57347c1124597737fb1379e3",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5e2af29386f7746d4159f077",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 3,
+                "questId": "67474dd2a7f5b436b8000005"
+            },
+
+            {
                 "presetId": "FN57_Std",
                 "price": [
                     {
@@ -698,6 +776,22 @@
                 "count": 3,
                 "questId": "d7771b1dcdefedd0932b9a66"
             },
+            {
+                "presetId": "UZI_Std",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "59e36c6f86f774176c10a2a7",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 3,
+                "questId": "d7771b1dcdefedd0932b9a66"
+            },
 
             {
                 "presetId": "MP7_Std",
@@ -738,6 +832,26 @@
                 "loyaltyLevel": 3,
                 "count": 3,
                 "questId": "c004f7a06e6f45a01a9292ec"
+            },
+            {
+                "presetId": "UZIPRO_Std",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "59e36c6f86f774176c10a2a7",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d0375ff86f774186372f685",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 3,
+                "questId": "6d2ab70b88b5a011c18f393a"
             }
         ],
         "Std Shotguns": [
@@ -1087,6 +1201,27 @@
             },
 
             {
+                "presetId": "Deagle_Adv",
+                "price": [
+                    {
+                        "templateId": "5734795124597738002c6176",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "57347c1124597737fb1379e3",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af29386f7746d4159f077",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 2,
+                "questId": "67474dd2a7f5b436b8000006"
+            },
+
+            {
                 "presetId": "FN57_Adv",
                 "price": [
                     {
@@ -1165,6 +1300,22 @@
                 "count": 2,
                 "questId": "fe0e2d1d9a52e913cad45a7b"
             },
+            {
+                "presetId": "UZI_Adv",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "59e36c6f86f774176c10a2a7",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 2,
+                "questId": "67474dd2a7f5b436b8000002"
+            },
 
             {
                 "presetId": "MP7_Adv",
@@ -1205,6 +1356,26 @@
                 "loyaltyLevel": 3,
                 "count": 2,
                 "questId": "44f8a26f700c5da4ca077189"
+            },
+            {
+                "presetId": "UZIPRO_Adv",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "59e36c6f86f774176c10a2a7",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d0375ff86f774186372f685",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 2,
+                "questId": "67474dd2a7f5b436b800000a"
             }
         ],
         "Adv Shotguns": [
@@ -1539,6 +1710,27 @@
             },
 
             {
+                "presetId": "Deagle_Sup",
+                "price": [
+                    {
+                        "templateId": "5734795124597738002c6176",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "57347c1124597737fb1379e3",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af29386f7746d4159f077",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "67474dd2a7f5b436b8000007"
+            },
+
+            {
                 "presetId": "FN57_Sup",
                 "price": [
                     {
@@ -1602,6 +1794,23 @@
             },
 
             {
+                "presetId": "UZI_Sup",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "59e36c6f86f774176c10a2a7",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "67474dd2a7f5b436b800000e"
+            },
+
+            {
                 "presetId": "MP7_Sup",
                 "price": [
                     {
@@ -1640,6 +1849,26 @@
                 "loyaltyLevel": 3,
                 "count": 1,
                 "questId": "0c2ea260feef526f8de7de76"
+            },
+            {
+                "presetId": "UZIPRO_Sup",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "59e36c6f86f774176c10a2a7",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d0375ff86f774186372f685",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "67474dd2a7f5b436b800000b"
             }
         ],
         "Sup Shotguns": [
@@ -1967,6 +2196,31 @@
             },
 
             {
+                "presetId": "Deagle_Master",
+                "price": [
+                    {
+                        "templateId": "5734795124597738002c6176",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "57347c1124597737fb1379e3",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5e2af29386f7746d4159f077",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "62a09cb7a04c0c5c6e0a84f8",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "67474dd2a7f5b436b8000008"
+            },
+
+            {
                 "presetId": "FN57_Master",
                 "price": [
                     {
@@ -2053,6 +2307,26 @@
                 "count": 1,
                 "questId": "c91b681bfe764d6fc2f36908"
             },
+            {
+                "presetId": "UZI_Master",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "59e36c6f86f774176c10a2a7",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5bd073a586f7747e6f135799",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "67474dd2a7f5b436b8000003"
+            },
 
             {
                 "presetId": "MP7_Master",
@@ -2101,6 +2375,30 @@
                 "loyaltyLevel": 3,
                 "count": 1,
                 "questId": "7b6e9a1c83934a602e1f6138"
+            },
+            {
+                "presetId": "UZIPRO_Master",
+                "price": [
+                    {
+                        "templateId": "5c06779c86f77426e00dd782",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "59e36c6f86f774176c10a2a7",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d0375ff86f774186372f685",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5bd073a586f7747e6f135799",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "67474dd2a7f5b436b800000c"
             }
         ],
         "Master Shotguns": [
@@ -2791,6 +3089,140 @@
                 "loyaltyLevel": 3,
                 "count": 10,
                 "questId": "a91de2cadedb8bde9a9db68d"
+            },
+            {
+                "name": "Deagle .357 9-rnd",
+                "itemTemplateId": "669fa435803b94fb5d0e3a76",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "5edabd13218d181e29451442"
+            },
+            {
+                "name": "UZI 20-rnd",
+                "itemTemplateId": "66992713ae08c5c29e0c4f97",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "5979ed3886f77431307dc512"
+            },
+            {
+                "name": "UZI PRO 20-rnd",
+                "itemTemplateId": "668031ffe3e7eb26e8004cdd",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "5c0bdb5286f774166e38eed4"
+            },
+            {
+                "name": "Deagle .50 7-rnd",
+                "itemTemplateId": "668fe5c5f35310705d02b696",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "67474dd2a7f5b436b8000020"
+            },
+            {
+                "name": "UZI 25-rnd",
+                "itemTemplateId": "6699271b9950f5f4cd060299",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "67474dd2a7f5b436b800001e"
+            },
+            {
+                "name": "UZI 32-rnd",
+                "itemTemplateId": "669927203c4fda6471005cbe",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "67474dd2a7f5b436b800001e"
+            },
+            {
+                "name": "UZI 40-rnd",
+                "itemTemplateId": "66992725ae08c5c29e0c4f9a",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 4
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "67474dd2a7f5b436b800001f"
+            },
+            {
+                "name": "UZI 50-rnd",
+                "itemTemplateId": "6699272a3c4fda6471005cc1",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "619cbf476b8a1b37a54eebf8",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 10,
+                "questId": "67474dd2a7f5b436b800001f"
+            },
+            {
+                "name": "UZI PRO 25-rnd",
+                "itemTemplateId": "66866f4ec3d473265104f381",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "67474dd2a7f5b436b8000022"
+            },
+            {
+                "name": "UZI PRO 32-rnd",
+                "itemTemplateId": "66866f622a2296a8d9099639",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "67474dd2a7f5b436b8000022"
             }
         ],
         
@@ -2860,6 +3292,62 @@
                 "loyaltyLevel": 1,
                 "count": 10000,
                 "questId": "110f1b0cec4bf5ca242866a4"
+            }
+        ],
+        ".50 AE": [
+            {
+                "name": ".50 AE Copper Solid",
+                "itemTemplateId": "66a0d1e0ed648d72fe064d06",
+                "price": [
+                    {
+                        "templateId": "569668774bdc2da2298b4568",
+                        "count": 0.87
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000,
+                "questId": "67474dd2a7f5b436b8000020"
+            },
+
+            {
+                "name": ".50 AE HAWK",
+                "itemTemplateId": "66a0d1f88486c69fce00fdf6",
+                "price": [
+                    {
+                        "templateId": "569668774bdc2da2298b4568",
+                        "count": 0.98
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000,
+                "questId": "67474dd2a7f5b436b8000021"
+            },
+            {
+                "name": ".50 AE FMJ",
+                "itemTemplateId": "668fe62ac62660a5d8071446",
+                "price": [
+                    {
+                        "templateId": "569668774bdc2da2298b4568",
+                        "count": 0.85
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000,
+                "questId": "67474dd2a7f5b436b8000021"
+            },
+
+            {
+                "name": ".50 AE JHP",
+                "itemTemplateId": "66a0d1c87d0d369e270bb9de",
+                "price": [
+                    {
+                        "templateId": "569668774bdc2da2298b4568",
+                        "count": 1.01
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 10000,
+                "questId": "67474dd2a7f5b436b8000023"
             }
         ],
         "20ga": [

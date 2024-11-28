@@ -13,7 +13,7 @@ import { LocaleManager } from "./LocaleManager"
 import { ConfigServer } from "@spt/servers/ConfigServer"
 import { ConfigTypes } from "@spt/models/enums/ConfigTypes"
 import { IQuestConfig } from "@spt/models/spt/config/IQuestConfig"
-import { Item } from "@spt/models/eft/common/tables/IItem"
+import { IItem } from "@spt/models/eft/common/tables/IItem"
  
 export class QuestRewardRequest 
 {
@@ -22,7 +22,7 @@ export class QuestRewardRequest
     traderId: string
     itemId: string
     templateId?: string
-    presetData?: { rootId: string, items: Item[] }
+    presetData?: { rootId: string, items: IItem[] }
     questState: "success" | "started" | "fail"
 }
 
@@ -40,7 +40,7 @@ export class QuestsManager extends AbstractModManager
 
     private setRequestQueue: QuestRewardRequest[] = []
 
-    public override priority: number = 2
+    public override priority: number = 3
 
     constructor(
         presetsManager: PresetsManager, 
@@ -64,6 +64,8 @@ export class QuestsManager extends AbstractModManager
 
     protected afterPostDB(): void
     {
+        //console.log(this.jsonUtil.serialize(this.databaseTables.templates.quests["5c1128e386f7746565181106"]))
+
         let questCount = 0
 
         if (this.config.removeRewards == true)
@@ -181,7 +183,6 @@ export class QuestsManager extends AbstractModManager
                     type: "HandoverItem",
                     target: "5449016a4bdc2d6f028b456f",
                     location: "any",
-                    description: "Bring 1 rouble",
                     count: 1
                 }])
             }
@@ -199,6 +200,8 @@ export class QuestsManager extends AbstractModManager
         {
             this.logger.info(`${Constants.ModTitle}: Quest changes applied!`)
         }
+
+        //console.log(this.jsonUtil.serialize(this.databaseTables.templates.quests["5dea31760e5c629f303f3505"]))
     }
 
     protected afterPostSpt(): void 
@@ -312,7 +315,7 @@ export class QuestsManager extends AbstractModManager
             },
 
             name: `${questConfig.id}_title`,
-            QuestName: `${questConfig.id}_title`,
+            QuestName: questTitle,
             description: `${questConfig.id}_description`,
 
             note: `Note ${questTitle}`,
@@ -346,8 +349,10 @@ export class QuestsManager extends AbstractModManager
 
         for (let reqQuestId of questConfig.startQuestRequirements)
         {
+            let afsId = Helper.generateSHA256ID(`${questConfig.id}AFS${index}`)
+
             quest.conditions.AvailableForStart.push({
-                id: `${questConfig.id}AFS${index}`,
+                id: afsId,
                 availableAfter: 0,
                 dispersion: 0,
                 conditionType: "Quest",
@@ -414,7 +419,7 @@ export class QuestsManager extends AbstractModManager
         for (let reqConfig of finishRequirements)
         {
             let req: IQuestCondition
-            let reqId: string = `${quest._id}req${index}`
+            let reqId: string = Helper.generateSHA256ID(`${quest._id}req${index}`)
 
             if (reqConfig.description)
             {
@@ -439,10 +444,10 @@ export class QuestsManager extends AbstractModManager
                     visibilityConditions: [],
 
                     counter: {
-                        id: `${reqId}_counter`,
+                        id: Helper.generateSHA256ID(`${reqId}_counter`),
                         conditions: [
                             {
-                                id: `${reqId}_condition`,
+                                id: Helper.generateSHA256ID(`${reqId}_condition`),
                                 dynamicLocale: false,
                                 compareMethod: ">=",
                                 target: "Any",
@@ -538,9 +543,9 @@ export class QuestsManager extends AbstractModManager
 
             if (reqConfig.type == "HandoverItem")
             {
-                quest.type = QuestTypeEnum.COMPLETION
+                //quest.type = QuestTypeEnum.COMPLETION
 
-                description += `Find ${reqConfig.count} ${this.localeManager.getENLocale(reqConfig.target)}\n`
+                description += `Find ${reqConfig.count} ${this.localeManager.getENLocale(`${reqConfig.target} Name`)}\n`
 
                 req = {
                     id: reqId,
@@ -565,7 +570,7 @@ export class QuestsManager extends AbstractModManager
 
                 this.localeManager.setENLocale(
                     reqId, 
-                    `Handover ${reqConfig.count} ${this.localeManager.getENLocale(reqConfig.target)}`)
+                    `Handover ${reqConfig.count} ${this.localeManager.getENLocale(`${reqConfig.target} Name`)}`)
             }
 
             quest.conditions.AvailableForFinish.push(req)
@@ -576,7 +581,7 @@ export class QuestsManager extends AbstractModManager
         if (setLocale)
             this.localeManager.setENLocale(`${quest._id}_description`, description)
 
-        this.databaseTables.templates.quests[quest._id] = quest
+        //this.databaseTables.templates.quests[quest._id] = quest
     }
 
     private setQuestRewards(quest: IQuest, rewards: any[], clearAllRewards: boolean | undefined = undefined)
@@ -592,15 +597,20 @@ export class QuestsManager extends AbstractModManager
 
         for (let rewConfig of rewards)
         {
+            const rewardItemId = Helper.generateSHA256ID(`${quest._id}reward${index}target`)
+            
             const reward: IQuestReward = {
-                id: `${quest._id}reward${index}`,
-                value: rewConfig.count.toString(),
+                id: Helper.generateSHA256ID(`${quest._id}reward${index}`),
+                value: rewConfig.count,
                 type: rewConfig.type ? rewConfig.type : "Item",
                 index: index,
-                target: `${quest._id}reward${index}target`,
+                target: rewardItemId,
+                availableInGameEditions: [],
+                unknown: false,
+                findInRaid: false,
                 items: [
                     {
-                        _id: `${quest._id}reward${index}target`,
+                        _id: rewardItemId,
                         _tpl: rewConfig.templateId,
                         upd: {
                             StackObjectsCount: rewConfig.count
@@ -644,7 +654,7 @@ export class QuestsManager extends AbstractModManager
             }]
 
         const reward: IQuestReward = {
-            id: `${quest._id}reward${index}`,
+            id: Helper.generateSHA256ID(`${quest._id}reward${index}`),
             index: index,
             items: items,
             loyaltyLevel: request.loyaltyLevel,

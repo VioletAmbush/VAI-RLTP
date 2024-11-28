@@ -254,7 +254,26 @@
             }
         ],
         "Basic Shotguns": [
-
+            {
+                "presetId": "AA12_Basic",
+                "price": [
+                    {
+                        "templateId": "5d1b392c86f77425243e98fe",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "590a3cd386f77436f20848cb",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "590a3d9c86f774385926e510",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 5,
+                "questId": "5edac020218d181e29451446"
+            }
         ],
         "Basic DMRs": [
             {
@@ -426,6 +445,26 @@
                 "loyaltyLevel": 3,
                 "count": 5,
                 "questId": "5a27bb5986f7741dfb660900"
+            },
+            {
+                "presetId": "M60_Basic",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 5,
+                "questId": "5a27bc1586f7741f6d40fa2f"
             },
             
             {
@@ -730,6 +769,27 @@
                 "loyaltyLevel": 2,
                 "count": 3,
                 "questId": "5a27b9de86f77464e5044585"
+            },
+
+            {
+                "presetId": "AA12_Std",
+                "price": [
+                    {
+                        "templateId": "5d1b392c86f77425243e98fe",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "590a3cd386f77436f20848cb",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "590a3d9c86f774385926e510",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 3,
+                "questId": "67474dd2a7f5b436b800000f"
             }
         ],
         "Std DMRs": [
@@ -902,6 +962,26 @@
                 "loyaltyLevel": 3,
                 "count": 3,
                 "questId": "8f9c8582c20b2cb147ccb616"
+            },
+            {
+                "presetId": "M60_Std",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 3,
+                "questId": "67474dd2a7f5b436b8000014"
             },
 
             {
@@ -1102,7 +1182,7 @@
                 ],
                 "loyaltyLevel": 2,
                 "count": 2,
-                "questId": "d7771b1dcdefedd0932b9a66"
+                "questId": "67474dd2a7f5b436b8000001"
             },
 
             {
@@ -1207,6 +1287,27 @@
                 "loyaltyLevel": 2,
                 "count": 2,
                 "questId": "88af27634d01e39aeb198c3c"
+            },
+
+            {
+                "presetId": "AA12_Adv",
+                "price": [
+                    {
+                        "templateId": "5d1b392c86f77425243e98fe",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "590a3cd386f77436f20848cb",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "590a3d9c86f774385926e510",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 2,
+                "questId": "67474dd2a7f5b436b8000010"
             }
         ],
         "Adv DMRs": [
@@ -1379,6 +1480,26 @@
                 "loyaltyLevel": 3,
                 "count": 2,
                 "questId": "8aba393e6acfb561e0a4ae00"
+            },
+            {
+                "presetId": "M60_Adv",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 2,
+                "questId": "67474dd2a7f5b436b8000015"
             },
 
             {
@@ -1671,6 +1792,27 @@
                 "loyaltyLevel": 2,
                 "count": 1,
                 "questId": "ed2b91fabe1e7b6fc0932cbc"
+            },
+
+            {
+                "presetId": "AA12_Sup",
+                "price": [
+                    {
+                        "templateId": "5d1b392c86f77425243e98fe",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "590a3cd386f77436f20848cb",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "590a3d9c86f774385926e510",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "67474dd2a7f5b436b8000011"
             }
         ],
         "Sup DMRs": [
@@ -1843,6 +1985,26 @@
                 "loyaltyLevel": 3,
                 "count": 1,
                 "questId": "6052e7086a9f7874acf3dc29"
+            },
+            {
+                "presetId": "M60_Sup",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "67474dd2a7f5b436b8000016"
             },
 
             {
@@ -2183,6 +2345,31 @@
                 "loyaltyLevel": 2,
                 "count": 1,
                 "questId": "f1e65ac15cb92da98c369a1c"
+            },
+
+            {
+                "presetId": "AA12_Master",
+                "price": [
+                    {
+                        "templateId": "5d1b392c86f77425243e98fe",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "590a3cd386f77436f20848cb",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "590a3d9c86f774385926e510",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "62a09cfe4f842e1bd12da3e4",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "67474dd2a7f5b436b8000012"
             }
         ],
         "Master DMRs": [
@@ -2387,6 +2574,30 @@
                 "loyaltyLevel": 3,
                 "count": 1,
                 "questId": "eab98f8d9d67efd6c3b72ab2"
+            },
+            {
+                "presetId": "M60_Master",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "67474dd2a7f5b436b8000017"
             },
 
             {
@@ -3376,6 +3587,53 @@
                 "loyaltyLevel": 3,
                 "count": 10,
                 "questId": "3e80b5a7108eeee378a1c934"
+            },
+            {
+                "name": "M60 100-rnd box",
+                "itemTemplateId": "660ea4453786cc0af808a1be",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "619cbf476b8a1b37a54eebf8",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "5a27bc1586f7741f6d40fa2f"
+            },
+            {
+                "name": "AA12 8-rnd",
+                "itemTemplateId": "66ffaab91f7492c901027bb8",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "5edac020218d181e29451446"
+            },
+            {
+                "name": "AA12 20-rnd",
+                "itemTemplateId": "6709133fa532466d5403fb7c",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "619cbf476b8a1b37a54eebf8",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 10,
+                "questId": "67474dd2a7f5b436b8000024"
             }
         ],
 

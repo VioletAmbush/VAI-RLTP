@@ -1,5 +1,179 @@
 {
     "enabled": true,
 
-    "items": {}
+    "items": [
+        {
+            "copyTemplateId": "59d6088586f774275f37482f",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "changes": {
+                "_id": "67474dd2a7f5b436b8000025",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "bFirerate": 900
+                }
+            }
+        },
+        {
+            "copyTemplateId": "64748cb8de82c85eaf0a273a",
+            "slotId": "Holster",
+            "copyLocale": true,
+            "changes": {
+                "_id": "67474dd2a7f5b436b800004f",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "ammoCaliber": "Caliber40mmRU",
+                    "defAmmo": "5656eb674bdc2d35148b457c",
+                    "Chambers": [
+                        {
+                            "_id": "67474dd2a7f5b436b8000050",
+                            "_parent": "67474dd2a7f5b436b800004f",
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "5656eb674bdc2d35148b457c"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "_id": "67474dd2a7f5b436b8000051",
+                            "_parent": "67474dd2a7f5b436b800004f",
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "5656eb674bdc2d35148b457c"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+
+                }
+            }
+        },
+        {
+            "copyTemplateId": "576165642459773c7a400233",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "changes": {
+                "_id": "67474dd2a7f5b436b8000054",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "ammoCaliber": "Caliber23x75",
+                    "defAmmo": "5e85aa1a988a8701445df1f5",
+                    "defMagType": "67474dd2a7f5b436b8000052",
+                    "Chambers": [
+                        {
+                            "_id": "67474dd2a7f5b436b800005f",
+                            "_parent": "67474dd2a7f5b436b8000054",
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "5e85aa1a988a8701445df1f5",
+                                            "5e85a9a6eacf8c039e4e2ac1",
+                                            "5f647f31b6238e5dd066e196",
+                                            "5e85a9f4add9fe03027d9bf1"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "Slots": [
+                        {
+                            "_id": "67474dd2a7f5b436b8000055",
+                            "_parent": "67474dd2a7f5b436b8000054"
+                        },
+                        {
+                            "_id": "67474dd2a7f5b436b8000056",
+                            "_parent": "67474dd2a7f5b436b8000054"
+                        },
+                        {
+                            "_id": "67474dd2a7f5b436b8000057",
+                            "_parent": "67474dd2a7f5b436b8000054"
+                        },
+                        {
+                            "_id": "67474dd2a7f5b436b8000058",
+                            "_parent": "67474dd2a7f5b436b8000054"
+                        },
+                        {
+                            "_id": "67474dd2a7f5b436b8000059",
+                            "_parent": "67474dd2a7f5b436b8000054"
+                        },
+                        {
+                            "_id": "67474dd2a7f5b436b800005a",
+                            "_parent": "67474dd2a7f5b436b8000054"
+                        },
+                        {
+                            "_id": "67474dd2a7f5b436b800005b",
+                            "_parent": "67474dd2a7f5b436b8000054"
+                        },
+                        {
+                            "_id": "67474dd2a7f5b436b800005c",
+                            "_parent": "67474dd2a7f5b436b8000054",
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "AnimationIndex": -1,
+                                        "Filter": [
+                                            "67474dd2a7f5b436b8000052"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "_id": "67474dd2a7f5b436b800005d",
+                            "_parent": "67474dd2a7f5b436b8000054"
+                        },
+                        {
+                            "_id": "67474dd2a7f5b436b800005e",
+                            "_parent": "67474dd2a7f5b436b8000054"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "copyTemplateId": "5cf8f3b0d7f00c00217872ef",
+            "copyLocale": true,
+            "changes": {
+                "_id": "67474dd2a7f5b436b8000052",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "Cartridges": [
+                        {
+                            "_id": "67474dd2a7f5b436b8000053",
+                            "_max_count": 20,
+                            "_name": "cartridges",
+                            "_parent": "67474dd2a7f5b436b8000052",
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "5e85aa1a988a8701445df1f5",
+                                            "5e85a9a6eacf8c039e4e2ac1",
+                                            "5f647f31b6238e5dd066e196",
+                                            "5e85a9f4add9fe03027d9bf1"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "_proto": "5748538b2459770af276a261"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
 }

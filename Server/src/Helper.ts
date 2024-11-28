@@ -1,8 +1,8 @@
 import { IPmcData } from "@spt/models/eft/common/IPmcData"
-import { Item } from "@spt/models/eft/common/tables/IItem"
+import { IItem } from "@spt/models/eft/common/tables/IItem"
 import { ITemplateItem } from "@spt/models/eft/common/tables/ITemplateItem"
 import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables"
-import { Location } from "@spt/models/eft/common/tables/IItem"
+import { IItemLocation } from "@spt/models/eft/common/tables/IItem"
 import { ConfigMapper } from "./ConfigMapper"
 import { Constants } from "./Constants"
 
@@ -57,9 +57,9 @@ export class Helper
         }
     }
 
-    public static getItemTree(inventory: Item[], root: Item): Item[]
+    public static getItemTree(inventory: IItem[], root: IItem): IItem[]
     {
-        let result: Item[] = [ root ] 
+        let result: IItem[] = [ root ] 
 
         while (true)
         {
@@ -131,9 +131,9 @@ export class Helper
         {
             const itemTemplate = databaseTables.templates.items[item._tpl]
 
-            if (item.location as Location)
+            if (item.location as IItemLocation)
             {
-                const location = item.location as Location
+                const location = item.location as IItemLocation
 
                 this.iterateRect(location.x, location.y, itemTemplate._props.Width, itemTemplate._props.Height, location.r == "Vertical", stashMap, (x, y) => 
                 {
@@ -146,7 +146,7 @@ export class Helper
 
         //this.printMap(stashMap, stashSize)
 
-        const unplacedItems: Item[] = []
+        const unplacedItems: IItem[] = []
 
         stashItems.forEach(item => 
         {
@@ -265,7 +265,12 @@ export class Helper
         }
     }
 
-    private static findItemLocation(item: ITemplateItem, rotated: boolean, stashMap: any): Location | null
+    public static generateSHA256ID(data: string): string
+    {
+        return Constants.getHashUtil().generateHashForData("sha256", data).substring(0, 24)
+    }
+
+    private static findItemLocation(item: ITemplateItem, rotated: boolean, stashMap: any): IItemLocation | null
     {
         for (let r = 0; r < stashMap.length; r++)
         {

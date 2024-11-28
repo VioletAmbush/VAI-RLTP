@@ -1571,8 +1571,32 @@
                 }
             ]
         },
-        "T2 SMG Mastery": {
+        "T2 SMG Mastery (1/2)": {
             "id": "d7771b1dcdefedd0932b9a66",
+            "traderAcr": "s",
+
+            "kills": 20,
+        
+            "weaponCategories": [ 
+                "SingleSMGs",
+                "AutoSMGs"
+            ],
+
+            "startQuestRequirements": [
+                "c2783cddebc45e581e01a153",
+                "5a27d2af86f7744e1115b323",
+                "5979ed3886f77431307dc512"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "569668774bdc2da2298b4568",
+                    "count": 100
+                }
+            ]
+        },
+        "T2 SMG Mastery (2/2)": {
+            "id": "67474dd2a7f5b436b8000001",
             "traderAcr": "s",
 
             "kills": 40,
@@ -1583,10 +1607,7 @@
             ],
 
             "startQuestRequirements": [
-                "c2783cddebc45e581e01a153",
-                "5a27d2af86f7744e1115b323",
-                "290b55f293de03b3bd7b07eb",
-                "dfdf5d41f22463ec76670f1c"
+                "d7771b1dcdefedd0932b9a66"
             ],
         
             "rewards": [
@@ -1795,7 +1816,7 @@
             "id": "d67ba05660a4055a196133c9",
             "traderAcr": "s",
 
-            "kills": 20,
+            "kills": 40,
         
             "weaponIds": [ 
                 "56d59856d2720bd8418b456a"
@@ -1886,7 +1907,7 @@
             "id": "7e2f456c1e5a0714d5e62c7b",
             "traderAcr": "s",
 
-            "kills": 20,
+            "kills": 40,
         
             "weaponIds": [ 
                 "5a7ae0c351dfba0017554310"
@@ -2003,7 +2024,7 @@
             "id": "4cde1148354751b3688f4711",
             "traderAcr": "pk",
 
-            "kills": 20,
+            "kills": 40,
         
             "weaponIds": [ 
                 "5cadc190ae921500103bb3b6"
@@ -2144,7 +2165,7 @@
             "id": "3e968bb9cf1f86a080e64749",
             "traderAcr": "p",
 
-            "kills": 20,
+            "kills": 40,
         
             "weaponIds": [ 
                 "576a581d2459771e7b1bc4f1"
@@ -2218,7 +2239,7 @@
             "id": "1f0a1b65e0c962a3f410079e",
             "traderAcr": "p",
 
-            "kills": 8,
+            "kills": 40,
         
             "weaponIds": [ 
                 "602a9740da11d6478d5a06dc"
@@ -2290,7 +2311,7 @@
             "id": "0bcd62959550e200cf8ddd1a",
             "traderAcr": "p",
 
-            "kills": 20,
+            "kills": 40,
         
             "weaponIds": [ 
                 "59984ab886f7743e98271174"
@@ -2359,7 +2380,7 @@
             "id": "fa502d18d825690ebf62216c",
             "traderAcr": "pk",
 
-            "kills": 20,
+            "kills": 40,
         
             "weaponIds": [ 
                 "5926bb2186f7744b1c6c6e60"
@@ -2413,7 +2434,7 @@
             ],
 
             "startQuestRequirements": [
-                "d7771b1dcdefedd0932b9a66"
+                "67474dd2a7f5b436b8000001"
             ],
         
             "rewards": [
@@ -2427,7 +2448,7 @@
             "id": "c91b681bfe764d6fc2f36908",
             "traderAcr": "s",
 
-            "kills": 20,
+            "kills": 40,
         
             "weaponIds": [ 
                 "5fc3e272f8b6a877a729eac5"
@@ -2461,6 +2482,99 @@
 
             "startQuestRequirements": [
                 "c91b681bfe764d6fc2f36908"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "569668774bdc2da2298b4568",
+                    "count": 1000
+                }
+            ]
+        },
+
+        "T2 IWI UZI Mastery (1/4)": {
+            "id": "67474dd2a7f5b436b8000002",
+            "traderAcr": "s",
+
+            "kills": 40,
+        
+            "weaponIds": [ 
+                "66992b349950f5f4cd06029f"
+            ],
+
+            "startQuestRequirements": [
+                "67474dd2a7f5b436b8000001"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "569668774bdc2da2298b4568",
+                    "count": 200
+                }
+            ]
+        },
+        "T2 IWI UZI Mastery (2/4)": {
+            "id": "67474dd2a7f5b436b800000e",
+            "traderAcr": "s",
+
+            "kills": 80,
+        
+            "weaponIds": [ 
+                "66992b349950f5f4cd06029f"
+            ],
+
+            "startQuestRequirements": [
+                "67474dd2a7f5b436b8000002"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "569668774bdc2da2298b4568",
+                    "count": 400
+                }
+            ]
+        },
+        "T2 IWI UZI Mastery (3/4)": {
+            "id": "67474dd2a7f5b436b8000003",
+            "traderAcr": "s",
+
+            "kills": 40,
+        
+            "weaponIds": [ 
+                "66992b349950f5f4cd06029f"
+            ],
+
+            "startQuestRequirements": [
+                "67474dd2a7f5b436b800000e"
+            ],
+
+            "scavTypes": [
+                "bossGluhar",
+                "followerGluharAssault",
+                "followerGluharScout",
+                "followerGluharSecurity",
+                "followerGluharSnipe"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "569668774bdc2da2298b4568",
+                    "count": 700
+                }
+            ]
+        },
+        "T2 IWI UZI Mastery (4/4)": {
+            "id": "67474dd2a7f5b436b8000004",
+            "traderAcr": "s",
+
+            "kills": 400,
+        
+            "weaponIds": [ 
+                "66992b349950f5f4cd06029f"
+            ],
+
+            "startQuestRequirements": [
+                "67474dd2a7f5b436b8000003"
             ],
         
             "rewards": [
@@ -2565,7 +2679,7 @@
             "id": "8189aa8c7fae39ae26db5ccf",
             "traderAcr": "j",
 
-            "kills": 20,
+            "kills": 40,
         
             "weaponIds": [ 
                 "54491c4f4bdc2db1078b4568"
@@ -2655,7 +2769,7 @@
             "id": "ab63df9e41d5fe56dcf590e7",
             "traderAcr": "s",
 
-            "kills": 20,
+            "kills": 40,
         
             "weaponIds": [ 
                 "5a7828548dc32e5a9c28b516"
@@ -2748,7 +2862,7 @@
             "id": "f1e65ac15cb92da98c369a1c",
             "traderAcr": "pk",
 
-            "kills": 20,
+            "kills": 40,
         
             "weaponIds": [ 
                 "5e870397991fd70db46995c8"
@@ -2937,7 +3051,7 @@
             "id": "6f26e3f327d56ce331c4f767",
             "traderAcr": "p",
 
-            "kills": 20,
+            "kills": 40,
         
             "weaponIds": [ 
                 "644674a13d52156624001fbc",
@@ -3122,7 +3236,7 @@
             "id": "79a671284aed313d500462bf",
             "traderAcr": "s",
 
-            "kills": 20,
+            "kills": 40,
         
             "weaponIds": [ 
                 "62e7c4fba689e8c9c50dfc38",
@@ -3324,7 +3438,7 @@
             "id": "1df3d2d64eb4d5b103f4ba3a",
             "traderAcr": "p",
 
-            "kills": 20,
+            "kills": 40,
         
             "weaponIds": [ 
                 "5beed0f50db834001c062b12"
@@ -3414,7 +3528,7 @@
             "id": "eaa8c20ba98a87c79f04a973",
             "traderAcr": "s",
 
-            "kills": 20,
+            "kills": 40,
         
             "weaponIds": [ 
                 "59e6152586f77473dc057aa1"
@@ -3505,7 +3619,7 @@
             "id": "10678889b7cbdc00aa02cd67",
             "traderAcr": "j",
 
-            "kills": 20,
+            "kills": 40,
         
             "weaponIds": [ 
                 "59e6687d86f77411d949b251"
@@ -3595,7 +3709,7 @@
             "id": "29f27b7fa62b2a0958910122",
             "traderAcr": "pk",
 
-            "kills": 20,
+            "kills": 40,
         
             "weaponIds": [ 
                 "5f2a9575926fd9352339381f"
@@ -3686,7 +3800,7 @@
             "id": "2796119c25f2a77b16a78bbd",
             "traderAcr": "pk",
 
-            "kills": 20,
+            "kills": 40,
         
             "weaponIds": [ 
                 "5d43021ca4b9362eab4b5e25"
@@ -3984,7 +4098,7 @@
             "id": "a93ef10463b62ead7e390993",
             "traderAcr": "pk",
 
-            "kills": 20,
+            "kills": 40,
         
             "weaponIds": [ 
                 "5bfea6e90db834001b7347f3"
@@ -4205,7 +4319,8 @@
             "startQuestRequirements": [
                 "64afce4a518ad093941ce359",
                 "5a03296886f774569778596a",
-                "d7771b1dcdefedd0932b9a66"
+                "67474dd2a7f5b436b8000001",
+                "5c0bdb5286f774166e38eed4"
             ],
         
             "rewards": [
@@ -4633,6 +4748,137 @@
             ]
         },
 
+        "T3 Magnum Research Desert Eagle Mastery (1/5)": {
+            "id": "67474dd2a7f5b436b8000005",
+            "traderAcr": "s",
+
+            "kills": 30,
+        
+            "weaponIds": [ 
+                "669fa409933e898cce0c2166",
+                "669fa3f88abd2662d80eee77",
+                "669fa39b48fc9f8db6035a0c",
+                "669fa3d876116c89840b1217",
+                "668fe5a998b5ad715703ddd6"
+            ],
+
+            "startQuestRequirements": [
+                "6d508d622f86e7098e4602df",
+                "5edabd13218d181e29451442"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "569668774bdc2da2298b4568",
+                    "count": 250
+                }
+            ]
+        },
+        "T3 Magnum Research Desert Eagle Mastery (2/5)": {
+            "id": "67474dd2a7f5b436b8000006",
+            "traderAcr": "s",
+
+            "kills": 70,
+        
+            "weaponIds": [ 
+                "669fa409933e898cce0c2166",
+                "669fa3f88abd2662d80eee77",
+                "669fa39b48fc9f8db6035a0c",
+                "669fa3d876116c89840b1217",
+                "668fe5a998b5ad715703ddd6"
+            ],
+
+            "startQuestRequirements": [
+                "67474dd2a7f5b436b8000005"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "569668774bdc2da2298b4568",
+                    "count": 500
+                }
+            ]
+        },
+        "T3 Magnum Research Desert Eagle Mastery (3/5)": {
+            "id": "67474dd2a7f5b436b8000007",
+            "traderAcr": "s",
+
+            "kills": 150,
+        
+            "weaponIds": [ 
+                "669fa409933e898cce0c2166",
+                "669fa3f88abd2662d80eee77",
+                "669fa39b48fc9f8db6035a0c",
+                "669fa3d876116c89840b1217",
+                "668fe5a998b5ad715703ddd6"
+            ],
+
+            "startQuestRequirements": [
+                "67474dd2a7f5b436b8000006"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "569668774bdc2da2298b4568",
+                    "count": 800
+                }
+            ]
+        },
+        "T3 Magnum Research Desert Eagle Mastery (4/5)": {
+            "id": "67474dd2a7f5b436b8000008",
+            "traderAcr": "s",
+
+            "kills": 13,
+        
+            "weaponIds": [ 
+                "669fa409933e898cce0c2166",
+                "669fa3f88abd2662d80eee77",
+                "669fa39b48fc9f8db6035a0c",
+                "669fa3d876116c89840b1217",
+                "668fe5a998b5ad715703ddd6"
+            ],
+
+            "startQuestRequirements": [
+                "67474dd2a7f5b436b8000007"
+            ],
+
+            "scavTypes": [
+                "bossKilla"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "569668774bdc2da2298b4568",
+                    "count": 1200
+                }
+            ]
+        },
+        "T3 Magnum Research Desert Eagle Mastery (5/5)": {
+            "id": "67474dd2a7f5b436b8000009",
+            "traderAcr": "s",
+
+            "kills": 700,
+        
+            "weaponIds": [ 
+                "669fa409933e898cce0c2166",
+                "669fa3f88abd2662d80eee77",
+                "669fa39b48fc9f8db6035a0c",
+                "669fa3d876116c89840b1217",
+                "668fe5a998b5ad715703ddd6"
+            ],
+
+            "startQuestRequirements": [
+                "67474dd2a7f5b436b8000008"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "569668774bdc2da2298b4568",
+                    "count": 3000
+                }
+            ]
+        },
+
         "T3 Stechkin APS/APB Mastery (1/3)": {
             "id": "549a8a9518ebf2e890787eeb",
             "traderAcr": "p",
@@ -4967,6 +5213,100 @@
 
             "startQuestRequirements": [
                 "7b6e9a1c83934a602e1f6138"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "569668774bdc2da2298b4568",
+                    "count": 3000
+                }
+            ]
+        },
+
+        "T3 IWI UZI PRO Mastery (1/4)": {
+            "id": "67474dd2a7f5b436b800000a",
+            "traderAcr": "s",
+
+            "kills": 70,
+        
+            "weaponIds": [ 
+                "6680304edadb7aa61d00cef0",
+                "668e71a8dadf42204c032ce1"
+            ],
+
+            "startQuestRequirements": [
+                "6d2ab70b88b5a011c18f393a"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "569668774bdc2da2298b4568",
+                    "count": 500
+                }
+            ]
+        },
+        "T3 IWI UZI PRO Mastery (2/4)": {
+            "id": "67474dd2a7f5b436b800000b",
+            "traderAcr": "s",
+
+            "kills": 150,
+        
+            "weaponIds": [ 
+                "6680304edadb7aa61d00cef0",
+                "668e71a8dadf42204c032ce1"
+            ],
+
+            "startQuestRequirements": [
+                "67474dd2a7f5b436b800000a"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "569668774bdc2da2298b4568",
+                    "count": 800
+                }
+            ]
+        },
+        "T3 IWI UZI PRO Mastery (3/4)": {
+            "id": "67474dd2a7f5b436b800000c",
+            "traderAcr": "s",
+
+            "kills": 70,
+        
+            "weaponIds": [ 
+                "6680304edadb7aa61d00cef0",
+                "668e71a8dadf42204c032ce1"
+            ],
+
+            "startQuestRequirements": [
+                "67474dd2a7f5b436b800000b"
+            ],
+
+            "scavTypes": [
+                "bossBully",
+                "followerBully"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "569668774bdc2da2298b4568",
+                    "count": 1200
+                }
+            ]
+        },
+        "T3 IWI UZI PRO Mastery (4/4)": {
+            "id": "67474dd2a7f5b436b800000d",
+            "traderAcr": "s",
+
+            "kills": 700,
+        
+            "weaponIds": [ 
+                "6680304edadb7aa61d00cef0",
+                "668e71a8dadf42204c032ce1"
+            ],
+
+            "startQuestRequirements": [
+                "67474dd2a7f5b436b800000c"
             ],
         
             "rewards": [
@@ -5457,6 +5797,124 @@
                 {
                     "templateId": "5449016a4bdc2d6f028b456f",
                     "count": 300000
+                }
+            ]
+        },
+
+        "T3 MPS Auto Assault-12 Mastery (1/5)": {
+            "id": "67474dd2a7f5b436b800000f",
+            "traderAcr": "pk",
+
+            "kills": 30,
+        
+            "weaponIds": [ 
+                "66ffa9b66e19cc902401c5e8",
+                "67124dcfa3541f2a1f0e788b"
+            ],
+
+            "startQuestRequirements": [
+                "6d508d622f86e7098e4602df",
+                "5edac020218d181e29451446"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "5696686a4bdc2da3298b456a",
+                    "count": 280
+                }
+            ]
+        },
+        "T3 MPS Auto Assault-12 Mastery (2/5)": {
+            "id": "67474dd2a7f5b436b8000010",
+            "traderAcr": "pk",
+
+            "kills": 70,
+        
+            "weaponIds": [ 
+                "66ffa9b66e19cc902401c5e8",
+                "67124dcfa3541f2a1f0e788b"
+            ],
+
+            "startQuestRequirements": [
+                "67474dd2a7f5b436b800000f"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "5696686a4bdc2da3298b456a",
+                    "count": 560
+                }
+            ]
+        },
+        "T3 MPS Auto Assault-12 Mastery (3/5)": {
+            "id": "67474dd2a7f5b436b8000011",
+            "traderAcr": "pk",
+
+            "kills": 150,
+        
+            "weaponIds": [ 
+                "66ffa9b66e19cc902401c5e8",
+                "67124dcfa3541f2a1f0e788b"
+            ],
+
+            "startQuestRequirements": [
+                "67474dd2a7f5b436b8000010"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "5696686a4bdc2da3298b456a",
+                    "count": 890
+                }
+            ]
+        },
+        "T3 MPS Auto Assault-12 Mastery (4/5)": {
+            "id": "67474dd2a7f5b436b8000012",
+            "traderAcr": "pk",
+
+            "kills": 70,
+        
+            "weaponIds": [ 
+                "66ffa9b66e19cc902401c5e8",
+                "67124dcfa3541f2a1f0e788b"
+            ],
+
+            "scavTypes": [
+                "bossBoar",
+                "bossBoarSniper",
+                "followerBoar"
+            ],
+
+            "startQuestRequirements": [
+                "67474dd2a7f5b436b8000011"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "5696686a4bdc2da3298b456a",
+                    "count": 1340
+                }
+            ]
+        },
+        "T3 MPS Auto Assault-12 Mastery (5/5)": {
+            "id": "67474dd2a7f5b436b8000013",
+            "traderAcr": "pk",
+
+            "kills": 700,
+        
+            "weaponIds": [ 
+                "66ffa9b66e19cc902401c5e8",
+                "67124dcfa3541f2a1f0e788b"
+            ],
+
+            "startQuestRequirements": [
+                "67474dd2a7f5b436b8000012"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "5696686a4bdc2da3298b456a",
+                    "count": 3340
                 }
             ]
         },
@@ -6355,7 +6813,7 @@
             "id": "8bb82de497dedfa827c82e5d",
             "traderAcr": "j",
 
-            "kills": 70,
+            "kills": 35,
         
             "weaponIds": [ 
                 "5aafa857e5b5b00018480968"
@@ -6789,6 +7247,129 @@
             ]
         },
 
+        "T3 U.S. Ordnance M60 Mastery (1/5)": {
+            "id": "67474dd2a7f5b436b8000014",
+            "traderAcr": "pk",
+
+            "kills": 30,
+        
+            "weaponIds": [ 
+                "65fb023261d5829b2d090755",
+                "661ceb1b9311543c7104149b",
+                "661cec09b2c6356b4d0c7a36"
+            ],
+
+            "startQuestRequirements": [
+                "6d508d622f86e7098e4602df",
+                "5a27bc1586f7741f6d40fa2f"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "5696686a4bdc2da3298b456a",
+                    "count": 280
+                }
+            ]
+        },
+        "T3 U.S. Ordnance M60 Mastery (2/5)": {
+            "id": "67474dd2a7f5b436b8000015",
+            "traderAcr": "pk",
+
+            "kills": 70,
+        
+            "weaponIds": [ 
+                "65fb023261d5829b2d090755",
+                "661ceb1b9311543c7104149b",
+                "661cec09b2c6356b4d0c7a36"
+            ],
+
+            "startQuestRequirements": [
+                "67474dd2a7f5b436b8000014"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "5696686a4bdc2da3298b456a",
+                    "count": 560
+                }
+            ]
+        },
+        "T3 U.S. Ordnance M60 Mastery (3/5)": {
+            "id": "67474dd2a7f5b436b8000016",
+            "traderAcr": "pk",
+
+            "kills": 150,
+        
+            "weaponIds": [ 
+                "65fb023261d5829b2d090755",
+                "661ceb1b9311543c7104149b",
+                "661cec09b2c6356b4d0c7a36"
+            ],
+
+            "startQuestRequirements": [
+                "67474dd2a7f5b436b8000015"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "5696686a4bdc2da3298b456a",
+                    "count": 890
+                }
+            ]
+        },
+        "T3 U.S. Ordnance M60 Mastery (4/5)": {
+            "id": "67474dd2a7f5b436b8000017",
+            "traderAcr": "pk",
+
+            "kills": 70,
+        
+            "weaponIds": [ 
+                "65fb023261d5829b2d090755",
+                "661ceb1b9311543c7104149b",
+                "661cec09b2c6356b4d0c7a36"
+            ],
+
+            "scavTypes": [
+                "bossBoar",
+                "bossBoarSniper",
+                "followerBoar"
+            ],
+
+            "startQuestRequirements": [
+                "67474dd2a7f5b436b8000016"
+            ],
+
+            "rewards": [
+                {
+                    "templateId": "5696686a4bdc2da3298b456a",
+                    "count": 1340
+                }
+            ]
+        },
+        "T3 U.S. Ordnance M60 Mastery (5/5)": {
+            "id": "67474dd2a7f5b436b8000018",
+            "traderAcr": "pk",
+
+            "kills": 700,
+        
+            "weaponIds": [ 
+                "65fb023261d5829b2d090755",
+                "661ceb1b9311543c7104149b",
+                "661cec09b2c6356b4d0c7a36"
+            ],
+
+            "startQuestRequirements": [
+                "67474dd2a7f5b436b8000017"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "5696686a4bdc2da3298b456a",
+                    "count": 3340
+                }
+            ]
+        },
+
         "T3 ORSIS T-5000M Mastery (1/4)": {
             "id": "fc29f96ef5928b8723e417de",
             "traderAcr": "j",
@@ -6835,7 +7416,7 @@
             "id": "59f82ce6f2aff8d81f96b6bd",
             "traderAcr": "j",
 
-            "kills": 70,
+            "kills": 35,
         
             "weaponIds": [ 
                 "5df24cf80dee1b22f862e9bc"
@@ -7042,6 +7623,11 @@
                 "6275303a9f372d6ea97f9ec7"
             ],
 
+            "scavTypes": [
+                "pmcUSEC",
+                "pmcBEAR"
+            ],
+
             "startQuestRequirements": [
                 "b6e92374c5ef163e0de69a71"
             ],
@@ -7228,7 +7814,8 @@
                 "42b253942c69e88c7b109f1b",
                 "8e2223a1bd089d4d3729418f",
                 "3bb7ad183673f2a8a15db7f4",
-                "8f9c8582c20b2cb147ccb616"
+                "8f9c8582c20b2cb147ccb616",
+                "64f5aac4b63b74469b6c14c2"
             ],
         
             "rewards": [
@@ -7482,7 +8069,7 @@
             "id": "6a4143e290538630e1ee9821",
             "traderAcr": "s",
 
-            "kills": 50,
+            "kills": 100,
         
             "weaponIds": [ 
                 "5d3eb3b0a4b93615055e84d2",
@@ -7574,7 +8161,7 @@
             "id": "b5402918d92969f6ceb7b394",
             "traderAcr": "p",
 
-            "kills": 50,
+            "kills": 100,
         
             "weaponIds": [ 
                 "59f98b4986f7746f546d2cef"
@@ -7755,7 +8342,7 @@
             "id": "92ac2a091091d87362289583",
             "traderAcr": "pk",
 
-            "kills": 50,
+            "kills": 100,
         
             "weaponIds": [ 
                 "5fb64bc92b1b027b1f50bcf2"
@@ -7845,7 +8432,7 @@
             "id": "5e41f19f4ec20e8538a3710c",
             "traderAcr": "p",
 
-            "kills": 50,
+            "kills": 100,
         
             "weaponIds": [ 
                 "62e14904c2699c0ec93adc47"
@@ -7938,7 +8525,7 @@
             "id": "5caba122c5223a3fd182559d",
             "traderAcr": "j",
 
-            "kills": 20,
+            "kills": 100,
         
             "weaponIds": [ 
                 "5e848cc2988a8701445df1e8"
@@ -7949,7 +8536,8 @@
             ],
 
             "scavTypes": [
-                "sectantPriest"
+                "sectantPriest",
+                "sectantWarrior"
             ],
         
             "rewards": [
@@ -8119,7 +8707,7 @@
             "id": "c3a5110cf9b87c46ee789f21",
             "traderAcr": "p",
 
-            "kills": 50,
+            "kills": 100,
         
             "weaponIds": [ 
                 "57c44b372459772d2b39b8ce",
@@ -8155,6 +8743,99 @@
 
             "startQuestRequirements": [
                 "c3a5110cf9b87c46ee789f21"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "5449016a4bdc2d6f028b456f",
+                    "count": 1000000
+                }
+            ]
+        },
+    
+        "T4 TsNIItochmash SR3M Vikhr Mastery (1/4)": {
+            "id": "67474dd2a7f5b436b8000019",
+            "traderAcr": "p",
+
+            "kills": 120,
+        
+            "weaponIds": [ 
+                "651450ce0e00edc794068371"
+            ],
+
+            "startQuestRequirements": [
+                "472e29b986d430c8fd1fcac8"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "5449016a4bdc2d6f028b456f",
+                    "count": 80000
+                }
+            ]
+        },
+        "T4 TsNIItochmash SR3M Vikhr Mastery (2/4)": {
+            "id": "67474dd2a7f5b436b800001a",
+            "traderAcr": "p",
+
+            "kills": 300,
+        
+            "weaponIds": [ 
+                "651450ce0e00edc794068371"
+            ],
+
+            "startQuestRequirements": [
+                "67474dd2a7f5b436b8000019"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "5449016a4bdc2d6f028b456f",
+                    "count": 200000
+                }
+            ]
+        },
+        "T4 TsNIItochmash SR3M Vikhr Mastery (3/4)": {
+            "id": "67474dd2a7f5b436b800001b",
+            "traderAcr": "p",
+
+            "kills": 100,
+        
+            "weaponIds": [ 
+                "651450ce0e00edc794068371"
+            ],
+
+            "startQuestRequirements": [
+                "67474dd2a7f5b436b800001a"
+            ],
+
+            "scavTypes": [
+                "bossGluhar",
+                "followerGluharAssault",
+                "followerGluharScout",
+                "followerGluharSecurity",
+                "followerGluharSnipe"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "5449016a4bdc2d6f028b456f",
+                    "count": 400000
+                }
+            ]
+        },
+        "T4 TsNIItochmash SR3M Vikhr Mastery (4/4)": {
+            "id": "67474dd2a7f5b436b800001c",
+            "traderAcr": "p",
+
+            "kills": 1200,
+        
+            "weaponIds": [ 
+                "651450ce0e00edc794068371"
+            ],
+
+            "startQuestRequirements": [
+                "67474dd2a7f5b436b800001b"
             ],
         
             "rewards": [
@@ -8300,7 +8981,7 @@
             "id": "f41ac3f3c52637bc119f2f41",
             "traderAcr": "s",
 
-            "kills": 50,
+            "kills": 100,
         
             "weaponIds": [ 
                 "606587252535c57a13424cfd"
@@ -8391,7 +9072,7 @@
             "id": "402633dfbe4f246f99c8ab4c",
             "traderAcr": "s",
 
-            "kills": 50,
+            "kills": 100,
         
             "weaponIds": [ 
                 "5b0bbe4e5acfc40dc528a72d"
@@ -8571,7 +9252,7 @@
             "id": "131b2d8a022d9704d1829c7e",
             "traderAcr": "pk",
 
-            "kills": 50,
+            "kills": 100,
         
             "weaponIds": [ 
                 "5bb2475ed4351e00853264e3"
@@ -8752,7 +9433,7 @@
             "id": "2d15b52f9fafb87b59133bf8",
             "traderAcr": "pk",
 
-            "kills": 20,
+            "kills": 100,
         
             "weaponIds": [ 
                 "6183afd850224f204c1da514",
@@ -8872,7 +9553,7 @@
             "id": "2bee6cac598aeb9792b3d479",
             "traderAcr": "p",
 
-            "kills": 20,
+            "kills": 100,
         
             "weaponIds": [ 
                 "64637076203536ad5600c990",
@@ -9055,7 +9736,7 @@
             "id": "5b1fa7a6d06e1367684925da",
             "traderAcr": "j",
 
-            "kills": 50,
+            "kills": 100,
         
             "weaponIds": [ 
                 "5fc22d7c187fea44d52eda44"
@@ -10534,6 +11215,10 @@
 
             "requirements": [
                 {
+                    "templateId": "66b37eb4acff495a29492407",
+                    "count": 2
+                },
+                {
                     "templateId": "5c1267ee86f77416ec610f72",
                     "count": 1
                 },
@@ -10597,7 +11282,7 @@
             ]
         },
 
-        "T2 Skier Collector (1/7)": {
+        "T2 Skier Collector (1/10)": {
             "id": "c579f4ead20d33f9e34c401b",
             "traderAcr": "s",
 
@@ -10624,7 +11309,29 @@
                 }
             ]
         },
-        "T2 Skier Collector (2/7)": {
+        "T2 Skier Collector (2/10)": {
+            "id": "67474dd2a7f5b436b800001e",
+            "traderAcr": "s",
+
+            "requirements": [
+                {
+                    "templateId": "590c639286f774151567fa95",
+                    "count": 20
+                }
+            ],
+
+            "startQuestRequirements": [
+                "c579f4ead20d33f9e34c401b"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "569668774bdc2da2298b4568",
+                    "count": 210
+                }
+            ]
+        },
+        "T2 Skier Collector (3/10)": {
             "id": "d4ca6dc774e60edc1954a078",
             "traderAcr": "s",
 
@@ -10640,7 +11347,7 @@
             ],
 
             "startQuestRequirements": [
-                "c579f4ead20d33f9e34c401b",
+                "67474dd2a7f5b436b800001e",
                 "5b4794cb86f774598100d5d4"
             ],
         
@@ -10651,7 +11358,7 @@
                 }
             ]
         },
-        "T2 Skier Collector (3/7)": {
+        "T2 Skier Collector (4/10)": {
             "id": "04840d7beb451177e64bf541",
             "traderAcr": "s",
 
@@ -10678,7 +11385,33 @@
                 }
             ]
         },
-        "T2 Skier Collector (4/7)": {
+        "T2 Skier Collector (5/10)": {
+            "id": "67474dd2a7f5b436b800001f",
+            "traderAcr": "s",
+
+            "requirements": [
+                {
+                    "templateId": "62a09e974f842e1bd12da3f0",
+                    "count": 10
+                },
+                {
+                    "templateId": "5734781f24597737e04bf32a",
+                    "count": 1
+                }
+            ],
+
+            "startQuestRequirements": [
+                "04840d7beb451177e64bf541"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "569668774bdc2da2298b4568",
+                    "count": 250
+                }
+            ]
+        },
+        "T2 Skier Collector (6/10)": {
             "id": "5a49f10c6e4c0f3b576f6cb8",
             "traderAcr": "s",
 
@@ -10698,7 +11431,7 @@
             ],
 
             "startQuestRequirements": [
-                "04840d7beb451177e64bf541"
+                "67474dd2a7f5b436b800001f"
             ],
         
             "rewards": [
@@ -10708,7 +11441,7 @@
                 }
             ]
         },
-        "T2 Skier Collector (5/7)": {
+        "T2 Skier Collector (7/10)": {
             "id": "d0743bae18a8f7210a0cb960",
             "traderAcr": "s",
 
@@ -10734,7 +11467,33 @@
                 }
             ]
         },
-        "T2 Skier Collector (6/7)": {
+        "T2 Skier Collector (8/10)": {
+            "id": "67474dd2a7f5b436b8000020",
+            "traderAcr": "s",
+
+            "requirements": [
+                {
+                    "templateId": "62a0a124de7ac81993580542",
+                    "count": 10
+                },
+                {
+                    "templateId": "5c12613b86f7743bbe2c3f76",
+                    "count": 10
+                }
+            ],
+
+            "startQuestRequirements": [
+                "d0743bae18a8f7210a0cb960"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "569668774bdc2da2298b4568",
+                    "count": 320
+                }
+            ]
+        },
+        "T2 Skier Collector (9/10)": {
             "id": "b6af8681814d8ec1f9e20317",
             "traderAcr": "s",
 
@@ -10750,7 +11509,7 @@
             ],
 
             "startQuestRequirements": [
-                "d0743bae18a8f7210a0cb960"
+                "67474dd2a7f5b436b8000020"
             ],
         
             "rewards": [
@@ -10760,7 +11519,7 @@
                 }
             ]
         },
-        "T2 Skier Collector (7/7)": {
+        "T2 Skier Collector (10/10)": {
             "id": "b5ad14b3dfc9947970fda42b",
             "traderAcr": "s",
 
@@ -10787,7 +11546,7 @@
             ]
         },
 
-        "T3 Skier Collector (1/6)": {
+        "T3 Skier Collector (1/9)": {
             "id": "e04464c37cccf3d655f6d746",
             "traderAcr": "s",
 
@@ -10814,7 +11573,37 @@
                 }
             ]
         },
-        "T3 Skier Collector (2/6)": {
+        "T3 Skier Collector (2/9)": {
+            "id": "67474dd2a7f5b436b8000021",
+            "traderAcr": "s",
+
+            "requirements": [
+                {
+                    "templateId": "655c663a6689c676ce57af85",
+                    "count": 10
+                },
+                {
+                    "templateId": "655c652d60d0ac437100fed7",
+                    "count": 10
+                },
+                {
+                    "templateId": "655c673673a43e23e857aebd",
+                    "count": 10
+                }
+            ],
+
+            "startQuestRequirements": [
+                "e04464c37cccf3d655f6d746"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "569668774bdc2da2298b4568",
+                    "count": 500
+                }
+            ]
+        },
+        "T3 Skier Collector (3/9)": {
             "id": "e273b3773e7d4fbab636a944",
             "traderAcr": "s",
 
@@ -10838,7 +11627,7 @@
             ],
 
             "startQuestRequirements": [
-                "e04464c37cccf3d655f6d746"
+                "67474dd2a7f5b436b8000021"
             ],
         
             "rewards": [
@@ -10848,7 +11637,33 @@
                 }
             ]
         },
-        "T3 Skier Collector (3/6)": {
+        "T3 Skier Collector (4/9)": {
+            "id": "67474dd2a7f5b436b8000022",
+            "traderAcr": "s",
+
+            "requirements": [
+                {
+                    "templateId": "66572cbdad599021091c611a",
+                    "count": 10
+                },
+                {
+                    "templateId": "66572c82ad599021091c6118",
+                    "count": 10
+                }
+            ],
+
+            "startQuestRequirements": [
+                "e273b3773e7d4fbab636a944"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "569668774bdc2da2298b4568",
+                    "count": 600
+                }
+            ]
+        },
+        "T3 Skier Collector (5/9)": {
             "id": "a171c558a0c759156d7ae16c",
             "traderAcr": "s",
 
@@ -10872,7 +11687,7 @@
             ],
 
             "startQuestRequirements": [
-                "e273b3773e7d4fbab636a944",
+                "67474dd2a7f5b436b8000022",
                 "5b4795fb86f7745876267770"
             ],
         
@@ -10883,7 +11698,7 @@
                 }
             ]
         },
-        "T3 Skier Collector (4/6)": {
+        "T3 Skier Collector (6/9)": {
             "id": "a91de2cadedb8bde9a9db68d",
             "traderAcr": "s",
 
@@ -10913,7 +11728,33 @@
                 }
             ]
         },
-        "T3 Skier Collector (5/6)": {
+        "T3 Skier Collector (7/9)": {
+            "id": "67474dd2a7f5b436b8000023",
+            "traderAcr": "s",
+
+            "requirements": [
+                {
+                    "templateId": "66b37ea4c5d72b0277488439",
+                    "count": 10
+                },
+                {
+                    "templateId": "66b37eb4acff495a29492407",
+                    "count": 10
+                }
+            ],
+
+            "startQuestRequirements": [
+                "a91de2cadedb8bde9a9db68d"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "569668774bdc2da2298b4568",
+                    "count": 720
+                }
+            ]
+        },
+        "T3 Skier Collector (8/9)": {
             "id": "c1f85d61343856532eccefe0",
             "traderAcr": "s",
 
@@ -10933,7 +11774,7 @@
             ],
 
             "startQuestRequirements": [
-                "a91de2cadedb8bde9a9db68d"
+                "67474dd2a7f5b436b8000023"
             ],
         
             "rewards": [
@@ -10943,7 +11784,7 @@
                 }
             ]
         },
-        "T3 Skier Collector (6/6)": {
+        "T3 Skier Collector (9/9)": {
             "id": "92e8dfe64046fe4c17b192d5",
             "traderAcr": "s",
 
@@ -11400,7 +12241,7 @@
             ]
         },
 
-        "T3 Peacekeeper Collector (1/14)": {
+        "T3 Peacekeeper Collector (1/15)": {
             "id": "7b667306451a925df271da03",
             "traderAcr": "pk",
 
@@ -11427,7 +12268,7 @@
                 }
             ]
         },
-        "T3 Peacekeeper Collector (2/14)": {
+        "T3 Peacekeeper Collector (2/15)": {
             "id": "07d37a4363c37b6f34fa904d",
             "traderAcr": "pk",
 
@@ -11457,7 +12298,7 @@
                 }
             ]
         },
-        "T3 Peacekeeper Collector (3/14)": {
+        "T3 Peacekeeper Collector (3/15)": {
             "id": "b3c339545278e4b8ca14efda",
             "traderAcr": "pk",
 
@@ -11488,7 +12329,7 @@
                 }
             ]
         },
-        "T3 Peacekeeper Collector (4/14)": {
+        "T3 Peacekeeper Collector (4/15)": {
             "id": "4774b9f4ae815ac00805d0c2",
             "traderAcr": "pk",
 
@@ -11515,7 +12356,34 @@
                 }
             ]
         },
-        "T3 Peacekeeper Collector (5/14)": {
+        "T3 Peacekeeper Collector (5/15)": {
+            "id": "67474dd2a7f5b436b8000024",
+            "traderAcr": "pk",
+
+            "requirements": [
+                {
+                    "templateId": "5d0377ce86f774186372f689",
+                    "count": 30
+                },
+                {
+                    "templateId": "5d0376a486f7747d8050965c",
+                    "count": 30
+                }
+            ],
+
+            "startQuestRequirements": [
+                "4774b9f4ae815ac00805d0c2",
+                "5edac020218d181e29451446"
+            ],
+        
+            "rewards": [
+                {
+                    "templateId": "5696686a4bdc2da3298b456a",
+                    "count": 750
+                }
+            ]
+        },
+        "T3 Peacekeeper Collector (6/15)": {
             "id": "f93aea02fd26541afc06991d",
             "traderAcr": "pk",
 
@@ -11531,7 +12399,7 @@
             ],
 
             "startQuestRequirements": [
-                "4774b9f4ae815ac00805d0c2"
+                "67474dd2a7f5b436b8000024"
             ],
         
             "rewards": [
@@ -11541,7 +12409,7 @@
                 }
             ]
         },
-        "T3 Peacekeeper Collector (6/14)": {
+        "T3 Peacekeeper Collector (7/15)": {
             "id": "1cb446aae27c201cd12eb725",
             "traderAcr": "pk",
 
@@ -11571,7 +12439,7 @@
                 }
             ]
         },
-        "T3 Peacekeeper Collector (7/14)": {
+        "T3 Peacekeeper Collector (8/15)": {
             "id": "235beaf497d2173cf030a9dd",
             "traderAcr": "pk",
 
@@ -11597,7 +12465,7 @@
                 }
             ]
         },
-        "T3 Peacekeeper Collector (8/14)": {
+        "T3 Peacekeeper Collector (9/15)": {
             "id": "cdf03e8b7ad96a7cb93ad2c2",
             "traderAcr": "pk",
 
@@ -11624,7 +12492,7 @@
                 }
             ]
         },
-        "T3 Peacekeeper Collector (9/14)": {
+        "T3 Peacekeeper Collector (10/15)": {
             "id": "2994acbbc406790f113c7413",
             "traderAcr": "pk",
 
@@ -11650,7 +12518,7 @@
                 }
             ]
         },
-        "T3 Peacekeeper Collector (10/14)": {
+        "T3 Peacekeeper Collector (11/15)": {
             "id": "c7c4bebf4d4dc0bbb39dea0f",
             "traderAcr": "pk",
 
@@ -11676,7 +12544,7 @@
                 }
             ]
         },
-        "T3 Peacekeeper Collector (11/14)": {
+        "T3 Peacekeeper Collector (12/15)": {
             "id": "a3fc28a47c3441d0d82f0acd",
             "traderAcr": "pk",
 
@@ -11702,7 +12570,7 @@
                 }
             ]
         },
-        "T3 Peacekeeper Collector (12/14)": {
+        "T3 Peacekeeper Collector (13/15)": {
             "id": "e168c3423187b2eded7b5f7e",
             "traderAcr": "pk",
 
@@ -11728,7 +12596,7 @@
                 }
             ]
         },
-        "T3 Peacekeeper Collector (13/14)": {
+        "T3 Peacekeeper Collector (14/15)": {
             "id": "626d3364e0de7e449c422ecd",
             "traderAcr": "pk",
 
@@ -11754,7 +12622,7 @@
                 }
             ]
         },
-        "T3 Peacekeeper Collector (14/14)": {
+        "T3 Peacekeeper Collector (15/15)": {
             "id": "a4db418ad720f099e268a270",
             "traderAcr": "pk",
 

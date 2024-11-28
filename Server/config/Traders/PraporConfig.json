@@ -36,6 +36,58 @@
                 "loyaltyLevel": 1,
                 "count": 2,
                 "questId": "5c0d190cd09282029f5390d8"
+            },
+
+            {
+                "presetId": "BOOMSTICK",
+                "price": [
+                    {
+                        "templateId": "5c0530ee86f774697952d952",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "9492325676675641453fd84b"
+            },
+
+            {
+                "presetId": "Saiga12 Flashbang",
+                "price": [
+                    {
+                        "templateId": "61c18d83b00456371a66814b",
+                        "count": 2
+                    }
+                ],
+                "loyaltyLevel": 2,
+                "count": 1,
+                "questId": "6d508d622f86e7098e4602df"
+            },
+
+            {
+                "presetId": "AKMN SHOOTA",
+                "price": [
+                    {
+                        "templateId": "5f745ee30acaeb0d490d8c5b",
+                        "count": 5
+                    }
+                ],
+                "loyaltyLevel": 3,
+                "count": 1,
+                "questId": "5ffbd6b3e19d4fea95341295"
+            },
+
+            {
+                "presetId": "SR25 Devgun",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 70000
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "5b5f1e0ca7e82cc0a34f886d"
             }
         ],
         
@@ -502,6 +554,30 @@
                 "loyaltyLevel": 4,
                 "count": 5,
                 "questId": "6179ac7511973d018217d0b9"
+            },
+            {
+                "presetId": "SR3M_Basic",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 5,
+                "questId": "64f5aac4b63b74469b6c14c2"
             },
             {
                 "presetId": "ASH12_Basic",
@@ -1004,6 +1080,30 @@
                 "questId": "472e29b986d430c8fd1fcac8"
             },
             {
+                "presetId": "SR3M_Std",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 1
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 3,
+                "questId": "472e29b986d430c8fd1fcac8"
+            },
+            {
                 "presetId": "ASH12_Std",
                 "price": [
                     {
@@ -1189,7 +1289,7 @@
                 ],
                 "loyaltyLevel": 2,
                 "count": 2,
-                "questId": "d7771b1dcdefedd0932b9a66"
+                "questId": "67474dd2a7f5b436b8000001"
             },
 
             {
@@ -1492,6 +1592,30 @@
                 "loyaltyLevel": 4,
                 "count": 2,
                 "questId": "6246f7a26da0a8325023b620"
+            },
+            {
+                "presetId": "SR3M_Adv",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 2,
+                "questId": "67474dd2a7f5b436b8000019"
             },
             {
                 "presetId": "ASH12_Adv",
@@ -1930,6 +2054,30 @@
                 "loyaltyLevel": 4,
                 "count": 1,
                 "questId": "a29bac9655b988157b381f6f"
+            },
+            {
+                "presetId": "SR3M_Sup",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "67474dd2a7f5b436b800001a"
             },
             {
                 "presetId": "ASH12_Sup",
@@ -2527,6 +2675,30 @@
                 "loyaltyLevel": 4,
                 "count": 1,
                 "questId": "c3a5110cf9b87c46ee789f21"
+            },
+            {
+                "presetId": "SR3M_Master",
+                "price": [
+                    {
+                        "templateId": "590c5a7286f7747884343aea",
+                        "count": 4
+                    },
+                    {
+                        "templateId": "5d6fc78386f77449d825f9dc",
+                        "count": 3
+                    },
+                    {
+                        "templateId": "5d6fc87386f77449db3db94e",
+                        "count": 2
+                    },
+                    {
+                        "templateId": "60391a8b3364dc22b04d0ce5",
+                        "count": 1
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 1,
+                "questId": "67474dd2a7f5b436b800001b"
             },
             {
                 "presetId": "ASH12_Master",
@@ -3464,8 +3636,21 @@
                 "questId": "3aed45be7f0bcdd6eecef56d"
             },
             {
-                "name": "AS VAL 30-rnd",
+                "name": "SR3M 30-rnd",
                 "itemTemplateId": "5a9e81fba2750c00164f6b11",
+                "price": [
+                    {
+                        "templateId": "59e35cbb86f7741778269d83",
+                        "count": 3
+                    }
+                ],
+                "loyaltyLevel": 4,
+                "count": 10,
+                "questId": "2a4a95070293e9ecee645ecc"
+            },
+            {
+                "name": "AS VAL 30-rnd",
+                "itemTemplateId": "65118f531b90b4fc77015083",
                 "price": [
                     {
                         "templateId": "59e35cbb86f7741778269d83",
@@ -3868,7 +4053,7 @@
                 "price": [
                     {
                         "templateId": "5449016a4bdc2d6f028b456f",
-                        "count": 86
+                        "count": 87
                     }
                 ],
                 "loyaltyLevel": 1,
@@ -3882,7 +4067,7 @@
                 "price": [
                     {
                         "templateId": "5449016a4bdc2d6f028b456f",
-                        "count": 89
+                        "count": 103
                     }
                 ],
                 "loyaltyLevel": 1,
@@ -3896,7 +4081,7 @@
                 "price": [
                     {
                         "templateId": "5449016a4bdc2d6f028b456f",
-                        "count": 102
+                        "count": 131
                     }
                 ],
                 "loyaltyLevel": 1,

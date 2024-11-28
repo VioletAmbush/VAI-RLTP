@@ -55,8 +55,8 @@ export class HideoutManager extends AbstractModManager
 
             if (areaConfig.clearCrafts == true)
             {
-                this.databaseTables.hideout.production = 
-                    this.databaseTables.hideout.production.filter(prod => prod.areaType != area.type)
+                this.databaseTables.hideout.production.recipes = 
+                    this.databaseTables.hideout.production.recipes.filter(prod => prod.areaType != area.type)
             }
 
             if (areaConfig.stageItemRequirements)
@@ -140,7 +140,8 @@ export class HideoutManager extends AbstractModManager
                             locked: false,
                             continuous: false,
                             productionLimitCount: 0,
-                            isEncoded: false
+                            isEncoded: false,
+                            isCodeProduction: false
                         }
 
                         craft.requirements.push({
@@ -159,7 +160,7 @@ export class HideoutManager extends AbstractModManager
                             }
                         }))
                         
-                        this.databaseTables.hideout.production.push(craft)
+                        this.databaseTables.hideout.production.recipes.push(craft)
                     }
                 }
             }

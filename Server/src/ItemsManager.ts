@@ -3,13 +3,25 @@ import { AbstractModManager } from "./AbstractModManager";
 import { Helper } from "./Helper";
 import { RecursiveCloner } from "@spt/utils/cloners/RecursiveCloner"
 import { DependencyContainer } from "tsyringe";
+import { LocaleManager } from "./LocaleManager";
 
 
 export class ItemsManager extends AbstractModManager
 {
     protected configName: string = "ItemsConfig"
 
+    private localeManager: LocaleManager
+    
     private recursiveCloner: RecursiveCloner
+    
+    public priority: number = 2
+    
+    constructor(localeManager: LocaleManager)
+    {
+        super()
+
+        this.localeManager = localeManager
+    }
     
     protected override postDBInitialize(container: DependencyContainer): void 
     {
@@ -24,6 +36,11 @@ export class ItemsManager extends AbstractModManager
         {
             this.addItem(this.config.items[itemKey])
         }
+
+        console.log(this.jsonUtil.serialize(this.databaseTables.templates.items["576165642459773c7a400233"]))
+        console.log(this.jsonUtil.serialize(this.databaseTables.templates.items["5cf8f3b0d7f00c00217872ef"]))
+        console.log(this.jsonUtil.serialize(this.databaseTables.templates.items["5e848cc2988a8701445df1e8"]))
+
     }
 
     private addItem(itemConfig: any)
@@ -34,8 +51,19 @@ export class ItemsManager extends AbstractModManager
 
         this.databaseTables.templates.items[item._id] = item
 
-        //this.logger.info(this.jsonUtil.serialize(item))
-        //this.logger.info(this.jsonUtil.serialize(this.databaseTables.templates.items[itemConfig.copyTemplateId]))
+        if (itemConfig.slotId)
+        {
+            this.databaseTables.templates.items["55d7217a4bdc2d86028b456d"]._props.Slots
+                .filter(s => s._name.includes(itemConfig.slotId))
+                .forEach(s => s._props.filters.forEach(f => f.Filter.push(item._id)))
+        }
+
+        if (itemConfig.copyLocale == true)
+        {
+            this.localeManager.setENLocale(`${item._id} Name`, this.localeManager.getENLocale(`${itemConfig.copyTemplateId} Name`))
+            this.localeManager.setENLocale(`${item._id} ShortName`, this.localeManager.getENLocale(`${itemConfig.copyTemplateId} ShortName`))
+            this.localeManager.setENLocale(`${item._id} Description`, this.localeManager.getENLocale(`${itemConfig.copyTemplateId} Description`))
+        }
     }
 
     private setObjectProperties(item: object, config: any)
@@ -45,7 +73,23 @@ export class ItemsManager extends AbstractModManager
             if (!(changeKey in item))
                 continue
 
-            if (typeof item[changeKey] === "object" && typeof config[changeKey] === "object")
+            if (Array.isArray(item[changeKey]) && 
+                Array.isArray(config[changeKey]) &&
+                item[changeKey].length == config[changeKey].length &&
+                config[changeKey].length > 0)
+            {
+                config[changeKey].forEach((it, index) => 
+                {
+                    this.setObjectProperties(item[changeKey][index], config[changeKey][index])
+                })
+
+                continue
+            }
+
+            if (!Array.isArray(item[changeKey]) && 
+                !Array.isArray(config[changeKey]) &&
+                typeof item[changeKey] === "object" && 
+                typeof config[changeKey] === "object")
             {
                 this.setObjectProperties(item[changeKey], config[changeKey])
 

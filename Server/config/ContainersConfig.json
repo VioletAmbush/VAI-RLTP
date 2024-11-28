@@ -163,6 +163,12 @@
             "id": "567143bf4bdc2d1a0f8b4567",
             "height": 1,
             "width": 3
+        },
+        {
+            "name": "Streamer items case",
+            "id": "66bc98a01a47be227a5e956e",
+            "height": 4,
+            "width": 3
         }
     ]
 }

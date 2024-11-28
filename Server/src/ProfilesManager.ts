@@ -1,6 +1,6 @@
-import { HideoutArea } from "@spt/models/eft/common/tables/IBotBase"
-import { Item } from "@spt/models/eft/common/tables/IItem"
-import { IProfileSides, ITemplateSide, ProfileTraderTemplate } from "@spt/models/eft/common/tables/IProfileTemplate"
+import { IBotHideoutArea } from "@spt/models/eft/common/tables/IBotBase"
+import { IItem } from "@spt/models/eft/common/tables/IItem"
+import { IProfileSides, ITemplateSide, IProfileTraderTemplate } from "@spt/models/eft/common/tables/IProfileTemplate"
 import { ItemBaseClassService } from "@spt/services/ItemBaseClassService"
 import { HashUtil } from "@spt/utils/HashUtil"
 import { DependencyContainer } from "tsyringe"
@@ -31,7 +31,7 @@ export class ProfilesManager extends AbstractModManager
     private staticRouter: StaticRouterModService
     private recursiveCloner: RecursiveCloner
 
-    public priority: number = 2
+    public priority: number = 3
     
     constructor(
         wipeManager: WipeManager,
@@ -109,7 +109,7 @@ export class ProfilesManager extends AbstractModManager
         this.logger.info(`${Constants.ModTitle}: New profiles added!`)
     }
 
-    public getProfileBonus(profileKey: string, target: "death" | "survive", parentId: string): Item[]
+    public getProfileBonus(profileKey: string, target: "death" | "survive", parentId: string): IItem[]
     {
         const hashUtil: HashUtil = Constants.getHashUtil()
 
@@ -123,7 +123,7 @@ export class ProfilesManager extends AbstractModManager
         if (target == "survive" && profileConfig.surviveItems)
             itemConfigs = profileConfig.surviveItems
 
-        const result: Item[] = []
+        const result: IItem[] = []
 
         if (itemConfigs && itemConfigs.length > 0)
         {
@@ -253,7 +253,7 @@ export class ProfilesManager extends AbstractModManager
         for (let areaKey in config.areas)
         {
             const areaConfig = config.areas[areaKey]
-            const area: HideoutArea = side.character.Hideout.Areas.find(area => area.type.toString() == areaKey)
+            const area: IBotHideoutArea = side.character.Hideout.Areas.find(area => area.type.toString() == areaKey)
 
             if (!area)
             {
@@ -269,7 +269,7 @@ export class ProfilesManager extends AbstractModManager
             {
                 if (!itemConfig.count || itemConfig.count == 1 || Helper.isStackable(itemConfig.templateId))
                 {
-                    const item: Item = {
+                    const item: IItem = {
                         _id: itemConfig.id ? itemConfig.id : this.hashUtil.generate(),
                         _tpl: itemConfig.templateId,
                         parentId: itemConfig.parentId ? itemConfig.parentId : side.character.Inventory.stash,
@@ -289,7 +289,7 @@ export class ProfilesManager extends AbstractModManager
                 {
                     for (let i = 0; i < itemConfig.count; i++)
                     {
-                        const item: Item = {
+                        const item: IItem = {
                             _id: this.hashUtil.generate(),
                             _tpl: itemConfig.templateId,
                             parentId: itemConfig.parentId ? itemConfig.parentId : side.character.Inventory.stash,
@@ -360,19 +360,18 @@ export class ProfilesManager extends AbstractModManager
 
         const all: boolean = profileConfig.completedQuests.find(questId => questId == "__all__")
         const questKeys = all ? 
-            databaseTables.templates.quests :
+            Object.keys(databaseTables.templates.quests) :
             profileConfig.completedQuests
 
         const quests: IQuestStatus[] = []
 
-        for (let questKey in questKeys)
+        for (let questKey of questKeys)
         {
-            const questId: string = all ? questKey : profileConfig.completedQuests[questKey]
-            const quest = databaseTables.templates.quests[questId]
+            const quest = databaseTables.templates.quests[questKey]
 
             if (!quest)
             {
-                Constants.getLogger().error(`${Constants.ModTitle}: Could not find quest with id ${questId}`)
+                Constants.getLogger().error(`${Constants.ModTitle}: Could not find quest with id ${questKey}`)
 
                 continue
             }

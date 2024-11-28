@@ -51,7 +51,7 @@ export class ModManager implements IPreSptLoadMod, IPostDBLoadMod, IPostSptLoadM
         this.managers.push(weaponsManager)
         this.managers.push(healingManager)
         this.managers.push(profilesManager)
-        this.managers.push(new ItemsManager)
+        this.managers.push(new ItemsManager(localeManager))
         this.managers.push(localeManager)
         this.managers.push(new BotsManager)
 
@@ -80,4 +80,4 @@ export class ModManager implements IPreSptLoadMod, IPostDBLoadMod, IPostSptLoadM
     }
 }
 
-module.exports = { mod: new ModManager() }
+export const mod = new ModManager();

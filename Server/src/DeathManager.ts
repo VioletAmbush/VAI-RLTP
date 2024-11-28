@@ -1,6 +1,6 @@
 import { ProfileHelper } from "@spt/helpers/ProfileHelper"
 import { IPmcData } from "@spt/models/eft/common/IPmcData"
-import { Item } from "@spt/models/eft/common/tables/IItem"
+import { IItem } from "@spt/models/eft/common/tables/IItem"
 import { ILogger } from "@spt/models/spt/utils/ILogger"
 import { SaveServer } from "@spt/servers/SaveServer"
 import { StaticRouterModService } from "@spt/services/mod/staticRouter/StaticRouterModService"
@@ -11,6 +11,7 @@ import { HealingManager } from "./HealingManager"
 import { Helper } from "./Helper"
 import { StartManager as StartManager } from "./StartManager"
 import { WipeManager } from "./WipeManager"
+import { ExitStatus } from "@spt/models/enums/ExitStatis"
 
 export class DeathManager extends AbstractModManager
 {
@@ -40,26 +41,26 @@ export class DeathManager extends AbstractModManager
 
     protected afterPreSpt(): void
     {
-        const url = "/raid/profile/save"
-
 		this.staticRouter.registerStaticRouter(`${Constants.ModTitle}: Raid end static route`,
         [
             {
-                url: url,
+                url: "/client/match/local/end",
 			    action: (url, info, sessionId, output) =>
                 {
                     try 
                     {
-                        if (!info.profile.Info.GameVersion || !(info.profile.Info.GameVersion as string).startsWith("VAI Rogue-lite"))
+                        if (!info.results.profile.Info.GameVersion || 
+                            !(info.results.profile.Info.GameVersion as string).startsWith("VAI Rogue-lite"))
                         {
                             return output;
                         }
 
-                        if (info.exit != "survived" &&
-                            info.exit != "runner")
+                        if (info.results.result != ExitStatus.SURVIVED &&
+                            info.results.result != ExitStatus.RUNNER &&
+                            info.results.result != ExitStatus.TRANSIT)
                         {
-                            this.wipeManager.onPlayerDied(info, sessionId)
-                            this.healingManager.onPlayerDied(info, sessionId)
+                            this.wipeManager.onPlayerDied(sessionId)
+                            this.healingManager.onPlayerDied(sessionId)
                         }
 
                         this.startManager.onPlayerExtracted(info, sessionId)
@@ -109,7 +110,7 @@ export class DeathManager extends AbstractModManager
 
     private printSlot(profile: IPmcData, slot: string)
     {
-        const root: Item = profile.Inventory.items.find(item => item.slotId == slot)
+        const root: IItem = profile.Inventory.items.find(item => item.slotId == slot)
 
         if (!root)
         {
@@ -121,7 +122,7 @@ export class DeathManager extends AbstractModManager
 
     private printChildren(profile: IPmcData, parentTemplateId: string)
     {
-        const containers: Item[] = profile.Inventory.items
+        const containers: IItem[] = profile.Inventory.items
             .filter(item => item._tpl == parentTemplateId)
 
         let i = 0

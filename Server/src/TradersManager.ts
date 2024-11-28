@@ -7,10 +7,10 @@ import { PresetsManager } from "./PresetsManager"
 import { TradeHelper } from "@spt/helpers/TradeHelper"
 import { IPmcData } from "@spt/models/eft/common/IPmcData"
 import { IProcessBuyTradeRequestData } from "@spt/models/eft/trade/IProcessBuyTradeRequestData"
-import { Item, Upd } from "@spt/models/eft/common/tables/IItem"
+import { IItem, IUpd } from "@spt/models/eft/common/tables/IItem"
 import { IItemEventRouterResponse } from "@spt/models/eft/itemEvent/IItemEventRouterResponse"
 import { ProfileHelper } from "@spt/helpers/ProfileHelper"
-import { TProfileChanges, ProfileChange, Product } from "@spt/models/eft/itemEvent/IItemEventRouterBase"
+import { TProfileChanges, IProfileChange, IProduct } from "@spt/models/eft/itemEvent/IItemEventRouterBase"
 import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables"
 import { Helper } from "./Helper"
 import { DatabaseServer } from "@spt/servers/DatabaseServer"
@@ -27,7 +27,7 @@ export class TradersManager extends AbstractModManager
     private static buyItemOriginal: any
 
     private configs: any[] = []
-    public priority: number = 2
+    public priority: number = 3
 
     public flag: boolean = false
 
@@ -265,7 +265,7 @@ export class TradersManager extends AbstractModManager
         trader.assort.barter_scheme[rootId] = [ priceArray ]
     }
 
-    private setTraderItemQuest(item: any, trader: ITrader, rootId: string, presetData: { rootId: string, items: Item[] } = null)
+    private setTraderItemQuest(item: any, trader: ITrader, rootId: string, presetData: { rootId: string, items: IItem[] } = null)
     {
         if (Constants.NoQuestlockedItems)
         {
@@ -314,7 +314,7 @@ export class TradersManager extends AbstractModManager
         }
     }
 
-    private static buyItem(pmcData: IPmcData, buyRequestData: IProcessBuyTradeRequestData, sessionID: string, foundInRaid: boolean, upd: Upd): IItemEventRouterResponse
+    private static buyItem(pmcData: IPmcData, buyRequestData: IProcessBuyTradeRequestData, sessionID: string, foundInRaid: boolean, upd: IUpd): IItemEventRouterResponse
     {
         const res = TradersManager.buyItemOriginal.apply(Constants.Container.resolve<TradeHelper>("TradeHelper"), [ pmcData, buyRequestData, sessionID, foundInRaid, upd ])
 
@@ -335,12 +335,12 @@ export class TradersManager extends AbstractModManager
             return
         }
 
-        let newItems: Product[] = []
-        let profileChange: ProfileChange | null = null
+        let newItems: IProduct[] = []
+        let profileChange: IProfileChange | null = null
 
         for (let changeKey in buyResult.profileChanges as TProfileChanges)
         {
-            const change = buyResult.profileChanges[changeKey] as ProfileChange
+            const change = buyResult.profileChanges[changeKey] as IProfileChange
 
             for (let itemKey in change.items.new)
             {
@@ -427,7 +427,7 @@ export class TradersManager extends AbstractModManager
         
     }
 
-    private static findTraderItem(databaseTables: IDatabaseTables, itemId: string, traderId: string): { root: Item, item: Item[] } | null
+    private static findTraderItem(databaseTables: IDatabaseTables, itemId: string, traderId: string): { root: IItem, item: IItem[] } | null
     {
         const root = databaseTables.traders[traderId].assort.items.find(item => item._id == itemId)
 

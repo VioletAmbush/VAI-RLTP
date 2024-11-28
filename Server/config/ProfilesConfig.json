@@ -836,7 +836,7 @@
             "copySource": "Standard",
 
             "description": "Average PVP enjoyer",
-            "actualDescription": "Starts with some skills. \nLavatory, Rest space and Workbench lvl 1. \nReceives 1 lab access card after death.",
+            "actualDescription": "Starts with streamer items case and some skills. \nLavatory, Rest space and Workbench lvl 1. \nReceives 1 lab access card after death.",
             
             "tradersStanding": 0,
             "jaegerUnlocked": false,
@@ -856,6 +856,10 @@
             "items": [
                 {
                     "templateId": "5c94bbff86f7747ee735c08f",
+                    "count": 1
+                },
+                {
+                    "templateId": "66bc98a01a47be227a5e956e",
                     "count": 1
                 }
             ],
@@ -1270,9 +1274,7 @@
 
             "completedQuestsDescription1": "Put quest ids that should be completed when profile is created (Requires client restart after selecting face/voice)",
             "completedQuestsDescription2": "__all__ for all quests",
-            "completedQuests": [
-                "__all__"
-            ],
+            "completedQuests": [],
 
             "areas": {
                 "0": {
@@ -1392,7 +1394,7 @@
             "itemsDescription": "These items will be added to stash when profile is created",
             "items": [
                 {
-                    "presetId": "TT_Std"
+                    "presetId": "SA-58 Predator"
                 },
                 {
                     "templateId": "5449016a4bdc2d6f028b456f",

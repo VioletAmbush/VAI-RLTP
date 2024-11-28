@@ -1,6 +1,6 @@
 import { ProfileHelper } from "@spt/helpers/ProfileHelper"
 import { IPmcData } from "@spt/models/eft/common/IPmcData"
-import { Item } from "@spt/models/eft/common/tables/IItem"
+import { IItem } from "@spt/models/eft/common/tables/IItem"
 import { AbstractModManager } from "./AbstractModManager"
 import { Constants } from "./Constants"
 import { Helper } from "./Helper"
@@ -9,6 +9,7 @@ import { HashUtil } from "@spt/utils/HashUtil"
 import { RandomUtil } from "@spt/utils/RandomUtil"
 import { DatabaseServer } from "@spt/servers/DatabaseServer"
 import { ProfilesManager } from "./ProfilesManager"
+import { ExitStatus } from "@spt/models/enums/ExitStatis"
 
 
 export class StartManager extends AbstractModManager
@@ -55,7 +56,10 @@ export class StartManager extends AbstractModManager
 
         const areas = profile.Hideout.Areas
 
-        let bonusTarget: "death" | "survive" = (info.exit != "survived" && info.exit != "runner") ? "death" : "survive"
+        let bonusTarget: "death" | "survive" = (
+            info.results.result != ExitStatus.SURVIVED && 
+            info.results.result != ExitStatus.RUNNER &&
+            info.results.result != ExitStatus.TRANSIT) ? "death" : "survive"
 
         for (let area of areas)
         {
@@ -70,7 +74,7 @@ export class StartManager extends AbstractModManager
                     randomUtil))
         }
 
-        const profileBonuses: Item[] = this.profilesManager.getProfileBonus(info.profile.Info.GameVersion, bonusTarget, profile.Inventory.stash)
+        const profileBonuses: IItem[] = this.profilesManager.getProfileBonus(info.results.profile.Info.GameVersion, bonusTarget, profile.Inventory.stash)
 
         if (profileBonuses.length > 0)
         {
@@ -99,7 +103,7 @@ export class StartManager extends AbstractModManager
                 continue
             }
 
-            const item: Item = 
+            const item: IItem = 
             {
                 _id: hashUtil.generate(),
                 _tpl: bonus.templateId,

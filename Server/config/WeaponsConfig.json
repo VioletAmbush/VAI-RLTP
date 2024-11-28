@@ -27,7 +27,12 @@
             "571a12c42459771f627b58a0" : "TT",
             "5b3b713c5acfc4330140bd8d" : "TT Gold",
             "576a581d2459771e7b1bc4f1" : "MP-443 (Grach)",
-            "66015072e9f84d5680039678" : "Blicky"
+            "66015072e9f84d5680039678" : "Blicky",
+            "669fa409933e898cce0c2166" : "Deagle .357",
+            "669fa3f88abd2662d80eee77" : "Deagle L5",
+            "669fa39b48fc9f8db6035a0c" : "Deagle L6",
+            "669fa3d876116c89840b1217" : "Deagle L6 WTS",
+            "668fe5a998b5ad715703ddd6" : "Deagle XIX"
         },
         "MachinePistols": {
             "5abccb7dd8ce87001773e277" : "APB",
@@ -63,7 +68,10 @@
             "58948c8e86f77409493f7266" : "MPX",
             "62e14904c2699c0ec93adc47" : "SR-2M (Veresk)",
             "5fb64bc92b1b027b1f50bcf2" : "KRISS Vector .45",
-            "5fc3f2d5900b1d5091531e57" : "KRISS Vector 9x19"
+            "5fc3f2d5900b1d5091531e57" : "KRISS Vector 9x19",
+            "66992b349950f5f4cd06029f" : "IWI UZI",
+            "6680304edadb7aa61d00cef0" : "IWI UZI PRO Pistol",
+            "668e71a8dadf42204c032ce1" : "IWI UZI PRO SMG"
         },
         "PumpShotguns": {
             "54491c4f4bdc2db1078b4568" : "MP-133",
@@ -76,7 +84,9 @@
             "606dae0ab0e443224b421bb7" : "MP-155",
             "6259b864ebedf17603599e88" : "Benelli M3 Super",
             "60db29ce99594040e04c4a27" : "MTs-255-12",
-            "576165642459773c7a400233" : "Saiga-12ga"
+            "576165642459773c7a400233" : "Saiga-12ga",
+            "66ffa9b66e19cc902401c5e8" : "AA12 Gen 1",
+            "67124dcfa3541f2a1f0e788b" : "AA12 Gen 2"
         },
         "OtherShotguns": {
             "5580223e4bdc2d1c128b457f" : "MP-43-1C",
@@ -150,6 +160,7 @@
             "63171672192e68c5460cebc5" : "AUG A3",
             "57838ad32459774a17445cd2" : "VSS (Vintorez)",
             "57c44b372459772d2b39b8ce" : "AS VAL",
+            "651450ce0e00edc794068371" : "SR3M",
             "644674a13d52156624001fbc" : "KBP 9A-91",
             "645e0c6b3b381ede770e1cc9" : "KBP VSK-94",
             "65290f395ae2ae97b80fdf2d" : "SPEAR"
@@ -160,6 +171,9 @@
             "64637076203536ad5600c990" : "PKM",
             "6513ef33e06849f06c0957ca" : "RPD",
             "65268d8ecb944ff1e90ea385" : "RPDN",
+            "65fb023261d5829b2d090755" : "M60E4",
+            "661ceb1b9311543c7104149b" : "M60E6",
+            "661cec09b2c6356b4d0c7a36" : "M60E6 FDE",
             "5cdeb229d7f00c000e7ce174" : "NSV (Utyos)"
         },
         "Grenades": {

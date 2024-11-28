@@ -1,6 +1,6 @@
 import { ProfileHelper } from "@spt/helpers/ProfileHelper"
 import { IPmcData } from "@spt/models/eft/common/IPmcData"
-import { Item } from "@spt/models/eft/common/tables/IItem"
+import { IItem } from "@spt/models/eft/common/tables/IItem"
 import { DatabaseServer } from "@spt/servers/DatabaseServer"
 import { HashUtil } from "@spt/utils/HashUtil"
 import { AbstractModManager } from "./AbstractModManager"
@@ -10,17 +10,17 @@ export class WipeManager extends AbstractModManager
 {
     protected configName: string = "WipeConfig"
     
-    public onPlayerDied(info: any, sessionId: string): void
+    public onPlayerDied(sessionId: string): void
     {
         if (this.config.enabled != true)
         {
             return
         }
 
-        this.clearStash(info, sessionId)
+        this.clearStash(sessionId)
     }
 
-    private clearStash(info: any, sessionId: string): void
+    private clearStash(sessionId: string): void
     {
         const profile = Constants.Container.resolve<ProfileHelper>("ProfileHelper").getPmcProfile(sessionId)
         const hashUtil = Constants.Container.resolve<HashUtil>("HashUtil")
@@ -53,7 +53,7 @@ export class WipeManager extends AbstractModManager
     }
 
     private filterItem(
-        item: Item, 
+        item: IItem, 
         securedIds: string[]): boolean
     {
         return securedIds.includes(item._id)

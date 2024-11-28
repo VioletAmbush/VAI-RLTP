@@ -1,10 +1,10 @@
-import { Buff } from "@spt/models/eft/common/IGlobals"
+import { IBuff } from "@spt/models/eft/common/IGlobals"
 
 export class ConfigMapper 
 {
-    public static mapBuffs(config: any): Buff[]
+    public static mapBuffs(config: any): IBuff[]
     {
-        const buffs: Buff[] = []
+        const buffs: IBuff[] = []
 
         for (let key in config)
         {
@@ -14,7 +14,7 @@ export class ConfigMapper
         return buffs
     }
 
-    public static mapBuff(config: any): Buff
+    public static mapBuff(config: any): IBuff
     {
         return {
             BuffType: config.buffType,

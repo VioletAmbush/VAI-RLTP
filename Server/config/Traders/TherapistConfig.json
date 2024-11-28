@@ -2818,6 +2818,19 @@
                 "questId": "5a68669a86f774255929b4d4"
             },
             {
+                "name": "Streamer items",
+                "itemTemplateId": "66bc98a01a47be227a5e956e",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 1500000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "6179afd0bca27a099552e040"
+            },
+            {
                 "name": "THICC items",
                 "itemTemplateId": "5c0a840b86f7742ffa4f2482",
                 "price": [

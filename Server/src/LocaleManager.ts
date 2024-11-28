@@ -34,6 +34,6 @@ export class LocaleManager extends AbstractModManager
 
     public getENLocale(id: string): string
     {
-        return this.databaseTables.locales.global["en"][`${id} Name`] ?? `UNKNOWN LOCALE ID ${id}`
+        return this.databaseTables.locales.global["en"][id] ?? `UNKNOWN LOCALE ID ${id}`
     }
 }
