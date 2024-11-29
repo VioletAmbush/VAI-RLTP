@@ -2298,7 +2298,7 @@
                 "1": [
                     {
                         "name": "Chainlet for 1000 rub",
-                        "id": "c0a8749682de91e27e1ff3f3",
+                        "id": "67495c74dfe62c2d74000001",
                         "requirements": [
                             {
                                 "templateId": "573474f924597738002c6174",
@@ -2312,7 +2312,7 @@
                     },
                     {
                         "name": "Gold chain for 4000 rub",
-                        "id": "19c44251c06e0d82c78d14bb",
+                        "id": "67495c74dfe62c2d74000002",
                         "requirements": [
                             {
                                 "templateId": "5734758f24597738025ee253",
@@ -2326,7 +2326,7 @@
                     },
                     {
                         "name": "Skull ring for 8000 rub",
-                        "id": "908389b7fb158ea4499cc65d",
+                        "id": "67495c74dfe62c2d74000003",
                         "requirements": [
                             {
                                 "templateId": "5d235a5986f77443f6329bc6",
@@ -2342,7 +2342,7 @@
                 "2": [
                     {
                         "name": "Guitar pick for 5000 rub",
-                        "id": "fe4b420dda5ca01ab44077ab",
+                        "id": "67495c74dfe62c2d74000004",
                         "requirements": [
                             {
                                 "templateId": "5f745ee30acaeb0d490d8c5b",
@@ -2356,7 +2356,7 @@
                     },
                     {
                         "name": "Roler for 12000 rub",
-                        "id": "a97ac2f5a5d02eda2291b6f9",
+                        "id": "67495c74dfe62c2d74000005",
                         "requirements": [
                             {
                                 "templateId": "59faf7ca86f7740dbe19f6c2",
@@ -2370,7 +2370,7 @@
                     },
                     {
                         "name": "Lion for 25000 rub",
-                        "id": "e50a7969a4406571fa175bbb",
+                        "id": "67495c74dfe62c2d74000006",
                         "requirements": [
                             {
                                 "templateId": "59e3639286f7741777737013",
@@ -2386,7 +2386,7 @@
                 "3": [
                     {
                         "name": "Raven for 8000 rub",
-                        "id": "90b785c8b977fa60ab3eddfa",
+                        "id": "67495c74dfe62c2d74000007",
                         "requirements": [
                             {
                                 "templateId": "5e54f62086f774219b0f1937",
@@ -2400,7 +2400,7 @@
                     },
                     {
                         "name": "Vase for 15000 rub",
-                        "id": "4ff6c5c07995f1f241365f1c",
+                        "id": "67495c74dfe62c2d74000008",
                         "requirements": [
                             {
                                 "templateId": "590de7e986f7741b096e5f32",
@@ -2414,7 +2414,7 @@
                     },
                     {
                         "name": "Loot lord for 40000 rub",
-                        "id": "c6044752fcf669355d305326",
+                        "id": "67495c74dfe62c2d74000009",
                         "requirements": [
                             {
                                 "templateId": "60b0f7057897d47c5b04ab94",
@@ -2880,6 +2880,26 @@
         },
         "23": {
             "description": "GYM",
+            "stageSurviveBonuses": {},
+            "stageDeathBonuses": {}
+        },
+        "24": {
+            "description": "WEAPON_STAND",
+            "stageSurviveBonuses": {},
+            "stageDeathBonuses": {}
+        },
+        "25": {
+            "description": "WEAPON_STAND_SECONDARY",
+            "stageSurviveBonuses": {},
+            "stageDeathBonuses": {}
+        },
+        "26": {
+            "description": "EQUIPMENT_PRESETS_STAND",
+            "stageSurviveBonuses": {},
+            "stageDeathBonuses": {}
+        },
+        "27": {
+            "description": "CIRCLE_OF_CULTISTS",
             "stageSurviveBonuses": {},
             "stageDeathBonuses": {}
         }

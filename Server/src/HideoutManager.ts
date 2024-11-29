@@ -2,43 +2,39 @@ import { AbstractModManager } from "./AbstractModManager"
 import { RandomUtil } from "@spt/utils/RandomUtil"
 import { Constants } from "./Constants"
 import { DependencyContainer } from "tsyringe"
-import { HashUtil } from "@spt/utils/HashUtil"
+import { HideoutAreas } from "@spt/models/enums/HideoutAreas"
 
 export class HideoutManager extends AbstractModManager
 {
     protected configName: string = "HideoutConfig"
-
-    private hashUtil: HashUtil
     
     protected postDBInitialize(container: DependencyContainer): void 
     {
         super.postDBInitialize(container)
-
-        this.hashUtil = container.resolve<HashUtil>("HashUtil")
     }
 
     protected afterPostDB(): void
     {
         if (this.config.removeGeneratorStageOneSecurityRequirement)
         {
-            var waterCollector = this.databaseTables.hideout.areas.find(area => area.type == 4)
+            var waterCollector = this.databaseTables.hideout.areas.find(area => area.type == HideoutAreas.GENERATOR)
             
             if (waterCollector)
             {
                 waterCollector.stages["1"].requirements
-                    .filter(req => req.type == "Area" && req.areaType == 1)
+                    .filter(req => req.type == "Area" && req.areaType == HideoutAreas.SECURITY)
                     .forEach(req => req.requiredLevel = 0)
             }
         }
 
         if (this.config.removeWaterCollectorStageOneSecurityRequirement)
         {
-            var waterCollector = this.databaseTables.hideout.areas.find(area => area.type == 6)
+            var waterCollector = this.databaseTables.hideout.areas.find(area => area.type == HideoutAreas.WATER_COLLECTOR)
             
             if (waterCollector)
             {
                 waterCollector.stages["1"].requirements
-                    .filter(req => req.type == "Area" && req.areaType == 1)
+                    .filter(req => req.type == "Area" && req.areaType == HideoutAreas.SECURITY)
                     .forEach(req => req.requiredLevel = 0)
             }
         }

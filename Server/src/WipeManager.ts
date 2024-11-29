@@ -87,6 +87,7 @@ export class WipeManager extends AbstractModManager
         securedIds.push(profile.Inventory.questRaidItems)
         securedIds.push(profile.Inventory.questStashItems)
         securedIds.push(profile.Inventory.sortingTable)
+        securedIds.push(...Object.values(profile.Inventory.hideoutAreaStashes))
 
         const pockets = profile.Inventory.items.find(item => item.slotId == "Pockets")
 

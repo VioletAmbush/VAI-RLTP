@@ -36,11 +36,6 @@ export class ItemsManager extends AbstractModManager
         {
             this.addItem(this.config.items[itemKey])
         }
-
-        console.log(this.jsonUtil.serialize(this.databaseTables.templates.items["576165642459773c7a400233"]))
-        console.log(this.jsonUtil.serialize(this.databaseTables.templates.items["5cf8f3b0d7f00c00217872ef"]))
-        console.log(this.jsonUtil.serialize(this.databaseTables.templates.items["5e848cc2988a8701445df1e8"]))
-
     }
 
     private addItem(itemConfig: any)

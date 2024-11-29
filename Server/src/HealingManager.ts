@@ -1,5 +1,4 @@
 import { ProfileHelper } from "@spt/helpers/ProfileHelper"
-import { HashUtil } from "@spt/utils/HashUtil"
 import { AbstractModManager } from "./AbstractModManager"
 import { Constants } from "./Constants"
 import { IBodyPartHealth } from "@spt/models/eft/common/tables/IBotBase"
@@ -30,15 +29,7 @@ export class HealingManager extends AbstractModManager
 
             part.Health.Current = part.Health.Maximum
 
-            part.Effects = null
-        }
-        
-        if (profile.Stats.Eft?.DamageHistory?.BodyParts)
-        {
-            for (let partKey in profile.Stats.Eft.DamageHistory.BodyParts)
-            {
-                profile.Stats.Eft.DamageHistory.BodyParts[partKey] = []
-            }
+            part.Effects = {}
         }
     }
 }
