@@ -407,6 +407,685 @@
                     ]
                 ],
                 "4": []
+            },
+            "stageCrafts": {
+                "1": [
+                    {
+                        "name": "Simple wallet",
+                        "id": "67530ea6f4606217f0000039",
+                        "requirements": [
+                            {
+                                "templateId": "61bf83814088ec1a363d7097",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c2b4386f77425357b6123",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5e2af4a786f7746d3f3c3400",
+                                "count": 2,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1200,
+                        "resultId": "5783c43d2459774bbe137486",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "Injector case",
+                        "id": "67530ea6f4606217f000003a",
+                        "requirements": [
+                            {
+                                "templateId": "61bf83814088ec1a363d7097",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c2b4386f77425357b6123",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5e2af37686f774755a234b65",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5e2af4a786f7746d3f3c3400",
+                                "count": 3,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1200,
+                        "resultId": "619cbf7d23893217ec30b689",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "Ammo box",
+                        "id": "67530ea6f4606217f000003b",
+                        "requirements": [
+                            {
+                                "templateId": "5d40419286f774318526545f",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c2b4386f77425357b6123",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c311186f77424d1667482",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d1b371186f774253763a656",
+                                "count": 4,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 2,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "57347c5b245977448d35f6e1",
+                                "count": 2,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "57347c77245977448d35f6e2",
+                                "count": 2,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1200,
+                        "resultId": "5aafbde786f774389d0cbc0f",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "Holodilnik",
+                        "id": "67530ea6f4606217f000003c",
+                        "requirements": [
+                            {
+                                "templateId": "61bf83814088ec1a363d7097",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c2b4386f77425357b6123",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a098de7ac8199358053b",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5e2af4a786f7746d3f3c3400",
+                                "count": 5,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af47786f7746d404f3aaa",
+                                "count": 5,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 2,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1200,
+                        "resultId": "5c093db286f7740a1b2617e3",
+                        "resultCount": 1
+                    }
+                ],
+                "2": [
+                    {
+                        "name": "Dogtag case",
+                        "id": "67530ea6f4606217f000003d",
+                        "requirements": [
+                            {
+                                "templateId": "61bf83814088ec1a363d7097",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c2b4386f77425357b6123",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a098de7ac8199358053b",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5e2af37686f774755a234b65",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5e2af4d286f7746d4159f07a",
+                                "count": 3,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 2400,
+                        "resultId": "5c093e3486f77430cb02e593",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "Mag case",
+                        "id": "67530ea6f4606217f000003e",
+                        "requirements": [
+                            {
+                                "templateId": "5d40419286f774318526545f",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c2b4386f77425357b6123",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c311186f77424d1667482",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5e2af37686f774755a234b65",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5aafbde786f774389d0cbc0f",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1b36a186f7742523398433",
+                                "count": 2,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 2,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "57347c5b245977448d35f6e1",
+                                "count": 2,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "57347c77245977448d35f6e2",
+                                "count": 2,
+                                "tool": false
+                            }
+                        ],
+                        "time": 2400,
+                        "resultId": "5c127c4486f7745625356c13",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "Med case",
+                        "id": "67530ea6f4606217f000003f",
+                        "requirements": [
+                            {
+                                "templateId": "5d40419286f774318526545f",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c2b4386f77425357b6123",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c311186f77424d1667482",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5e2af37686f774755a234b65",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5aafbde786f774389d0cbc0f",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1b36a186f7742523398433",
+                                "count": 4,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 2,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "57347c5b245977448d35f6e1",
+                                "count": 2,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "57347c77245977448d35f6e2",
+                                "count": 2,
+                                "tool": false
+                            }
+                        ],
+                        "time": 2400,
+                        "resultId": "5aafbcd986f7745e590fff23",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "Pistol case",
+                        "id": "67530ea6f4606217f0000040",
+                        "requirements": [
+                            {
+                                "templateId": "5d40419286f774318526545f",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c2b4386f77425357b6123",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c311186f77424d1667482",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5e2af37686f774755a234b65",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5aafbde786f774389d0cbc0f",
+                                "count": 2,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1b371186f774253763a656",
+                                "count": 2,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 2,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "57347c5b245977448d35f6e1",
+                                "count": 2,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "57347c77245977448d35f6e2",
+                                "count": 2,
+                                "tool": false
+                            }
+                        ],
+                        "time": 2400,
+                        "resultId": "567143bf4bdc2d1a0f8b4567",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "Grenade case",
+                        "id": "67530ea6f4606217f0000041",
+                        "requirements": [
+                            {
+                                "templateId": "5d40419286f774318526545f",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c2b4386f77425357b6123",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c311186f77424d1667482",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5e2af37686f774755a234b65",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5aafbde786f774389d0cbc0f",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1b36a186f7742523398433",
+                                "count": 4,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 2,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "57347c5b245977448d35f6e1",
+                                "count": 2,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "57347c77245977448d35f6e2",
+                                "count": 2,
+                                "tool": false
+                            }
+                        ],
+                        "time": 2400,
+                        "resultId": "5e2af55f86f7746d4159f07c",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "Docs case",
+                        "id": "67530ea6f4606217f0000042",
+                        "requirements": [
+                            {
+                                "templateId": "61bf83814088ec1a363d7097",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c2b4386f77425357b6123",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a098de7ac8199358053b",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5e2af37686f774755a234b65",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5e2af4a786f7746d3f3c3400",
+                                "count": 4,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af47786f7746d404f3aaa",
+                                "count": 4,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af41e86f774755a234b67",
+                                "count": 2,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 2,
+                                "tool": false
+                            }
+                        ],
+                        "time": 2400,
+                        "resultId": "590c60fc86f77412b13fddcf",
+                        "resultCount": 1
+                    }
+                ],
+                "3": [
+                    {
+                        "name": "SICC case",
+                        "id": "67530ea6f4606217f0000043",
+                        "requirements": [
+                            {
+                                "templateId": "61bf83814088ec1a363d7097",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c2b4386f77425357b6123",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a098de7ac8199358053b",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5e2af37686f774755a234b65",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5e2af41e86f774755a234b67",
+                                "count": 4,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af4d286f7746d4159f07a",
+                                "count": 4,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af47786f7746d404f3aaa",
+                                "count": 2,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 2,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590a391c86f774385a33c404",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 3600,
+                        "resultId": "5d235bb686f77443f4331278",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "Weapons case",
+                        "id": "67530ea6f4606217f0000044",
+                        "requirements": [
+                            {
+                                "templateId": "5d40419286f774318526545f",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c2b4386f77425357b6123",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c311186f77424d1667482",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5e2af37686f774755a234b65",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5c127c4486f7745625356c13",
+                                "count": 2,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1b371186f774253763a656",
+                                "count": 4,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 2,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "57347c5b245977448d35f6e1",
+                                "count": 3,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "57347c77245977448d35f6e2",
+                                "count": 3,
+                                "tool": false
+                            }
+                        ],
+                        "time": 3600,
+                        "resultId": "59fb023c86f7746d0d4b423c",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "Items case",
+                        "id": "67530ea6f4606217f0000045",
+                        "requirements": [
+                            {
+                                "templateId": "5d40419286f774318526545f",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c2b4386f77425357b6123",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c311186f77424d1667482",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5e2af37686f774755a234b65",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5aafbcd986f7745e590fff23",
+                                "count": 2,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1b36a186f7742523398433",
+                                "count": 4,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 2,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "57347c5b245977448d35f6e1",
+                                "count": 3,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "57347c77245977448d35f6e2",
+                                "count": 3,
+                                "tool": false
+                            }
+                        ],
+                        "time": 3600,
+                        "resultId": "59fb042886f7746c5005a7b2",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "Junkbox",
+                        "id": "67530ea6f4606217f0000046",
+                        "requirements": [
+                            {
+                                "templateId": "5d40419286f774318526545f",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c2b4386f77425357b6123",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c311186f77424d1667482",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5e2af37686f774755a234b65",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5e2af55f86f7746d4159f07c",
+                                "count": 2,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1b36a186f7742523398433",
+                                "count": 2,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1b371186f774253763a656",
+                                "count": 2,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 2,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "57347c5b245977448d35f6e1",
+                                "count": 3,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "57347c77245977448d35f6e2",
+                                "count": 3,
+                                "tool": false
+                            }
+                        ],
+                        "time": 3600,
+                        "resultId": "5b7c710788a4506dec015957",
+                        "resultCount": 1
+                    }
+                ]
             }
         },
         "3": {
@@ -1336,6 +2015,206 @@
                     ]
                 ],
                 "4": []
+            },
+            "stageCrafts": {
+                "1": [
+                    {
+                        "name": "AI-2",
+                        "id": "67530ea6f4606217f000002c",
+                        "requirements": [
+                            {
+                                "templateId": "5d1b3a5d86f774252167ba22",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 120,
+                        "resultId": "5755356824597772cb798962",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "Car med",
+                        "id": "67530ea6f4606217f000002d",
+                        "requirements": [
+                            {
+                                "templateId": "5d1b3a5d86f774252167ba22",
+                                "count": 2,
+                                "tool": false
+                            }
+                        ],
+                        "time": 120,
+                        "resultId": "590c661e86f7741e566b646a",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "Army bondage",
+                        "id": "67530ea6f4606217f000002e",
+                        "requirements": [
+                            {
+                                "templateId": "5e2af47786f7746d404f3aaa",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 120,
+                        "resultId": "5751a25924597722c463c472",
+                        "resultCount": 2
+                    },
+                    {
+                        "name": "Esmarch",
+                        "id": "67530ea6f4606217f000002f",
+                        "requirements": [
+                            {
+                                "templateId": "5d1b39a386f774252339976f",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 120,
+                        "resultId": "5e831507ea0a7c419c2f9bd9",
+                        "resultCount": 3
+                    },
+                    {
+                        "name": "CMS",
+                        "id": "67530ea6f4606217f0000030",
+                        "requirements": [
+                            {
+                                "templateId": "619cc01e0a7c3a1a2731940c",
+                                "count": 2,
+                                "tool": false
+                            }
+                        ],
+                        "time": 120,
+                        "resultId": "5d02778e86f774203e7dedbe",
+                        "resultCount": 1
+                    }
+                ],
+                "2": [
+                    {
+                        "name": "IFAK",
+                        "id": "67530ea6f4606217f0000031",
+                        "requirements": [
+                            {
+                                "templateId": "5d1b3a5d86f774252167ba22",
+                                "count": 2,
+                                "tool": false
+                            }
+                        ],
+                        "time": 180,
+                        "resultId": "590c678286f77426c9660122",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "Salewa",
+                        "id": "67530ea6f4606217f0000032",
+                        "requirements": [
+                            {
+                                "templateId": "5d1b3a5d86f774252167ba22",
+                                "count": 3,
+                                "tool": false
+                            }
+                        ],
+                        "time": 180,
+                        "resultId": "544fb45d4bdc2dee738b4568",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "Big bondage",
+                        "id": "67530ea6f4606217f0000033",
+                        "requirements": [
+                            {
+                                "templateId": "5e2af47786f7746d404f3aaa",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 180,
+                        "resultId": "67530ea6f4606217f000002a",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "CAT",
+                        "id": "67530ea6f4606217f0000034",
+                        "requirements": [
+                            {
+                                "templateId": "5e2af47786f7746d404f3aaa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 180,
+                        "resultId": "60098af40accd37ef2175f27",
+                        "resultCount": 3
+                    },
+                    {
+                        "name": "Big Calok",
+                        "id": "67530ea6f4606217f0000035",
+                        "requirements": [
+                            {
+                                "templateId": "5e8488fa988a8701445df1e4",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "62a09ee4cf4a99369e262453",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 180,
+                        "resultId": "67530ea6f4606217f000002b",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "Surv12",
+                        "id": "67530ea6f4606217f0000036",
+                        "requirements": [
+                            {
+                                "templateId": "619cc01e0a7c3a1a2731940c",
+                                "count": 3,
+                                "tool": false
+                            }
+                        ],
+                        "time": 180,
+                        "resultId": "5d02797c86f774203f38e30a",
+                        "resultCount": 1
+                    }
+                ],
+                "3": [
+                    {
+                        "name": "AFAK",
+                        "id": "67530ea6f4606217f0000037",
+                        "requirements": [
+                            {
+                                "templateId": "5d1b3a5d86f774252167ba22",
+                                "count": 3,
+                                "tool": false
+                            }
+                        ],
+                        "time": 240,
+                        "resultId": "60098ad7c2240c0fe85c570a",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "Grizzly",
+                        "id": "67530ea6f4606217f0000038",
+                        "requirements": [
+                            {
+                                "templateId": "5d1b3a5d86f774252167ba22",
+                                "count": 4,
+                                "tool": false
+                            }
+                        ],
+                        "time": 240,
+                        "resultId": "590c657e86f77412b013051d",
+                        "resultCount": 1
+                    }
+                ]
             }
         },
         "8": {
@@ -1817,6 +2696,293 @@
                     ]
                 ],
                 "4": []
+            },
+            "stageCrafts": {
+                "1": [
+                    {
+                        "name": "PM drum",
+                        "id": "67530ea6f4606217f000001f",
+                        "requirements": [
+                            {
+                                "templateId": "5ea034f65aad6446a939737e",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5448c12b4bdc2d02308b456f",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c2b4386f77425357b6123",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 120,
+                        "resultId": "55d485be4bdc2d962f8b456f",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "TT .357 mag",
+                        "id": "67530ea6f4606217f0000020",
+                        "requirements": [
+                            {
+                                "templateId": "571a29dc2459771fb2755a6a",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c2b4386f77425357b6123",
+                                "count": 1,
+                                "tool": true
+                            }
+                        ],
+                        "time": 120,
+                        "resultId": "67495c74dfe62c2d7400000c",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "Glock .45 13 rnd",
+                        "id": "67530ea6f4606217f0000021",
+                        "requirements": [
+                            {
+                                "templateId": "5a718b548dc32e000d46d262",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c2b4386f77425357b6123",
+                                "count": 1,
+                                "tool": true
+                            }
+                        ],
+                        "time": 120,
+                        "resultId": "5fb651b52b1b027b1f50bcff",
+                        "resultCount": 1
+                    }
+                ],
+                "2": [
+                    {
+                        "name": "Glock .45 30 rnd",
+                        "id": "67530ea6f4606217f0000022",
+                        "requirements": [
+                            {
+                                "templateId": "5a7ad2e851dfba0016153692",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c2b4386f77425357b6123",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c2d8786f774245b1f03f3",
+                                "count": 1,
+                                "tool": true
+                            }
+                        ],
+                        "time": 180,
+                        "resultId": "5fb651dc85f90547f674b6f4",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "PPSh 35 rnd .357",
+                        "id": "67530ea6f4606217f0000023",
+                        "requirements": [
+                            {
+                                "templateId": "5ea034eb5aad6446a939737b",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c2b4386f77425357b6123",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c2d8786f774245b1f03f3",
+                                "count": 1,
+                                "tool": true
+                            }
+                        ],
+                        "time": 180,
+                        "resultId": "67495c74dfe62c2d7400000d",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "PPSh 71 rnd .357",
+                        "id": "67530ea6f4606217f0000024",
+                        "requirements": [
+                            {
+                                "templateId": "5ea034f65aad6446a939737e",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c2b4386f77425357b6123",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c2d8786f774245b1f03f3",
+                                "count": 1,
+                                "tool": true
+                            }
+                        ],
+                        "time": 180,
+                        "resultId": "67495c74dfe62c2d7400000e",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "590A1 20ga 8 rnd",
+                        "id": "67530ea6f4606217f0000025",
+                        "requirements": [
+                            {
+                                "templateId": "5e87080c81c4ed43e83cefda",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c2b4386f77425357b6123",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c2d8786f774245b1f03f3",
+                                "count": 1,
+                                "tool": true
+                            }
+                        ],
+                        "time": 180,
+                        "resultId": "67530ea6f4606217f000001e",
+                        "resultCount": 1
+                    }
+                ],
+                "3": [
+                    {
+                        "name": "Saiga 5 rnd 6.2ga",
+                        "id": "67530ea6f4606217f0000026",
+                        "requirements": [
+                            {
+                                "templateId": "57616a9e2459773c7a400234",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c2b4386f77425357b6123",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c2d8786f774245b1f03f3",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5e2af37686f774755a234b65",
+                                "count": 1,
+                                "tool": true
+                            }
+                        ],
+                        "time": 240,
+                        "resultId": "67495c74dfe62c2d74000013",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "Saiga 10 rnd 6.2ga",
+                        "id": "67530ea6f4606217f0000027",
+                        "requirements": [
+                            {
+                                "templateId": "5a966f51a2750c00156aacf6",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c2b4386f77425357b6123",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c2d8786f774245b1f03f3",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5e2af37686f774755a234b65",
+                                "count": 1,
+                                "tool": true
+                            }
+                        ],
+                        "time": 240,
+                        "resultId": "67495c74dfe62c2d74000014",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "Saiga 20 rnd 6.2ga",
+                        "id": "67530ea6f4606217f0000028",
+                        "requirements": [
+                            {
+                                "templateId": "5cf8f3b0d7f00c00217872ef",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c2b4386f77425357b6123",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c2d8786f774245b1f03f3",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5e2af37686f774755a234b65",
+                                "count": 1,
+                                "tool": true
+                            }
+                        ],
+                        "time": 240,
+                        "resultId": "67474dd2a7f5b436b8000052",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "50DS CYL .50 AE",
+                        "id": "67530ea6f4606217f0000029",
+                        "requirements": [
+                            {
+                                "templateId": "619f54a1d25cbd424731fb99",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c2b4386f77425357b6123",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c2d8786f774245b1f03f3",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5e2af37686f774755a234b65",
+                                "count": 1,
+                                "tool": true
+                            }
+                        ],
+                        "time": 240,
+                        "resultId": "67495c74dfe62c2d7400000f",
+                        "resultCount": 1
+                    }
+                ]
             }
         },
         "10": {
@@ -2104,6 +3270,2411 @@
                     ]
                 ],
                 "4": []
+            },
+            "stageCrafts": {
+                "1": [
+                    {
+                        "name": "PM FA",
+                        "id": "67495c74dfe62c2d7400000b",
+                        "requirements": [
+                            {
+                                "templateId": "5448bd6b4bdc2dfc2f8b4569",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 600,
+                        "resultId": "67495c74dfe62c2d7400000a",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "TT .357",
+                        "id": "67495c74dfe62c2d74000011",
+                        "requirements": [
+                            {
+                                "templateId": "571a12c42459771f627b58a0",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 600,
+                        "resultId": "67495c74dfe62c2d74000010",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "Saiga-9 FA",
+                        "id": "67495c74dfe62c2d7400004a",
+                        "requirements": [
+                            {
+                                "templateId": "59f9cabd86f7743a10721f46",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 600,
+                        "resultId": "67495c74dfe62c2d74000016",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "STM9 .45",
+                        "id": "67495c74dfe62c2d7400004b",
+                        "requirements": [
+                            {
+                                "templateId": "60339954d62c9b14ed777c06",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 600,
+                        "resultId": "67495c74dfe62c2d74000017",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "MTS255 FA",
+                        "id": "67495c74dfe62c2d7400004c",
+                        "requirements": [
+                            {
+                                "templateId": "60db29ce99594040e04c4a27",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 600,
+                        "resultId": "67495c74dfe62c2d74000018",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "VPO101 Ergo",
+                        "id": "67495c74dfe62c2d7400004d",
+                        "requirements": [
+                            {
+                                "templateId": "5c501a4d2e221602b412b540",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 600,
+                        "resultId": "67495c74dfe62c2d74000019",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "SKS FA",
+                        "id": "67495c74dfe62c2d7400004e",
+                        "requirements": [
+                            {
+                                "templateId": "574d967124597745970e7c94",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 600,
+                        "resultId": "67495c74dfe62c2d7400001a",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "ADAR .300",
+                        "id": "67495c74dfe62c2d7400004f",
+                        "requirements": [
+                            {
+                                "templateId": "5c07c60e0db834002330051f",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 600,
+                        "resultId": "67495c74dfe62c2d7400001b",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "MP-18 .338",
+                        "id": "67495c74dfe62c2d74000050",
+                        "requirements": [
+                            {
+                                "templateId": "61f7c9e189e6fb1a5e3ea78d",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 600,
+                        "resultId": "67495c74dfe62c2d7400001c",
+                        "resultCount": 1
+                    }
+                ],
+                "2": [
+                    {
+                        "name": "G17 FA",
+                        "id": "67495c74dfe62c2d74000051",
+                        "requirements": [
+                            {
+                                "templateId": "5a7ae0c351dfba0017554310",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1200,
+                        "resultId": "67495c74dfe62c2d7400001d",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "G19X .45",
+                        "id": "67495c74dfe62c2d74000052",
+                        "requirements": [
+                            {
+                                "templateId": "63088377b5cd696784087147",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1200,
+                        "resultId": "67495c74dfe62c2d7400001e",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "PP19 FR",
+                        "id": "67495c74dfe62c2d74000053",
+                        "requirements": [
+                            {
+                                "templateId": "59984ab886f7743e98271174",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1200,
+                        "resultId": "67495c74dfe62c2d7400001f",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "UMP45 FR",
+                        "id": "67495c74dfe62c2d74000054",
+                        "requirements": [
+                            {
+                                "templateId": "5fc3e272f8b6a877a729eac5",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1200,
+                        "resultId": "67495c74dfe62c2d74000020",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "PPSH .357",
+                        "id": "67495c74dfe62c2d74000055",
+                        "requirements": [
+                            {
+                                "templateId": "5ea03f7400685063ec28bfa8",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1200,
+                        "resultId": "67495c74dfe62c2d74000021",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "MP133 Semi",
+                        "id": "67495c74dfe62c2d74000056",
+                        "requirements": [
+                            {
+                                "templateId": "54491c4f4bdc2db1078b4568",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1200,
+                        "resultId": "67495c74dfe62c2d74000022",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "M870 Semi",
+                        "id": "67495c74dfe62c2d74000057",
+                        "requirements": [
+                            {
+                                "templateId": "5a7828548dc32e5a9c28b516",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1200,
+                        "resultId": "67495c74dfe62c2d74000023",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "590A1 Semi",
+                        "id": "67495c74dfe62c2d74000058",
+                        "requirements": [
+                            {
+                                "templateId": "5e870397991fd70db46995c8",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1200,
+                        "resultId": "67495c74dfe62c2d74000024",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "AUG Recoil",
+                        "id": "67495c74dfe62c2d74000059",
+                        "requirements": [
+                            {
+                                "templateId": "62e7c4fba689e8c9c50dfc38",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1200,
+                        "resultId": "67495c74dfe62c2d74000025",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "MDR556 FR",
+                        "id": "67495c74dfe62c2d7400005a",
+                        "requirements": [
+                            {
+                                "templateId": "5c488a752e221602b412af63",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1200,
+                        "resultId": "67495c74dfe62c2d74000026",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "AKSU 762x39",
+                        "id": "67495c74dfe62c2d7400005b",
+                        "requirements": [
+                            {
+                                "templateId": "57dc2fa62459775949412633",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1200,
+                        "resultId": "67495c74dfe62c2d74000027",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "RPK-16 FR",
+                        "id": "67495c74dfe62c2d7400005c",
+                        "requirements": [
+                            {
+                                "templateId": "5beed0f50db834001c062b12",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1200,
+                        "resultId": "67495c74dfe62c2d74000028",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "VPO209 FA",
+                        "id": "67495c74dfe62c2d7400005d",
+                        "requirements": [
+                            {
+                                "templateId": "59e6687d86f77411d949b251",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1200,
+                        "resultId": "67495c74dfe62c2d74000029",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "VPO136 FA",
+                        "id": "67495c74dfe62c2d7400005e",
+                        "requirements": [
+                            {
+                                "templateId": "59e6152586f77473dc057aa1",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1200,
+                        "resultId": "67495c74dfe62c2d7400002a",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "RFB FA",
+                        "id": "67495c74dfe62c2d7400005f",
+                        "requirements": [
+                            {
+                                "templateId": "5f2a9575926fd9352339381f",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1200,
+                        "resultId": "67495c74dfe62c2d7400002b",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "M203 Ergo",
+                        "id": "67495c74dfe62c2d74000060",
+                        "requirements": [
+                            {
+                                "templateId": "6357c98711fb55120211f7e1",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1200,
+                        "resultId": "67495c74dfe62c2d7400002c",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "GP25 Ergo",
+                        "id": "67495c74dfe62c2d74000061",
+                        "requirements": [
+                            {
+                                "templateId": "62e7e7bbe6da9612f743f1e0",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1200,
+                        "resultId": "67495c74dfe62c2d7400002d",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "G36 Ergo",
+                        "id": "67495c74dfe62c2d74000062",
+                        "requirements": [
+                            {
+                                "templateId": "623063e994fc3f7b302a9696",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1200,
+                        "resultId": "67495c74dfe62c2d7400002e",
+                        "resultCount": 1
+                    }
+                ],
+                "3": [
+                    {
+                        "name": "50DS .50",
+                        "id": "67530ea6f4606217f0000001",
+                        "requirements": [
+                            {
+                                "templateId": "61a4c8884f95bc3b2c5dc96f",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a0bb621468534a797ad5",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c5bbd86f774785762df04",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1800,
+                        "resultId": "67495c74dfe62c2d7400002f",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "MPX FR",
+                        "id": "67530ea6f4606217f0000002",
+                        "requirements": [
+                            {
+                                "templateId": "58948c8e86f77409493f7266",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a0bb621468534a797ad5",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c5bbd86f774785762df04",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1800,
+                        "resultId": "67495c74dfe62c2d74000030",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "UZI PRO FR",
+                        "id": "67530ea6f4606217f0000003",
+                        "requirements": [
+                            {
+                                "templateId": "668e71a8dadf42204c032ce1",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a0bb621468534a797ad5",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c5bbd86f774785762df04",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1800,
+                        "resultId": "67495c74dfe62c2d74000031",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "AK74 FR",
+                        "id": "67530ea6f4606217f0000004",
+                        "requirements": [
+                            {
+                                "templateId": "5bf3e03b0db834001d2c4a9c",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a0bb621468534a797ad5",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c5bbd86f774785762df04",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1800,
+                        "resultId": "67495c74dfe62c2d74000032",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "RD704 FR",
+                        "id": "67530ea6f4606217f0000005",
+                        "requirements": [
+                            {
+                                "templateId": "628a60ae6b1d481ff772e9c8",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a0bb621468534a797ad5",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c5bbd86f774785762df04",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1800,
+                        "resultId": "67495c74dfe62c2d74000033",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "SCARL FR",
+                        "id": "67530ea6f4606217f0000006",
+                        "requirements": [
+                            {
+                                "templateId": "6184055050224f204c1da540",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a0bb621468534a797ad5",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c5bbd86f774785762df04",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1800,
+                        "resultId": "67495c74dfe62c2d74000034",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "M4A1 FR",
+                        "id": "67530ea6f4606217f0000007",
+                        "requirements": [
+                            {
+                                "templateId": "5447a9cd4bdc2dbd208b4567",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a0bb621468534a797ad5",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c5bbd86f774785762df04",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1800,
+                        "resultId": "67495c74dfe62c2d74000035",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "Saiga12 FA",
+                        "id": "67530ea6f4606217f0000009",
+                        "requirements": [
+                            {
+                                "templateId": "576165642459773c7a400233",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a0bb621468534a797ad5",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c5bbd86f774785762df04",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1800,
+                        "resultId": "67495c74dfe62c2d74000036",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "RSASS 6.8x51",
+                        "id": "67530ea6f4606217f000000a",
+                        "requirements": [
+                            {
+                                "templateId": "5a367e5dc4a282000e49738f",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a0bb621468534a797ad5",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c5bbd86f774785762df04",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1800,
+                        "resultId": "67495c74dfe62c2d74000037",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "SR25 FA",
+                        "id": "67530ea6f4606217f000000b",
+                        "requirements": [
+                            {
+                                "templateId": "5df8ce05b11454561e39243b",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a0bb621468534a797ad5",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c5bbd86f774785762df04",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1800,
+                        "resultId": "67495c74dfe62c2d74000038",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "SVDS Ergo",
+                        "id": "67530ea6f4606217f000000c",
+                        "requirements": [
+                            {
+                                "templateId": "5c46fbd72e2216398b5a8c9c",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a0bb621468534a797ad5",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c5bbd86f774785762df04",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1800,
+                        "resultId": "67495c74dfe62c2d74000039",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "M60 Ergo",
+                        "id": "67530ea6f4606217f000000d",
+                        "requirements": [
+                            {
+                                "templateId": "65fb023261d5829b2d090755",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a0bb621468534a797ad5",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c5bbd86f774785762df04",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1800,
+                        "resultId": "67495c74dfe62c2d7400003a",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "RPD Ergo",
+                        "id": "67530ea6f4606217f000000e",
+                        "requirements": [
+                            {
+                                "templateId": "6513ef33e06849f06c0957ca",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a0bb621468534a797ad5",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c5bbd86f774785762df04",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1800,
+                        "resultId": "67495c74dfe62c2d7400003b",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "RPD .366",
+                        "id": "67530ea6f4606217f000000f",
+                        "requirements": [
+                            {
+                                "templateId": "6513ef33e06849f06c0957ca",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a0bb621468534a797ad5",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c5bbd86f774785762df04",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1800,
+                        "resultId": "67495c74dfe62c2d7400003c",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "AKM .366",
+                        "id": "67530ea6f4606217f0000010",
+                        "requirements": [
+                            {
+                                "templateId": "59d6088586f774275f37482f",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a0bb621468534a797ad5",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c5bbd86f774785762df04",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1800,
+                        "resultId": "67495c74dfe62c2d7400003d",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "T5000 6.8x51",
+                        "id": "67530ea6f4606217f0000012",
+                        "requirements": [
+                            {
+                                "templateId": "5df24cf80dee1b22f862e9bc",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a0bb621468534a797ad5",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c5bbd86f774785762df04",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1800,
+                        "resultId": "67495c74dfe62c2d7400003e",
+                        "resultCount": 1
+                    },
+
+                    {
+                        "name": "5-7 FA",
+                        "id": "67530ea6f4606217f0000013",
+                        "requirements": [
+                            {
+                                "templateId": "5d3eb3b0a4b93615055e84d2",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a0bb621468534a797ad5",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "63a0b208f444d32d6f03ea1e",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c5bbd86f774785762df04",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5bc9b355d4351e6d1509862a",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 2400,
+                        "resultId": "67495c74dfe62c2d7400003f",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "G28 FA",
+                        "id": "67530ea6f4606217f0000014",
+                        "requirements": [
+                            {
+                                "templateId": "6176aca650224f204c1da3fb",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a0bb621468534a797ad5",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "63a0b208f444d32d6f03ea1e",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c5bbd86f774785762df04",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5bc9b355d4351e6d1509862a",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 2400,
+                        "resultId": "67495c74dfe62c2d74000040",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "MK18 FA",
+                        "id": "67530ea6f4606217f0000015",
+                        "requirements": [
+                            {
+                                "templateId": "5fc22d7c187fea44d52eda44",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a0bb621468534a797ad5",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "63a0b208f444d32d6f03ea1e",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c5bbd86f774785762df04",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5bc9b355d4351e6d1509862a",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 2400,
+                        "resultId": "67495c74dfe62c2d74000041",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "SR2M FR",
+                        "id": "67530ea6f4606217f0000016",
+                        "requirements": [
+                            {
+                                "templateId": "62e14904c2699c0ec93adc47",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a0bb621468534a797ad5",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "63a0b208f444d32d6f03ea1e",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c5bbd86f774785762df04",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5bc9b355d4351e6d1509862a",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 2400,
+                        "resultId": "67495c74dfe62c2d74000042",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "HK416 FR",
+                        "id": "67530ea6f4606217f0000017",
+                        "requirements": [
+                            {
+                                "templateId": "5bb2475ed4351e00853264e3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a0bb621468534a797ad5",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "63a0b208f444d32d6f03ea1e",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c5bbd86f774785762df04",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5bc9b355d4351e6d1509862a",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 2400,
+                        "resultId": "67495c74dfe62c2d74000043",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "MK47 FR",
+                        "id": "67530ea6f4606217f0000018",
+                        "requirements": [
+                            {
+                                "templateId": "606587252535c57a13424cfd",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a0bb621468534a797ad5",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "63a0b208f444d32d6f03ea1e",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c5bbd86f774785762df04",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5bc9b355d4351e6d1509862a",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 2400,
+                        "resultId": "67495c74dfe62c2d74000044",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "AK12 FR",
+                        "id": "67530ea6f4606217f0000019",
+                        "requirements": [
+                            {
+                                "templateId": "6499849fc93611967b034949",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a0bb621468534a797ad5",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "63a0b208f444d32d6f03ea1e",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c5bbd86f774785762df04",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5bc9b355d4351e6d1509862a",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 2400,
+                        "resultId": "67495c74dfe62c2d74000045",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "KS23 Semi",
+                        "id": "67530ea6f4606217f000001a",
+                        "requirements": [
+                            {
+                                "templateId": "5e848cc2988a8701445df1e8",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a0bb621468534a797ad5",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "63a0b208f444d32d6f03ea1e",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c5bbd86f774785762df04",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5bc9b355d4351e6d1509862a",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 2400,
+                        "resultId": "67495c74dfe62c2d74000046",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "AXMC Ergo",
+                        "id": "67530ea6f4606217f000001b",
+                        "requirements": [
+                            {
+                                "templateId": "627e14b21713922ded6f2c15",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a0bb621468534a797ad5",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "63a0b208f444d32d6f03ea1e",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c5bbd86f774785762df04",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5bc9b355d4351e6d1509862a",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 2400,
+                        "resultId": "67495c74dfe62c2d74000047",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "PKP Ergo",
+                        "id": "67530ea6f4606217f000001c",
+                        "requirements": [
+                            {
+                                "templateId": "64637076203536ad5600c990",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a0bb621468534a797ad5",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "63a0b208f444d32d6f03ea1e",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c5bbd86f774785762df04",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5bc9b355d4351e6d1509862a",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 2400,
+                        "resultId": "67495c74dfe62c2d74000048",
+                        "resultCount": 1
+                    },
+                    {
+                        "name": "ASh12 Recoil",
+                        "id": "67530ea6f4606217f000001d",
+                        "requirements": [
+                            {
+                                "templateId": "5cadfbf7ae92152ac412eeef",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a0bb621468534a797ad5",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "63a0b208f444d32d6f03ea1e",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c5bbd86f774785762df04",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5bc9b355d4351e6d1509862a",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 2400,
+                        "resultId": "67495c74dfe62c2d74000049",
+                        "resultCount": 1
+                    }
+                ]
             }
         },
         "11": {

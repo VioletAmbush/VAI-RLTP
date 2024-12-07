@@ -51,8 +51,14 @@ export class PresetsManager extends AbstractModManager
         const preset = this.resolvePreset(presetId)
         presetId = presetId.replace('_', ' ').toUpperCase()
 
+        const changeName: boolean = !(
+            presetId.includes("MOUNTED") ||
+            presetId.includes("SHADE") ||
+            presetId.includes("EYECUP") ||
+            presetId.includes("COLLIMATOR"))
+
         this.databaseTables.globals.ItemPresets[presetId] = {
-            _changeWeaponName: true,
+            _changeWeaponName: changeName,
             _id: presetId,
             _name: presetId,
             _parent: preset.rootId,

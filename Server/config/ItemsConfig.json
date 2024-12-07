@@ -1,13 +1,368 @@
 {
     "enabled": true,
 
-    "items": [
-        {
-            "copyTemplateId": "59d6088586f774275f37482f",
+    "addUBGLCompat": true,
+    "add366TKMBubenCompat": true,
+    "add6851T5000Compat": true,
+    
+
+    "items": {
+        "PM FullAuto": {
+            "copyTemplateId": "5448bd6b4bdc2dfc2f8b4569",
+            "slotId": "Holster",
+            "copyLocale": true,
+            "modTitle": "(FullAuto mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d7400000a",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "bFirerate": 420,
+                    "weapFireType": [  
+                        "fullauto"
+                    ]
+                }
+            }
+        },
+        "TT .357": {
+            "copyTemplateId": "571a12c42459771f627b58a0",
+            "slotId": "Holster",
+            "copyLocale": true,
+            "modTitle": "(Caliber .357 Magnum mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000010",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "ammoCaliber": "Caliber9x33R",
+                    "defAmmo": "62330b3ed4dc74626d570b95",
+                    "defMagType": "67495c74dfe62c2d7400000c",
+                    "Chambers": [
+                        {
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "62330b3ed4dc74626d570b95",
+                                            "62330bfadc5883093563729b",
+                                            "62330c18744e5e31df12f516",
+                                            "62330c40bdd19b369e1e53d1"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "Slots": [
+                        {
+                        },
+                        {
+                        },
+                        {
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "AnimationIndex": -1,
+                                        "Filter": [
+                                            "67495c74dfe62c2d7400000c"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                        },
+                        {
+                        }
+                    ]
+                }
+            }
+        },
+
+        "Saiga-9 FullAuto": {
+            "copyTemplateId": "59f9cabd86f7743a10721f46",
             "slotId": "PrimaryWeapon",
             "copyLocale": true,
+            "modTitle": "(FullAuto mod)",
             "changes": {
-                "_id": "67474dd2a7f5b436b8000025",
+                "_id": "67495c74dfe62c2d74000016",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "bFirerate": 540,
+                    "weapFireType": [  
+                        "fullauto"
+                    ]
+                }
+            }
+        },
+        "STM-9 .45": {
+            "copyTemplateId": "60339954d62c9b14ed777c06",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(Caliber .45 ACP mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000017",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "ammoCaliber": "Caliber1143x23ACP",
+                    "defAmmo": "5e81f423763d9f754677bf2e",
+                    "defMagType": "5fb651b52b1b027b1f50bcff",
+                    "RecoilCamera": 0.032,
+                    "RecoilForceBack": 270,
+                    "RecoilForceUp": 54,
+                    "Chambers": [
+                        {
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "5efb0cabfb3e451d70735af5",
+                                            "5e81f423763d9f754677bf2e",
+                                            "5efb0fc6aeb21837e749c801",
+                                            "5efb0d4f4bc50b58e81710f3",
+                                            "5ea2a8e200685063ec28c05a"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "Slots": [
+                        {
+                        },
+                        {
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "5fb651b52b1b027b1f50bcff",
+                                            "5fb651dc85f90547f674b6f4"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                        },
+                        {
+                        },
+                        {
+                        },
+                        {
+                        }
+                    ]
+                }
+            }
+        },
+
+        "MTs-255 Recoil": {
+            "copyTemplateId": "60db29ce99594040e04c4a27",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(Recoil mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000018",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "RecoilCamera": 0.06,
+                    "RecoilForceBack": 380,
+                    "RecoilForceUp": 280
+                }
+            }
+        },
+
+        "VPO-101 Ergo": {
+            "copyTemplateId": "5c501a4d2e221602b412b540",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(Ergo mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000019",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "Ergonomics": 54
+                }
+            }
+        },
+        "SKS FullAuto": {
+            "copyTemplateId": "574d967124597745970e7c94",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(FullAuto mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d7400001a",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "bFirerate": 450,
+                    "weapFireType": [
+                        "fullauto"
+                    ]
+                }
+            }
+        },
+        "ADAR .300": {
+            "copyTemplateId": "5c07c60e0db834002330051f",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(Caliber .300 Blackout mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d7400001b",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "ammoCaliber": "Caliber762x35",
+                    "defAmmo": "5fbe3ffdf8b6a877a729ea82",
+                    "RecoilCamera": 0.051,
+                    "RecoilForceBack": 348,
+                    "RecoilForceUp": 122,
+                    "Chambers": [
+                        {
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "5fd20ff893a8961fc660a954",
+                                            "5fbe3ffdf8b6a877a729ea82",
+                                            "64b8725c4b75259c590fa899",
+                                            "619636be6db0f2477964e710",
+                                            "6196364158ef8c428c287d9f",
+                                            "6196365d58ef8c428c287da1"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+
+        "MP-18 .338": {
+            "copyTemplateId": "61f7c9e189e6fb1a5e3ea78d",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(Caliber .338 LM mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d7400001c",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "ammoCaliber": "Caliber86x70",
+                    "defAmmo": "5fc275cf85fd526b824a571a",
+                    "RecoilCamera": 0.062,
+                    "RecoilForceBack": 830,
+                    "RecoilForceUp": 320,
+                    "Chambers": [
+                        {
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "5fc382a9d724d907e2077dab",
+                                            "5fc275cf85fd526b824a571a",
+                                            "5fc382b6d6fa9c00c571bbc3",
+                                            "5fc382c1016cce60e8341b20"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+
+
+        "G17 FullAuto": {
+            "copyTemplateId": "5a7ae0c351dfba0017554310",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(FullAuto mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d7400001d",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "bFirerate": 900,
+                    "weapFireType": [
+                        "fullauto"
+                    ]
+                }
+            }
+        },
+        "G19X .45": {
+            "copyTemplateId": "63088377b5cd696784087147",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(Caliber .45 ACP mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d7400001e",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "ammoCaliber": "Caliber1143x23ACP",
+                    "defAmmo": "5e81f423763d9f754677bf2e",
+                    "defMagType": "5fb651b52b1b027b1f50bcff",
+                    "RecoilCamera": 0.008,
+                    "RecoilForceBack": 280,
+                    "RecoilForceUp": 320,
+                    "Chambers": [
+                        {
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "5efb0cabfb3e451d70735af5",
+                                            "5e81f423763d9f754677bf2e",
+                                            "5efb0fc6aeb21837e749c801",
+                                            "5efb0d4f4bc50b58e81710f3",
+                                            "5ea2a8e200685063ec28c05a"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "Slots": [
+                        {
+                        },
+                        {
+                        },
+                        {
+                        },
+                        {
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "5fb651b52b1b027b1f50bcff",
+                                            "5fb651dc85f90547f674b6f4"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                        },
+                        {
+                        }
+                    ]
+                }
+            }
+        },
+        
+        "PP19 FireRate": {
+            "copyTemplateId": "59984ab886f7743e98271174",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(FireRate mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d7400001f",
                 "_props": {
                     "CanSellOnRagfair": false,
                     "CanRequireOnRagfair": false,
@@ -15,10 +370,869 @@
                 }
             }
         },
-        {
+        "UMP45 FireRate": {
+            "copyTemplateId": "5fc3e272f8b6a877a729eac5",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(FireRate mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000020",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "bFirerate": 900
+                }
+            }
+        },
+        "PPSH .357": {
+            "copyTemplateId": "5ea03f7400685063ec28bfa8",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(Caliber .357 Magnum mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000021",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "ammoCaliber": "Caliber9x33R",
+                    "defAmmo": "62330b3ed4dc74626d570b95",
+                    "defMagType": "67495c74dfe62c2d7400000d",
+                    "RecoilCamera": 0.05,
+                    "RecoilForceBack": 300,
+                    "RecoilForceUp": 94,
+                    "Slots": [
+                        {
+                        },
+                        {
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "67495c74dfe62c2d7400000d",
+                                            "67495c74dfe62c2d7400000e"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                        },
+                        {
+                        }
+                    ]
+                }
+            }
+        },
+
+        "MP-133 Semi": {
+            "copyTemplateId": "54491c4f4bdc2db1078b4568",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(SemiAuto mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000022",
+                "_proto": "56dee2bdd2720bc8328b4567",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "CanQueueSecondShot": true,
+                    "ItemSound": "weap_ar",
+                    "Prefab": {
+                        "path": "assets/content/weapons/mr153/weapon_izhmeh_mr153_12g_container.bundle"
+                    }
+                }
+            }
+        },
+        "M870 Ergo": {
+            "copyTemplateId": "5a7828548dc32e5a9c28b516",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(Ergo mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000023",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "Ergonomics": 70
+                }
+            }
+        },
+        "590A1 20ga": {
+            "copyTemplateId": "5e870397991fd70db46995c8",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(Caliber 20ga mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000024",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "ammoCaliber": "Caliber20g",
+                    "RecoilCamera": 0.042,
+                    "RecoilForceBack": 380,
+                    "RecoilForceUp": 310,
+                    "Chambers": [
+                        {
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "5a38ebd9c4a282000d722a5b",
+                                            "5d6e695fa4b936359b35d852",
+                                            "5d6e69b9a4b9361bc8618958",
+                                            "5d6e69c7a4b9360b6c0d54e4",
+                                            "5d6e6a5fa4b93614ec501745",
+                                            "5d6e6a53a4b9361bd473feec",
+                                            "5d6e6a42a4b9364f07165f52",
+                                            "5d6e6a05a4b93618084f58d0"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "Slots": [
+                        {
+                        },
+                        {
+                        },
+                        {
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "67530ea6f4606217f000001e"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                        },
+                        {
+                        }
+                    ]
+                }
+            }
+        },
+        
+        "AUG Recoil": {
+            "copyTemplateId": "62e7c4fba689e8c9c50dfc38",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(Recoil mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000025",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "RecoilCamera": 0.032,
+                    "RecoilForceBack": 190, 
+                    "RecoilForceUp": 60
+                }
+            }
+        },
+        "G36 Ergo": {
+            "copyTemplateId": "623063e994fc3f7b302a9696",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(Ergo mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d7400002e",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "Ergonomics": 80
+                }
+            }
+        },
+        "MDR556 FireRate": {
+            "copyTemplateId": "5c488a752e221602b412af63",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(FireRate mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000026",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "bFirerate": 840
+                }
+            }
+        },
+        "AKSU 7.62x39": {
+            "copyTemplateId": "57dc2fa62459775949412633",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(Caliber 7.62x39 mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000027",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "ammoCaliber": "Caliber762x39",
+                    "RecoilCamera": 0.057,
+                    "RecoilForceBack": 350,
+                    "RecoilForceUp": 125,
+                    "Chambers": [
+                        {
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "59e0d99486f7744a32234762",
+                                            "59e4d3d286f774176a36250a",
+                                            "5656d7c34bdc2d9d198b4587",
+                                            "59e4cf5286f7741778269d8a",
+                                            "59e4d24686f7741776641ac7",
+                                            "601aa3d2b2bcb34913271e6d",
+                                            "64b7af5a8532cf95ee0a0dbd",
+                                            "64b7af434b75259c590fa893",
+                                            "64b7af734b75259c590fa895"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "Slots": [
+                        {
+                        },
+                        {
+                        },
+                        {
+                        },
+                        {
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "59e5d83b86f7745aed03d262",
+                                            "5a01c29586f77474660c694c",
+                                            "5ac66bea5acfc43b321d4aec",
+                                            "59d625f086f774661516605d",
+                                            "5b1fd4e35acfc40018633c39",
+                                            "5a0060fc86f7745793204432",
+                                            "59e5f5a486f7746c530b3ce2",
+                                            "5b1fb3e15acfc4001637f068",
+                                            "59d6272486f77466146386ff",
+                                            "5e21a3c67e40bd02257a008a",
+                                            "5cbdc23eae9215001136a407",
+                                            "5c6175362e221600133e3b94",
+                                            "59fafc5086f7740dbe19f6c3",
+                                            "59fafc9386f774067d462453",
+                                            "5cfe8010d7ad1a59283b14c6",
+                                            "6272874a6c47bd74f92e2087",
+                                            "64b9cf0ac12b9c38db26923a"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                        },
+                        {
+                        },
+                        {
+                        }
+                    ]
+                }
+            }
+        },
+        "RPK-16 FireRate": {
+            "copyTemplateId": "5beed0f50db834001c062b12",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(FireRate mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000028",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "bFirerate": 960
+                }
+            }
+        },
+
+        "VPO209 FullAuto": {
+            "copyTemplateId": "59e6687d86f77411d949b251",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(FullAuto mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000029",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "bFirerate": 540,
+                    "weapFireType": [
+                        "fullauto"
+                    ]
+                }
+            }
+        },
+        "VPO-136 FullAuto": {
+            "copyTemplateId": "59e6152586f77473dc057aa1",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(FullAuto mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d7400002a",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "bFirerate": 540,
+                    "weapFireType": [
+                        "fullauto"
+                    ]
+                }
+            }
+        },
+        "RFB FullAuto": {
+            "copyTemplateId": "5f2a9575926fd9352339381f",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(FullAuto mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d7400002b",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "bFirerate": 420,
+                    "weapFireType": [
+                        "fullauto"
+                    ]
+                }
+            }
+        },
+
+        "M203 Ergo": {
+            "copyTemplateId": "6357c98711fb55120211f7e1",
+            "copyLocale": true,
+            "modTitle": "(Ergo mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d7400002c",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "Ergonomics": -21
+                }
+            }
+        },
+        "GP-25 Ergo": {
+            "copyTemplateId": "62e7e7bbe6da9612f743f1e0",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(Ergo mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d7400002d",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "Ergonomics": -15
+                }
+            }
+        },
+
+
+        "CR50DS .50 AE": {
+            "copyTemplateId": "61a4c8884f95bc3b2c5dc96f",
+            "slotId": "Holster",
+            "copyLocale": true,
+            "modTitle": "(Caliber .50 AE mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d7400002f",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "ammoCaliber": "Caliber127x33",
+                    "defAmmo": "668fe62ac62660a5d8071446",
+                    "defMagType": "67495c74dfe62c2d7400000f",
+                    "RecoilCamera": 0.02,
+                    "RecoilForceBack": 300,
+                    "RecoilForceUp": 420,
+                    "Slots": [
+                        {
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "67495c74dfe62c2d7400000f"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                        },
+                        {
+                        },
+                        {
+                        },
+                        {
+                        }
+                    ]
+                }
+            }
+        },
+
+        "MPX FireRate": {
+            "copyTemplateId": "58948c8e86f77409493f7266",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(FireRate mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000030",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "bFirerate": 1080
+                }
+            }
+        },
+        "UZI PRO FireRate": {
+            "copyTemplateId": "668e71a8dadf42204c032ce1",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(FireRate mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000031",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "bFirerate": 1260
+                }
+            }
+        },
+
+        "AK74 FireRate": {
+            "copyTemplateId": "5bf3e03b0db834001d2c4a9c",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(FireRate mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000032",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "bFirerate": 900
+                }
+            }
+        },
+        "RD704 FireRate": {
+            "copyTemplateId": "628a60ae6b1d481ff772e9c8",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(FireRate mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000033",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "bFirerate": 780
+                }
+            }
+        },
+        "SCAR-L FireRate": {
+            "copyTemplateId": "6184055050224f204c1da540",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(FireRate mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000034",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "bFirerate": 780
+                }
+            }
+        },
+        "M4A1 FireRate": {
+            "copyTemplateId": "5447a9cd4bdc2dbd208b4567",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(FireRate mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000035",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "bFirerate": 1050
+                }
+            }
+        },
+        "AKM .366": {
+            "copyTemplateId": "59d6088586f774275f37482f",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(Caliber .366 TKM mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d7400003d",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "ammoCaliber": "Caliber366TKM",
+                    "RecoilCamera": 0.057,
+                    "RecoilForceBack": 370,
+                    "RecoilForceUp": 145,
+                    "Chambers": [
+                        {
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "59e655cb86f77411dc52a77b",
+                                            "59e6542b86f77411dc52a77a",
+                                            "59e6658b86f77411d949b250",
+                                            "5f0596629e22f464da6bbdd9"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "RPD .366": {
+            "copyTemplateId": "6513ef33e06849f06c0957ca",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(Caliber .366 TKM mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d7400003c",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "ammoCaliber": "Caliber366TKM",
+                    "RecoilCamera": 0.044,
+                    "RecoilForceBack": 480,
+                    "RecoilForceUp": 105
+                }
+            }
+        },
+        "RPD Ergo": {
+            "copyTemplateId": "6513ef33e06849f06c0957ca",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(Ergo mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d7400003b",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "Ergonomics": 55
+                }
+            }
+        },
+        "M60 Ergo": {
+            "copyTemplateId": "65fb023261d5829b2d090755",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(Ergo mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d7400003a",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "Ergonomics": 49
+                }
+            }
+        },
+
+        "Saiga12 FullAuto": {
+            "copyTemplateId": "576165642459773c7a400233",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(FullAuto mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000036",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "bFirerate": 450,
+                    "weapFireType": [
+                        "fullauto"
+                    ]
+                }
+            }
+        },
+
+        "RSASS 6.8x51": {
+            "copyTemplateId": "5a367e5dc4a282000e49738f",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(Caliber 6.8x51 mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000037",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "ammoCaliber": "Caliber68x51",
+                    "defAmmo": "6529302b8c26af6326029fb7",
+                    "RecoilCamera": 0.054,
+                    "RecoilForceBack": 280,
+                    "RecoilForceUp": 120,
+                    "Chambers": [
+                        {
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "6529243824cbe3c74a05e5c1",
+                                            "6529302b8c26af6326029fb7"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "SR-25 FullAuto": {
+            "copyTemplateId": "5df8ce05b11454561e39243b",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(FullAuto mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000038",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "bFirerate": 540,
+                    "weapFireType": [
+                        "fullauto"
+                    ]
+                }
+            }
+        },
+        "SVDS Ergo": {
+            "copyTemplateId": "5c46fbd72e2216398b5a8c9c",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(Ergo mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000039",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "Ergonomics": 46
+                }
+            }
+        },
+        
+        "T5000 6.8x51": {
+            "copyTemplateId": "5df24cf80dee1b22f862e9bc",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(Caliber 6.8x51 mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d7400003e",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "ammoCaliber": "Caliber68x51",
+                    "defAmmo": "6529302b8c26af6326029fb7",
+                    "RecoilCamera": 0.07,
+                    "RecoilForceBack": 480,
+                    "RecoilForceUp": 100,
+                    "Chambers": [
+                        {
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "6529243824cbe3c74a05e5c1",
+                                            "6529302b8c26af6326029fb7"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+
+
+        "5-7 FullAuto": {
+            "copyTemplateId": "5d3eb3b0a4b93615055e84d2",
+            "slotId": "Holster",
+            "copyLocale": true,
+            "modTitle": "(FullAuto mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d7400003f",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "bFirerate": 600,
+                    "weapFireType": [
+                        "fullauto"
+                    ]
+                }
+            }
+        },
+        
+        "SR2M FireRate": {
+            "copyTemplateId": "62e14904c2699c0ec93adc47",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(FireRate mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000042",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "bFirerate": 1050
+                }
+            }
+        },
+
+        "KS23 Ergo": {
+            "copyTemplateId": "5e848cc2988a8701445df1e8",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(Ergo mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000046",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "Ergonomics": 58
+                }
+            }
+        },
+
+        "HK416 FireRate": {
+            "copyTemplateId": "5bb2475ed4351e00853264e3",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(FireRate mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000043",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "bFirerate": 1200
+                }
+            }
+        },
+        "MK47 FireRate": {
+            "copyTemplateId": "606587252535c57a13424cfd",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(FireRate mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000044",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "bFirerate": 960
+                }
+            }
+        },
+        "AK12 FireRate": {
+            "copyTemplateId": "6499849fc93611967b034949",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(FireRate mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000045",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "bFirerate": 1050
+                }
+            }
+        },
+        "ASh-12 Recoil": {
+            "copyTemplateId": "5cadfbf7ae92152ac412eeef",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(Recoil mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000049",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "RecoilCamera": 0.055,
+                    "RecoilForceBack": 320, 
+                    "RecoilForceUp": 90
+                }
+            }
+        },
+        "PKP Ergo": {
+            "copyTemplateId": "64637076203536ad5600c990",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(Ergo mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000048",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "Ergonomics": 55
+                }
+            }
+        },
+
+        "G28 FullAuto": {
+            "copyTemplateId": "6176aca650224f204c1da3fb",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(FullAuto mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000040",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "bFirerate": 660,
+                    "weapFireType": [
+                        "fullauto"
+                    ]
+                }
+            }
+        },
+        "MK18 FullAuto": {
+            "copyTemplateId": "5fc22d7c187fea44d52eda44",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(FullAuto mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000041",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "bFirerate": 450,
+                    "weapFireType": [
+                        "fullauto"
+                    ]
+                }
+            }
+        },
+
+        "AXMC Ergo": {
+            "copyTemplateId": "627e14b21713922ded6f2c15",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(Ergo mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000047",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "Ergonomics": 41
+                }
+            }
+        },
+
+
+        "MP43 Sawed off 40mm vog": {
             "copyTemplateId": "64748cb8de82c85eaf0a273a",
             "slotId": "Holster",
             "copyLocale": true,
+            "modTitle": "(Caliber VOG 40mm mod)",
             "changes": {
                 "_id": "67474dd2a7f5b436b800004f",
                 "_props": {
@@ -28,8 +1242,6 @@
                     "defAmmo": "5656eb674bdc2d35148b457c",
                     "Chambers": [
                         {
-                            "_id": "67474dd2a7f5b436b8000050",
-                            "_parent": "67474dd2a7f5b436b800004f",
                             "_props": {
                                 "filters": [
                                     {
@@ -41,8 +1253,6 @@
                             }
                         },
                         {
-                            "_id": "67474dd2a7f5b436b8000051",
-                            "_parent": "67474dd2a7f5b436b800004f",
                             "_props": {
                                 "filters": [
                                     {
@@ -58,10 +1268,11 @@
                 }
             }
         },
-        {
+        "Saiga12 23x75": {
             "copyTemplateId": "576165642459773c7a400233",
             "slotId": "PrimaryWeapon",
             "copyLocale": true,
+            "modTitle": "(Caliber 23x75 mod)",
             "changes": {
                 "_id": "67474dd2a7f5b436b8000054",
                 "_props": {
@@ -69,11 +1280,9 @@
                     "CanRequireOnRagfair": false,
                     "ammoCaliber": "Caliber23x75",
                     "defAmmo": "5e85aa1a988a8701445df1f5",
-                    "defMagType": "67474dd2a7f5b436b8000052",
+                    "defMagType": "67495c74dfe62c2d74000013",
                     "Chambers": [
                         {
-                            "_id": "67474dd2a7f5b436b800005f",
-                            "_parent": "67474dd2a7f5b436b8000054",
                             "_props": {
                                 "filters": [
                                     {
@@ -90,73 +1299,297 @@
                     ],
                     "Slots": [
                         {
-                            "_id": "67474dd2a7f5b436b8000055",
-                            "_parent": "67474dd2a7f5b436b8000054"
                         },
                         {
-                            "_id": "67474dd2a7f5b436b8000056",
-                            "_parent": "67474dd2a7f5b436b8000054"
                         },
                         {
-                            "_id": "67474dd2a7f5b436b8000057",
-                            "_parent": "67474dd2a7f5b436b8000054"
                         },
                         {
-                            "_id": "67474dd2a7f5b436b8000058",
-                            "_parent": "67474dd2a7f5b436b8000054"
                         },
                         {
-                            "_id": "67474dd2a7f5b436b8000059",
-                            "_parent": "67474dd2a7f5b436b8000054"
                         },
                         {
-                            "_id": "67474dd2a7f5b436b800005a",
-                            "_parent": "67474dd2a7f5b436b8000054"
                         },
                         {
-                            "_id": "67474dd2a7f5b436b800005b",
-                            "_parent": "67474dd2a7f5b436b8000054"
                         },
                         {
-                            "_id": "67474dd2a7f5b436b800005c",
-                            "_parent": "67474dd2a7f5b436b8000054",
                             "_props": {
                                 "filters": [
                                     {
-                                        "AnimationIndex": -1,
                                         "Filter": [
-                                            "67474dd2a7f5b436b8000052"
+                                            "67474dd2a7f5b436b8000052",
+                                            "67495c74dfe62c2d74000013",
+                                            "67495c74dfe62c2d74000014"
                                         ]
                                     }
                                 ]
                             }
                         },
                         {
-                            "_id": "67474dd2a7f5b436b800005d",
-                            "_parent": "67474dd2a7f5b436b8000054"
                         },
                         {
-                            "_id": "67474dd2a7f5b436b800005e",
-                            "_parent": "67474dd2a7f5b436b8000054"
                         }
                     ]
                 }
             }
         },
-        {
-            "copyTemplateId": "5cf8f3b0d7f00c00217872ef",
+        "AKM FireRate": {
+            "copyTemplateId": "59d6088586f774275f37482f",
+            "slotId": "PrimaryWeapon",
             "copyLocale": true,
+            "modTitle": "(FireRate mod)",
             "changes": {
-                "_id": "67474dd2a7f5b436b8000052",
+                "_id": "67474dd2a7f5b436b8000025",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "bFirerate": 840
+                }
+            }
+        },
+        
+        
+        "TT 8 rnd mag .357": {
+            "copyTemplateId": "571a29dc2459771fb2755a6a",
+            "copyLocale": true,
+            "modTitle": "(Caliber .357 Magnum mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d7400000c",
                 "_props": {
                     "CanSellOnRagfair": false,
                     "CanRequireOnRagfair": false,
                     "Cartridges": [
                         {
-                            "_id": "67474dd2a7f5b436b8000053",
-                            "_max_count": 20,
-                            "_name": "cartridges",
-                            "_parent": "67474dd2a7f5b436b8000052",
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "62330b3ed4dc74626d570b95",
+                                            "62330bfadc5883093563729b",
+                                            "62330c18744e5e31df12f516",
+                                            "62330c40bdd19b369e1e53d1"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "PPSH 35 rnd .357": {
+            "copyTemplateId": "5ea034eb5aad6446a939737b",
+            "copyLocale": true,
+            "modTitle": "(Caliber .357 Magnum mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d7400000d",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "Cartridges": [
+                        {
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "62330b3ed4dc74626d570b95",
+                                            "62330bfadc5883093563729b",
+                                            "62330c18744e5e31df12f516",
+                                            "62330c40bdd19b369e1e53d1"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "PPSH 71 rnd .357": {
+            "copyTemplateId": "5ea034f65aad6446a939737e",
+            "copyLocale": true,
+            "modTitle": "(Caliber .357 Magnum mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d7400000e",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "Cartridges": [
+                        {
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "62330b3ed4dc74626d570b95",
+                                            "62330bfadc5883093563729b",
+                                            "62330c18744e5e31df12f516",
+                                            "62330c40bdd19b369e1e53d1"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "590A1 20ga 8 rnd mag": {
+            "copyTemplateId": "5e87080c81c4ed43e83cefda",
+            "copyLocale": true,
+            "modTitle": "(Caliber 20ga mod)",
+            "changes": {
+                "_id": "67530ea6f4606217f000001e",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "Cartridges": [
+                        {
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "5a38ebd9c4a282000d722a5b",
+                                            "5d6e695fa4b936359b35d852",
+                                            "5d6e69b9a4b9361bc8618958",
+                                            "5d6e69c7a4b9360b6c0d54e4",
+                                            "5d6e6a5fa4b93614ec501745",
+                                            "5d6e6a53a4b9361bd473feec",
+                                            "5d6e6a42a4b9364f07165f52",
+                                            "5d6e6a05a4b93618084f58d0"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "CR50DS CYL .50 AE ": {
+            "copyTemplateId": "619f54a1d25cbd424731fb99",
+            "copyLocale": true,
+            "modTitle": "(Caliber .50 AE mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d7400000f",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "Cartridges": [
+                        {
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "668fe62ac62660a5d8071446",
+                                            "66a0d1e0ed648d72fe064d06",
+                                            "66a0d1f88486c69fce00fdf6",
+                                            "66a0d1c87d0d369e270bb9de"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "Slots": [
+                        {
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "668fe62ac62660a5d8071446",
+                                            "66a0d1e0ed648d72fe064d06",
+                                            "66a0d1f88486c69fce00fdf6",
+                                            "66a0d1c87d0d369e270bb9de"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "668fe62ac62660a5d8071446",
+                                            "66a0d1e0ed648d72fe064d06",
+                                            "66a0d1f88486c69fce00fdf6",
+                                            "66a0d1c87d0d369e270bb9de"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "668fe62ac62660a5d8071446",
+                                            "66a0d1e0ed648d72fe064d06",
+                                            "66a0d1f88486c69fce00fdf6",
+                                            "66a0d1c87d0d369e270bb9de"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "668fe62ac62660a5d8071446",
+                                            "66a0d1e0ed648d72fe064d06",
+                                            "66a0d1f88486c69fce00fdf6",
+                                            "66a0d1c87d0d369e270bb9de"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "668fe62ac62660a5d8071446",
+                                            "66a0d1e0ed648d72fe064d06",
+                                            "66a0d1f88486c69fce00fdf6",
+                                            "66a0d1c87d0d369e270bb9de"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "668fe62ac62660a5d8071446",
+                                            "66a0d1e0ed648d72fe064d06",
+                                            "66a0d1f88486c69fce00fdf6",
+                                            "66a0d1c87d0d369e270bb9de"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "Saiga12 5-rnd mag 23x75": {
+            "copyTemplateId": "57616a9e2459773c7a400234",
+            "copyLocale": true,
+            "modTitle": "(Caliber 23x75 mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000013",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "Cartridges": [
+                        {
                             "_props": {
                                 "filters": [
                                     {
@@ -168,12 +1601,100 @@
                                         ]
                                     }
                                 ]
-                            },
-                            "_proto": "5748538b2459770af276a261"
+                            }
                         }
                     ]
                 }
             }
+        },
+        "Saiga12 10-rnd mag 23x75": {
+            "copyTemplateId": "5a966f51a2750c00156aacf6",
+            "copyLocale": true,
+            "modTitle": "(Caliber 23x75 mod)",
+            "changes": {
+                "_id": "67495c74dfe62c2d74000014",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "Cartridges": [
+                        {
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "5e85aa1a988a8701445df1f5",
+                                            "5e85a9a6eacf8c039e4e2ac1",
+                                            "5f647f31b6238e5dd066e196",
+                                            "5e85a9f4add9fe03027d9bf1"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "Saiga12 20-rnd mag 23x75": {
+            "copyTemplateId": "5cf8f3b0d7f00c00217872ef",
+            "copyLocale": true,
+            "modTitle": "(Caliber 23x75 mod)",
+            "changes": {
+                "_id": "67474dd2a7f5b436b8000052",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "Cartridges": [
+                        {
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "5e85aa1a988a8701445df1f5",
+                                            "5e85a9a6eacf8c039e4e2ac1",
+                                            "5f647f31b6238e5dd066e196",
+                                            "5e85a9f4add9fe03027d9bf1"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        
+        "Big Bondage": {
+            "copyTemplateId": "5751a25924597722c463c472",
+            "copyLocale": true,
+            "modTitle": "(Capacity mod)",
+            "changes": {
+                "_id": "67530ea6f4606217f000002a",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "Weight": 0.1,
+                    "Width": 2,
+                    "MaxHpResource": 6,
+                    "medUseTime": 1.5
+                }
+            }
+        },
+        "Big Calok": {
+            "copyTemplateId": "5e8488fa988a8701445df1e4",
+            "copyLocale": true,
+            "modTitle": "(Capacity mod)",
+            "changes": {
+                "_id": "67530ea6f4606217f000002b",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "Weight": 0.1,
+                    "Height": 2,
+                    "MaxHpResource": 8,
+                    "medUseTime": 2
+                }
+            }
         }
-    ]
+    }
 }

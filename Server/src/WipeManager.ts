@@ -45,7 +45,7 @@ export class WipeManager extends AbstractModManager
 
             profile.Inventory.items.push({
                 _id: hashUtil.generate(),
-                _tpl: "557ffd194bdc2d28148b457f", // Unheard pockets: "65e080be269cbd5c5005e529"
+                _tpl: "627a4e6b255f7527fb05a0f6",
                 parentId: profile.Inventory.equipment,
                 slotId: "Pockets"
             })

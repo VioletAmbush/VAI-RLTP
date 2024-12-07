@@ -126,7 +126,7 @@ export class HideoutManager extends AbstractModManager
                         const craft = {
                             _id: craftConfig.id,
                             areaType: area.type,
-                            productionTime: craftConfig.time,
+                            productionTime: Constants.InstantCrafting == true ? 1 : craftConfig.time,
                             endProduct: craftConfig.resultId,
                             count: craftConfig.resultCount,
 
@@ -146,15 +146,28 @@ export class HideoutManager extends AbstractModManager
                             type: "Area"
                         })
 
-                        craft.requirements.push(...craftConfig.requirements.map(reqConfig => {
-                            return {
-                                templateId: reqConfig.templateId,
-                                count: reqConfig.count,
-                                type: reqConfig.tool == true ? "Tool" : "Item", 
+                        if (Constants.EasyCrafting)
+                        {
+                            craft.requirements.push({
+                                templateId: "5449016a4bdc2d6f028b456f",
+                                count: 1,
+                                type: "Item", 
                                 isFunctional: false,
                                 isEncoded: false
-                            }
-                        }))
+                            })
+                        }
+                        else
+                        {
+                            craft.requirements.push(...craftConfig.requirements.map(reqConfig => {
+                                return {
+                                    templateId: reqConfig.templateId,
+                                    count: reqConfig.count,
+                                    type: reqConfig.tool == true ? "Tool" : "Item", 
+                                    isFunctional: false,
+                                    isEncoded: false
+                                }
+                            }))
+                        }
                         
                         this.databaseTables.hideout.production.recipes.push(craft)
                     }

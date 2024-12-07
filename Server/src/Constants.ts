@@ -20,6 +20,8 @@ export class Constants
     public static EasyQuests: boolean = false
     public static PrintQuestCount: boolean = false
     public static PrintPresetCount: boolean = false
+    public static InstantCrafting: boolean = false
+    public static EasyCrafting: boolean = false
 
     public static ModTitle: string = "VAI-RLTP"
 

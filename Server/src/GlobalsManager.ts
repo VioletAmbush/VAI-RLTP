@@ -39,7 +39,11 @@ export class GlobalsManager extends AbstractModManager
             }
         }
         
-        this.databaseTables.globals.config.RagFair.enabled = !(this.config.disableFlea == true)
+        if (this.config.disableFlea == true)
+        {
+            this.databaseTables.globals.config.RagFair.enabled = true
+            this.databaseTables.globals.config.RagFair.minUserLevel = 70
+        }
 
         if (this.config.disableFleaBlacklist == true)
         {
