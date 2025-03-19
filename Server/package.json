@@ -1,7 +1,7 @@
 {
     "name": "RLTP",
-    "version": "1.1.0",
-    "sptVersion": "~3.10",
+    "version": "1.1.1",
+    "sptVersion": "~3.11",
     "license": "CC BY-NC-SA 3.0",
     "author": "VioletAmbush, Incurso",
     "loadBefore": [],

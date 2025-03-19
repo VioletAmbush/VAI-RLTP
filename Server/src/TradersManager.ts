@@ -15,6 +15,10 @@ import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables"
 import { Helper } from "./Helper"
 import { DatabaseServer } from "@spt/servers/DatabaseServer"
 import { QuestsManager } from "./QuestsManager"
+import { DogtagExchangeSide } from "@spt/models/enums/DogtagExchangeSide"
+import { ConfigServer } from "@spt/servers/ConfigServer"
+import { IItemConfig } from "@spt/models/spt/config/IItemConfig"
+import { ConfigTypes } from "@spt/models/enums/ConfigTypes"
 
 export class TradersManager extends AbstractModManager
 {
@@ -23,6 +27,7 @@ export class TradersManager extends AbstractModManager
     private presetsManager: PresetsManager
     private questsManager: QuestsManager
     private hashUtil: HashUtil
+    private itemConfig: IItemConfig
 
     private static buyItemOriginal: any
 
@@ -66,21 +71,75 @@ export class TradersManager extends AbstractModManager
         super.postDBInitialize(container)
 
         this.hashUtil = container.resolve<HashUtil>("HashUtil")
+        this.itemConfig = container.resolve<ConfigServer>("ConfigServer").getConfig(ConfigTypes.ITEM)
     }
 
     protected afterPostDB(): void
     {
-        for (let config of this.configs)
+        for (let traderId in this.databaseTables.traders)
         {
-            this.setTrader(config)
+            var cfg = this.configs.find(c => c.traderId == traderId)
+
+            if (cfg)
+                this.setTrader(cfg)
+            else
+                this.setTraderDefaults(traderId)
+
+        }
+
+        for (let tplId in this.config.sellPriceOverrides)
+        {
+            this.itemConfig.handbookPriceOverride[tplId] = {
+                price: this.config.sellPriceOverrides[tplId],
+                parentId: "5b5f746686f77447ec5d7708"
+            }
         }
 
         this.logger.info(`${Constants.ModTitle}: Traders changes applied!`)
     }
 
+    private setTraderDefaults(traderId: string)
+    {
+        const trader = this.databaseTables.traders[traderId]
+
+        if (!trader)
+        {
+            return
+        }
+
+        if (this.config.clearAssort == true)
+        {
+            trader.assort.items = []
+            trader.assort.barter_scheme = {}
+            trader.assort.loyal_level_items = {}
+
+            trader.questassort.started = {}
+            trader.questassort.success = {}
+            trader.questassort.fail = {}
+        }
+
+        if (this.config.disableSell == true)
+        {
+            trader.base.items_buy.category = []
+            trader.base.items_buy.id_list = []
+        }
+
+        if (this.config.disableInsurance == true)
+        {
+            trader.base.insurance.availability = false
+        }
+
+        if (this.config.resetTradersTimers == true)
+        {
+            trader.base.nextResupply = 1631486713
+        }
+
+        this.logger.info(`${Constants.ModTitle}: Trader ${trader.base.nickname} default changes applied!`)
+    }
+
     private setTrader(config: any)
     {
-        const trader = this.databaseTables.traders[Helper.acronymToTraderId(config.traderAcr)]
+        const trader = this.databaseTables.traders[config.traderId]
 
         if (!trader)
         {
@@ -117,6 +176,12 @@ export class TradersManager extends AbstractModManager
         if (this.config.resetTradersTimers == true)
         {
             trader.base.nextResupply = 1631486713
+        }
+
+        if (config.sellableItems &&
+            config.sellableItems.length > 0)
+        {
+            trader.base.items_buy.id_list = trader.base.items_buy.id_list.concat(config.sellableItems)
         }
 
         if (Constants.AllPresetsUnconditional)
@@ -165,6 +230,8 @@ export class TradersManager extends AbstractModManager
                 })
             }
         }
+
+        this.logger.info(`${Constants.ModTitle}: Trader ${trader.base.nickname} changes applied!`)
     }
 
     private setTraderPreset(trader: ITrader, traderConfig: any, item: any): void
@@ -248,13 +315,13 @@ export class TradersManager extends AbstractModManager
 
                 if (priceConfig.templateId == "59f32bb586f774757e1e8442")
                 {
-                    price.side = "Bear"
+                    price.side = DogtagExchangeSide.BEAR
                     price.level = 1
                 }
 
                 if (priceConfig.templateId == "59f32c3b86f77472a31742f0")
                 {
-                    price.side = "Usec"
+                    price.side = DogtagExchangeSide.USEC
                     price.level = 1
                 }
 

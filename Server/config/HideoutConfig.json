@@ -2981,6 +2981,35 @@
                         "time": 240,
                         "resultId": "67495c74dfe62c2d7400000f",
                         "resultCount": 1
+                    },
+                    {
+                        "name": "M60 12ga assault box",
+                        "id": "67530ea6f4606217f000004a",
+                        "requirements": [
+                            {
+                                "templateId": "660ea4453786cc0af808a1be",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c2b4386f77425357b6123",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "590c2d8786f774245b1f03f3",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5e2af37686f774755a234b65",
+                                "count": 1,
+                                "tool": true
+                            }
+                        ],
+                        "time": 240,
+                        "resultId": "67530ea6f4606217f0000047",
+                        "resultCount": 1
                     }
                 ]
             }
@@ -4927,6 +4956,55 @@
                         "resultCount": 1
                     },
                     {
+                        "name": "M60 12ga",
+                        "id": "67530ea6f4606217f0000049",
+                        "requirements": [
+                            {
+                                "templateId": "661ceb1b9311543c7104149b",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "59e35de086f7741778269d84",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "5d4042a986f7743185265463",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "62a0a0bb621468534a797ad5",
+                                "count": 1,
+                                "tool": true
+                            },
+                            {
+                                "templateId": "61bf7b6302b3924be92fa8c3",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5e2af22086f7746d3f3c33fa",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "5d1c819a86f774771b0acd6c",
+                                "count": 1,
+                                "tool": false
+                            },
+                            {
+                                "templateId": "590c5bbd86f774785762df04",
+                                "count": 1,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1800,
+                        "resultId": "67530ea6f4606217f0000048",
+                        "resultCount": 1
+                    },
+                    {
                         "name": "AKM .366",
                         "id": "67530ea6f4606217f0000010",
                         "requirements": [
@@ -5868,7 +5946,7 @@
             "stageCrafts": {
                 "1": [
                     {
-                        "name": "Chainlet for 1000 rub",
+                        "name": "Chainlet for 1500 rub",
                         "id": "67495c74dfe62c2d74000001",
                         "requirements": [
                             {
@@ -5879,10 +5957,10 @@
                         ],
                         "time": 600,
                         "resultId": "5449016a4bdc2d6f028b456f",
-                        "resultCount": 1000
+                        "resultCount": 1500
                     },
                     {
-                        "name": "Gold chain for 4000 rub",
+                        "name": "Gold chain for 5000 rub",
                         "id": "67495c74dfe62c2d74000002",
                         "requirements": [
                             {
@@ -5893,10 +5971,10 @@
                         ],
                         "time": 1200,
                         "resultId": "5449016a4bdc2d6f028b456f",
-                        "resultCount": 4000
+                        "resultCount": 5000
                     },
                     {
-                        "name": "Skull ring for 8000 rub",
+                        "name": "Skull ring for 15000 rub",
                         "id": "67495c74dfe62c2d74000003",
                         "requirements": [
                             {
@@ -5907,12 +5985,40 @@
                         ],
                         "time": 1800,
                         "resultId": "5449016a4bdc2d6f028b456f",
-                        "resultCount": 10000
+                        "resultCount": 15000
+                    },
+                    {
+                        "name": "300x USD => 24000x RUB",
+                        "id": "67530ea6f4606217f000004c",
+                        "requirements": [
+                            {
+                                "templateId": "5696686a4bdc2da3298b456a",
+                                "count": 300,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1800,
+                        "resultId": "5449016a4bdc2d6f028b456f",
+                        "resultCount": 24000
+                    },
+                    {
+                        "name": "300x EUR => 30000x RUB",
+                        "id": "67530ea6f4606217f000004d",
+                        "requirements": [
+                            {
+                                "templateId": "569668774bdc2da2298b4568",
+                                "count": 300,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1800,
+                        "resultId": "5449016a4bdc2d6f028b456f",
+                        "resultCount": 30000
                     }
                 ],
                 "2": [
                     {
-                        "name": "Guitar pick for 5000 rub",
+                        "name": "Guitar pick for 8000 rub",
                         "id": "67495c74dfe62c2d74000004",
                         "requirements": [
                             {
@@ -5923,10 +6029,10 @@
                         ],
                         "time": 600,
                         "resultId": "5449016a4bdc2d6f028b456f",
-                        "resultCount": 5000
+                        "resultCount": 8000
                     },
                     {
-                        "name": "Roler for 12000 rub",
+                        "name": "Roler for 25000 rub",
                         "id": "67495c74dfe62c2d74000005",
                         "requirements": [
                             {
@@ -5937,10 +6043,10 @@
                         ],
                         "time": 1200,
                         "resultId": "5449016a4bdc2d6f028b456f",
-                        "resultCount": 12000
+                        "resultCount": 25000
                     },
                     {
-                        "name": "Lion for 25000 rub",
+                        "name": "Lion for 40000 rub",
                         "id": "67495c74dfe62c2d74000006",
                         "requirements": [
                             {
@@ -5951,7 +6057,35 @@
                         ],
                         "time": 1800,
                         "resultId": "5449016a4bdc2d6f028b456f",
-                        "resultCount": 25000
+                        "resultCount": 40000
+                    },
+                    {
+                        "name": "800x USD => 80000x RUB",
+                        "id": "67530ea6f4606217f000004e",
+                        "requirements": [
+                            {
+                                "templateId": "5696686a4bdc2da3298b456a",
+                                "count": 800,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1800,
+                        "resultId": "5449016a4bdc2d6f028b456f",
+                        "resultCount": 80000
+                    },
+                    {
+                        "name": "800x EUR => 100000x RUB",
+                        "id": "67530ea6f4606217f000004f",
+                        "requirements": [
+                            {
+                                "templateId": "569668774bdc2da2298b4568",
+                                "count": 800,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1800,
+                        "resultId": "5449016a4bdc2d6f028b456f",
+                        "resultCount": 100000
                     }
                 ],
                 "3": [
@@ -5996,6 +6130,34 @@
                         "time": 1800,
                         "resultId": "5449016a4bdc2d6f028b456f",
                         "resultCount": 40000
+                    },
+                    {
+                        "name": "2000x USD => 220000x RUB",
+                        "id": "67530ea6f4606217f0000050",
+                        "requirements": [
+                            {
+                                "templateId": "5696686a4bdc2da3298b456a",
+                                "count": 2000,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1800,
+                        "resultId": "5449016a4bdc2d6f028b456f",
+                        "resultCount": 220000
+                    },
+                    {
+                        "name": "2000x EUR => 250000x RUB",
+                        "id": "67530ea6f4606217f0000051",
+                        "requirements": [
+                            {
+                                "templateId": "569668774bdc2da2298b4568",
+                                "count": 2000,
+                                "tool": false
+                            }
+                        ],
+                        "time": 1800,
+                        "resultId": "5449016a4bdc2d6f028b456f",
+                        "resultCount": 250000
                     }
                 ]
             }

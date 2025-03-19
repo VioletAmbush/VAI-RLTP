@@ -55,7 +55,7 @@
         },
         "SingleSMGs": {
             "59f9cabd86f7743a10721f46" : "Saiga-9",
-            "67495c74dfe62c2d74000016" : "Saiga9 (FullAuto mod)",
+            "67495c74dfe62c2d74000016" : "Saiga-9 (FullAuto mod)",
             "60339954d62c9b14ed777c06" : "STM-9",
             "67495c74dfe62c2d74000017" : "STM-9 (Caliber .45 ACP mod)"
         },
@@ -229,6 +229,7 @@
             "65fb023261d5829b2d090755" : "M60E4",
             "67495c74dfe62c2d7400003a" : "M60E4 (Ergo mod)",
             "661ceb1b9311543c7104149b" : "M60E6",
+            "67530ea6f4606217f0000048" : "M60E6 (Caliber 12ga mod)",
             "661cec09b2c6356b4d0c7a36" : "M60E6 FDE",
             "5cdeb229d7f00c000e7ce174" : "NSV (Utyos)"
         },

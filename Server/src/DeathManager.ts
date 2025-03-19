@@ -45,7 +45,7 @@ export class DeathManager extends AbstractModManager
         [
             {
                 url: "/client/match/local/end",
-			    action: (url, info, sessionId, output) =>
+			    action: async (url, info, sessionId, output) =>
                 {
                     try 
                     {
@@ -86,7 +86,7 @@ export class DeathManager extends AbstractModManager
             [
                 {
                     url: "/client/ragfair/find",
-                    action: (url, info, sessionId, output) =>
+                    action: async (url, info, sessionId, output) =>
                     {
                         const profileHelper = Constants.Container.resolve<ProfileHelper>("ProfileHelper")
                         const profile: IPmcData = profileHelper.getPmcProfile(sessionId)

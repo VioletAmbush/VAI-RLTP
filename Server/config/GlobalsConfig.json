@@ -9,5 +9,5 @@
     "delayScavRun": true,
 
     "disableFlea": true,
-    "disableFleaBlacklist": false
+    "disableFleaBlacklist": true
 }

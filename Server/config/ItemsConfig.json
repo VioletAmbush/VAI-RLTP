@@ -925,6 +925,48 @@
                 }
             }
         },
+        "M60 12ga": {
+            "copyTemplateId": "661ceb1b9311543c7104149b",
+            "slotId": "PrimaryWeapon",
+            "copyLocale": true,
+            "modTitle": "(Caliber 12ga mod)",
+            "changes": {
+                "_id": "67530ea6f4606217f0000048",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "ammoCaliber": "Caliber12g",
+                    "Slots": [
+                        {
+                            "_name": "mod_magazine",
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "67530ea6f4606217f0000047"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                        },
+                        {
+                        },
+                        {
+                        },
+                        {
+                        },
+                        {
+                        },
+                        {
+                        },
+                        {
+                        }
+                    ]
+                }
+            }
+        },
         "M60 Ergo": {
             "copyTemplateId": "65fb023261d5829b2d090755",
             "slotId": "PrimaryWeapon",
@@ -1654,6 +1696,47 @@
                                             "5e85a9a6eacf8c039e4e2ac1",
                                             "5f647f31b6238e5dd066e196",
                                             "5e85a9f4add9fe03027d9bf1"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "M60 100-rnd box 12ga": {
+            "copyTemplateId": "660ea4453786cc0af808a1be",
+            "copyLocale": true,
+            "modTitle": "(Caliber 12ga mod)",
+            "changes": {
+                "_id": "67530ea6f4606217f0000047",
+                "_props": {
+                    "CanSellOnRagfair": false,
+                    "CanRequireOnRagfair": false,
+                    "Cartridges": [
+                        {
+                            "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "5d6e68c4a4b9361b93413f79",
+                                            "5d6e6772a4b936088465b17c",
+                                            "560d5e524bdc2d25448b4571",
+                                            "5d6e68a8a4b9360b6c0d54e2",
+                                            "5d6e68b3a4b9361bca7e50b5",
+                                            "5d6e68dea4b9361bcc29e659",
+                                            "5d6e67fba4b9361bc73bc779",
+                                            "5d6e6911a4b9361bd5780d52",
+                                            "5d6e68e6a4b9361c140bcfe0",
+                                            "5d6e6869a4b9361c140bcfde",
+                                            "5d6e6806a4b936088465b17e",
+                                            "64b8ee384b75259c590fa89b",
+                                            "5d6e6891a4b9361bd473feea",
+                                            "5d6e689ca4b9361bc8618956",
+                                            "5c0d591486f7744c505b416f",
+                                            "5d6e68d1a4b93622fe60e845",
+                                            "58820d1224597753c90aeb13"
                                         ]
                                     }
                                 ]

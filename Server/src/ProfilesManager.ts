@@ -68,7 +68,7 @@ export class ProfilesManager extends AbstractModManager
         [
             {
                 url: url,
-			    action: (url, info, sessionId, output) =>
+			    action: async (url, info, sessionId, output) =>
                 {
                     try 
                     {
@@ -233,7 +233,6 @@ export class ProfilesManager extends AbstractModManager
         {
             side.character.Inventory.items = side.character.Inventory.items
                 .filter(item => 
-                    item.slotId != "Pockets" && 
                     item.slotId != "Scabbard" && 
                     item.slotId != "SecuredContainer" && 
                     item.parentId != side.character.Inventory.stash)

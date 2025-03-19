@@ -1,8 +1,8 @@
 import { AbstractModManager } from "./AbstractModManager"
-import { QuestRewardType } from "@spt/models/enums/QuestRewardType"
+import { RewardType } from "@spt/models/enums/RewardType"
 import { DependencyContainer } from "tsyringe"
 import { HashUtil } from "@spt/utils/HashUtil"
-import { IQuestCondition, IQuest, IQuestReward } from "@spt/models/eft/common/tables/IQuest"
+import { IQuestCondition, IQuest } from "@spt/models/eft/common/tables/IQuest"
 import { PresetsManager } from "./PresetsManager"
 import { WeaponsManager } from "./WeaponsManager"
 import { Constants } from "./Constants"
@@ -14,6 +14,7 @@ import { ConfigServer } from "@spt/servers/ConfigServer"
 import { ConfigTypes } from "@spt/models/enums/ConfigTypes"
 import { IQuestConfig } from "@spt/models/spt/config/IQuestConfig"
 import { IItem } from "@spt/models/eft/common/tables/IItem"
+import { IReward } from "@spt/models/eft/common/tables/IReward"
  
 export class QuestRewardRequest 
 {
@@ -64,7 +65,7 @@ export class QuestsManager extends AbstractModManager
 
     protected afterPostDB(): void
     {
-        //console.log(this.jsonUtil.serialize(this.databaseTables.templates.quests["5c1128e386f7746565181106"]))
+        //console.log(this.jsonUtil.serialize(this.databaseTables.templates.quests["59c50a9e86f7745fef66f4ff"]))
 
         let questCount = 0
 
@@ -75,9 +76,9 @@ export class QuestsManager extends AbstractModManager
                 const quest = this.databaseTables.templates.quests[questKey]
                 
                 quest.rewards.Success = quest.rewards.Success.filter(reward => 
-                    reward.type !== QuestRewardType.ITEM &&
-                    reward.type !== QuestRewardType.PRODUCTIONS_SCHEME &&
-                    reward.type !== QuestRewardType.ASSORTMENT_UNLOCK)
+                    reward.type !== RewardType.ITEM &&
+                    reward.type !== RewardType.PRODUCTIONS_SCHEME &&
+                    reward.type !== RewardType.ASSORTMENT_UNLOCK)
             }
         }
 
@@ -242,6 +243,12 @@ export class QuestsManager extends AbstractModManager
             image: "/files/quest/icon/5968ec2986f7741ddf17db83.png",
             location: "any",
             side: "Pmc",
+            progressSource: "eft",
+            acceptanceAndFinishingSource: "eft",
+            
+            rankingModes: [],
+            gameModes: [],
+            arenaLocations: [],
 
             rewards: {
                 Started: [],
@@ -302,6 +309,12 @@ export class QuestsManager extends AbstractModManager
             image: "/files/quest/icon/60c37450de6b0b44cc320e9a.jpg",
             location: "any",
             side: "Pmc",
+            progressSource: "eft",
+            acceptanceAndFinishingSource: "eft",
+            
+            rankingModes: [],
+            gameModes: [],
+            arenaLocations: [],
 
             rewards: {
                 Started: [],
@@ -599,7 +612,7 @@ export class QuestsManager extends AbstractModManager
         {
             const rewardItemId = Helper.generateSHA256ID(`${quest._id}reward${index}target`)
             
-            const reward: IQuestReward = {
+            const reward: IReward = {
                 id: Helper.generateSHA256ID(`${quest._id}reward${index}`),
                 value: rewConfig.count,
                 type: rewConfig.type ? rewConfig.type : "Item",
@@ -653,14 +666,14 @@ export class QuestsManager extends AbstractModManager
                 _tpl: request.templateId
             }]
 
-        const reward: IQuestReward = {
+        const reward: IReward = {
             id: Helper.generateSHA256ID(`${quest._id}reward${index}`),
             index: index,
             items: items,
             loyaltyLevel: request.loyaltyLevel,
             target: request.itemId,
             traderId: request.traderId,
-            type: QuestRewardType.ASSORTMENT_UNLOCK
+            type: RewardType.ASSORTMENT_UNLOCK
         }
 
         rewards.push(reward)

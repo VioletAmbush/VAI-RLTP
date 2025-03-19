@@ -1,6 +1,6 @@
 {
     "enabled": true,
-    "traderAcr": "j",
+    "traderId": "5c0647fdd443bc2504c2d371",
 
     "disableSell": true,
     "clearAssort": true,
@@ -2229,5 +2229,21 @@
                 "questId": "98223e3d278b407dfb6cdd61"
             }
         ]
-    }
+    },
+
+    "sellableItems": [
+        "601948682627df266209af05",
+        "5c0126f40db834002a125382",
+
+        "5d1b376e86f774252519444e",
+        "5d403f9186f7743cac3f229b",
+        "5d40407c86f774318526545a",
+        "614451b71e5874611e2c7ae5",
+        "62a09f32621468534a797acb",
+
+        "5448fee04bdc2dbc018b4567",
+        "5c0fa877d174af02a012e1cf",
+        "590c5d4b86f774784e1b9c45",
+        "590c5f0d86f77413997acfab"
+    ]
 }
