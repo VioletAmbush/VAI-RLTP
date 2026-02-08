@@ -12,3 +12,5 @@ Ideas.txt
 build all release.bat
 build-deploy all debug.bat
 deploy all debug.bat
+Server/VAI-RLTP/obj
+Server/VAI-RLTP/bin
