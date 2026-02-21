@@ -227,17 +227,15 @@ public sealed class HideoutManager : AbstractModManager
 
         foreach (var (stageKey, stageNode) in stageCrafts)
         {
-            if (stageNode is not JsonObject stageConfig)
+            IEnumerable<JsonObject> craftConfigs = stageNode switch
             {
-                continue;
-            }
+                JsonArray stageArray => stageArray.OfType<JsonObject>(),
+                JsonObject stageObject => stageObject.Select(entry => entry.Value).OfType<JsonObject>(),
+                _ => []
+            };
 
-            foreach (var (_, craftNode) in stageConfig)
+            foreach (var craftConfig in craftConfigs)
             {
-                if (craftNode is not JsonObject craftConfig)
-                {
-                    continue;
-                }
 
                 var craftId = craftConfig["id"]?.GetValue<string>();
                 var resultId = craftConfig["resultId"]?.GetValue<string>();
