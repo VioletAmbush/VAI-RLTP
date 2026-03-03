@@ -169,6 +169,18 @@
             "id": "66bc98a01a47be227a5e956e",
             "height": 4,
             "width": 3
+        },
+        {
+            "name": "Plates case",
+            "id": "67600929bd0a0549d70993f6",
+            "height": 4,
+            "width": 5
+        },
+        {
+            "name": "Keys case",
+            "id": "67d3ed3271c17ff82e0a5b0b",
+            "height": 4,
+            "width": 6
         }
     ]
 }

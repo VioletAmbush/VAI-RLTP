@@ -2701,6 +2701,19 @@
                 "questId": "60896e28e4a85c72ef3fa301"
             },
             {
+                "name": "Plates case",
+                "itemTemplateId": "67600929bd0a0549d70993f6",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 150000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "60896e28e4a85c72ef3fa301"
+            },
+            {
                 "name": "Grenade case",
                 "itemTemplateId": "5e2af55f86f7746d4159f07c",
                 "price": [
@@ -2759,6 +2772,19 @@
                     {
                         "templateId": "5449016a4bdc2d6f028b456f",
                         "count": 450000
+                    }
+                ],
+                "loyaltyLevel": 1,
+                "count": 1,
+                "questId": "5edaba7c0c502106f869bc02"
+            },
+            {
+                "name": "Keys case",
+                "itemTemplateId": "67d3ed3271c17ff82e0a5b0b",
+                "price": [
+                    {
+                        "templateId": "5449016a4bdc2d6f028b456f",
+                        "count": 250000
                     }
                 ],
                 "loyaltyLevel": 1,
@@ -2898,7 +2924,7 @@
                 ],
                 "loyaltyLevel": 2,
                 "count": 1,
-                "questId": "5a68661a86f774500f48afb0"
+                "questId": "5969f90786f77420d2328015"
             },
             {
                 "name": "West 306",
