@@ -110,7 +110,7 @@ public sealed class HideoutManager : AbstractModManager
         return result;
     }
 
-    private static void ClearStageSecurityRequirement(SPTarkov.Server.Core.Models.Spt.Hideout.Hideout hideout, HideoutAreas targetArea, HideoutAreas requiredArea)
+    private static void ClearStageSecurityRequirement(SPTarkov.Server.Core.Models.Spt.Tables.HideoutTable hideout, HideoutAreas targetArea, HideoutAreas requiredArea)
     {
         var area = hideout.Areas.FirstOrDefault(a => a.Type == targetArea);
         if (area is null || area.Stages is null)
@@ -133,7 +133,7 @@ public sealed class HideoutManager : AbstractModManager
         }
     }
 
-    private static void ClearCraftsForArea(SPTarkov.Server.Core.Models.Spt.Hideout.Hideout hideout, HideoutAreas areaType)
+    private static void ClearCraftsForArea(SPTarkov.Server.Core.Models.Spt.Tables.HideoutTable hideout, HideoutAreas areaType)
     {
         var recipes = hideout.Production?.Recipes;
         if (recipes is null)
@@ -212,7 +212,7 @@ public sealed class HideoutManager : AbstractModManager
         }
     }
 
-    private static void ApplyStageCrafts(SPTarkov.Server.Core.Models.Spt.Hideout.Hideout hideout, HideoutArea area, JsonObject areaConfig)
+    private static void ApplyStageCrafts(SPTarkov.Server.Core.Models.Spt.Tables.HideoutTable hideout, HideoutArea area, JsonObject areaConfig)
     {
         if (!areaConfig.TryGetPropertyValue("stageCrafts", out var node) || node is not JsonObject stageCrafts)
         {

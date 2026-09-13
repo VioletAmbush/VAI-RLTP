@@ -1,4 +1,4 @@
-using SPTarkov.Server.Core.Models.Spt.Server;
+using SPTarkov.Server.Core.Models.Spt.Tables;
 using SPTarkov.Server.Core.Utils.Json;
 
 namespace VAI.RLTP.Managers;
@@ -6,7 +6,7 @@ namespace VAI.RLTP.Managers;
 internal static class LocaleServerAccessor
 {
     public static Dictionary<string, LazyLoad<Dictionary<string, string>>>? GetOrNormalizeServerLocales(
-        LocaleBase locales,
+        LocaleTable locales,
         string callerName)
     {
         var extensionData = locales.ExtensionData;

@@ -8,13 +8,13 @@ using VAI.RLTP.Managers;
 
 namespace VAI.RLTP.Routers;
 
-[Injectable]
+[Injectable(TypePriority = OnLoadOrder.Routers + 1)]
 public sealed class ProfilesRoutes(JsonUtil jsonUtil, ProfilesRouteCallbacks callbacks)
     : StaticRouter(jsonUtil,
     [
         new RouteAction<EmptyRequestData>(
             "/client/profile/status",
-            async (url, info, sessionId, output) => await callbacks.HandleProfileStatus(url, sessionId, output)
+            async (url, info, sessionId, output, cancellationToken) => await callbacks.HandleProfileStatus(url, sessionId, output!)
         )
     ])
 { }

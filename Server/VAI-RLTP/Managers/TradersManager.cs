@@ -13,12 +13,13 @@ namespace VAI.RLTP.Managers;
 [Injectable(InjectionType.Singleton)]
 public sealed class TradersManager(
     PresetsManager presetsManager,
-    QuestsManager questsManager) : AbstractModManager
+    QuestsManager questsManager,
+    ItemConfig itemConfig) : AbstractModManager
 {
     private readonly PresetsManager _presetsManager = presetsManager;
     private readonly QuestsManager _questsManager = questsManager;
     private readonly List<JsonObject> _configs = [];
-    private ItemConfig? _itemConfig;
+    private readonly ItemConfig _itemConfig = itemConfig;
     private const int AmmoBatchSize = 30;
     private static readonly HashSet<string> AmmoBatchTraderIds = new(StringComparer.OrdinalIgnoreCase)
     {
@@ -71,12 +72,6 @@ public sealed class TradersManager(
         }
     }
 
-    protected override void PostDbInitialize()
-    {
-        base.PostDbInitialize();
-        _itemConfig = ModContext.Current.ConfigServer.GetConfig<ItemConfig>();
-    }
-
     protected override void AfterPostDb()
     {
         foreach (var entry in DatabaseTables.Traders)
@@ -102,11 +97,6 @@ public sealed class TradersManager(
 
     private void ApplySellPriceOverrides()
     {
-        if (_itemConfig is null)
-        {
-            return;
-        }
-
         var overrides = GetConfigObject("sellPriceOverrides");
         if (overrides is null || overrides.Count == 0)
         {

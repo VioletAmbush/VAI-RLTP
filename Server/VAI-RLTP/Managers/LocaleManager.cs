@@ -1,13 +1,13 @@
 using System.Text.Json.Nodes;
 using SPTarkov.DI.Annotations;
-using SPTarkov.Server.Core.Services;
+using SPTarkov.Server.Core.Models.Spt.Tables;
 
 namespace VAI.RLTP.Managers;
 
 [Injectable(InjectionType.Singleton)]
-public sealed class LocaleManager(DatabaseService databaseService) : AbstractModManager
+public sealed class LocaleManager(LocaleTable localeTable) : AbstractModManager
 {
-    private readonly DatabaseService _databaseService = databaseService;
+    private readonly LocaleTable _localeTable = localeTable;
     private Dictionary<string, string>? _enLocaleTable;
     private readonly Dictionary<string, string> _globalOverridesAll = new(StringComparer.OrdinalIgnoreCase);
     private readonly Dictionary<string, Dictionary<string, string>> _globalOverridesByLang = new(StringComparer.OrdinalIgnoreCase);
@@ -95,8 +95,7 @@ public sealed class LocaleManager(DatabaseService databaseService) : AbstractMod
         }
 
         EnsureGlobalTransformers();
-        var locales = _databaseService.GetLocales();
-        if (!locales.Global.TryGetValue("en", out var enLazy))
+        if (!_localeTable.Global.TryGetValue("en", out var enLazy))
         {
             return null;
         }
@@ -130,8 +129,7 @@ public sealed class LocaleManager(DatabaseService databaseService) : AbstractMod
 
     private void EnsureGlobalTransformers()
     {
-        var locales = _databaseService.GetLocales();
-        foreach (var (langKey, lazy) in locales.Global)
+        foreach (var (langKey, lazy) in _localeTable.Global)
         {
             if (!_globalTransformers.Add(langKey))
             {
@@ -154,8 +152,7 @@ public sealed class LocaleManager(DatabaseService databaseService) : AbstractMod
 
     private void EnsureServerTransformers()
     {
-        var locales = _databaseService.GetLocales();
-        var serverLocales = LocaleServerAccessor.GetOrNormalizeServerLocales(locales, nameof(LocaleManager));
+        var serverLocales = LocaleServerAccessor.GetOrNormalizeServerLocales(_localeTable, nameof(LocaleManager));
         if (serverLocales is null)
         {
             return;

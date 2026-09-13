@@ -10,13 +10,13 @@ using SPTarkov.Server.Core.Utils;
 
 namespace VAI.RLTP.Routers;
 
-[Injectable]
+[Injectable(TypePriority = OnLoadOrder.Routers + 1)]
 public sealed class QuestRoutes(JsonUtil jsonUtil, QuestRouteCallbacks callbacks)
     : StaticRouter(jsonUtil,
     [
         new RouteAction<ListQuestsRequestData>(
             "/client/quest/list",
-            async (url, info, sessionId, output) => await callbacks.HandleQuestList(url, info, sessionId, output)
+            async (url, info, sessionId, output, cancellationToken) => await callbacks.HandleQuestList(url, info, sessionId, output!)
         )
     ])
 { }

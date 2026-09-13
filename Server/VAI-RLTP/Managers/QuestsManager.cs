@@ -7,7 +7,6 @@ using SPTarkov.Server.Core.Models.Common;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using SPTarkov.Server.Core.Models.Enums;
 using SPTarkov.Server.Core.Models.Spt.Config;
-using SPTarkov.Server.Core.Servers;
 using SPTarkov.Server.Core.Utils.Json;
 
 namespace VAI.RLTP.Managers;
@@ -26,12 +25,12 @@ public sealed class QuestsManager(
     PresetsManager presetsManager,
     WeaponsManager weaponsManager,
     LocaleManager localeManager,
-    ConfigServer configServer) : AbstractModManager
+    QuestConfig questConfig) : AbstractModManager
 {
     private readonly PresetsManager _presetsManager = presetsManager;
     private readonly WeaponsManager _weaponsManager = weaponsManager;
     private readonly LocaleManager _localeManager = localeManager;
-    private readonly QuestConfig _questConfig = configServer.GetConfig<QuestConfig>();
+    private readonly QuestConfig _questConfig = questConfig;
 
     private bool _readyToSetUnlocks;
     private readonly List<QuestRewardRequest> _setRequestQueue = [];
@@ -779,7 +778,7 @@ public sealed class QuestsManager(
             Items = items,
             LoyaltyLevel = request.LoyaltyLevel,
             Target = request.ItemId,
-            TraderId = request.TraderId,
+            TraderId = new StringOrInt(request.TraderId, null),
             Type = RewardType.AssortmentUnlock,
             Unknown = false
         };

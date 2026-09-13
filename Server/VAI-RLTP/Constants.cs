@@ -1,5 +1,4 @@
-using SPTarkov.Server.Core.Models.Spt.Server;
-using SPTarkov.Server.Core.Models.Utils;
+using SPTarkov.Common.Models.Logging;
 using SPTarkov.Server.Core.Utils;
 
 namespace VAI.RLTP;
@@ -22,7 +21,7 @@ public static class Constants
 
     public static string ModTitle = "VAI-RLTP";
 
-    public static DatabaseTables GetDatabaseTables() => ModContext.Current.DatabaseServer.GetTables();
+    public static ModContext GetDatabaseTables() => ModContext.Current;
 
     public static JsonUtil GetJsonUtil() => ModContext.Current.JsonUtil;
 

@@ -4,23 +4,20 @@ using System.Text.Json.Nodes;
 using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Models.Common;
-using SPTarkov.Server.Core.Models.Eft.Common.Request;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using SPTarkov.Server.Core.Models.Eft.ItemEvent;
-using SPTarkov.Server.Core.Models.Eft.Trade;
-using SPTarkov.Server.Core.Models.Spt.Server;
 using SPTarkov.Server.Core.Utils;
 using VAI.RLTP;
 
 namespace VAI.RLTP.Routers;
 
-[Injectable]
+[Injectable(TypePriority = OnLoadOrder.Routers + 1)]
 public sealed class ItemEventRoutes(JsonUtil jsonUtil, ItemEventRouteCallbacks callbacks)
     : StaticRouter(jsonUtil,
     [
         new RouteAction<ItemEventRouterRequest>(
             "/client/game/profile/items/moving",
-            async (url, info, sessionId, output) => await callbacks.HandleItemEvent(url, info, sessionId, output)
+            async (url, info, sessionId, output, cancellationToken) => await callbacks.HandleItemEvent(url, info, sessionId, output!)
         )
     ])
 { }
@@ -306,96 +303,19 @@ public sealed class ItemEventRouteCallbacks(JsonUtil jsonUtil)
         {
             foreach (var action in request.Data)
             {
-                if (action is null)
+                if (action.ValueKind != System.Text.Json.JsonValueKind.Object)
                 {
                     continue;
                 }
 
-                actions.Add(BuildActionNode(action));
+                if (JsonNode.Parse(action.GetRawText()) is JsonObject actionObject)
+                {
+                    actions.Add(actionObject);
+                }
             }
         }
 
         return actions;
-    }
-
-    private static JsonObject BuildActionNode(BaseInteractionRequestData action)
-    {
-        var result = new JsonObject();
-
-        if (!string.IsNullOrWhiteSpace(action.Action))
-        {
-            result["Action"] = action.Action;
-            result["action"] = action.Action;
-        }
-
-        var fromOwner = BuildOwnerNode(action.FromOwner);
-        if (fromOwner is not null)
-        {
-            result["FromOwner"] = fromOwner;
-            result["fromOwner"] = fromOwner.DeepClone();
-        }
-
-        var toOwner = BuildOwnerNode(action.ToOwner);
-        if (toOwner is not null)
-        {
-            result["ToOwner"] = toOwner;
-            result["toOwner"] = toOwner.DeepClone();
-        }
-
-        if (action is ProcessBaseTradeRequestData trade && !string.IsNullOrWhiteSpace(trade.Type))
-        {
-            result["Type"] = trade.Type;
-            result["type"] = trade.Type;
-        }
-
-        if (action is ProcessBuyTradeRequestData buy)
-        {
-            var itemId = buy.ItemId.ToString();
-            if (!string.IsNullOrWhiteSpace(itemId))
-            {
-                result["ItemId"] = itemId;
-                result["item_id"] = itemId;
-            }
-
-            if (buy.Count is not null)
-            {
-                result["Count"] = buy.Count.Value;
-                result["count"] = buy.Count.Value;
-            }
-        }
-
-        ItemEventPayloadAdapter.AppendExtensionData(result, action.ExtensionData);
-        if (TryResolveTraderIdFromOwners(result, out var traderId))
-        {
-            result["Tid"] = traderId;
-            result["tid"] = traderId;
-        }
-
-        return result;
-    }
-
-    private static JsonObject? BuildOwnerNode(OwnerInfo? owner)
-    {
-        if (owner is null)
-        {
-            return null;
-        }
-
-        var result = new JsonObject();
-        if (!string.IsNullOrWhiteSpace(owner.Id))
-        {
-            result["Id"] = owner.Id;
-            result["id"] = owner.Id;
-        }
-
-        if (!string.IsNullOrWhiteSpace(owner.Type))
-        {
-            result["Type"] = owner.Type;
-            result["type"] = owner.Type;
-        }
-
-        ItemEventPayloadAdapter.AppendExtensionData(result, owner.ExtensionData);
-        return result;
     }
 
     private static bool IsTradingConfirmFromTrader(IReadOnlyList<JsonObject> actions)
@@ -426,7 +346,7 @@ public sealed class ItemEventRouteCallbacks(JsonUtil jsonUtil)
         return false;
     }
 
-    private static bool IsAmmoBatchAllowed(IReadOnlyList<JsonObject> actions, DatabaseTables databaseTables, out string? debugInfo)
+    private static bool IsAmmoBatchAllowed(IReadOnlyList<JsonObject> actions, ModContext databaseTables, out string? debugInfo)
     {
         var hasTrade = false;
         var allowed = false;
@@ -795,7 +715,7 @@ public sealed class ItemEventRouteCallbacks(JsonUtil jsonUtil)
         return count < 1 ? 1 : count;
     }
 
-    private static int ResolveContainerCapacity(string? parentId, List<Item>? inventoryItems, DatabaseTables databaseTables)
+    private static int ResolveContainerCapacity(string? parentId, List<Item>? inventoryItems, ModContext databaseTables)
     {
         if (string.IsNullOrWhiteSpace(parentId) || inventoryItems is null)
         {
@@ -887,7 +807,7 @@ public sealed class ItemEventRouteCallbacks(JsonUtil jsonUtil)
         return null;
     }
 
-    private static Dictionary<string, TradeCountData> BuildTradeCounts(IReadOnlyList<JsonObject> actions, DatabaseTables databaseTables)
+    private static Dictionary<string, TradeCountData> BuildTradeCounts(IReadOnlyList<JsonObject> actions, ModContext databaseTables)
     {
         var result = new Dictionary<string, TradeCountData>(StringComparer.OrdinalIgnoreCase);
 
@@ -1015,7 +935,7 @@ public sealed class ItemEventRouteCallbacks(JsonUtil jsonUtil)
         return result;
     }
 
-    private static bool TryResolveAssortItem(DatabaseTables databaseTables, string traderId, string itemId, out Item assortItem)
+    private static bool TryResolveAssortItem(ModContext databaseTables, string traderId, string itemId, out Item assortItem)
     {
         assortItem = null!;
         if (!MongoId.IsValidMongoId(traderId) || !MongoId.IsValidMongoId(itemId))
@@ -1039,7 +959,7 @@ public sealed class ItemEventRouteCallbacks(JsonUtil jsonUtil)
         return assortItem is not null;
     }
 
-    private static bool TryResolveAssortItemById(DatabaseTables databaseTables, string itemId, out Trader trader, out Item assortItem)
+    private static bool TryResolveAssortItemById(ModContext databaseTables, string itemId, out Trader trader, out Item assortItem)
     {
         trader = null!;
         assortItem = null!;

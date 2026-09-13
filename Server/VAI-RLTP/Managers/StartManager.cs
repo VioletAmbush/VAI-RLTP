@@ -50,7 +50,7 @@ public sealed class StartManager(
             return;
         }
 
-        var databaseTables = ModContext.Current.DatabaseServer.GetTables();
+        var databaseTables = ModContext.Current;
         var items = inventory.Items;
         var stashId = inventory.Stash?.ToString() ?? string.Empty;
 

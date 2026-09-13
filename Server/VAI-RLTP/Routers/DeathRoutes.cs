@@ -10,17 +10,17 @@ using VAI.RLTP.Managers;
 
 namespace VAI.RLTP.Routers;
 
-[Injectable]
+[Injectable(TypePriority = OnLoadOrder.Routers + 1)]
 public sealed class DeathRoutes(JsonUtil jsonUtil, DeathRouteCallbacks callbacks)
     : StaticRouter(jsonUtil,
     [
         new RouteAction<RaidEndRequestData>(
             "/client/match/local/end",
-            async (url, info, sessionId, output) => await callbacks.HandleRaidEnd(url, info, sessionId, output)
+            async (url, info, sessionId, output, cancellationToken) => await callbacks.HandleRaidEnd(url, info, sessionId, output!)
         ),
         new RouteAction<EmptyRequestData>(
             "/client/ragfair/find",
-            async (url, info, sessionId, output) => await callbacks.HandleRagfairFind(url, sessionId, output)
+            async (url, info, sessionId, output, cancellationToken) => await callbacks.HandleRagfairFind(url, sessionId, output!)
         )
     ])
 { }

@@ -6,7 +6,7 @@ using SPTarkov.Server.Core.Models.Common;
 using SPTarkov.Server.Core.Models.Eft.Common;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using SPTarkov.Server.Core.Models.Enums;
-using SPTarkov.Server.Core.Models.Spt.Server;
+using SPTarkov.Server.Core.Models.Spt.Tables;
 
 namespace VAI.RLTP;
 
@@ -16,7 +16,7 @@ public static class Helper
     private const string AmmoBoxParentId = "543be5cb4bdc2deb348b4568";
     private const string MedicalParentId = "543be5664bdc2dd4348b4569";
 
-    public static void SetItemBuffs(DatabaseTables databaseTables, TemplateItem item, JsonNode? buffsConfig)
+    public static void SetItemBuffs(ModContext databaseTables, TemplateItem item, JsonNode? buffsConfig)
     {
         if (buffsConfig is null)
         {
@@ -81,9 +81,9 @@ public static class Helper
     }
 
     public static void IterateConfigItems(
-        DatabaseTables databaseTables,
+        ModContext databaseTables,
         JsonNode? config,
-        Action<TemplateItem, JsonObject, DatabaseTables, JsonNode?>? action = null,
+        Action<TemplateItem, JsonObject, ModContext, JsonNode?>? action = null,
         bool trySetRarity = true)
     {
         if (config is not JsonObject obj)
@@ -244,7 +244,7 @@ public static class Helper
         return HasParent(tables, item, MedicalParentId);
     }
 
-    private static bool HasParent(DatabaseTables tables, TemplateItem item, string parentId)
+    private static bool HasParent(ModContext tables, TemplateItem item, string parentId)
     {
         var current = item;
         for (var i = 0; i < 12; i++)
@@ -319,7 +319,7 @@ public static class Helper
         };
     }
 
-    public static void FillLocations(PmcData profile, DatabaseTables databaseTables)
+    public static void FillLocations(PmcData profile, ModContext databaseTables)
     {
         var stashSize = GetStashSize(profile);
         var stashMap = new List<bool[]>();
